@@ -16,7 +16,7 @@
   "properties": {
     "id": {
       "type": "string",
-      "pattern": "^[A-Z]{2}_[0-9]{3}$"
+      "pattern": "^[A-Z]{3}-[0-9]{3}$"
     },
     "dimension": {
       "type": "string",

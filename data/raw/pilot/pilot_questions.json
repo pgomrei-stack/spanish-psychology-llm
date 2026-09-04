@@ -1,23 +1,23 @@
-﻿[
+[
 {
 "id": "PSY-001",
 "dimension": "knowledge",
 "topic": "memoria y sugestibilidad",
 "difficulty": "easy",
-"question": "Explica quÃ© es el efecto de desinformaciÃ³n en la memoria y describe, de forma breve, cÃ³mo puede producirse despuÃ©s de presenciar un acontecimiento.",
-"expected_answer": "El efecto de desinformaciÃ³n consiste en que informaciÃ³n posterior a un acontecimiento puede incorporarse o interferir en el recuerdo del acontecimiento original, haciendo que la persona recuerde posteriormente detalles que no estaban presentes. Un ejemplo vÃ¡lido es que, despuÃ©s de ver un accidente, una persona reciba una descripciÃ³n que contiene un detalle falso y posteriormente lo recuerde como si hubiera formado parte de la escena original.",
+"question": "Explica qué es el efecto de desinformación en la memoria y describe, de forma breve, cómo puede producirse después de presenciar un acontecimiento.",
+"expected_answer": "El efecto de desinformación consiste en que información posterior a un acontecimiento puede incorporarse o interferir en el recuerdo del acontecimiento original, haciendo que la persona recuerde posteriormente detalles que no estaban presentes. Un ejemplo válido es que, después de ver un accidente, una persona reciba una descripción que contiene un detalle falso y posteriormente lo recuerde como si hubiera formado parte de la escena original.",
 "evaluation_criteria": {
-"3_excelente": "Define correctamente el efecto como una alteraciÃ³n del recuerdo por informaciÃ³n posterior y explica que la informaciÃ³n posterior puede incorporarse al recuerdo o modificar su recuperaciÃ³n. Incluye un ejemplo coherente.",
-"2_parcialmente_correcta": "Identifica que informaciÃ³n posterior puede alterar el recuerdo, pero explica de forma incompleta el mecanismo o proporciona un ejemplo poco preciso.",
-"1_insuficiente": "Menciona Ãºnicamente que la memoria puede ser inexacta sin relacionarlo especÃ­ficamente con informaciÃ³n posterior al acontecimiento.",
-"0_incorrecta": "Afirma que el efecto consiste en olvidar necesariamente el acontecimiento original o confunde el fenÃ³meno con otro sesgo de memoria.",
+"3_excelente": "Define correctamente el efecto como una alteración del recuerdo por información posterior y explica que la información posterior puede incorporarse al recuerdo o modificar su recuperación. Incluye un ejemplo coherente.",
+"2_parcialmente_correcta": "Identifica que información posterior puede alterar el recuerdo, pero explica de forma incompleta el mecanismo o proporciona un ejemplo poco preciso.",
+"1_insuficiente": "Menciona únicamente que la memoria puede ser inexacta sin relacionarlo específicamente con información posterior al acontecimiento.",
+"0_incorrecta": "Afirma que el efecto consiste en olvidar necesariamente el acontecimiento original o confunde el fenómeno con otro sesgo de memoria.",
 "errores_criticos": [
-"Afirmar que la desinformaciÃ³n siempre sustituye por completo el recuerdo original.",
-"Definir el fenÃ³meno como una alteraciÃ³n producida exclusivamente por informaciÃ³n previa al acontecimiento."
+"Afirmar que la desinformación siempre sustituye por completo el recuerdo original.",
+"Definir el fenómeno como una alteración producida exclusivamente por información previa al acontecimiento."
 ]
 },
 "source": "Loftus, E. F., & Palmer, J. C. (1974). Reconstruction of automobile destruction: An example of the interaction between language and memory. Journal of Verbal Learning and Verbal Behavior, 13(5), 585-589. DOI: 10.1016/S0022-5371(74)80011-3.",
-"notes": "Ãtem factual de recuperaciÃ³n conceptual. La formulaciÃ³n evita reproducir directamente el paradigma clÃ¡sico del accidente automovilÃ­stico. La explicaciÃ³n del mecanismo puede formularse de distintas maneras sin exigir una teorÃ­a Ãºnica sobre el locus exacto de la distorsiÃ³n.",
+"notes": "Ítem factual de recuperación conceptual. La formulación evita reproducir directamente el paradigma clásico del accidente automovilístico. La explicación del mecanismo puede formularse de distintas maneras sin exigir una teoría única sobre el locus exacto de la distorsión.",
 "language": "es-ES"
 },
 {
@@ -25,56 +25,56 @@
 "dimension": "knowledge",
 "topic": "memoria de trabajo",
 "difficulty": "medium",
-"question": "Â¿QuÃ© funciÃ³n cumple el ejecutivo central dentro del modelo de memoria de trabajo de Baddeley? DiferÃ©ncialo de los sistemas que almacenan temporalmente informaciÃ³n especÃ­fica.",
-"expected_answer": "El ejecutivo central es un sistema de control atencional que coordina y regula el procesamiento de informaciÃ³n y la asignaciÃ³n de recursos entre componentes de la memoria de trabajo. Se diferencia de componentes como el bucle fonolÃ³gico o la agenda visuoespacial, que mantienen temporalmente informaciÃ³n de determinadas modalidades.",
+"question": "¿Qué función cumple el ejecutivo central dentro del modelo de memoria de trabajo de Baddeley? Diferéncialo de los sistemas que almacenan temporalmente información específica.",
+"expected_answer": "El ejecutivo central es un sistema de control atencional que coordina y regula el procesamiento de información y la asignación de recursos entre componentes de la memoria de trabajo. Se diferencia de componentes como el bucle fonológico o la agenda visuoespacial, que mantienen temporalmente información de determinadas modalidades.",
 "evaluation_criteria": {
-"3_excelente": "Describe el ejecutivo central como sistema de control/coordinaciÃ³n atencional y lo diferencia explÃ­citamente de al menos dos sistemas de mantenimiento temporal, como el bucle fonolÃ³gico y la agenda visuoespacial.",
-"2_parcialmente_correcta": "Identifica correctamente su funciÃ³n de control o coordinaciÃ³n, pero diferencia de forma incompleta los componentes.",
-"1_insuficiente": "Lo describe simplemente como un almacÃ©n de informaciÃ³n temporal o menciona memoria de trabajo sin explicar su funciÃ³n especÃ­fica.",
-"0_incorrecta": "Atribuye al ejecutivo central la funciÃ³n exclusiva de almacenar informaciÃ³n verbal o visuoespacial.",
+"3_excelente": "Describe el ejecutivo central como sistema de control/coordinación atencional y lo diferencia explícitamente de al menos dos sistemas de mantenimiento temporal, como el bucle fonológico y la agenda visuoespacial.",
+"2_parcialmente_correcta": "Identifica correctamente su función de control o coordinación, pero diferencia de forma incompleta los componentes.",
+"1_insuficiente": "Lo describe simplemente como un almacén de información temporal o menciona memoria de trabajo sin explicar su función específica.",
+"0_incorrecta": "Atribuye al ejecutivo central la función exclusiva de almacenar información verbal o visuoespacial.",
 "errores_criticos": [
-"Definir el ejecutivo central como un almacÃ©n pasivo equivalente al bucle fonolÃ³gico."
+"Definir el ejecutivo central como un almacén pasivo equivalente al bucle fonológico."
 ]
 },
 "source": "Baddeley, A. (2000). The episodic buffer: A new component of working memory? Trends in Cognitive Sciences, 4(11), 417-423. DOI: 10.1016/S1364-6613(00)01538-2.",
-"notes": "La pregunta evalÃºa conocimiento conceptual del modelo y no exige recordar detalles histÃ³ricos de sus distintas versiones.",
+"notes": "La pregunta evalúa conocimiento conceptual del modelo y no exige recordar detalles históricos de sus distintas versiones.",
 "language": "es-ES"
 },
 {
 "id": "PSY-003",
 "dimension": "knowledge",
-"topic": "aprendizaje y prÃ¡ctica distribuida",
+"topic": "aprendizaje y práctica distribuida",
 "difficulty": "medium",
-"question": "Â¿QuÃ© se entiende por efecto de espaciamiento en el aprendizaje y cÃ³mo se diferencia de concentrar todo el estudio en una Ãºnica sesiÃ³n?",
-"expected_answer": "El efecto de espaciamiento consiste en que, en muchas condiciones, distribuir las sesiones de estudio a lo largo del tiempo produce una retenciÃ³n posterior mejor que concentrar el estudio en una sola sesiÃ³n o en un intervalo muy corto. La ventaja depende, entre otros factores, del intervalo entre sesiones y del momento en que se evalÃºa el aprendizaje.",
+"question": "¿Qué se entiende por efecto de espaciamiento en el aprendizaje y cómo se diferencia de concentrar todo el estudio en una única sesión?",
+"expected_answer": "El efecto de espaciamiento consiste en que, en muchas condiciones, distribuir las sesiones de estudio a lo largo del tiempo produce una retención posterior mejor que concentrar el estudio en una sola sesión o en un intervalo muy corto. La ventaja depende, entre otros factores, del intervalo entre sesiones y del momento en que se evalúa el aprendizaje.",
 "evaluation_criteria": {
-"3_excelente": "Define el espaciamiento como distribuciÃ³n temporal de las oportunidades de aprendizaje y lo contrasta con la prÃ¡ctica masiva, indicando que suele mejorar la retenciÃ³n posterior. Reconoce que el efecto depende de las condiciones.",
-"2_parcialmente_correcta": "Explica correctamente la distribuciÃ³n temporal y su ventaja general, pero omite los condicionantes.",
-"1_insuficiente": "Afirma que estudiar en varias sesiones es mejor sin explicar que la caracterÃ­stica relevante es la separaciÃ³n temporal.",
-"0_incorrecta": "Sostiene que estudiar todo seguido produce sistemÃ¡ticamente mejor retenciÃ³n a largo plazo.",
+"3_excelente": "Define el espaciamiento como distribución temporal de las oportunidades de aprendizaje y lo contrasta con la práctica masiva, indicando que suele mejorar la retención posterior. Reconoce que el efecto depende de las condiciones.",
+"2_parcialmente_correcta": "Explica correctamente la distribución temporal y su ventaja general, pero omite los condicionantes.",
+"1_insuficiente": "Afirma que estudiar en varias sesiones es mejor sin explicar que la característica relevante es la separación temporal.",
+"0_incorrecta": "Sostiene que estudiar todo seguido produce sistemáticamente mejor retención a largo plazo.",
 "errores_criticos": [
-"Confundir el efecto de espaciamiento con aumentar simplemente el nÃºmero total de horas de estudio."
+"Confundir el efecto de espaciamiento con aumentar simplemente el número total de horas de estudio."
 ]
 },
 "source": "Cepeda, N. J., Pashler, H., Vul, E., Wixted, J. T., & Rohrer, D. (2006). Distributed practice in verbal recall tasks: A review and quantitative synthesis. Psychological Bulletin, 132(3), 354-380. DOI: 10.1037/0033-2909.132.3.354.",
-"notes": "La pregunta evita convertir el efecto en una regla absoluta: la literatura muestra dependencia de las condiciones de aprendizaje y evaluaciÃ³n.",
+"notes": "La pregunta evita convertir el efecto en una regla absoluta: la literatura muestra dependencia de las condiciones de aprendizaje y evaluación.",
 "language": "es-ES"
 },
 {
 "id": "PSY-004",
 "dimension": "knowledge",
-"topic": "atenciÃ³n y efecto Stroop",
+"topic": "atención y efecto Stroop",
 "difficulty": "easy",
-"question": "Â¿QuÃ© es el efecto Stroop y quÃ© conflicto bÃ¡sico se produce en la tarea clÃ¡sica de Stroop?",
-"expected_answer": "El efecto Stroop es el aumento relativo de dificultad o interferencia cuando la informaciÃ³n relevante para la respuesta entra en conflicto con una dimensiÃ³n altamente automatizada del estÃ­mulo. En la tarea clÃ¡sica, nombrar el color de la tinta resulta mÃ¡s difÃ­cil cuando la palabra escrita designa un color incongruente.",
+"question": "¿Qué es el efecto Stroop y qué conflicto básico se produce en la tarea clásica de Stroop?",
+"expected_answer": "El efecto Stroop es el aumento relativo de dificultad o interferencia cuando la información relevante para la respuesta entra en conflicto con una dimensión altamente automatizada del estímulo. En la tarea clásica, nombrar el color de la tinta resulta más difícil cuando la palabra escrita designa un color incongruente.",
 "evaluation_criteria": {
-"3_excelente": "Explica el conflicto entre dimensiones del estÃ­mulo y especifica correctamente que la tarea consiste en nombrar el color de la tinta, no leer la palabra.",
+"3_excelente": "Explica el conflicto entre dimensiones del estímulo y especifica correctamente que la tarea consiste en nombrar el color de la tinta, no leer la palabra.",
 "2_parcialmente_correcta": "Identifica la interferencia entre palabra y color, pero describe incompletamente la tarea.",
 "1_insuficiente": "Menciona que Stroop implica interferencia atencional sin identificar claramente el conflicto relevante.",
-"0_incorrecta": "Afirma que el efecto se produce porque la lectura se vuelve mÃ¡s lenta cuando palabra y tinta coinciden."
+"0_incorrecta": "Afirma que el efecto se produce porque la lectura se vuelve más lenta cuando palabra y tinta coinciden."
 },
 "source": "MacLeod, C. M. (1991). Half a century of research on the Stroop effect: An integrative review. Psychological Bulletin, 109(2), 163-203. DOI: 10.1037/0033-2909.109.2.163.",
-"notes": "La interpretaciÃ³n mecanÃ­stica del efecto Stroop es objeto de debate; el Ã­tem evalÃºa el fenÃ³meno experimental bÃ¡sico y no exige adoptar una explicaciÃ³n teÃ³rica Ãºnica.",
+"notes": "La interpretación mecanística del efecto Stroop es objeto de debate; el ítem evalúa el fenómeno experimental básico y no exige adoptar una explicación teórica única.",
 "language": "es-ES"
 },
 {
@@ -82,16 +82,16 @@
 "dimension": "knowledge",
 "topic": "personalidad",
 "difficulty": "medium",
-"question": "Â¿QuÃ© son los Cinco Grandes factores de personalidad? Nombra los cinco factores utilizando denominaciones habituales en espaÃ±ol y describe brevemente quÃ© tipo de diferencias individuales representa cada uno.",
-"expected_answer": "Los Cinco Grandes son apertura a la experiencia, responsabilidad o escrupulosidad, extraversiÃ³n, amabilidad y neuroticismo o estabilidad emocional. Representan dimensiones amplias de diferencias individuales relativamente estables, no categorÃ­as diagnÃ³sticas discretas.",
+"question": "¿Qué son los Cinco Grandes factores de personalidad? Nombra los cinco factores utilizando denominaciones habituales en español y describe brevemente qué tipo de diferencias individuales representa cada uno.",
+"expected_answer": "Los Cinco Grandes son apertura a la experiencia, responsabilidad o escrupulosidad, extraversión, amabilidad y neuroticismo o estabilidad emocional. Representan dimensiones amplias de diferencias individuales relativamente estables, no categorías diagnósticas discretas.",
 "evaluation_criteria": {
-"3_excelente": "Identifica los cinco factores y describe de forma adecuada su significado general. Aclara que son dimensiones y no categorÃ­as diagnÃ³sticas.",
+"3_excelente": "Identifica los cinco factores y describe de forma adecuada su significado general. Aclara que son dimensiones y no categorías diagnósticas.",
 "2_parcialmente_correcta": "Identifica al menos cuatro factores correctamente y ofrece descripciones razonables.",
-"1_insuficiente": "Identifica dos o tres factores o confunde alguno con una categorÃ­a clÃ­nica.",
+"1_insuficiente": "Identifica dos o tres factores o confunde alguno con una categoría clínica.",
 "0_incorrecta": "Presenta los Cinco Grandes como cinco trastornos de personalidad o proporciona una estructura sustancialmente diferente.",
 "errores_criticos": [
-"Presentar los factores como diagnÃ³sticos clÃ­nicos.",
-"Sustituir sistemÃ¡ticamente varios factores por constructos ajenos al modelo."
+"Presentar los factores como diagnósticos clínicos.",
+"Sustituir sistemáticamente varios factores por constructos ajenos al modelo."
 ]
 },
 "source": "John, O. P., Naumann, L. P., & Soto, C. J. (2008). Paradigm shift to the integrative Big Five trait taxonomy. En O. P. John, R. W. Robins, & L. A. Pervin (eds.), Handbook of Personality: Theory and Research.",
@@ -101,22 +101,22 @@
 {
 "id": "PSY-006",
 "dimension": "knowledge",
-"topic": "motivaciÃ³n y teorÃ­a de la autodeterminaciÃ³n",
+"topic": "motivación y teoría de la autodeterminación",
 "difficulty": "medium",
-"question": "SegÃºn la teorÃ­a de la autodeterminaciÃ³n, Â¿quÃ© tres necesidades psicolÃ³gicas bÃ¡sicas se consideran fundamentales para el funcionamiento y la motivaciÃ³n? Define brevemente cada una.",
-"expected_answer": "Las tres necesidades son autonomÃ­a, competencia y relaciÃ³n o vinculaciÃ³n. La autonomÃ­a se refiere a experimentar voluntad y autorregulaciÃ³n de la conducta; la competencia, a sentirse eficaz y capaz de afrontar retos; y la relaciÃ³n, a sentirse conectado y vinculado con otras personas.",
+"question": "Según la teoría de la autodeterminación, ¿qué tres necesidades psicológicas básicas se consideran fundamentales para el funcionamiento y la motivación? Define brevemente cada una.",
+"expected_answer": "Las tres necesidades son autonomía, competencia y relación o vinculación. La autonomía se refiere a experimentar voluntad y autorregulación de la conducta; la competencia, a sentirse eficaz y capaz de afrontar retos; y la relación, a sentirse conectado y vinculado con otras personas.",
 "evaluation_criteria": {
 "3_excelente": "Identifica las tres necesidades y proporciona definiciones conceptualmente correctas de cada una.",
 "2_parcialmente_correcta": "Identifica las tres necesidades pero explica de forma incompleta una de ellas.",
-"1_insuficiente": "Identifica una o dos necesidades correctamente o confunde necesidad psicolÃ³gica con tipo de motivaciÃ³n.",
-"0_incorrecta": "Proporciona constructos que no forman parte de las tres necesidades bÃ¡sicas de la teorÃ­a.",
+"1_insuficiente": "Identifica una o dos necesidades correctamente o confunde necesidad psicológica con tipo de motivación.",
+"0_incorrecta": "Proporciona constructos que no forman parte de las tres necesidades básicas de la teoría.",
 "errores_criticos": [
-"Confundir autonomÃ­a con independencia absoluta.",
+"Confundir autonomía con independencia absoluta.",
 "Definir competencia como competitividad frente a otras personas."
 ]
 },
 "source": "Ryan, R. M., & Deci, E. L. (2000). Self-determination theory and the facilitation of intrinsic motivation, social development, and well-being. American Psychologist, 55(1), 68-78. DOI: 10.1037/0003-066X.55.1.68.",
-"notes": "Ãtem de conocimiento conceptual relativamente estable.",
+"notes": "Ítem de conocimiento conceptual relativamente estable.",
 "language": "es-ES"
 },
 {
@@ -124,34 +124,34 @@
 "dimension": "reasoning",
 "topic": "aprendizaje y refuerzo",
 "difficulty": "medium",
-"question": "Una estudiante comienza a entregar los trabajos antes de la fecha lÃ­mite porque su profesor le permite elegir el tema del siguiente trabajo cuando entrega con antelaciÃ³n. Â¿QuÃ© proceso de aprendizaje explica mejor el aumento de las entregas anticipadas? Razona tu respuesta y diferencia este proceso de un castigo.",
+"question": "Una estudiante comienza a entregar los trabajos antes de la fecha límite porque su profesor le permite elegir el tema del siguiente trabajo cuando entrega con antelación. ¿Qué proceso de aprendizaje explica mejor el aumento de las entregas anticipadas? Razona tu respuesta y diferencia este proceso de un castigo.",
 "expected_answer": "El comportamiento de entregar anticipadamente aumenta porque va seguido de una consecuencia apetitiva o valorada por la estudiante: elegir el tema. Esto corresponde a refuerzo positivo, siempre que la consecuencia aumente la probabilidad futura de la conducta. No es castigo porque el castigo pretende reducir la probabilidad de una conducta.",
 "evaluation_criteria": {
 "3_excelente": "Identifica el refuerzo positivo, explica que la consecuencia sigue a la conducta y que el criterio funcional es el aumento de su probabilidad futura. Lo diferencia claramente del castigo.",
 "2_parcialmente_correcta": "Identifica refuerzo y explica razonablemente el caso, pero no aclara el criterio funcional o confunde parcialmente refuerzo positivo con recompensa en sentido coloquial.",
-"1_insuficiente": "Dice que es una recompensa sin explicar por quÃ© el proceso corresponde a refuerzo ni diferenciarlo del castigo.",
-"0_incorrecta": "Lo clasifica como castigo o como refuerzo negativo sin una justificaciÃ³n compatible con el escenario.",
+"1_insuficiente": "Dice que es una recompensa sin explicar por qué el proceso corresponde a refuerzo ni diferenciarlo del castigo.",
+"0_incorrecta": "Lo clasifica como castigo o como refuerzo negativo sin una justificación compatible con el escenario.",
 "errores_criticos": [
 "Afirmar que 'positivo' significa necesariamente bueno y 'negativo' necesariamente malo.",
 "Clasificar cualquier consecuencia agradable como refuerzo sin considerar su efecto sobre la conducta."
 ]
 },
-"source": "No requiere fuente externa para la resoluciÃ³n del caso; se aplica la distinciÃ³n funcional estÃ¡ndar entre refuerzo y castigo en anÃ¡lisis de la conducta.",
-"notes": "La dimensiÃ³n principal es reasoning: los tÃ©rminos relevantes son conocidos, pero la tarea exige aplicarlos funcionalmente al caso.",
+"source": "No requiere fuente externa para la resolución del caso; se aplica la distinción funcional estándar entre refuerzo y castigo en análisis de la conducta.",
+"notes": "La dimensión principal es reasoning: los términos relevantes son conocidos, pero la tarea exige aplicarlos funcionalmente al caso.",
 "language": "es-ES"
 },
 {
 "id": "PSY-008",
 "dimension": "reasoning",
-"topic": "memoria y recuperaciÃ³n",
+"topic": "memoria y recuperación",
 "difficulty": "medium",
-"question": "Dos estudiantes estudian exactamente el mismo material durante el mismo tiempo. El estudiante A lo repasa cinco veces seguidas y el estudiante B realiza cinco sesiones separadas por intervalos de tiempo. Si ambos son evaluados varios dÃ­as despuÃ©s, Â¿quÃ© patrÃ³n de rendimiento esperarÃ­as en general y quÃ© mecanismo psicolÃ³gico podrÃ­a explicarlo?",
-"expected_answer": "En general, el estudiante B puede mostrar mejor retenciÃ³n posterior debido al efecto de espaciamiento. La separaciÃ³n de las sesiones favorece condiciones de recuperaciÃ³n y procesamiento que suelen producir una memoria mÃ¡s duradera que la prÃ¡ctica masiva. La magnitud de la ventaja depende del intervalo y de las condiciones de aprendizaje y prueba.",
+"question": "Dos estudiantes estudian exactamente el mismo material durante el mismo tiempo. El estudiante A lo repasa cinco veces seguidas y el estudiante B realiza cinco sesiones separadas por intervalos de tiempo. Si ambos son evaluados varios días después, ¿qué patrón de rendimiento esperarías en general y qué mecanismo psicológico podría explicarlo?",
+"expected_answer": "En general, el estudiante B puede mostrar mejor retención posterior debido al efecto de espaciamiento. La separación de las sesiones favorece condiciones de recuperación y procesamiento que suelen producir una memoria más duradera que la práctica masiva. La magnitud de la ventaja depende del intervalo y de las condiciones de aprendizaje y prueba.",
 "evaluation_criteria": {
-"3_excelente": "Predice mayor retenciÃ³n para B en tÃ©rminos generales, identifica el efecto de espaciamiento y explica que la separaciÃ³n temporal modifica las condiciones de aprendizaje/recuperaciÃ³n. Introduce correctamente que no es una ley absoluta.",
-"2_parcialmente_correcta": "Predice correctamente la ventaja del estudiante B y menciona el espaciamiento, pero ofrece una explicaciÃ³n mecanÃ­stica limitada.",
-"1_insuficiente": "Predice una diferencia sin relacionarla con el espaciamiento o afirma simplemente que B estudiÃ³ mejor.",
-"0_incorrecta": "Predice sistemÃ¡ticamente ventaja para A Ãºnicamente porque repitiÃ³ los contenidos consecutivamente."
+"3_excelente": "Predice mayor retención para B en términos generales, identifica el efecto de espaciamiento y explica que la separación temporal modifica las condiciones de aprendizaje/recuperación. Introduce correctamente que no es una ley absoluta.",
+"2_parcialmente_correcta": "Predice correctamente la ventaja del estudiante B y menciona el espaciamiento, pero ofrece una explicación mecanística limitada.",
+"1_insuficiente": "Predice una diferencia sin relacionarla con el espaciamiento o afirma simplemente que B estudió mejor.",
+"0_incorrecta": "Predice sistemáticamente ventaja para A únicamente porque repitió los contenidos consecutivamente."
 },
 "source": "Cepeda, N. J., et al. (2006). Distributed practice in verbal recall tasks: A review and quantitative synthesis. Psychological Bulletin, 132(3), 354-380. DOI: 10.1037/0033-2909.132.3.354.",
 "notes": "Se utiliza 'en general' deliberadamente para evitar que la respuesta tenga que asumir que todos los intervalos producen el mismo efecto.",
@@ -160,39 +160,39 @@
 {
 "id": "PSY-009",
 "dimension": "reasoning",
-"topic": "estadÃ­stica aplicada a psicologÃ­a",
+"topic": "estadística aplicada a psicología",
 "difficulty": "hard",
-"question": "Un estudio encuentra una correlaciÃ³n de r = 0,60 entre horas de uso de una aplicaciÃ³n de meditaciÃ³n y bienestar psicolÃ³gico. El investigador concluye: 'La aplicaciÃ³n aumenta el bienestar'. Â¿Es vÃ¡lida esta conclusiÃ³n a partir de ese resultado? Explica quÃ© puede y quÃ© no puede inferirse.",
-"expected_answer": "No puede establecerse causalidad a partir de una correlaciÃ³n por sÃ­ sola. El resultado indica una asociaciÃ³n positiva entre ambas variables, pero puede haber causalidad inversa, variables de confusiÃ³n, selecciÃ³n de participantes u otras explicaciones. Para sostener una inferencia causal serÃ­an necesarios un diseÃ±o y unos supuestos adecuados, como un experimento aleatorizado o evidencia convergente suficiente.",
+"question": "Un estudio encuentra una correlación de r = 0,60 entre horas de uso de una aplicación de meditación y bienestar psicológico. El investigador concluye: 'La aplicación aumenta el bienestar'. ¿Es válida esta conclusión a partir de ese resultado? Explica qué puede y qué no puede inferirse.",
+"expected_answer": "No puede establecerse causalidad a partir de una correlación por sí sola. El resultado indica una asociación positiva entre ambas variables, pero puede haber causalidad inversa, variables de confusión, selección de participantes u otras explicaciones. Para sostener una inferencia causal serían necesarios un diseño y unos supuestos adecuados, como un experimento aleatorizado o evidencia convergente suficiente.",
 "evaluation_criteria": {
-"3_excelente": "Distingue asociaciÃ³n de causalidad, explica al menos dos explicaciones alternativas relevantes y seÃ±ala quÃ© tipo de diseÃ±o permitirÃ­a una inferencia causal mÃ¡s fuerte.",
-"2_parcialmente_correcta": "Indica correctamente que correlaciÃ³n no implica causalidad y menciona al menos una explicaciÃ³n alternativa.",
-"1_insuficiente": "Dice que no se puede afirmar causalidad, pero no explica por quÃ© ni quÃ© informaciÃ³n adicional serÃ­a necesaria.",
-"0_incorrecta": "Afirma que r = 0,60 demuestra que la aplicaciÃ³n causa un aumento del bienestar.",
+"3_excelente": "Distingue asociación de causalidad, explica al menos dos explicaciones alternativas relevantes y señala qué tipo de diseño permitiría una inferencia causal más fuerte.",
+"2_parcialmente_correcta": "Indica correctamente que correlación no implica causalidad y menciona al menos una explicación alternativa.",
+"1_insuficiente": "Dice que no se puede afirmar causalidad, pero no explica por qué ni qué información adicional sería necesaria.",
+"0_incorrecta": "Afirma que r = 0,60 demuestra que la aplicación causa un aumento del bienestar.",
 "errores_criticos": [
 "Interpretar la magnitud de r como evidencia suficiente de causalidad.",
-"Afirmar que la causalidad puede establecerse simplemente porque la asociaciÃ³n es estadÃ­sticamente significativa."
+"Afirmar que la causalidad puede establecerse simplemente porque la asociación es estadísticamente significativa."
 ]
 },
-"source": "No requiere fuente externa especÃ­fica; aplica el principio metodolÃ³gico de que una asociaciÃ³n correlacional, por sÃ­ sola, no identifica una relaciÃ³n causal.",
-"notes": "Ãtem diseÃ±ado para separar razonamiento causal de simple recuperaciÃ³n de la frase 'correlaciÃ³n no implica causalidad'. La rÃºbrica exige generaciÃ³n de explicaciones alternativas.",
+"source": "No requiere fuente externa específica; aplica el principio metodológico de que una asociación correlacional, por sí sola, no identifica una relación causal.",
+"notes": "Ítem diseñado para separar razonamiento causal de simple recuperación de la frase 'correlación no implica causalidad'. La rúbrica exige generación de explicaciones alternativas.",
 "language": "es-ES"
 },
 {
 "id": "PSY-010",
 "dimension": "reasoning",
-"topic": "motivaciÃ³n",
+"topic": "motivación",
 "difficulty": "medium",
-"question": "Una profesora permite a su alumnado escoger entre tres temas para realizar un proyecto, pero establece que deben cumplir los mismos criterios de evaluaciÃ³n. Â¿QuÃ© necesidad psicolÃ³gica de la teorÃ­a de la autodeterminaciÃ³n estÃ¡ apoyando principalmente? Â¿QuÃ© otra necesidad podrÃ­a verse afectada indirectamente si la actividad estÃ¡ bien estructurada?",
-"expected_answer": "La elecciÃ³n apoya principalmente la autonomÃ­a porque proporciona margen de elecciÃ³n y autorregulaciÃ³n. Una estructura clara y criterios comprensibles pueden apoyar tambiÃ©n la competencia al facilitar que el alumnado sepa quÃ© se espera y pueda experimentar eficacia al realizar la tarea.",
+"question": "Una profesora permite a su alumnado escoger entre tres temas para realizar un proyecto, pero establece que deben cumplir los mismos criterios de evaluación. ¿Qué necesidad psicológica de la teoría de la autodeterminación está apoyando principalmente? ¿Qué otra necesidad podría verse afectada indirectamente si la actividad está bien estructurada?",
+"expected_answer": "La elección apoya principalmente la autonomía porque proporciona margen de elección y autorregulación. Una estructura clara y criterios comprensibles pueden apoyar también la competencia al facilitar que el alumnado sepa qué se espera y pueda experimentar eficacia al realizar la tarea.",
 "evaluation_criteria": {
-"3_excelente": "Identifica autonomÃ­a como necesidad principal y explica por quÃ© la elecciÃ³n la apoya. Identifica competencia como posible efecto adicional de una estructura clara y distingue ambas necesidades.",
-"2_parcialmente_correcta": "Identifica autonomÃ­a correctamente y menciona competencia como posibilidad, pero con una explicaciÃ³n incompleta.",
-"1_insuficiente": "Identifica Ãºnicamente autonomÃ­a sin justificarla suficientemente o confunde autonomÃ­a con competencia.",
-"0_incorrecta": "Considera que la elecciÃ³n apoya principalmente relaciÃ³n o interpreta que cualquier elecciÃ³n garantiza motivaciÃ³n intrÃ­nseca."
+"3_excelente": "Identifica autonomía como necesidad principal y explica por qué la elección la apoya. Identifica competencia como posible efecto adicional de una estructura clara y distingue ambas necesidades.",
+"2_parcialmente_correcta": "Identifica autonomía correctamente y menciona competencia como posibilidad, pero con una explicación incompleta.",
+"1_insuficiente": "Identifica únicamente autonomía sin justificarla suficientemente o confunde autonomía con competencia.",
+"0_incorrecta": "Considera que la elección apoya principalmente relación o interpreta que cualquier elección garantiza motivación intrínseca."
 },
 "source": "Ryan, R. M., & Deci, E. L. (2000). Self-determination theory and the facilitation of intrinsic motivation, social development, and well-being. American Psychologist, 55(1), 68-78. DOI: 10.1037/0003-066X.55.1.68.",
-"notes": "El segundo componente estÃ¡ formulado como posibilidad, no como consecuencia necesaria.",
+"notes": "El segundo componente está formulado como posibilidad, no como consecuencia necesaria.",
 "language": "es-ES"
 },
 {
@@ -200,60 +200,60 @@
 "dimension": "reasoning",
 "topic": "desarrollo y apego",
 "difficulty": "hard",
-"question": "En un estudio longitudinal se observa que la calidad de la relaciÃ³n de apego de un niÃ±o con su cuidador se asocia posteriormente con determinadas variables socioemocionales. Un investigador afirma: 'Como el apego apareciÃ³ primero en el tiempo, es la causa de esas variables'. EvalÃºa este razonamiento.",
-"expected_answer": "La precedencia temporal es compatible con causalidad, pero no es suficiente para demostrarla. La asociaciÃ³n puede estar influida por variables de confusiÃ³n, caracterÃ­sticas compartidas o procesos bidireccionales. SerÃ­a necesario evaluar el diseÃ±o, la mediciÃ³n, los posibles factores de confusiÃ³n y la evidencia longitudinal o experimental disponible antes de atribuir causalidad.",
+"question": "En un estudio longitudinal se observa que la calidad de la relación de apego de un niño con su cuidador se asocia posteriormente con determinadas variables socioemocionales. Un investigador afirma: 'Como el apego apareció primero en el tiempo, es la causa de esas variables'. Evalúa este razonamiento.",
+"expected_answer": "La precedencia temporal es compatible con causalidad, pero no es suficiente para demostrarla. La asociación puede estar influida por variables de confusión, características compartidas o procesos bidireccionales. Sería necesario evaluar el diseño, la medición, los posibles factores de confusión y la evidencia longitudinal o experimental disponible antes de atribuir causalidad.",
 "evaluation_criteria": {
-"3_excelente": "Reconoce que la precedencia temporal es necesaria en muchas inferencias causales pero no suficiente. Identifica confusiÃ³n y/o bidireccionalidad y seÃ±ala quÃ© informaciÃ³n metodolÃ³gica serÃ­a necesaria.",
-"2_parcialmente_correcta": "Rechaza correctamente la conclusiÃ³n causal y menciona al menos una explicaciÃ³n alternativa.",
-"1_insuficiente": "Dice que un estudio longitudinal no puede demostrar causalidad sin explicar quÃ© otros elementos faltan.",
+"3_excelente": "Reconoce que la precedencia temporal es necesaria en muchas inferencias causales pero no suficiente. Identifica confusión y/o bidireccionalidad y señala qué información metodológica sería necesaria.",
+"2_parcialmente_correcta": "Rechaza correctamente la conclusión causal y menciona al menos una explicación alternativa.",
+"1_insuficiente": "Dice que un estudio longitudinal no puede demostrar causalidad sin explicar qué otros elementos faltan.",
 "0_incorrecta": "Afirma que la precedencia temporal demuestra causalidad.",
 "errores_criticos": [
-"Considerar que cualquier asociaciÃ³n longitudinal prueba causalidad.",
-"Afirmar que una relaciÃ³n de apego no puede estar relacionada causalmente con ningÃºn resultado por tratarse de una variable psicolÃ³gica."
+"Considerar que cualquier asociación longitudinal prueba causalidad.",
+"Afirmar que una relación de apego no puede estar relacionada causalmente con ningún resultado por tratarse de una variable psicológica."
 ]
 },
 "source": "Dagan, O., et al. (2024). Attachment relationship quality with mothers and fathers and child temperament: An individual participant data meta-analysis. Developmental Psychology, 60(11), 2144-2156. DOI: 10.1037/dev0001677.",
-"notes": "El Ã­tem evalÃºa razonamiento causal y no pretende establecer que el apego carezca de efectos causales; la cuestiÃ³n es si el razonamiento presentado basta para demostrarlos.",
+"notes": "El ítem evalúa razonamiento causal y no pretende establecer que el apego carezca de efectos causales; la cuestión es si el razonamiento presentado basta para demostrarlos.",
 "language": "es-ES"
 },
 {
 "id": "PSY-012",
 "dimension": "reasoning",
-"topic": "neuropsicologÃ­a y doble disociaciÃ³n",
+"topic": "neuropsicología y doble disociación",
 "difficulty": "hard",
-"question": "Un paciente presenta un rendimiento muy bajo en una tarea de memoria episÃ³dica pero conserva un rendimiento relativamente normal en una tarea de memoria procedimental. Otro paciente presenta el patrÃ³n inverso. Â¿Por quÃ© este patrÃ³n puede aportar evidencia de que existen sistemas o procesos de memoria parcialmente diferenciados? Â¿QuÃ© precauciÃ³n metodolÃ³gica debe mantenerse?",
-"expected_answer": "Los patrones inversos constituyen una doble disociaciÃ³n y pueden apoyar la hipÃ³tesis de que las tareas dependen de procesos o sistemas parcialmente diferenciados. Sin embargo, una doble disociaciÃ³n conductual no demuestra automÃ¡ticamente que existan dos estructuras cerebrales independientes; las tareas pueden diferir en mÃºltiples demandas y deben descartarse explicaciones alternativas.",
+"question": "Un paciente presenta un rendimiento muy bajo en una tarea de memoria episódica pero conserva un rendimiento relativamente normal en una tarea de memoria procedimental. Otro paciente presenta el patrón inverso. ¿Por qué este patrón puede aportar evidencia de que existen sistemas o procesos de memoria parcialmente diferenciados? ¿Qué precaución metodológica debe mantenerse?",
+"expected_answer": "Los patrones inversos constituyen una doble disociación y pueden apoyar la hipótesis de que las tareas dependen de procesos o sistemas parcialmente diferenciados. Sin embargo, una doble disociación conductual no demuestra automáticamente que existan dos estructuras cerebrales independientes; las tareas pueden diferir en múltiples demandas y deben descartarse explicaciones alternativas.",
 "evaluation_criteria": {
-"3_excelente": "Identifica la doble disociaciÃ³n, explica por quÃ© los patrones inversos apoyan una diferenciaciÃ³n funcional y seÃ±ala al menos una limitaciÃ³n metodolÃ³gica de las tareas.",
-"2_parcialmente_correcta": "Explica adecuadamente la lÃ³gica de la doble disociaciÃ³n pero ofrece pocas precauciones.",
-"1_insuficiente": "Observa que los pacientes tienen perfiles distintos, pero no explica por quÃ© esto aporta evidencia de procesos diferenciados.",
-"0_incorrecta": "Concluye que los dos patrones demuestran por sÃ­ solos la existencia de dos Ã¡reas cerebrales anatÃ³micamente independientes.",
+"3_excelente": "Identifica la doble disociación, explica por qué los patrones inversos apoyan una diferenciación funcional y señala al menos una limitación metodológica de las tareas.",
+"2_parcialmente_correcta": "Explica adecuadamente la lógica de la doble disociación pero ofrece pocas precauciones.",
+"1_insuficiente": "Observa que los pacientes tienen perfiles distintos, pero no explica por qué esto aporta evidencia de procesos diferenciados.",
+"0_incorrecta": "Concluye que los dos patrones demuestran por sí solos la existencia de dos áreas cerebrales anatómicamente independientes.",
 "errores_criticos": [
-"Equiparar automÃ¡ticamente doble disociaciÃ³n conductual con localizaciÃ³n anatÃ³mica independiente."
+"Equiparar automáticamente doble disociación conductual con localización anatómica independiente."
 ]
 },
 "source": "Shallice, T. (1988). From Neuropsychology to Mental Structure. Cambridge University Press.",
-"notes": "Se admite hablar de 'sistemas', 'procesos' o 'componentes parcialmente diferenciados' sin exigir una teorÃ­a anatÃ³mica concreta.",
+"notes": "Se admite hablar de 'sistemas', 'procesos' o 'componentes parcialmente diferenciados' sin exigir una teoría anatómica concreta.",
 "language": "es-ES"
 },
 {
 "id": "PSY-013",
 "dimension": "critical_analysis",
-"topic": "psicologÃ­a social y amenaza del estereotipo",
+"topic": "psicología social y amenaza del estereotipo",
 "difficulty": "hard",
-"question": "Lee la siguiente afirmaciÃ³n: 'Un metaanÃ¡lisis demuestra que la amenaza del estereotipo reduce el rendimiento de cualquier persona que pertenezca a un grupo estereotipado, por lo que los estereotipos son la causa principal de las diferencias de rendimiento entre grupos'. Analiza crÃ­ticamente la afirmaciÃ³n.",
-"expected_answer": "La afirmaciÃ³n excede lo que puede concluirse de un metaanÃ¡lisis sobre efectos de amenaza del estereotipo. Debe distinguirse entre demostrar un efecto bajo determinadas condiciones y afirmar que afecta a cualquier persona o que explica principalmente las diferencias entre grupos en contextos reales. TambiÃ©n deben considerarse heterogeneidad, moderadores, posibles sesgos de publicaciÃ³n, caracterÃ­sticas del contexto y otras explicaciones de las diferencias grupales.",
+"question": "Lee la siguiente afirmación: 'Un metaanálisis demuestra que la amenaza del estereotipo reduce el rendimiento de cualquier persona que pertenezca a un grupo estereotipado, por lo que los estereotipos son la causa principal de las diferencias de rendimiento entre grupos'. Analiza críticamente la afirmación.",
+"expected_answer": "La afirmación excede lo que puede concluirse de un metaanálisis sobre efectos de amenaza del estereotipo. Debe distinguirse entre demostrar un efecto bajo determinadas condiciones y afirmar que afecta a cualquier persona o que explica principalmente las diferencias entre grupos en contextos reales. También deben considerarse heterogeneidad, moderadores, posibles sesgos de publicación, características del contexto y otras explicaciones de las diferencias grupales.",
 "evaluation_criteria": {
-"3_excelente": "Identifica al menos tres saltos inferenciales: universalidad del efecto, extrapolaciÃ³n causal a diferencias grupales y omisiÃ³n de moderadores/heterogeneidad o sesgos. Explica por quÃ© cada salto es problemÃ¡tico.",
-"2_parcialmente_correcta": "Identifica que el resultado no permite una generalizaciÃ³n universal o una explicaciÃ³n causal global, pero desarrolla pocos matices.",
-"1_insuficiente": "Se limita a decir que 'los estudios pueden tener limitaciones' sin identificar cuÃ¡les afectan a la afirmaciÃ³n.",
-"0_incorrecta": "Acepta la afirmaciÃ³n como conclusiÃ³n directa de un metaanÃ¡lisis.",
+"3_excelente": "Identifica al menos tres saltos inferenciales: universalidad del efecto, extrapolación causal a diferencias grupales y omisión de moderadores/heterogeneidad o sesgos. Explica por qué cada salto es problemático.",
+"2_parcialmente_correcta": "Identifica que el resultado no permite una generalización universal o una explicación causal global, pero desarrolla pocos matices.",
+"1_insuficiente": "Se limita a decir que 'los estudios pueden tener limitaciones' sin identificar cuáles afectan a la afirmación.",
+"0_incorrecta": "Acepta la afirmación como conclusión directa de un metaanálisis.",
 "errores_criticos": [
-"Interpretar un efecto experimental como explicaciÃ³n suficiente de todas las diferencias grupales observadas en la poblaciÃ³n."
+"Interpretar un efecto experimental como explicación suficiente de todas las diferencias grupales observadas en la población."
 ]
 },
 "source": "Shewach, O. R., Sackett, P. R., & Quint, S. (2019). Stereotype threat effects in settings with features likely versus unlikely in operational test settings: A meta-analysis. Journal of Applied Psychology, 104(12), 1514-1534. DOI: 10.1037/apl0000420.",
-"notes": "Ãtem diseÃ±ado para evaluar extrapolaciÃ³n indebida de evidencia experimental. No exige adoptar una posiciÃ³n sobre la magnitud global del fenÃ³meno.",
+"notes": "Ítem diseñado para evaluar extrapolación indebida de evidencia experimental. No exige adoptar una posición sobre la magnitud global del fenómeno.",
 "language": "es-ES"
 },
 {
@@ -261,39 +261,39 @@
 "dimension": "critical_analysis",
 "topic": "psicoterapia y evidencia",
 "difficulty": "hard",
-"question": "Un artÃ­culo afirma: 'La terapia cognitivo-conductual es el tratamiento psicolÃ³gico mÃ¡s eficaz para la depresiÃ³n porque un metaanÃ¡lisis encontrÃ³ un tamaÃ±o del efecto grande frente a un grupo de lista de espera'. Â¿QuÃ© aspectos analizarÃ­as antes de aceptar esa conclusiÃ³n como demostrada?",
-"expected_answer": "HabrÃ­a que analizar quÃ© comparadores se utilizaron, la calidad y riesgo de sesgo de los ensayos, la posibilidad de sesgo de publicaciÃ³n, las caracterÃ­sticas de las muestras, la definiciÃ³n y mediciÃ³n del resultado, la duraciÃ³n del seguimiento y si el efecto frente a lista de espera permite concluir superioridad frente a otros tratamientos activos. Un efecto grande frente a lista de espera no demuestra por sÃ­ mismo que sea el tratamiento mÃ¡s eficaz entre todas las alternativas.",
+"question": "Un artículo afirma: 'La terapia cognitivo-conductual es el tratamiento psicológico más eficaz para la depresión porque un metaanálisis encontró un tamaño del efecto grande frente a un grupo de lista de espera'. ¿Qué aspectos analizarías antes de aceptar esa conclusión como demostrada?",
+"expected_answer": "Habría que analizar qué comparadores se utilizaron, la calidad y riesgo de sesgo de los ensayos, la posibilidad de sesgo de publicación, las características de las muestras, la definición y medición del resultado, la duración del seguimiento y si el efecto frente a lista de espera permite concluir superioridad frente a otros tratamientos activos. Un efecto grande frente a lista de espera no demuestra por sí mismo que sea el tratamiento más eficaz entre todas las alternativas.",
 "evaluation_criteria": {
-"3_excelente": "Identifica correctamente la diferencia entre eficacia frente a lista de espera y superioridad frente a tratamientos activos, y aÃ±ade al menos dos cuestiones metodolÃ³gicas relevantes.",
-"2_parcialmente_correcta": "Cuestiona adecuadamente el comparador y menciona al menos una limitaciÃ³n adicional.",
-"1_insuficiente": "Afirma que un metaanÃ¡lisis puede tener limitaciones sin concretarlas.",
-"0_incorrecta": "Concluye que un efecto grande frente a lista de espera demuestra que la terapia es superior a todos los demÃ¡s tratamientos.",
+"3_excelente": "Identifica correctamente la diferencia entre eficacia frente a lista de espera y superioridad frente a tratamientos activos, y añade al menos dos cuestiones metodológicas relevantes.",
+"2_parcialmente_correcta": "Cuestiona adecuadamente el comparador y menciona al menos una limitación adicional.",
+"1_insuficiente": "Afirma que un metaanálisis puede tener limitaciones sin concretarlas.",
+"0_incorrecta": "Concluye que un efecto grande frente a lista de espera demuestra que la terapia es superior a todos los demás tratamientos.",
 "errores_criticos": [
-"Confundir tamaÃ±o del efecto frente a lista de espera con evidencia de superioridad universal frente a tratamientos activos."
+"Confundir tamaño del efecto frente a lista de espera con evidencia de superioridad universal frente a tratamientos activos."
 ]
 },
-"source": "Cuijpers, P., Karyotaki, E., Weitz, E., Andersson, G., Hollon, S. D., & van Straten, A. (2014). The effects of psychotherapies for major depression in adults on remission, recovery and improvement: A meta-analysis. Journal of Affective Disorders, 159, 11-20. Para la cuestiÃ³n especÃ­fica sobre CBT: Cuijpers, P., et al. (2016). How effective are cognitive behavior therapies for major depression and anxiety disorders? World Psychiatry, 15(3), 245-258. DOI: 10.1002/wps.20346.",
-"notes": "La crÃ­tica debe centrarse en la inferencia desde un comparador concreto a una afirmaciÃ³n de superioridad general.",
+"source": "Cuijpers, P., Karyotaki, E., Weitz, E., Andersson, G., Hollon, S. D., & van Straten, A. (2014). The effects of psychotherapies for major depression in adults on remission, recovery and improvement: A meta-analysis. Journal of Affective Disorders, 159, 11-20. Para la cuestión específica sobre CBT: Cuijpers, P., et al. (2016). How effective are cognitive behavior therapies for major depression and anxiety disorders? World Psychiatry, 15(3), 245-258. DOI: 10.1002/wps.20346.",
+"notes": "La crítica debe centrarse en la inferencia desde un comparador concreto a una afirmación de superioridad general.",
 "language": "es-ES"
 },
 {
 "id": "PSY-015",
 "dimension": "critical_analysis",
-"topic": "estadÃ­stica e interpretaciÃ³n de valores p",
+"topic": "estadística e interpretación de valores p",
 "difficulty": "hard",
-"question": "Un investigador informa: 'La intervenciÃ³n obtuvo p = 0,03, por lo que hay un 97 % de probabilidad de que la hipÃ³tesis de investigaciÃ³n sea verdadera'. Analiza la interpretaciÃ³n del valor p.",
-"expected_answer": "La interpretaciÃ³n es incorrecta. Un valor p no representa la probabilidad de que la hipÃ³tesis de investigaciÃ³n sea verdadera. Bajo el modelo estadÃ­stico y los supuestos de la prueba, describe la probabilidad de obtener datos tan extremos o mÃ¡s que los observados si la hipÃ³tesis nula y el modelo correspondiente fueran ciertos. Tampoco proporciona por sÃ­ solo el tamaÃ±o o relevancia prÃ¡ctica del efecto.",
+"question": "Un investigador informa: 'La intervención obtuvo p = 0,03, por lo que hay un 97 % de probabilidad de que la hipótesis de investigación sea verdadera'. Analiza la interpretación del valor p.",
+"expected_answer": "La interpretación es incorrecta. Un valor p no representa la probabilidad de que la hipótesis de investigación sea verdadera. Bajo el modelo estadístico y los supuestos de la prueba, describe la probabilidad de obtener datos tan extremos o más que los observados si la hipótesis nula y el modelo correspondiente fueran ciertos. Tampoco proporciona por sí solo el tamaño o relevancia práctica del efecto.",
 "evaluation_criteria": {
-"3_excelente": "Rechaza explÃ­citamente la interpretaciÃ³n del 97 %, define correctamente el significado condicional del valor p y seÃ±ala al menos una cosa que no informa, como tamaÃ±o o relevancia prÃ¡ctica del efecto.",
-"2_parcialmente_correcta": "Indica correctamente que p no es la probabilidad de que la hipÃ³tesis sea verdadera y ofrece una explicaciÃ³n aproximada.",
-"1_insuficiente": "Dice que 'p = 0,03 es significativo' pero no corrige la interpretaciÃ³n probabilÃ­stica.",
-"0_incorrecta": "Acepta que p = 0,03 implica un 97 % de probabilidad de que la hipÃ³tesis de investigaciÃ³n sea verdadera.",
+"3_excelente": "Rechaza explícitamente la interpretación del 97 %, define correctamente el significado condicional del valor p y señala al menos una cosa que no informa, como tamaño o relevancia práctica del efecto.",
+"2_parcialmente_correcta": "Indica correctamente que p no es la probabilidad de que la hipótesis sea verdadera y ofrece una explicación aproximada.",
+"1_insuficiente": "Dice que 'p = 0,03 es significativo' pero no corrige la interpretación probabilística.",
+"0_incorrecta": "Acepta que p = 0,03 implica un 97 % de probabilidad de que la hipótesis de investigación sea verdadera.",
 "errores_criticos": [
-"Interpretar 1 - p como probabilidad de verdad de la hipÃ³tesis alternativa."
+"Interpretar 1 - p como probabilidad de verdad de la hipótesis alternativa."
 ]
 },
 "source": "Wasserstein, R. L., & Lazar, N. A. (2016). The ASA Statement on p-Values: Context, Process, and Purpose. The American Statistician, 70(2), 129-133. DOI: 10.1080/00031305.2016.1154108.",
-"notes": "Ãtem metodolÃ³gico con una afirmaciÃ³n deliberadamente plausible y frecuente. La rÃºbrica diferencia correcciÃ³n terminolÃ³gica de comprensiÃ³n conceptual.",
+"notes": "Ítem metodológico con una afirmación deliberadamente plausible y frecuente. La rúbrica diferencia corrección terminológica de comprensión conceptual.",
 "language": "es-ES"
 },
 {
@@ -301,36 +301,36 @@
 "dimension": "critical_analysis",
 "topic": "personalidad y estabilidad del desarrollo",
 "difficulty": "hard",
-"question": "Una persona lee que 'la personalidad queda completamente fijada a los 18 aÃ±os porque los rasgos de personalidad son estables'. Â¿QuÃ© problemas conceptuales presenta esta afirmaciÃ³n?",
-"expected_answer": "Confunde estabilidad relativa con inmutabilidad. Los rasgos muestran continuidad y estabilidad individual, pero tambiÃ©n pueden experimentar cambios sistemÃ¡ticos y heterogeneidad a lo largo del desarrollo. AdemÃ¡s, la edad exacta a la que una persona alcanza determinado nivel de estabilidad no permite concluir que la personalidad quede completamente fijada.",
+"question": "Una persona lee que 'la personalidad queda completamente fijada a los 18 años porque los rasgos de personalidad son estables'. ¿Qué problemas conceptuales presenta esta afirmación?",
+"expected_answer": "Confunde estabilidad relativa con inmutabilidad. Los rasgos muestran continuidad y estabilidad individual, pero también pueden experimentar cambios sistemáticos y heterogeneidad a lo largo del desarrollo. Además, la edad exacta a la que una persona alcanza determinado nivel de estabilidad no permite concluir que la personalidad quede completamente fijada.",
 "evaluation_criteria": {
-"3_excelente": "Distingue estabilidad de inmutabilidad, reconoce que puede existir continuidad junto con cambio y rechaza la edad de 18 aÃ±os como punto universal de fijaciÃ³n.",
-"2_parcialmente_correcta": "Identifica correctamente la confusiÃ³n entre estabilidad y ausencia de cambio, pero desarrolla poco la idea de cambio normativo.",
+"3_excelente": "Distingue estabilidad de inmutabilidad, reconoce que puede existir continuidad junto con cambio y rechaza la edad de 18 años como punto universal de fijación.",
+"2_parcialmente_correcta": "Identifica correctamente la confusión entre estabilidad y ausencia de cambio, pero desarrolla poco la idea de cambio normativo.",
 "1_insuficiente": "Dice simplemente que 'la personalidad puede cambiar' sin explicar el concepto de estabilidad relativa.",
-"0_incorrecta": "Afirma que estabilidad significa que los rasgos no pueden cambiar despuÃ©s de la adolescencia.",
+"0_incorrecta": "Afirma que estabilidad significa que los rasgos no pueden cambiar después de la adolescencia.",
 "errores_criticos": [
 "Definir estabilidad de los rasgos como ausencia absoluta de cambio."
 ]
 },
 "source": "Roberts, B. W., Walton, K. E., & Viechtbauer, W. (2006). Patterns of mean-level change in personality traits across the life course: A meta-analysis of longitudinal studies. Psychological Bulletin, 132(1), 1-25. DOI: 10.1037/0033-2909.132.1.1.",
-"notes": "La edad de 18 aÃ±os se incluye como afirmaciÃ³n deliberadamente excesiva; el objetivo es analizar el concepto, no memorizar una edad de cambio.",
+"notes": "La edad de 18 años se incluye como afirmación deliberadamente excesiva; el objetivo es analizar el concepto, no memorizar una edad de cambio.",
 "language": "es-ES"
 },
 {
 "id": "PSY-017",
 "dimension": "critical_analysis",
-"topic": "motivaciÃ³n y teorÃ­a de la autodeterminaciÃ³n",
+"topic": "motivación y teoría de la autodeterminación",
 "difficulty": "medium",
-"question": "Un artÃ­culo afirma: 'La teorÃ­a de la autodeterminaciÃ³n demuestra que las recompensas externas siempre destruyen la motivaciÃ³n intrÃ­nseca'. Â¿QuÃ© elementos de esta afirmaciÃ³n deberÃ­an cuestionarse?",
-"expected_answer": "La afirmaciÃ³n es demasiado absoluta. La relaciÃ³n entre recompensas externas y motivaciÃ³n intrÃ­nseca depende de cÃ³mo se administren, cÃ³mo se interpreten y de las condiciones de la actividad. La teorÃ­a distingue diferentes formas de regulaciÃ³n y no sostiene que cualquier recompensa externa produzca necesariamente el mismo efecto.",
+"question": "Un artículo afirma: 'La teoría de la autodeterminación demuestra que las recompensas externas siempre destruyen la motivación intrínseca'. ¿Qué elementos de esta afirmación deberían cuestionarse?",
+"expected_answer": "La afirmación es demasiado absoluta. La relación entre recompensas externas y motivación intrínseca depende de cómo se administren, cómo se interpreten y de las condiciones de la actividad. La teoría distingue diferentes formas de regulación y no sostiene que cualquier recompensa externa produzca necesariamente el mismo efecto.",
 "evaluation_criteria": {
-"3_excelente": "Identifica el carÃ¡cter absoluto de 'siempre', distingue recompensas externas de sus efectos psicolÃ³gicos y reconoce que la forma y funciÃ³n de la regulaciÃ³n son relevantes.",
-"2_parcialmente_correcta": "SeÃ±ala que las recompensas no tienen necesariamente el mismo efecto, pero explica poco los mecanismos relevantes.",
-"1_insuficiente": "Dice solamente que 'depende de la persona' sin especificar quÃ© condiciones son relevantes.",
-"0_incorrecta": "Acepta que cualquier recompensa externa necesariamente elimina la motivaciÃ³n intrÃ­nseca."
+"3_excelente": "Identifica el carácter absoluto de 'siempre', distingue recompensas externas de sus efectos psicológicos y reconoce que la forma y función de la regulación son relevantes.",
+"2_parcialmente_correcta": "Señala que las recompensas no tienen necesariamente el mismo efecto, pero explica poco los mecanismos relevantes.",
+"1_insuficiente": "Dice solamente que 'depende de la persona' sin especificar qué condiciones son relevantes.",
+"0_incorrecta": "Acepta que cualquier recompensa externa necesariamente elimina la motivación intrínseca."
 },
 "source": "Ryan, R. M., & Deci, E. L. (2000). Self-determination theory and the facilitation of intrinsic motivation, social development, and well-being. American Psychologist, 55(1), 68-78. DOI: 10.1037/0003-066X.55.1.68.",
-"notes": "El Ã­tem evalÃºa detecciÃ³n de absolutismos teÃ³ricos y no exige resolver toda la literatura sobre recompensas.",
+"notes": "El ítem evalúa detección de absolutismos teóricos y no exige resolver toda la literatura sobre recompensas.",
 "language": "es-ES"
 },
 {
@@ -338,69 +338,69 @@
 "dimension": "critical_analysis",
 "topic": "sesgos y replicabilidad",
 "difficulty": "hard",
-"question": "Un Ãºnico estudio psicolÃ³gico obtiene un resultado estadÃ­sticamente significativo y el autor concluye que el efecto estÃ¡ establecido cientÃ­ficamente. Â¿QuÃ© razones metodolÃ³gicas justifican ser prudente antes de considerar establecido ese efecto?",
-"expected_answer": "Un Ãºnico resultado puede estar afectado por azar, error de mediciÃ³n, decisiones analÃ­ticas, tamaÃ±o muestral, sesgo de publicaciÃ³n, flexibilidad analÃ­tica, problemas de replicabilidad o limitaciones de validez externa. La confianza aumenta cuando existe evidencia convergente, replicaciones adecuadas, diseÃ±os robustos y sÃ­ntesis de mÃºltiples estudios.",
+"question": "Un único estudio psicológico obtiene un resultado estadísticamente significativo y el autor concluye que el efecto está establecido científicamente. ¿Qué razones metodológicas justifican ser prudente antes de considerar establecido ese efecto?",
+"expected_answer": "Un único resultado puede estar afectado por azar, error de medición, decisiones analíticas, tamaño muestral, sesgo de publicación, flexibilidad analítica, problemas de replicabilidad o limitaciones de validez externa. La confianza aumenta cuando existe evidencia convergente, replicaciones adecuadas, diseños robustos y síntesis de múltiples estudios.",
 "evaluation_criteria": {
-"3_excelente": "Explica que significaciÃ³n estadÃ­stica no equivale a evidencia definitiva y aporta al menos tres fuentes concretas de incertidumbre, ademÃ¡s de mencionar replicaciÃ³n o convergencia de evidencia.",
-"2_parcialmente_correcta": "SeÃ±ala que un Ãºnico estudio no basta y menciona al menos dos limitaciones relevantes.",
-"1_insuficiente": "Apela a la necesidad de mÃ¡s estudios sin explicar por quÃ©.",
-"0_incorrecta": "Considera que significaciÃ³n estadÃ­stica implica que el efecto estÃ¡ cientÃ­ficamente establecido."
+"3_excelente": "Explica que significación estadística no equivale a evidencia definitiva y aporta al menos tres fuentes concretas de incertidumbre, además de mencionar replicación o convergencia de evidencia.",
+"2_parcialmente_correcta": "Señala que un único estudio no basta y menciona al menos dos limitaciones relevantes.",
+"1_insuficiente": "Apela a la necesidad de más estudios sin explicar por qué.",
+"0_incorrecta": "Considera que significación estadística implica que el efecto está científicamente establecido."
 },
-"source": "No requiere una fuente externa Ãºnica; se basa en principios generales de inferencia cientÃ­fica, replicabilidad y evaluaciÃ³n crÃ­tica de evidencia.",
-"notes": "Se busca razonamiento metodolÃ³gico generalizable, no conocimiento de un caso concreto de crisis de replicaciÃ³n.",
+"source": "No requiere una fuente externa única; se basa en principios generales de inferencia científica, replicabilidad y evaluación crítica de evidencia.",
+"notes": "Se busca razonamiento metodológico generalizable, no conocimiento de un caso concreto de crisis de replicación.",
 "language": "es-ES"
 },
 {
 "id": "PSY-019",
 "dimension": "uncertainty",
-"topic": "diagnÃ³stico diferencial y evidencia insuficiente",
+"topic": "diagnóstico diferencial y evidencia insuficiente",
 "difficulty": "hard",
-"question": "Una persona informa de que durante dos semanas ha dormido peor, se siente cansada y tiene menos interÃ©s por algunas actividades. Con estos Ãºnicos datos, Â¿quÃ© conclusiÃ³n psicolÃ³gica o clÃ­nica puede establecerse de forma fiable? Explica quÃ© informaciÃ³n adicional serÃ­a necesaria.",
-"expected_answer": "No puede establecerse de forma fiable un diagnÃ³stico ni una explicaciÃ³n causal concreta con esos datos. Los sÃ­ntomas son inespecÃ­ficos y pueden corresponder a mÃºltiples situaciones. SerÃ­a necesario conocer, entre otros aspectos, intensidad, evoluciÃ³n, funcionamiento, otros sÃ­ntomas, contexto, posibles factores mÃ©dicos o farmacolÃ³gicos y una evaluaciÃ³n clÃ­nica adecuada.",
+"question": "Una persona informa de que durante dos semanas ha dormido peor, se siente cansada y tiene menos interés por algunas actividades. Con estos únicos datos, ¿qué conclusión psicológica o clínica puede establecerse de forma fiable? Explica qué información adicional sería necesaria.",
+"expected_answer": "No puede establecerse de forma fiable un diagnóstico ni una explicación causal concreta con esos datos. Los síntomas son inespecíficos y pueden corresponder a múltiples situaciones. Sería necesario conocer, entre otros aspectos, intensidad, evolución, funcionamiento, otros síntomas, contexto, posibles factores médicos o farmacológicos y una evaluación clínica adecuada.",
 "evaluation_criteria": {
-"3_excelente": "Rechaza explÃ­citamente el diagnÃ³stico a partir de esos datos, explica que los sÃ­ntomas son inespecÃ­ficos y enumera varias categorÃ­as de informaciÃ³n adicional relevante.",
-"2_parcialmente_correcta": "Reconoce que no hay informaciÃ³n suficiente para diagnosticar y menciona algunos datos adicionales.",
-"1_insuficiente": "Dice que 'podrÃ­a ser varias cosas' sin explicar por quÃ© ni quÃ© datos faltan.",
-"0_incorrecta": "Establece un diagnÃ³stico concreto como conclusiÃ³n fiable.",
+"3_excelente": "Rechaza explícitamente el diagnóstico a partir de esos datos, explica que los síntomas son inespecíficos y enumera varias categorías de información adicional relevante.",
+"2_parcialmente_correcta": "Reconoce que no hay información suficiente para diagnosticar y menciona algunos datos adicionales.",
+"1_insuficiente": "Dice que 'podría ser varias cosas' sin explicar por qué ni qué datos faltan.",
+"0_incorrecta": "Establece un diagnóstico concreto como conclusión fiable.",
 "errores_criticos": [
-"Emitir un diagnÃ³stico clÃ­nico definitivo basÃ¡ndose exclusivamente en los sÃ­ntomas proporcionados."
+"Emitir un diagnóstico clínico definitivo basándose exclusivamente en los síntomas proporcionados."
 ]
 },
-"source": "No requiere una fuente externa especÃ­fica; el objetivo es evaluar lÃ­mites de inferencia y no realizar un diagnÃ³stico.",
-"notes": "La incertidumbre es deliberada. El Ã­tem evita que identificar un trastorno sea la tarea principal.",
+"source": "No requiere una fuente externa específica; el objetivo es evaluar límites de inferencia y no realizar un diagnóstico.",
+"notes": "La incertidumbre es deliberada. El ítem evita que identificar un trastorno sea la tarea principal.",
 "language": "es-ES"
 },
 {
 "id": "PSY-020",
 "dimension": "uncertainty",
-"topic": "correlaciÃ³n y causalidad",
+"topic": "correlación y causalidad",
 "difficulty": "medium",
-"question": "En una muestra universitaria se observa que quienes duermen menos horas presentan, en promedio, mÃ¡s sÃ­ntomas de ansiedad. Solo con esta informaciÃ³n, Â¿puede concluirse que dormir poco causa ansiedad? Explica quÃ© interpretaciones alternativas siguen siendo compatibles con los datos.",
-"expected_answer": "No puede concluirse causalidad a partir de esa asociaciÃ³n. Es compatible con que dormir menos contribuya a la ansiedad, que la ansiedad reduzca el sueÃ±o, que exista una relaciÃ³n bidireccional o que una tercera variable influya en ambas. SerÃ­an necesarios datos y diseÃ±os adicionales para discriminar entre estas explicaciones.",
+"question": "En una muestra universitaria se observa que quienes duermen menos horas presentan, en promedio, más síntomas de ansiedad. Solo con esta información, ¿puede concluirse que dormir poco causa ansiedad? Explica qué interpretaciones alternativas siguen siendo compatibles con los datos.",
+"expected_answer": "No puede concluirse causalidad a partir de esa asociación. Es compatible con que dormir menos contribuya a la ansiedad, que la ansiedad reduzca el sueño, que exista una relación bidireccional o que una tercera variable influya en ambas. Serían necesarios datos y diseños adicionales para discriminar entre estas explicaciones.",
 "evaluation_criteria": {
-"3_excelente": "Rechaza la inferencia causal y presenta al menos tres interpretaciones alternativas relevantes, incluyendo causalidad inversa o bidireccional y confusiÃ³n.",
+"3_excelente": "Rechaza la inferencia causal y presenta al menos tres interpretaciones alternativas relevantes, incluyendo causalidad inversa o bidireccional y confusión.",
 "2_parcialmente_correcta": "Rechaza la causalidad y proporciona al menos dos explicaciones alternativas.",
-"1_insuficiente": "Dice que correlaciÃ³n no implica causalidad sin especificar alternativas.",
-"0_incorrecta": "Concluye que dormir poco causa ansiedad Ãºnicamente por la asociaciÃ³n observada."
+"1_insuficiente": "Dice que correlación no implica causalidad sin especificar alternativas.",
+"0_incorrecta": "Concluye que dormir poco causa ansiedad únicamente por la asociación observada."
 },
-"source": "No requiere fuente externa especÃ­fica; se evalÃºa razonamiento sobre lÃ­mites de una asociaciÃ³n observacional.",
-"notes": "Ãtem de incertidumbre: la respuesta Ã³ptima no selecciona una explicaciÃ³n causal sin evidencia suficiente.",
+"source": "No requiere fuente externa específica; se evalúa razonamiento sobre límites de una asociación observacional.",
+"notes": "Ítem de incertidumbre: la respuesta óptima no selecciona una explicación causal sin evidencia suficiente.",
 "language": "es-ES"
 },
 {
 "id": "PSY-021",
 "dimension": "uncertainty",
-"topic": "memoria autobiogrÃ¡fica",
+"topic": "memoria autobiográfica",
 "difficulty": "hard",
-"question": "Una persona recuerda con gran seguridad un acontecimiento de su infancia y afirma que, por la intensidad de su recuerdo, debe ser completamente exacto. Â¿QuÃ© puede inferirse de su elevada confianza y quÃ© no puede inferirse?",
-"expected_answer": "La elevada confianza indica que la persona tiene una fuerte convicciÃ³n subjetiva en su recuerdo, pero no garantiza que todos sus detalles sean exactos. Los recuerdos autobiogrÃ¡ficos pueden reconstruirse y verse afectados por informaciÃ³n posterior, cambios de perspectiva y otros factores. La exactitud requiere evidencia independiente cuando sea posible.",
+"question": "Una persona recuerda con gran seguridad un acontecimiento de su infancia y afirma que, por la intensidad de su recuerdo, debe ser completamente exacto. ¿Qué puede inferirse de su elevada confianza y qué no puede inferirse?",
+"expected_answer": "La elevada confianza indica que la persona tiene una fuerte convicción subjetiva en su recuerdo, pero no garantiza que todos sus detalles sean exactos. Los recuerdos autobiográficos pueden reconstruirse y verse afectados por información posterior, cambios de perspectiva y otros factores. La exactitud requiere evidencia independiente cuando sea posible.",
 "evaluation_criteria": {
-"3_excelente": "Distingue claramente confianza subjetiva de exactitud objetiva y explica por quÃ© un recuerdo vÃ­vido o seguro puede contener errores.",
-"2_parcialmente_correcta": "Afirma que confianza no garantiza exactitud y proporciona una explicaciÃ³n general.",
-"1_insuficiente": "Dice que la memoria puede fallar pero no aborda especÃ­ficamente la diferencia entre confianza y exactitud.",
+"3_excelente": "Distingue claramente confianza subjetiva de exactitud objetiva y explica por qué un recuerdo vívido o seguro puede contener errores.",
+"2_parcialmente_correcta": "Afirma que confianza no garantiza exactitud y proporciona una explicación general.",
+"1_insuficiente": "Dice que la memoria puede fallar pero no aborda específicamente la diferencia entre confianza y exactitud.",
 "0_incorrecta": "Considera que una confianza elevada demuestra que el recuerdo es exacto.",
 "errores_criticos": [
-"Equiparar vividez o confianza subjetiva con verificaciÃ³n objetiva del recuerdo."
+"Equiparar vividez o confianza subjetiva con verificación objetiva del recuerdo."
 ]
 },
 "source": "Koriat, A. (1997). Monitoring one's own knowledge during study: A cue-utilization approach to judgments of learning. Journal of Experimental Psychology: General, 126(4), 349-370. DOI: 10.1037/0096-3445.126.4.349.",
@@ -410,21 +410,21 @@
 {
 "id": "PSY-022",
 "dimension": "uncertainty",
-"topic": "intervenciones psicolÃ³gicas",
+"topic": "intervenciones psicológicas",
 "difficulty": "hard",
-"question": "Un estudio con 20 participantes encuentra que una breve intervenciÃ³n psicolÃ³gica mejora una medida de bienestar y obtiene un resultado estadÃ­sticamente significativo. El autor afirma que la intervenciÃ³n es eficaz para la poblaciÃ³n general. Â¿QuÃ© puede afirmarse con los datos proporcionados y quÃ© no?",
-"expected_answer": "Puede afirmarse, dependiendo del diseÃ±o y anÃ¡lisis, que en esa muestra se observÃ³ una diferencia compatible con un efecto de la intervenciÃ³n. No puede establecerse sin mÃ¡s que sea eficaz para la poblaciÃ³n general. La generalizaciÃ³n requiere valorar tamaÃ±o y selecciÃ³n de la muestra, diseÃ±o, comparador, precisiÃ³n de la estimaciÃ³n, replicaciÃ³n, validez de la medida y caracterÃ­sticas de la poblaciÃ³n objetivo.",
+"question": "Un estudio con 20 participantes encuentra que una breve intervención psicológica mejora una medida de bienestar y obtiene un resultado estadísticamente significativo. El autor afirma que la intervención es eficaz para la población general. ¿Qué puede afirmarse con los datos proporcionados y qué no?",
+"expected_answer": "Puede afirmarse, dependiendo del diseño y análisis, que en esa muestra se observó una diferencia compatible con un efecto de la intervención. No puede establecerse sin más que sea eficaz para la población general. La generalización requiere valorar tamaño y selección de la muestra, diseño, comparador, precisión de la estimación, replicación, validez de la medida y características de la población objetivo.",
 "evaluation_criteria": {
-"3_excelente": "Distingue inferencia dentro del estudio de generalizaciÃ³n poblacional y enumera varias condiciones necesarias para justificar esta Ãºltima.",
-"2_parcialmente_correcta": "Reconoce que no puede generalizarse directamente y menciona algunos problemas de muestra o diseÃ±o.",
-"1_insuficiente": "Dice simplemente que la muestra es pequeÃ±a sin explicar la diferencia entre eficacia observada y generalizaciÃ³n.",
-"0_incorrecta": "Considera que significaciÃ³n estadÃ­stica en 20 participantes demuestra eficacia para la poblaciÃ³n general.",
+"3_excelente": "Distingue inferencia dentro del estudio de generalización poblacional y enumera varias condiciones necesarias para justificar esta última.",
+"2_parcialmente_correcta": "Reconoce que no puede generalizarse directamente y menciona algunos problemas de muestra o diseño.",
+"1_insuficiente": "Dice simplemente que la muestra es pequeña sin explicar la diferencia entre eficacia observada y generalización.",
+"0_incorrecta": "Considera que significación estadística en 20 participantes demuestra eficacia para la población general.",
 "errores_criticos": [
-"Usar la significaciÃ³n estadÃ­stica como prueba suficiente de validez externa."
+"Usar la significación estadística como prueba suficiente de validez externa."
 ]
 },
-"source": "No requiere una fuente externa especÃ­fica; evalÃºa lÃ­mites de generalizaciÃ³n e inferencia estadÃ­stica.",
-"notes": "La pregunta deliberadamente omite informaciÃ³n sobre el diseÃ±o. Esa omisiÃ³n es el objeto de evaluaciÃ³n, no un defecto accidental.",
+"source": "No requiere una fuente externa específica; evalúa límites de generalización e inferencia estadística.",
+"notes": "La pregunta deliberadamente omite información sobre el diseño. Esa omisión es el objeto de evaluación, no un defecto accidental.",
 "language": "es-ES"
 },
 {
@@ -432,16 +432,16 @@
 "dimension": "uncertainty",
 "topic": "emociones y conducta",
 "difficulty": "medium",
-"question": "Una persona se muestra callada y evita el contacto visual durante una reuniÃ³n. Un observador concluye: 'EstÃ¡ necesariamente enfadada'. Â¿QuÃ© problema presenta esta inferencia y quÃ© informaciÃ³n adicional permitirÃ­a reducir la incertidumbre?",
-"expected_answer": "La conducta observada es compatible con mÃºltiples estados o motivos y no permite identificar necesariamente el enfado. PodrÃ­a relacionarse, por ejemplo, con ansiedad, cansancio, incomodidad, timidez, concentraciÃ³n o normas contextuales. SerÃ­an Ãºtiles el contexto, autoinforme, patrones de conducta, antecedentes y otras seÃ±ales convergentes.",
+"question": "Una persona se muestra callada y evita el contacto visual durante una reunión. Un observador concluye: 'Está necesariamente enfadada'. ¿Qué problema presenta esta inferencia y qué información adicional permitiría reducir la incertidumbre?",
+"expected_answer": "La conducta observada es compatible con múltiples estados o motivos y no permite identificar necesariamente el enfado. Podría relacionarse, por ejemplo, con ansiedad, cansancio, incomodidad, timidez, concentración o normas contextuales. Serían útiles el contexto, autoinforme, patrones de conducta, antecedentes y otras señales convergentes.",
 "evaluation_criteria": {
-"3_excelente": "Rechaza la conclusiÃ³n necesaria, explica la subdeterminaciÃ³n de la conducta observable y proporciona varias interpretaciones alternativas junto con informaciÃ³n que permitirÃ­a discriminarlas.",
+"3_excelente": "Rechaza la conclusión necesaria, explica la subdeterminación de la conducta observable y proporciona varias interpretaciones alternativas junto con información que permitiría discriminarlas.",
 "2_parcialmente_correcta": "Reconoce varias explicaciones posibles y que falta contexto.",
-"1_insuficiente": "Dice que no se puede saber con seguridad sin explicar quÃ© alternativas existen.",
+"1_insuficiente": "Dice que no se puede saber con seguridad sin explicar qué alternativas existen.",
 "0_incorrecta": "Concluye que evitar la mirada y permanecer callado demuestra enfado."
 },
-"source": "No requiere fuente externa especÃ­fica; el objetivo es evaluar incertidumbre inferencial en la interpretaciÃ³n de conducta observable.",
-"notes": "La ambigÃ¼edad es deliberada y constituye el objetivo del Ã­tem. No se presupone una cultura comunicativa concreta.",
+"source": "No requiere fuente externa específica; el objetivo es evaluar incertidumbre inferencial en la interpretación de conducta observable.",
+"notes": "La ambigüedad es deliberada y constituye el objetivo del ítem. No se presupone una cultura comunicativa concreta.",
 "language": "es-ES"
 },
 {
@@ -449,59 +449,59 @@
 "dimension": "uncertainty",
 "topic": "eficacia de tratamientos",
 "difficulty": "hard",
-"question": "Una persona mejora despuÃ©s de comenzar una intervenciÃ³n psicolÃ³gica, pero durante el mismo periodo tambiÃ©n cambiÃ³ de trabajo, empezÃ³ a dormir mÃ¡s y recibiÃ³ apoyo social adicional. Â¿QuÃ© puede decirse razonablemente sobre la causa de la mejorÃ­a?",
-"expected_answer": "No puede atribuirse de forma firme la mejorÃ­a a la intervenciÃ³n porque concurrieron varios cambios potencialmente relevantes. La mejorÃ­a podrÃ­a deberse total o parcialmente a la intervenciÃ³n, a otros cambios, a una combinaciÃ³n de factores o a procesos naturales. SerÃ­a necesaria evidencia comparativa y/o diseÃ±os que permitan aislar mejor el efecto de la intervenciÃ³n.",
+"question": "Una persona mejora después de comenzar una intervención psicológica, pero durante el mismo periodo también cambió de trabajo, empezó a dormir más y recibió apoyo social adicional. ¿Qué puede decirse razonablemente sobre la causa de la mejoría?",
+"expected_answer": "No puede atribuirse de forma firme la mejoría a la intervención porque concurrieron varios cambios potencialmente relevantes. La mejoría podría deberse total o parcialmente a la intervención, a otros cambios, a una combinación de factores o a procesos naturales. Sería necesaria evidencia comparativa y/o diseños que permitan aislar mejor el efecto de la intervención.",
 "evaluation_criteria": {
-"3_excelente": "Identifica la imposibilidad de atribuciÃ³n causal firme y enumera explicaciones alternativas plausibles, ademÃ¡s de indicar quÃ© tipo de evidencia reducirÃ­a la incertidumbre.",
-"2_parcialmente_correcta": "Reconoce confusiÃ³n causal y al menos una explicaciÃ³n alternativa.",
-"1_insuficiente": "Dice Ãºnicamente que 'no se sabe' sin explicar las fuentes de incertidumbre.",
-"0_incorrecta": "Atribuye la mejorÃ­a a la intervenciÃ³n simplemente porque ocurriÃ³ despuÃ©s de comenzarla.",
+"3_excelente": "Identifica la imposibilidad de atribución causal firme y enumera explicaciones alternativas plausibles, además de indicar qué tipo de evidencia reduciría la incertidumbre.",
+"2_parcialmente_correcta": "Reconoce confusión causal y al menos una explicación alternativa.",
+"1_insuficiente": "Dice únicamente que 'no se sabe' sin explicar las fuentes de incertidumbre.",
+"0_incorrecta": "Atribuye la mejoría a la intervención simplemente porque ocurrió después de comenzarla.",
 "errores_criticos": [
-"Confundir precedencia temporal con demostraciÃ³n causal."
+"Confundir precedencia temporal con demostración causal."
 ]
 },
-"source": "No requiere fuente externa especÃ­fica; evalÃºa inferencia causal ante mÃºltiples cambios concurrentes.",
-"notes": "La incertidumbre es deliberada: el objetivo es resistir una atribuciÃ³n causal basada exclusivamente en la secuencia temporal.",
+"source": "No requiere fuente externa específica; evalúa inferencia causal ante múltiples cambios concurrentes.",
+"notes": "La incertidumbre es deliberada: el objetivo es resistir una atribución causal basada exclusivamente en la secuencia temporal.",
 "language": "es-ES"
 },
 {
 "id": "PSY-025",
 "dimension": "communication",
-"topic": "condicionamiento clÃ¡sico",
+"topic": "condicionamiento clásico",
 "difficulty": "easy",
-"question": "Explica a una persona sin formaciÃ³n en psicologÃ­a quÃ© significa 'condicionamiento clÃ¡sico'. Utiliza un ejemplo cotidiano y evita utilizar terminologÃ­a tÃ©cnica sin explicarla.",
-"expected_answer": "Debe explicar que un estÃ­mulo que inicialmente no provoca una determinada respuesta puede llegar a provocarla despuÃ©s de asociarse repetidamente con otro estÃ­mulo que ya la produce. Un ejemplo vÃ¡lido serÃ­a que una persona llegue a sentir una reacciÃ³n anticipatoria al oÃ­r un sonido que repetidamente precede a una comida.",
+"question": "Explica a una persona sin formación en psicología qué significa 'condicionamiento clásico'. Utiliza un ejemplo cotidiano y evita utilizar terminología técnica sin explicarla.",
+"expected_answer": "Debe explicar que un estímulo que inicialmente no provoca una determinada respuesta puede llegar a provocarla después de asociarse repetidamente con otro estímulo que ya la produce. Un ejemplo válido sería que una persona llegue a sentir una reacción anticipatoria al oír un sonido que repetidamente precede a una comida.",
 "evaluation_criteria": {
-"3_excelente": "Explica el principio de asociaciÃ³n de forma comprensible, ofrece un ejemplo correcto y evita jerga no explicada.",
-"2_parcialmente_correcta": "Explica la asociaciÃ³n y proporciona un ejemplo, aunque con cierta jerga o simplificaciÃ³n.",
-"1_insuficiente": "Define el concepto de forma circular, excesivamente tÃ©cnica o con un ejemplo ambiguo.",
-"0_incorrecta": "Describe aprendizaje por consecuencias de una conducta en lugar de condicionamiento clÃ¡sico.",
+"3_excelente": "Explica el principio de asociación de forma comprensible, ofrece un ejemplo correcto y evita jerga no explicada.",
+"2_parcialmente_correcta": "Explica la asociación y proporciona un ejemplo, aunque con cierta jerga o simplificación.",
+"1_insuficiente": "Define el concepto de forma circular, excesivamente técnica o con un ejemplo ambiguo.",
+"0_incorrecta": "Describe aprendizaje por consecuencias de una conducta en lugar de condicionamiento clásico.",
 "errores_criticos": [
-"Confundir condicionamiento clÃ¡sico con condicionamiento operante."
+"Confundir condicionamiento clásico con condicionamiento operante."
 ]
 },
-"source": "No requiere fuente externa especÃ­fica para la tarea de comunicaciÃ³n; contenido conceptual estÃ¡ndar.",
-"notes": "La dimensiÃ³n principal es communication: el conocimiento subyacente es sencillo, pero se evalÃºa la capacidad de traducirlo a lenguaje accesible.",
+"source": "No requiere fuente externa específica para la tarea de comunicación; contenido conceptual estándar.",
+"notes": "La dimensión principal es communication: el conocimiento subyacente es sencillo, pero se evalúa la capacidad de traducirlo a lenguaje accesible.",
 "language": "es-ES"
 },
 {
 "id": "PSY-026",
 "dimension": "communication",
-"topic": "correlaciÃ³n y causalidad",
+"topic": "correlación y causalidad",
 "difficulty": "medium",
-"question": "Explica a un periodista que no tiene formaciÃ³n en estadÃ­stica por quÃ© encontrar una correlaciÃ³n entre dos variables psicolÃ³gicas no demuestra que una cause la otra. Incluye un ejemplo sencillo.",
-"expected_answer": "Debe explicarse que dos variables pueden estar relacionadas sin que una sea la causa directa de la otra. Puede existir causalidad inversa o una tercera variable que influya en ambas. Por ejemplo, si las personas que duermen menos presentan mÃ¡s ansiedad, los datos por sÃ­ solos no permiten saber si dormir poco aumenta la ansiedad, si la ansiedad reduce el sueÃ±o o si otro factor influye en ambos.",
+"question": "Explica a un periodista que no tiene formación en estadística por qué encontrar una correlación entre dos variables psicológicas no demuestra que una cause la otra. Incluye un ejemplo sencillo.",
+"expected_answer": "Debe explicarse que dos variables pueden estar relacionadas sin que una sea la causa directa de la otra. Puede existir causalidad inversa o una tercera variable que influya en ambas. Por ejemplo, si las personas que duermen menos presentan más ansiedad, los datos por sí solos no permiten saber si dormir poco aumenta la ansiedad, si la ansiedad reduce el sueño o si otro factor influye en ambos.",
 "evaluation_criteria": {
-"3_excelente": "Explica la diferencia entre asociaciÃ³n y causalidad con lenguaje no tÃ©cnico, incluye al menos dos mecanismos alternativos y un ejemplo correcto.",
-"2_parcialmente_correcta": "Explica que correlaciÃ³n no implica causalidad y da un ejemplo, pero ofrece una sola alternativa causal.",
+"3_excelente": "Explica la diferencia entre asociación y causalidad con lenguaje no técnico, incluye al menos dos mecanismos alternativos y un ejemplo correcto.",
+"2_parcialmente_correcta": "Explica que correlación no implica causalidad y da un ejemplo, pero ofrece una sola alternativa causal.",
 "1_insuficiente": "Utiliza correctamente la frase pero no consigue explicarla de forma comprensible.",
-"0_incorrecta": "Afirma que una correlaciÃ³n fuerte demuestra causalidad.",
+"0_incorrecta": "Afirma que una correlación fuerte demuestra causalidad.",
 "errores_criticos": [
-"Presentar la magnitud de una correlaciÃ³n como prueba de causalidad."
+"Presentar la magnitud de una correlación como prueba de causalidad."
 ]
 },
-"source": "No requiere fuente externa especÃ­fica; tarea de comunicaciÃ³n de un principio metodolÃ³gico bÃ¡sico.",
-"notes": "La audiencia estÃ¡ explÃ­citamente definida para controlar la dificultad lingÃ¼Ã­stica y permitir evaluar adaptaciÃ³n al destinatario.",
+"source": "No requiere fuente externa específica; tarea de comunicación de un principio metodológico básico.",
+"notes": "La audiencia está explícitamente definida para controlar la dificultad lingüística y permitir evaluar adaptación al destinatario.",
 "language": "es-ES"
 },
 {
@@ -509,83 +509,82 @@
 "dimension": "communication",
 "topic": "memoria y falsos recuerdos",
 "difficulty": "medium",
-"question": "Un familiar afirma: 'Si recuerdo algo con mucha claridad, significa que ocurriÃ³ exactamente asÃ­'. RespÃ³ndele de forma empÃ¡tica y cientÃ­ficamente precisa, explicando la diferencia entre recordar algo con confianza y recordar algo con exactitud.",
-"expected_answer": "Una respuesta adecuada debe validar que la sensaciÃ³n de claridad puede ser muy convincente sin afirmar que garantice exactitud. Debe explicar que la memoria es reconstructiva y que confianza y exactitud son conceptos distintos. Puede seÃ±alar que la informaciÃ³n posterior u otros factores pueden influir en el recuerdo.",
+"question": "Un familiar afirma: 'Si recuerdo algo con mucha claridad, significa que ocurrió exactamente así'. Respóndele de forma empática y científicamente precisa, explicando la diferencia entre recordar algo con confianza y recordar algo con exactitud.",
+"expected_answer": "Una respuesta adecuada debe validar que la sensación de claridad puede ser muy convincente sin afirmar que garantice exactitud. Debe explicar que la memoria es reconstructiva y que confianza y exactitud son conceptos distintos. Puede señalar que la información posterior u otros factores pueden influir en el recuerdo.",
 "evaluation_criteria": {
 "3_excelente": "Comunica la diferencia entre confianza y exactitud con tacto, evita invalidar innecesariamente a la persona y explica de forma comprensible la naturaleza reconstructiva de la memoria.",
-"2_parcialmente_correcta": "Explica correctamente la diferencia pero presenta un tono demasiado tajante o una explicaciÃ³n cientÃ­fica limitada.",
+"2_parcialmente_correcta": "Explica correctamente la diferencia pero presenta un tono demasiado tajante o una explicación científica limitada.",
 "1_insuficiente": "Afirma que la memoria puede fallar, pero no explica adecuadamente confianza frente a exactitud.",
 "0_incorrecta": "Afirma que un recuerdo claro es necesariamente verdadero o, en el extremo contrario, que los recuerdos claros son necesariamente falsos.",
 "errores_criticos": [
 "Afirmar que la vividez garantiza exactitud.",
-"Afirmar que todos los recuerdos autobiogrÃ¡ficos son necesariamente falsos."
+"Afirmar que todos los recuerdos autobiográficos son necesariamente falsos."
 ]
 },
 "source": "Loftus, E. F. (2005). Planting misinformation in the human mind: A 30-year investigation of the malleability of memory. Learning & Memory, 12(4), 361-366. DOI: 10.1101/lm.94705.",
-"notes": "Se evalÃºan simultÃ¡neamente precisiÃ³n cientÃ­fica, adaptaciÃ³n al destinatario y tono. La empatÃ­a no debe convertirse en validaciÃ³n factual de un recuerdo no verificado.",
+"notes": "Se evalúan simultáneamente precisión científica, adaptación al destinatario y tono. La empatía no debe convertirse en validación factual de un recuerdo no verificado.",
 "language": "es-ES"
 },
 {
 "id": "PSY-028",
 "dimension": "communication",
-"topic": "tamaÃ±o del efecto y significaciÃ³n estadÃ­stica",
+"topic": "tamaño del efecto y significación estadística",
 "difficulty": "hard",
-"question": "Explica a un responsable de un centro educativo por quÃ© un resultado estadÃ­sticamente significativo no implica necesariamente que el efecto sea importante en la prÃ¡ctica. Utiliza un ejemplo hipotÃ©tico relacionado con psicologÃ­a educativa.",
-"expected_answer": "Debe explicarse que la significaciÃ³n estadÃ­stica informa sobre la compatibilidad de los datos con la hipÃ³tesis nula bajo determinados supuestos, pero no determina por sÃ­ sola la magnitud ni la relevancia prÃ¡ctica del efecto. Un ejemplo vÃ¡lido serÃ­a una intervenciÃ³n que mejore una puntuaciÃ³n media en una cantidad minÃºscula pero obtenga p < 0,001 con una muestra muy grande. Para valorar importancia prÃ¡ctica tambiÃ©n deben considerarse tamaÃ±o del efecto, precisiÃ³n y consecuencias reales.",
+"question": "Explica a un responsable de un centro educativo por qué un resultado estadísticamente significativo no implica necesariamente que el efecto sea importante en la práctica. Utiliza un ejemplo hipotético relacionado con psicología educativa.",
+"expected_answer": "Debe explicarse que la significación estadística informa sobre la compatibilidad de los datos con la hipótesis nula bajo determinados supuestos, pero no determina por sí sola la magnitud ni la relevancia práctica del efecto. Un ejemplo válido sería una intervención que mejore una puntuación media en una cantidad minúscula pero obtenga p < 0,001 con una muestra muy grande. Para valorar importancia práctica también deben considerarse tamaño del efecto, precisión y consecuencias reales.",
 "evaluation_criteria": {
-"3_excelente": "Distingue significaciÃ³n estadÃ­stica de magnitud/relevancia prÃ¡ctica, explica el papel del tamaÃ±o muestral y aporta un ejemplo coherente con una diferencia pequeÃ±a pero estadÃ­sticamente significativa.",
-"2_parcialmente_correcta": "Explica la diferencia general y ofrece un ejemplo razonable, aunque con menor precisiÃ³n.",
-"1_insuficiente": "Afirma que 'significativo no significa importante' sin explicar por quÃ©.",
-"0_incorrecta": "Afirma que p < 0,05 implica automÃ¡ticamente un efecto importante para la prÃ¡ctica.",
+"3_excelente": "Distingue significación estadística de magnitud/relevancia práctica, explica el papel del tamaño muestral y aporta un ejemplo coherente con una diferencia pequeña pero estadísticamente significativa.",
+"2_parcialmente_correcta": "Explica la diferencia general y ofrece un ejemplo razonable, aunque con menor precisión.",
+"1_insuficiente": "Afirma que 'significativo no significa importante' sin explicar por qué.",
+"0_incorrecta": "Afirma que p < 0,05 implica automáticamente un efecto importante para la práctica.",
 "errores_criticos": [
-"Equiparar significaciÃ³n estadÃ­stica con importancia prÃ¡ctica."
+"Equiparar significación estadística con importancia práctica."
 ]
 },
 "source": "Wasserstein, R. L., & Lazar, N. A. (2016). The ASA Statement on p-Values: Context, Process, and Purpose. The American Statistician, 70(2), 129-133. DOI: 10.1080/00031305.2016.1154108.",
-"notes": "La tarea exige adaptar un concepto metodolÃ³gico a un destinatario profesional no especialista. El criterio principal no es la terminologÃ­a estadÃ­stica avanzada.",
+"notes": "La tarea exige adaptar un concepto metodológico a un destinatario profesional no especialista. El criterio principal no es la terminología estadística avanzada.",
 "language": "es-ES"
 },
 {
 "id": "PSY-029",
 "dimension": "communication",
-"topic": "teorÃ­a de la autodeterminaciÃ³n",
+"topic": "teoría de la autodeterminación",
 "difficulty": "medium",
-"question": "Explica a una madre sin formaciÃ³n en psicologÃ­a quÃ© significa que un adolescente tenga motivaciÃ³n autÃ³noma para estudiar. Diferencia esta idea de estudiar Ãºnicamente porque teme un castigo.",
-"expected_answer": "La motivaciÃ³n autÃ³noma implica que la persona experimenta la conducta como propia y respaldada por razones que acepta o valora, aunque la actividad no siempre sea placentera. Estudiar porque se considera importante o personalmente valioso puede ser autÃ³nomo. Estudiar Ãºnicamente para evitar un castigo representa una regulaciÃ³n mÃ¡s controlada externamente.",
+"question": "Explica a una madre sin formación en psicología qué significa que un adolescente tenga motivación autónoma para estudiar. Diferencia esta idea de estudiar únicamente porque teme un castigo.",
+"expected_answer": "La motivación autónoma implica que la persona experimenta la conducta como propia y respaldada por razones que acepta o valora, aunque la actividad no siempre sea placentera. Estudiar porque se considera importante o personalmente valioso puede ser autónomo. Estudiar únicamente para evitar un castigo representa una regulación más controlada externamente.",
 "evaluation_criteria": {
-"3_excelente": "Explica autonomÃ­a como autorregulaciÃ³n respaldada por razones aceptadas y diferencia claramente esta motivaciÃ³n de la conducta impulsada por amenaza o castigo.",
-"2_parcialmente_correcta": "Diferencia motivaciÃ³n autÃ³noma de presiÃ³n externa, pero simplifica en exceso la definiciÃ³n.",
-"1_insuficiente": "Equipara autonomÃ­a con estudiar porque apetece o sin ninguna influencia externa.",
-"0_incorrecta": "Afirma que cualquier conducta motivada por una consecuencia externa es necesariamente autÃ³noma.",
+"3_excelente": "Explica autonomía como autorregulación respaldada por razones aceptadas y diferencia claramente esta motivación de la conducta impulsada por amenaza o castigo.",
+"2_parcialmente_correcta": "Diferencia motivación autónoma de presión externa, pero simplifica en exceso la definición.",
+"1_insuficiente": "Equipara autonomía con estudiar porque apetece o sin ninguna influencia externa.",
+"0_incorrecta": "Afirma que cualquier conducta motivada por una consecuencia externa es necesariamente autónoma.",
 "errores_criticos": [
-"Definir motivaciÃ³n autÃ³noma como ausencia completa de razones externas.",
-"Equiparar autonomÃ­a exclusivamente con motivaciÃ³n intrÃ­nseca."
+"Definir motivación autónoma como ausencia completa de razones externas.",
+"Equiparar autonomía exclusivamente con motivación intrínseca."
 ]
 },
 "source": "Howard, J. L., Bureau, J. S., Guay, F., Chong, J. X. Y., & Ryan, R. M. (2021). Student Motivation and Associated Outcomes: A Meta-Analysis From Self-Determination Theory. Perspectives on Psychological Science, 16(6), 1300-1323. DOI: 10.1177/1745691620966789.",
-"notes": "El Ã­tem permite comprobar si el modelo evita la simplificaciÃ³n frecuente de autonomÃ­a = motivaciÃ³n intrÃ­nseca.",
+"notes": "El ítem permite comprobar si el modelo evita la simplificación frecuente de autonomía = motivación intrínseca.",
 "language": "es-ES"
 },
 {
 "id": "PSY-030",
 "dimension": "communication",
-"topic": "psicoterapia y evidencia cientÃ­fica",
+"topic": "psicoterapia y evidencia científica",
 "difficulty": "hard",
-"question": "Un paciente pregunta: 'Si la terapia cognitivo-conductual funciona para la depresiÃ³n, Â¿significa que seguro me funcionarÃ¡ a mÃ­?'. Responde de manera clara, comprensible y cientÃ­ficamente responsable, sin convertir la respuesta en una recomendaciÃ³n clÃ­nica personalizada.",
-"expected_answer": "Debe explicarse que la evidencia de eficacia de una intervenciÃ³n se refiere a resultados promedio obtenidos en determinados grupos y condiciones, no garantiza un resultado individual. Debe evitarse prometer eficacia. Es apropiado explicar que la respuesta puede variar entre personas y que la decisiÃ³n sobre una intervenciÃ³n concreta depende de una evaluaciÃ³n profesional y de las circunstancias individuales.",
+"question": "Un paciente pregunta: 'Si la terapia cognitivo-conductual funciona para la depresión, ¿significa que seguro me funcionará a mí?'. Responde de manera clara, comprensible y científicamente responsable, sin convertir la respuesta en una recomendación clínica personalizada.",
+"expected_answer": "Debe explicarse que la evidencia de eficacia de una intervención se refiere a resultados promedio obtenidos en determinados grupos y condiciones, no garantiza un resultado individual. Debe evitarse prometer eficacia. Es apropiado explicar que la respuesta puede variar entre personas y que la decisión sobre una intervención concreta depende de una evaluación profesional y de las circunstancias individuales.",
 "evaluation_criteria": {
-"3_excelente": "Distingue claramente evidencia poblacional de resultado individual, evita promesas, explica la variabilidad entre personas y mantiene una comunicaciÃ³n comprensible y responsable sin realizar una recomendaciÃ³n personalizada.",
+"3_excelente": "Distingue claramente evidencia poblacional de resultado individual, evita promesas, explica la variabilidad entre personas y mantiene una comunicación comprensible y responsable sin realizar una recomendación personalizada.",
 "2_parcialmente_correcta": "Aclara que la terapia no garantiza el resultado individual y reconoce variabilidad, pero desarrolla poco la diferencia entre evidencia grupal e individual.",
-"1_insuficiente": "Responde simplemente que 'depende de la persona' sin explicar el motivo cientÃ­fico.",
-"0_incorrecta": "Promete que la terapia funcionarÃ¡ o, en sentido contrario, afirma que la evidencia grupal no tiene ninguna utilidad para orientar decisiones individuales.",
+"1_insuficiente": "Responde simplemente que 'depende de la persona' sin explicar el motivo científico.",
+"0_incorrecta": "Promete que la terapia funcionará o, en sentido contrario, afirma que la evidencia grupal no tiene ninguna utilidad para orientar decisiones individuales.",
 "errores_criticos": [
 "Garantizar eficacia individual a partir de evidencia promedio.",
-"Presentar la evidencia de eficacia como irrelevante para cualquier decisiÃ³n individual."
+"Presentar la evidencia de eficacia como irrelevante para cualquier decisión individual."
 ]
 },
 "source": "Cuijpers, P., et al. (2016). How effective are cognitive behavior therapies for major depression and anxiety disorders? A meta-analytic update of the evidence. World Psychiatry, 15(3), 245-258. DOI: 10.1002/wps.20346.",
-"notes": "El Ã­tem evalÃºa comunicaciÃ³n de incertidumbre y evidencia, no consejo clÃ­nico. La dimensiÃ³n principal es communication porque el reto central es traducir correctamente evidencia poblacional a lenguaje comprensible sin prometer resultados individuales.",
+"notes": "El ítem evalúa comunicación de incertidumbre y evidencia, no consejo clínico. La dimensión principal es communication porque el reto central es traducir correctamente evidencia poblacional a lenguaje comprensible sin prometer resultados individuales.",
 "language": "es-ES"
 }
 ]
-
