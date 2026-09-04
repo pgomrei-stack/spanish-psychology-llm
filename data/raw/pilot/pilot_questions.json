@@ -21,7 +21,11 @@
       }
     ],
     "source": "Loftus, E. F., & Palmer, J. C. (1974). Reconstruction of automobile destruction: An example of the interaction between language and memory. Journal of Verbal Learning and Verbal Behavior, 13(5), 585-589. DOI: 10.1016/S0022-5371(74)80011-3.",
-    "notes": "Ítem factual de recuperación conceptual. La formulación evita reproducir directamente el paradigma clásico del accidente automovilístico. La explicación del mecanismo puede formularse de distintas maneras sin exigir una teoría única sobre el locus exacto de la distorsión. -- Respuesta incorrecta (0 puntos): Afirma que el efecto consiste en olvidar necesariamente el acontecimiento original o confunde el fenómeno con otro sesgo de memoria. -- Errores críticos (descalifican la respuesta): Afirmar que la desinformación siempre sustituye por completo el recuerdo original. | Definir el fenómeno como una alteración producida exclusivamente por información previa al acontecimiento.",
+    "notes": "Ítem factual de recuperación conceptual. La formulación evita reproducir directamente el paradigma clásico del accidente automovilístico. La explicación del mecanismo puede formularse de distintas maneras sin exigir una teoría única sobre el locus exacto de la distorsión.",
+    "critical_errors": [
+      "Afirmar que la desinformación siempre sustituye por completo el recuerdo original.",
+      "Definir el fenómeno como una alteración producida exclusivamente por información previa al acontecimiento."
+    ],
     "language": "es-ES"
   },
   {
@@ -46,7 +50,10 @@
       }
     ],
     "source": "Baddeley, A. (2000). The episodic buffer: A new component of working memory? Trends in Cognitive Sciences, 4(11), 417-423. DOI: 10.1016/S1364-6613(00)01538-2.",
-    "notes": "La pregunta evalúa conocimiento conceptual del modelo y no exige recordar detalles históricos de sus distintas versiones. -- Respuesta incorrecta (0 puntos): Atribuye al ejecutivo central la función exclusiva de almacenar información verbal o visuoespacial. -- Errores críticos (descalifican la respuesta): Definir el ejecutivo central como un almacén pasivo equivalente al bucle fonológico.",
+    "notes": "La pregunta evalúa conocimiento conceptual del modelo y no exige recordar detalles históricos de sus distintas versiones.",
+    "critical_errors": [
+      "Definir el ejecutivo central como un almacén pasivo equivalente al bucle fonológico."
+    ],
     "language": "es-ES"
   },
   {
@@ -71,7 +78,10 @@
       }
     ],
     "source": "Cepeda, N. J., Pashler, H., Vul, E., Wixted, J. T., & Rohrer, D. (2006). Distributed practice in verbal recall tasks: A review and quantitative synthesis. Psychological Bulletin, 132(3), 354-380. DOI: 10.1037/0033-2909.132.3.354.",
-    "notes": "La pregunta evita convertir el efecto en una regla absoluta: la literatura muestra dependencia de las condiciones de aprendizaje y evaluación. -- Respuesta incorrecta (0 puntos): Sostiene que estudiar todo seguido produce sistemáticamente mejor retención a largo plazo. -- Errores críticos (descalifican la respuesta): Confundir el efecto de espaciamiento con aumentar simplemente el número total de horas de estudio.",
+    "notes": "La pregunta evita convertir el efecto en una regla absoluta: la literatura muestra dependencia de las condiciones de aprendizaje y evaluación.",
+    "critical_errors": [
+      "Confundir el efecto de espaciamiento con aumentar simplemente el número total de horas de estudio."
+    ],
     "language": "es-ES"
   },
   {
@@ -96,7 +106,8 @@
       }
     ],
     "source": "MacLeod, C. M. (1991). Half a century of research on the Stroop effect: An integrative review. Psychological Bulletin, 109(2), 163-203. DOI: 10.1037/0033-2909.109.2.163.",
-    "notes": "La interpretación mecanística del efecto Stroop es objeto de debate; el ítem evalúa el fenómeno experimental básico y no exige adoptar una explicación teórica única. -- Respuesta incorrecta (0 puntos): Afirma que el efecto se produce porque la lectura se vuelve más lenta cuando palabra y tinta coinciden.",
+    "notes": "La interpretación mecanística del efecto Stroop es objeto de debate; el ítem evalúa el fenómeno experimental básico y no exige adoptar una explicación teórica única.",
+    "critical_errors": null,
     "language": "es-ES"
   },
   {
@@ -121,7 +132,11 @@
       }
     ],
     "source": "John, O. P., Naumann, L. P., & Soto, C. J. (2008). Paradigm shift to the integrative Big Five trait taxonomy. En O. P. John, R. W. Robins, & L. A. Pervin (eds.), Handbook of Personality: Theory and Research.",
-    "notes": "Se aceptan las denominaciones 'responsabilidad/escrupulosidad' y 'neuroticismo/estabilidad emocional' cuando se utilicen de manera conceptualmente consistente. -- Respuesta incorrecta (0 puntos): Presenta los Cinco Grandes como cinco trastornos de personalidad o proporciona una estructura sustancialmente diferente. -- Errores críticos (descalifican la respuesta): Presentar los factores como diagnósticos clínicos. | Sustituir sistemáticamente varios factores por constructos ajenos al modelo.",
+    "notes": "Se aceptan las denominaciones 'responsabilidad/escrupulosidad' y 'neuroticismo/estabilidad emocional' cuando se utilicen de manera conceptualmente consistente.",
+    "critical_errors": [
+      "Presentar los factores como diagnósticos clínicos.",
+      "Sustituir sistemáticamente varios factores por constructos ajenos al modelo."
+    ],
     "language": "es-ES"
   },
   {
@@ -146,7 +161,11 @@
       }
     ],
     "source": "Ryan, R. M., & Deci, E. L. (2000). Self-determination theory and the facilitation of intrinsic motivation, social development, and well-being. American Psychologist, 55(1), 68-78. DOI: 10.1037/0003-066X.55.1.68.",
-    "notes": "Ítem de conocimiento conceptual relativamente estable. -- Respuesta incorrecta (0 puntos): Proporciona constructos que no forman parte de las tres necesidades básicas de la teoría. -- Errores críticos (descalifican la respuesta): Confundir autonomía con independencia absoluta. | Definir competencia como competitividad frente a otras personas.",
+    "notes": "Ítem de conocimiento conceptual relativamente estable.",
+    "critical_errors": [
+      "Confundir autonomía con independencia absoluta.",
+      "Definir competencia como competitividad frente a otras personas."
+    ],
     "language": "es-ES"
   },
   {
@@ -171,7 +190,11 @@
       }
     ],
     "source": "No requiere fuente externa para la resolución del caso; se aplica la distinción funcional estándar entre refuerzo y castigo en análisis de la conducta.",
-    "notes": "La dimensión principal es reasoning: los términos relevantes son conocidos, pero la tarea exige aplicarlos funcionalmente al caso. -- Respuesta incorrecta (0 puntos): Lo clasifica como castigo o como refuerzo negativo sin una justificación compatible con el escenario. -- Errores críticos (descalifican la respuesta): Afirmar que 'positivo' significa necesariamente bueno y 'negativo' necesariamente malo. | Clasificar cualquier consecuencia agradable como refuerzo sin considerar su efecto sobre la conducta.",
+    "notes": "La dimensión principal es reasoning: los términos relevantes son conocidos, pero la tarea exige aplicarlos funcionalmente al caso.",
+    "critical_errors": [
+      "Afirmar que 'positivo' significa necesariamente bueno y 'negativo' necesariamente malo.",
+      "Clasificar cualquier consecuencia agradable como refuerzo sin considerar su efecto sobre la conducta."
+    ],
     "language": "es-ES"
   },
   {
@@ -196,7 +219,8 @@
       }
     ],
     "source": "Cepeda, N. J., et al. (2006). Distributed practice in verbal recall tasks: A review and quantitative synthesis. Psychological Bulletin, 132(3), 354-380. DOI: 10.1037/0033-2909.132.3.354.",
-    "notes": "Se utiliza 'en general' deliberadamente para evitar que la respuesta tenga que asumir que todos los intervalos producen el mismo efecto. -- Respuesta incorrecta (0 puntos): Predice sistemáticamente ventaja para A únicamente porque repitió los contenidos consecutivamente.",
+    "notes": "Se utiliza 'en general' deliberadamente para evitar que la respuesta tenga que asumir que todos los intervalos producen el mismo efecto.",
+    "critical_errors": null,
     "language": "es-ES"
   },
   {
@@ -221,7 +245,11 @@
       }
     ],
     "source": "No requiere fuente externa específica; aplica el principio metodológico de que una asociación correlacional, por sí sola, no identifica una relación causal.",
-    "notes": "Ítem diseñado para separar razonamiento causal de simple recuperación de la frase 'correlación no implica causalidad'. La rúbrica exige generación de explicaciones alternativas. -- Respuesta incorrecta (0 puntos): Afirma que r = 0,60 demuestra que la aplicación causa un aumento del bienestar. -- Errores críticos (descalifican la respuesta): Interpretar la magnitud de r como evidencia suficiente de causalidad. | Afirmar que la causalidad puede establecerse simplemente porque la asociación es estadísticamente significativa.",
+    "notes": "Ítem diseñado para separar razonamiento causal de simple recuperación de la frase 'correlación no implica causalidad'. La rúbrica exige generación de explicaciones alternativas.",
+    "critical_errors": [
+      "Interpretar la magnitud de r como evidencia suficiente de causalidad.",
+      "Afirmar que la causalidad puede establecerse simplemente porque la asociación es estadísticamente significativa."
+    ],
     "language": "es-ES"
   },
   {
@@ -246,7 +274,8 @@
       }
     ],
     "source": "Ryan, R. M., & Deci, E. L. (2000). Self-determination theory and the facilitation of intrinsic motivation, social development, and well-being. American Psychologist, 55(1), 68-78. DOI: 10.1037/0003-066X.55.1.68.",
-    "notes": "El segundo componente está formulado como posibilidad, no como consecuencia necesaria. -- Respuesta incorrecta (0 puntos): Considera que la elección apoya principalmente relación o interpreta que cualquier elección garantiza motivación intrínseca.",
+    "notes": "El segundo componente está formulado como posibilidad, no como consecuencia necesaria.",
+    "critical_errors": null,
     "language": "es-ES"
   },
   {
@@ -271,7 +300,11 @@
       }
     ],
     "source": "Dagan, O., et al. (2024). Attachment relationship quality with mothers and fathers and child temperament: An individual participant data meta-analysis. Developmental Psychology, 60(11), 2144-2156. DOI: 10.1037/dev0001677.",
-    "notes": "El ítem evalúa razonamiento causal y no pretende establecer que el apego carezca de efectos causales; la cuestión es si el razonamiento presentado basta para demostrarlos. -- Respuesta incorrecta (0 puntos): Afirma que la precedencia temporal demuestra causalidad. -- Errores críticos (descalifican la respuesta): Considerar que cualquier asociación longitudinal prueba causalidad. | Afirmar que una relación de apego no puede estar relacionada causalmente con ningún resultado por tratarse de una variable psicológica.",
+    "notes": "El ítem evalúa razonamiento causal y no pretende establecer que el apego carezca de efectos causales; la cuestión es si el razonamiento presentado basta para demostrarlos.",
+    "critical_errors": [
+      "Considerar que cualquier asociación longitudinal prueba causalidad.",
+      "Afirmar que una relación de apego no puede estar relacionada causalmente con ningún resultado por tratarse de una variable psicológica."
+    ],
     "language": "es-ES"
   },
   {
@@ -296,7 +329,10 @@
       }
     ],
     "source": "Shallice, T. (1988). From Neuropsychology to Mental Structure. Cambridge University Press.",
-    "notes": "Se admite hablar de 'sistemas', 'procesos' o 'componentes parcialmente diferenciados' sin exigir una teoría anatómica concreta. -- Respuesta incorrecta (0 puntos): Concluye que los dos patrones demuestran por sí solos la existencia de dos áreas cerebrales anatómicamente independientes. -- Errores críticos (descalifican la respuesta): Equiparar automáticamente doble disociación conductual con localización anatómica independiente.",
+    "notes": "Se admite hablar de 'sistemas', 'procesos' o 'componentes parcialmente diferenciados' sin exigir una teoría anatómica concreta.",
+    "critical_errors": [
+      "Equiparar automáticamente doble disociación conductual con localización anatómica independiente."
+    ],
     "language": "es-ES"
   },
   {
@@ -321,7 +357,10 @@
       }
     ],
     "source": "Shewach, O. R., Sackett, P. R., & Quint, S. (2019). Stereotype threat effects in settings with features likely versus unlikely in operational test settings: A meta-analysis. Journal of Applied Psychology, 104(12), 1514-1534. DOI: 10.1037/apl0000420.",
-    "notes": "Ítem diseñado para evaluar extrapolación indebida de evidencia experimental. No exige adoptar una posición sobre la magnitud global del fenómeno. -- Respuesta incorrecta (0 puntos): Acepta la afirmación como conclusión directa de un metaanálisis. -- Errores críticos (descalifican la respuesta): Interpretar un efecto experimental como explicación suficiente de todas las diferencias grupales observadas en la población.",
+    "notes": "Ítem diseñado para evaluar extrapolación indebida de evidencia experimental. No exige adoptar una posición sobre la magnitud global del fenómeno.",
+    "critical_errors": [
+      "Interpretar un efecto experimental como explicación suficiente de todas las diferencias grupales observadas en la población."
+    ],
     "language": "es-ES"
   },
   {
@@ -346,7 +385,10 @@
       }
     ],
     "source": "Cuijpers, P., Karyotaki, E., Weitz, E., Andersson, G., Hollon, S. D., & van Straten, A. (2014). The effects of psychotherapies for major depression in adults on remission, recovery and improvement: A meta-analysis. Journal of Affective Disorders, 159, 11-20. Para la cuestión específica sobre CBT: Cuijpers, P., et al. (2016). How effective are cognitive behavior therapies for major depression and anxiety disorders? World Psychiatry, 15(3), 245-258. DOI: 10.1002/wps.20346.",
-    "notes": "La crítica debe centrarse en la inferencia desde un comparador concreto a una afirmación de superioridad general. -- Respuesta incorrecta (0 puntos): Concluye que un efecto grande frente a lista de espera demuestra que la terapia es superior a todos los demás tratamientos. -- Errores críticos (descalifican la respuesta): Confundir tamaño del efecto frente a lista de espera con evidencia de superioridad universal frente a tratamientos activos.",
+    "notes": "La crítica debe centrarse en la inferencia desde un comparador concreto a una afirmación de superioridad general.",
+    "critical_errors": [
+      "Confundir tamaño del efecto frente a lista de espera con evidencia de superioridad universal frente a tratamientos activos."
+    ],
     "language": "es-ES"
   },
   {
@@ -371,7 +413,10 @@
       }
     ],
     "source": "Wasserstein, R. L., & Lazar, N. A. (2016). The ASA Statement on p-Values: Context, Process, and Purpose. The American Statistician, 70(2), 129-133. DOI: 10.1080/00031305.2016.1154108.",
-    "notes": "Ítem metodológico con una afirmación deliberadamente plausible y frecuente. La rúbrica diferencia corrección terminológica de comprensión conceptual. -- Respuesta incorrecta (0 puntos): Acepta que p = 0,03 implica un 97 % de probabilidad de que la hipótesis de investigación sea verdadera. -- Errores críticos (descalifican la respuesta): Interpretar 1 - p como probabilidad de verdad de la hipótesis alternativa.",
+    "notes": "Ítem metodológico con una afirmación deliberadamente plausible y frecuente. La rúbrica diferencia corrección terminológica de comprensión conceptual.",
+    "critical_errors": [
+      "Interpretar 1 - p como probabilidad de verdad de la hipótesis alternativa."
+    ],
     "language": "es-ES"
   },
   {
@@ -396,7 +441,10 @@
       }
     ],
     "source": "Roberts, B. W., Walton, K. E., & Viechtbauer, W. (2006). Patterns of mean-level change in personality traits across the life course: A meta-analysis of longitudinal studies. Psychological Bulletin, 132(1), 1-25. DOI: 10.1037/0033-2909.132.1.1.",
-    "notes": "La edad de 18 años se incluye como afirmación deliberadamente excesiva; el objetivo es analizar el concepto, no memorizar una edad de cambio. -- Respuesta incorrecta (0 puntos): Afirma que estabilidad significa que los rasgos no pueden cambiar después de la adolescencia. -- Errores críticos (descalifican la respuesta): Definir estabilidad de los rasgos como ausencia absoluta de cambio.",
+    "notes": "La edad de 18 años se incluye como afirmación deliberadamente excesiva; el objetivo es analizar el concepto, no memorizar una edad de cambio.",
+    "critical_errors": [
+      "Definir estabilidad de los rasgos como ausencia absoluta de cambio."
+    ],
     "language": "es-ES"
   },
   {
@@ -421,7 +469,8 @@
       }
     ],
     "source": "Ryan, R. M., & Deci, E. L. (2000). Self-determination theory and the facilitation of intrinsic motivation, social development, and well-being. American Psychologist, 55(1), 68-78. DOI: 10.1037/0003-066X.55.1.68.",
-    "notes": "El ítem evalúa detección de absolutismos teóricos y no exige resolver toda la literatura sobre recompensas. -- Respuesta incorrecta (0 puntos): Acepta que cualquier recompensa externa necesariamente elimina la motivación intrínseca.",
+    "notes": "El ítem evalúa detección de absolutismos teóricos y no exige resolver toda la literatura sobre recompensas.",
+    "critical_errors": null,
     "language": "es-ES"
   },
   {
@@ -446,7 +495,8 @@
       }
     ],
     "source": "No requiere una fuente externa única; se basa en principios generales de inferencia científica, replicabilidad y evaluación crítica de evidencia.",
-    "notes": "Se busca razonamiento metodológico generalizable, no conocimiento de un caso concreto de crisis de replicación. -- Respuesta incorrecta (0 puntos): Considera que significación estadística implica que el efecto está científicamente establecido.",
+    "notes": "Se busca razonamiento metodológico generalizable, no conocimiento de un caso concreto de crisis de replicación.",
+    "critical_errors": null,
     "language": "es-ES"
   },
   {
@@ -471,7 +521,10 @@
       }
     ],
     "source": "No requiere una fuente externa específica; el objetivo es evaluar límites de inferencia y no realizar un diagnóstico.",
-    "notes": "La incertidumbre es deliberada. El ítem evita que identificar un trastorno sea la tarea principal. -- Respuesta incorrecta (0 puntos): Establece un diagnóstico concreto como conclusión fiable. -- Errores críticos (descalifican la respuesta): Emitir un diagnóstico clínico definitivo basándose exclusivamente en los síntomas proporcionados.",
+    "notes": "La incertidumbre es deliberada. El ítem evita que identificar un trastorno sea la tarea principal.",
+    "critical_errors": [
+      "Emitir un diagnóstico clínico definitivo basándose exclusivamente en los síntomas proporcionados."
+    ],
     "language": "es-ES"
   },
   {
@@ -496,7 +549,8 @@
       }
     ],
     "source": "No requiere fuente externa específica; se evalúa razonamiento sobre límites de una asociación observacional.",
-    "notes": "Ítem de incertidumbre: la respuesta óptima no selecciona una explicación causal sin evidencia suficiente. -- Respuesta incorrecta (0 puntos): Concluye que dormir poco causa ansiedad únicamente por la asociación observada.",
+    "notes": "Ítem de incertidumbre: la respuesta óptima no selecciona una explicación causal sin evidencia suficiente.",
+    "critical_errors": null,
     "language": "es-ES"
   },
   {
@@ -521,7 +575,10 @@
       }
     ],
     "source": "Koriat, A. (1997). Monitoring one's own knowledge during study: A cue-utilization approach to judgments of learning. Journal of Experimental Psychology: General, 126(4), 349-370. DOI: 10.1037/0096-3445.126.4.349.",
-    "notes": "La fuente se utiliza para el principio general de que los juicios subjetivos de memoria no son equivalentes a exactitud objetiva; no se exige una correspondencia perfecta entre confianza y error. -- Respuesta incorrecta (0 puntos): Considera que una confianza elevada demuestra que el recuerdo es exacto. -- Errores críticos (descalifican la respuesta): Equiparar vividez o confianza subjetiva con verificación objetiva del recuerdo.",
+    "notes": "La fuente se utiliza para el principio general de que los juicios subjetivos de memoria no son equivalentes a exactitud objetiva; no se exige una correspondencia perfecta entre confianza y error.",
+    "critical_errors": [
+      "Equiparar vividez o confianza subjetiva con verificación objetiva del recuerdo."
+    ],
     "language": "es-ES"
   },
   {
@@ -546,7 +603,10 @@
       }
     ],
     "source": "No requiere una fuente externa específica; evalúa límites de generalización e inferencia estadística.",
-    "notes": "La pregunta deliberadamente omite información sobre el diseño. Esa omisión es el objeto de evaluación, no un defecto accidental. -- Respuesta incorrecta (0 puntos): Considera que significación estadística en 20 participantes demuestra eficacia para la población general. -- Errores críticos (descalifican la respuesta): Usar la significación estadística como prueba suficiente de validez externa.",
+    "notes": "La pregunta deliberadamente omite información sobre el diseño. Esa omisión es el objeto de evaluación, no un defecto accidental.",
+    "critical_errors": [
+      "Usar la significación estadística como prueba suficiente de validez externa."
+    ],
     "language": "es-ES"
   },
   {
@@ -571,7 +631,8 @@
       }
     ],
     "source": "No requiere fuente externa específica; el objetivo es evaluar incertidumbre inferencial en la interpretación de conducta observable.",
-    "notes": "La ambigüedad es deliberada y constituye el objetivo del ítem. No se presupone una cultura comunicativa concreta. -- Respuesta incorrecta (0 puntos): Concluye que evitar la mirada y permanecer callado demuestra enfado.",
+    "notes": "La ambigüedad es deliberada y constituye el objetivo del ítem. No se presupone una cultura comunicativa concreta.",
+    "critical_errors": null,
     "language": "es-ES"
   },
   {
@@ -596,7 +657,10 @@
       }
     ],
     "source": "No requiere fuente externa específica; evalúa inferencia causal ante múltiples cambios concurrentes.",
-    "notes": "La incertidumbre es deliberada: el objetivo es resistir una atribución causal basada exclusivamente en la secuencia temporal. -- Respuesta incorrecta (0 puntos): Atribuye la mejoría a la intervención simplemente porque ocurrió después de comenzarla. -- Errores críticos (descalifican la respuesta): Confundir precedencia temporal con demostración causal.",
+    "notes": "La incertidumbre es deliberada: el objetivo es resistir una atribución causal basada exclusivamente en la secuencia temporal.",
+    "critical_errors": [
+      "Confundir precedencia temporal con demostración causal."
+    ],
     "language": "es-ES"
   },
   {
@@ -621,7 +685,10 @@
       }
     ],
     "source": "No requiere fuente externa específica para la tarea de comunicación; contenido conceptual estándar.",
-    "notes": "La dimensión principal es communication: el conocimiento subyacente es sencillo, pero se evalúa la capacidad de traducirlo a lenguaje accesible. -- Respuesta incorrecta (0 puntos): Describe aprendizaje por consecuencias de una conducta en lugar de condicionamiento clásico. -- Errores críticos (descalifican la respuesta): Confundir condicionamiento clásico con condicionamiento operante.",
+    "notes": "La dimensión principal es communication: el conocimiento subyacente es sencillo, pero se evalúa la capacidad de traducirlo a lenguaje accesible.",
+    "critical_errors": [
+      "Confundir condicionamiento clásico con condicionamiento operante."
+    ],
     "language": "es-ES"
   },
   {
@@ -646,7 +713,10 @@
       }
     ],
     "source": "No requiere fuente externa específica; tarea de comunicación de un principio metodológico básico.",
-    "notes": "La audiencia está explícitamente definida para controlar la dificultad lingüística y permitir evaluar adaptación al destinatario. -- Respuesta incorrecta (0 puntos): Afirma que una correlación fuerte demuestra causalidad. -- Errores críticos (descalifican la respuesta): Presentar la magnitud de una correlación como prueba de causalidad.",
+    "notes": "La audiencia está explícitamente definida para controlar la dificultad lingüística y permitir evaluar adaptación al destinatario.",
+    "critical_errors": [
+      "Presentar la magnitud de una correlación como prueba de causalidad."
+    ],
     "language": "es-ES"
   },
   {
@@ -671,7 +741,11 @@
       }
     ],
     "source": "Loftus, E. F. (2005). Planting misinformation in the human mind: A 30-year investigation of the malleability of memory. Learning & Memory, 12(4), 361-366. DOI: 10.1101/lm.94705.",
-    "notes": "Se evalúan simultáneamente precisión científica, adaptación al destinatario y tono. La empatía no debe convertirse en validación factual de un recuerdo no verificado. -- Respuesta incorrecta (0 puntos): Afirma que un recuerdo claro es necesariamente verdadero o, en el extremo contrario, que los recuerdos claros son necesariamente falsos. -- Errores críticos (descalifican la respuesta): Afirmar que la vividez garantiza exactitud. | Afirmar que todos los recuerdos autobiográficos son necesariamente falsos.",
+    "notes": "Se evalúan simultáneamente precisión científica, adaptación al destinatario y tono. La empatía no debe convertirse en validación factual de un recuerdo no verificado.",
+    "critical_errors": [
+      "Afirmar que la vividez garantiza exactitud.",
+      "Afirmar que todos los recuerdos autobiográficos son necesariamente falsos."
+    ],
     "language": "es-ES"
   },
   {
@@ -696,7 +770,10 @@
       }
     ],
     "source": "Wasserstein, R. L., & Lazar, N. A. (2016). The ASA Statement on p-Values: Context, Process, and Purpose. The American Statistician, 70(2), 129-133. DOI: 10.1080/00031305.2016.1154108.",
-    "notes": "La tarea exige adaptar un concepto metodológico a un destinatario profesional no especialista. El criterio principal no es la terminología estadística avanzada. -- Respuesta incorrecta (0 puntos): Afirma que p < 0,05 implica automáticamente un efecto importante para la práctica. -- Errores críticos (descalifican la respuesta): Equiparar significación estadística con importancia práctica.",
+    "notes": "La tarea exige adaptar un concepto metodológico a un destinatario profesional no especialista. El criterio principal no es la terminología estadística avanzada.",
+    "critical_errors": [
+      "Equiparar significación estadística con importancia práctica."
+    ],
     "language": "es-ES"
   },
   {
@@ -721,7 +798,11 @@
       }
     ],
     "source": "Howard, J. L., Bureau, J. S., Guay, F., Chong, J. X. Y., & Ryan, R. M. (2021). Student Motivation and Associated Outcomes: A Meta-Analysis From Self-Determination Theory. Perspectives on Psychological Science, 16(6), 1300-1323. DOI: 10.1177/1745691620966789.",
-    "notes": "El ítem permite comprobar si el modelo evita la simplificación frecuente de autonomía = motivación intrínseca. -- Respuesta incorrecta (0 puntos): Afirma que cualquier conducta motivada por una consecuencia externa es necesariamente autónoma. -- Errores críticos (descalifican la respuesta): Definir motivación autónoma como ausencia completa de razones externas. | Equiparar autonomía exclusivamente con motivación intrínseca.",
+    "notes": "El ítem permite comprobar si el modelo evita la simplificación frecuente de autonomía = motivación intrínseca.",
+    "critical_errors": [
+      "Definir motivación autónoma como ausencia completa de razones externas.",
+      "Equiparar autonomía exclusivamente con motivación intrínseca."
+    ],
     "language": "es-ES"
   },
   {
@@ -746,7 +827,11 @@
       }
     ],
     "source": "Cuijpers, P., et al. (2016). How effective are cognitive behavior therapies for major depression and anxiety disorders? A meta-analytic update of the evidence. World Psychiatry, 15(3), 245-258. DOI: 10.1002/wps.20346.",
-    "notes": "El ítem evalúa comunicación de incertidumbre y evidencia, no consejo clínico. La dimensión principal es communication porque el reto central es traducir correctamente evidencia poblacional a lenguaje comprensible sin prometer resultados individuales. -- Respuesta incorrecta (0 puntos): Promete que la terapia funcionará o, en sentido contrario, afirma que la evidencia grupal no tiene ninguna utilidad para orientar decisiones individuales. -- Errores críticos (descalifican la respuesta): Garantizar eficacia individual a partir de evidencia promedio. | Presentar la evidencia de eficacia como irrelevante para cualquier decisión individual.",
+    "notes": "El ítem evalúa comunicación de incertidumbre y evidencia, no consejo clínico. La dimensión principal es communication porque el reto central es traducir correctamente evidencia poblacional a lenguaje comprensible sin prometer resultados individuales.",
+    "critical_errors": [
+      "Garantizar eficacia individual a partir de evidencia promedio.",
+      "Presentar la evidencia de eficacia como irrelevante para cualquier decisión individual."
+    ],
     "language": "es-ES"
   }
 ]
