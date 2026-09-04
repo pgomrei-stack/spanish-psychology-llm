@@ -16,7 +16,7 @@
   "properties": {
     "id": {
       "type": "string",
-      "pattern": "^[A-Z]{2}_[0-9]{3}$"
+      "pattern": "^PSY-[0-9]{3}$"
     },
     "dimension": {
       "type": "string",
@@ -81,6 +81,15 @@
         "string",
         "null"
       ]
+    },
+    "critical_errors": {
+      "type": [
+        "array",
+        "null"
+      ],
+      "items": {
+        "type": "string"
+      }
     },
     "language": {
       "type": "string",
