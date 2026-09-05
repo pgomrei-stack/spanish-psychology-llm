@@ -1,0 +1,425 @@
+[
+  {
+    "id": "PSY-031",
+    "dimension": "knowledge",
+    "topic": "psicopatología: esquizofrenia y trastornos disociativos",
+    "difficulty": "easy",
+    "question": "En el lenguaje cotidiano es frecuente equiparar la esquizofrenia con tener 'doble personalidad' o 'personalidades múltiples'. Explica por qué esa equiparación es incorrecta: indica qué tipo de alteraciones caracterizan realmente a la esquizofrenia, con qué otro cuadro clínico se la está confundiendo y a qué alude el término 'escisión' que da nombre al trastorno.",
+    "expected_answer": "La esquizofrenia se caracteriza por síntomas psicóticos —delirios, alucinaciones, discurso desorganizado, conducta desorganizada o catatónica— y por síntomas negativos como el aplanamiento afectivo, la abulia o la alogia, acompañados habitualmente de deterioro del funcionamiento; en ningún caso implica la alternancia entre varias identidades. La confusión procede del trastorno de identidad disociativo, un cuadro distinto, perteneciente a los trastornos disociativos, definido por la presencia de dos o más estados de identidad diferenciados y por amnesia para información autobiográfica. El término 'escisión' presente en el nombre no alude a una división de la personalidad en varias identidades, sino a una disociación entre funciones psíquicas —pensamiento, afecto y conducta— tal como se formuló en su origen conceptual.",
+    "evaluation_criteria": [
+      {
+        "criterion": "Rechaza la equiparación, describe la esquizofrenia mediante síntomas psicóticos y menciona además síntomas negativos o deterioro funcional, identifica el trastorno de identidad disociativo como el cuadro con el que se confunde y explica correctamente que 'escisión' se refiere a la disociación entre funciones psíquicas y no a una multiplicidad de identidades.",
+        "max_points": 3
+      },
+      {
+        "criterion": "Rechaza la equiparación y describe adecuadamente la esquizofrenia, pero no identifica el cuadro con el que se confunde o no explica correctamente el sentido del término 'escisión'.",
+        "max_points": 2
+      },
+      {
+        "criterion": "Se limita a afirmar que la equiparación es un mito popular, sin describir qué caracteriza a la esquizofrenia ni distinguirla de otro cuadro.",
+        "max_points": 1
+      }
+    ],
+    "source": "American Psychiatric Association (2022). Diagnostic and Statistical Manual of Mental Disorders (5th ed., text revision, DSM-5-TR). Washington, DC: American Psychiatric Association Publishing. Capítulos 'Schizophrenia Spectrum and Other Psychotic Disorders' y 'Dissociative Disorders'.",
+    "notes": "Ítem 'easy' por demanda cognitiva (identificación y distinción conceptual, sin aplicación ni evaluación de evidencia), pero no es recuerdo trivial: mide un error conceptual muy extendido y el elemento realmente discriminativo es el tercero —el sentido de 'escisión'—, que un modelo mediocre suele omitir limitándose a negar el mito. No hay ningún ítem del piloto sobre psicosis ni sobre trastornos disociativos; PSY-019 usa una viñeta de síntomas depresivos, aquí no hay viñeta ni persona a la que evaluar, por lo que no se solapa. Cumple G6: no se pide diagnosticar a nadie, solo describir constructos nosológicos.",
+    "critical_errors": [
+      "Describir la esquizofrenia como la alternancia entre varias identidades o personalidades.",
+      "Presentar el trastorno de identidad disociativo como un subtipo o una variante de la esquizofrenia.",
+      "Afirmar que el término 'escisión' se refiere a una división de la personalidad en identidades separadas."
+    ],
+    "language": "es-ES"
+  },
+  {
+    "id": "PSY-032",
+    "dimension": "knowledge",
+    "topic": "lateralización cerebral y neuromitos",
+    "difficulty": "easy",
+    "question": "Es habitual oír que existen personas 'de hemisferio izquierdo', analíticas, y personas 'de hemisferio derecho', creativas. Indica qué parte de esta idea tiene respaldo en la evidencia sobre lateralización cerebral y qué parte no lo tiene, y explica en qué consiste exactamente el salto injustificado.",
+    "expected_answer": "Sí está respaldado que existe lateralización funcional: determinadas funciones muestran una dominancia hemisférica relativa, como el procesamiento del lenguaje, que en la mayoría de las personas diestras se apoya predominantemente en el hemisferio izquierdo. Lo que no tiene respaldo es que las personas se dividan en perfiles estables de dominancia hemisférica global que explicarían rasgos como ser analítico o creativo: los estudios de conectividad funcional no encuentran que los individuos se agrupen en redes lateralizadas hacia un hemisferio u otro. El salto injustificado consiste en pasar de una lateralización relativa y específica de ciertas funciones a una tipología de personas, ignorando además que la lateralización es de grado y no absoluta y que ambos hemisferios operan de forma coordinada —a través del cuerpo calloso— en prácticamente cualquier tarea cognitiva compleja.",
+    "evaluation_criteria": [
+      {
+        "criterion": "Distingue las dos partes: afirma que la lateralización funcional existe y la ilustra con un ejemplo correcto, niega la existencia de perfiles individuales de dominancia hemisférica global, y explica el salto injustificado señalando el paso de funciones a tipos de persona o el carácter relativo y coordinado de la lateralización.",
+        "max_points": 3
+      },
+      {
+        "criterion": "Niega correctamente la tipología de personas y menciona que sí existe lateralización, pero no explica en qué consiste el salto injustificado o no aporta ningún ejemplo de función lateralizada.",
+        "max_points": 2
+      },
+      {
+        "criterion": "Se limita a calificar la idea de neuromito, o bien la rechaza negando que exista lateralización funcional alguna.",
+        "max_points": 1
+      }
+    ],
+    "source": "Nielsen, J. A., Zielinski, B. A., Ferguson, M. A., Lainhart, J. E., & Anderson, J. S. (2013). An evaluation of the left-brain vs. right-brain hypothesis with resting state functional connectivity magnetic resonance imaging. PLOS ONE, 8(8), e71275. DOI: 10.1371/journal.pone.0071275.",
+    "notes": "Ítem 'easy' por demanda cognitiva (identificación y discriminación), pero discriminativo por su estructura de dos caras: el modo típico de fallar no es aceptar el mito, sino sobrecorregirlo negando la lateralización funcional. Es esa sobrecorrección lo que separa a un modelo mediocre de uno bueno. No se solapa con PSY-012, único ítem del piloto con contenido neuropsicológico: aquel evalúa la lógica inferencial de la doble disociación, mientras que este evalúa conocimiento sobre organización hemisférica y el límite de lo que la evidencia sostiene.",
+    "critical_errors": [
+      "Negar que exista ninguna forma de lateralización funcional en el cerebro.",
+      "Afirmar que funciones cognitivas complejas como el lenguaje o la creatividad residen íntegramente en un único hemisferio.",
+      "Aceptar como establecida la clasificación de las personas por hemisferio dominante."
+    ],
+    "language": "es-ES"
+  },
+  {
+    "id": "PSY-033",
+    "dimension": "knowledge",
+    "topic": "empatía y procesos afines",
+    "difficulty": "medium",
+    "question": "Bajo la palabra 'empatía' se agrupan en el lenguaje común fenómenos que la psicología distingue. Define la empatía diferenciando sus componentes afectivo y cognitivo y distínguela después del contagio emocional y del malestar personal, indicando qué separa a cada uno de ellos de la empatía.",
+    "expected_answer": "La empatía se describe habitualmente con al menos dos componentes: uno afectivo, consistente en compartir o resonar con el estado emocional de otra persona, y uno cognitivo, consistente en comprender o representar ese estado, ligado a la toma de perspectiva o mentalización. El contagio emocional es un proceso más automático en el que se adopta el estado emocional ajeno sin mantener necesariamente la distinción entre uno mismo y el otro ni comprender su origen: falta el componente cognitivo y la atribución del estado a la otra persona. El malestar personal es una reacción aversiva centrada en uno mismo ante el sufrimiento ajeno; se distingue de la preocupación empática, orientada al otro, en que tiende a motivar la reducción del propio malestar —por ejemplo, evitando o abandonando la situación— en lugar de la conducta de ayuda. El rasgo que articula estas distinciones es el mantenimiento de la distinción entre uno mismo y el otro junto con la orientación hacia el otro.",
+    "evaluation_criteria": [
+      {
+        "criterion": "Define la empatía con sus dos componentes, diferencia el contagio emocional apelando a su automaticidad o a la ausencia de distinción yo-otro, diferencia el malestar personal por su orientación hacia uno mismo, y menciona la consecuencia motivacional distinta del malestar personal frente a la preocupación empática.",
+        "max_points": 3
+      },
+      {
+        "criterion": "Define la empatía con sus dos componentes y distingue correctamente uno de los dos fenómenos, pero confunde parcialmente el otro o no explica en qué se diferencia.",
+        "max_points": 2
+      },
+      {
+        "criterion": "Define la empatía de forma genérica como 'ponerse en el lugar del otro' sin diferenciar componentes ni separarla de los otros dos fenómenos.",
+        "max_points": 1
+      }
+    ],
+    "source": "Batson, C. D. (2009). These things called empathy: Eight related but distinct phenomena. En J. Decety & W. Ickes (eds.), The Social Neuroscience of Empathy (pp. 3-15). Cambridge, MA: MIT Press.",
+    "notes": "Se etiqueta 'medium' y no 'easy' por coherencia con la calibración interna del dataset: PSY-005 ya asigna 'medium' a una tarea de nombrar y describir varios constructos de un mismo modelo, y aquí se exige además contrastar tres constructos entre sí. Se aceptan denominaciones alternativas ('preocupación empática', 'compasión', 'distrés personal') siempre que se usen de forma conceptualmente consistente. No se solapa con PSY-023, que es un ítem de incertidumbre sobre la inferencia de estados emocionales a partir de conducta observable: aquí no hay inferencia sobre un caso, sino delimitación de constructos.",
+    "critical_errors": [
+      "Definir la empatía como sentir exactamente la misma emoción que la otra persona, sin distinción entre uno mismo y el otro.",
+      "Tratar el malestar personal y la preocupación empática como equivalentes, atribuyéndoles las mismas consecuencias motivacionales.",
+      "Presentar el contagio emocional como una forma plenamente desarrollada de empatía cognitiva."
+    ],
+    "language": "es-ES"
+  },
+  {
+    "id": "PSY-034",
+    "dimension": "knowledge",
+    "topic": "lenguaje y cognición: relatividad lingüística",
+    "difficulty": "medium",
+    "question": "Distingue la versión fuerte de la hipótesis de Sapir-Whorf, conocida como determinismo lingüístico, de su versión débil o relatividad lingüística, e indica qué sostiene y qué no sostiene la evidencia empírica sobre cada una. Ilustra tu respuesta con un dominio de investigación concreto.",
+    "expected_answer": "La versión fuerte sostiene que la lengua determina el pensamiento, de modo que las categorías no codificadas léxicamente no podrían pensarse ni percibirse. La versión débil sostiene que la lengua influye en procesos cognitivos como la categorización, la atención selectiva o la memoria, sin impedir la representación de aquello que no está codificado. La evidencia no sostiene la versión fuerte: los hablantes discriminan y aprenden categorías que su lengua no marca léxicamente. Sí existe apoyo para efectos moderados compatibles con la versión débil. El dominio más estudiado es el de los términos de color: las diferencias léxicas entre lenguas se asocian a diferencias pequeñas pero replicables en tareas de discriminación perceptiva, y esos efectos tienden a reducirse o desaparecer cuando se introduce una tarea de interferencia verbal, lo que sugiere mediación lingüística en línea más que una reestructuración perceptiva permanente. Otros dominios habituales son la codificación de relaciones espaciales y la descripción de eventos de movimiento.",
+    "evaluation_criteria": [
+      {
+        "criterion": "Formula correctamente ambas versiones, señala que la fuerte carece de apoyo empírico y que la débil cuenta con evidencia de efectos moderados, y desarrolla un dominio concreto con una descripción correcta del tipo de hallazgo que aporta.",
+        "max_points": 3
+      },
+      {
+        "criterion": "Distingue correctamente las dos versiones y su distinto estatus empírico, pero no aporta un dominio concreto o lo describe de forma imprecisa.",
+        "max_points": 2
+      },
+      {
+        "criterion": "Menciona la hipótesis de Sapir-Whorf sin diferenciar las dos versiones, o adopta una postura global de aceptación o rechazo sin distinguir su estatus empírico.",
+        "max_points": 1
+      }
+    ],
+    "source": "Regier, T., & Kay, P. (2009). Language, thought, and color: Whorf was half right. Trends in Cognitive Sciences, 13(10), 439-446.",
+    "notes": "Marco teórico no utilizado en el piloto. La demanda es 'medium': comparación e interpretación del estatus de dos formulaciones, sin evaluación de evidencia conflictiva. El potencial discriminativo está en que un modelo mediocre tiende a dar una respuesta binaria ('la hipótesis es falsa' o 'la lengua determina el pensamiento') en lugar de separar las dos versiones y asignarles estatus distintos. No se exige citar estudios concretos: se puntúa la descripción correcta del tipo de hallazgo. Se ha omitido deliberadamente el DOI de la fuente por no haber podido confirmarlo en una fuente autorizada desde este entorno; los datos bibliográficos citados sí son los verificables.",
+    "critical_errors": [
+      "Presentar la versión fuerte del determinismo lingüístico como una hipótesis confirmada.",
+      "Concluir que, al no sostenerse la versión fuerte, la lengua no influye en ningún proceso cognitivo.",
+      "Sostener que los hablantes de una lengua sin término léxico para una categoría no pueden percibir ni discriminar esa categoría."
+    ],
+    "language": "es-ES"
+  },
+  {
+    "id": "PSY-035",
+    "dimension": "knowledge",
+    "topic": "atribución causal en psicología social",
+    "difficulty": "medium",
+    "question": "En psicología social se distinguen el sesgo de correspondencia, también llamado error fundamental de atribución, y la asimetría actor-observador. Explica en qué consiste cada uno, por qué no son el mismo fenómeno y qué ha establecido la evidencia metaanalítica sobre la robustez de la asimetría actor-observador.",
+    "expected_answer": "El sesgo de correspondencia es la tendencia a inferir disposiciones estables del actor a partir de su conducta, infravalorando el peso de las restricciones situacionales que la explican; se documenta de forma característica en paradigmas en los que el observador conoce que la conducta estaba forzada y aun así infiere la actitud correspondiente. La asimetría actor-observador es una afirmación distinta y comparativa: sostiene que las personas explican su propia conducta apelando más a la situación y la conducta ajena apelando más a la disposición. No son el mismo fenómeno porque el primero se refiere al peso relativo de disposición y situación al explicar la conducta de otro, mientras que el segundo afirma una diferencia entre dos perspectivas. Sobre la robustez: un metaanálisis amplio (Malle, 2006) encontró que la asimetría actor-observador clásica tiene un efecto agregado prácticamente nulo y solo emerge en condiciones concretas, por ejemplo en función de la valencia del acontecimiento explicado, mientras que el sesgo de correspondencia mantiene apoyo empírico. Por tanto, la coexistencia habitual de ambos en los manuales no implica que tengan el mismo respaldo.",
+    "evaluation_criteria": [
+      {
+        "criterion": "Define correctamente ambos fenómenos, explica que se refieren a objetos distintos —peso disposicional al explicar a otro frente a diferencia entre perspectivas— e informa de que la evidencia metaanalítica sitúa la asimetría actor-observador en un efecto agregado prácticamente nulo y dependiente de moderadores.",
+        "max_points": 3
+      },
+      {
+        "criterion": "Define correctamente ambos fenómenos y los diferencia, pero presenta la asimetría actor-observador como un hallazgo robusto o no informa de su estatus metaanalítico.",
+        "max_points": 2
+      },
+      {
+        "criterion": "Trata ambos términos como equivalentes o describe solo uno de los dos.",
+        "max_points": 1
+      }
+    ],
+    "source": "Malle, B. F. (2006). The actor-observer asymmetry in attribution: A (surprising) meta-analysis. Psychological Bulletin, 132(6), 895-919. DOI: 10.1037/0033-2909.132.6.895.",
+    "notes": "Marco teórico no utilizado en el piloto. Dificultad 'medium': la demanda es una distinción conceptual más el conocimiento del estatus de un hallazgo, no la evaluación de evidencia conflictiva, que correspondería a 'hard'. Alto potencial discriminativo porque la asimetría actor-observador se reproduce en manuales como hallazgo sólido: un modelo que solo recupere contenido de manual afirmará su robustez. No se exige citar el metaanálisis por autor y año; basta con informar correctamente del estatus del hallazgo.",
+    "critical_errors": [
+      "Tratar el sesgo de correspondencia y la asimetría actor-observador como el mismo fenómeno con dos nombres.",
+      "Presentar la asimetría actor-observador como un hallazgo robusto y generalizado.",
+      "Concluir, a partir de la debilidad de la asimetría actor-observador, que no existe ningún sesgo disposicional en la atribución."
+    ],
+    "language": "es-ES"
+  },
+  {
+    "id": "PSY-036",
+    "dimension": "knowledge",
+    "topic": "inteligencia y baremos de los tests",
+    "difficulty": "medium",
+    "question": "Explica en qué consiste el efecto Flynn y qué consecuencia práctica tiene para la interpretación de una puntuación de CI obtenida con un test cuyos baremos se elaboraron hace treinta años. Indica explícitamente en qué dirección queda sesgada esa puntuación y por qué.",
+    "expected_answer": "El efecto Flynn es el incremento sostenido de las puntuaciones brutas en pruebas de inteligencia a lo largo de generaciones, documentado en numerosos países durante buena parte del siglo XX, con una magnitud del orden de unos tres puntos de CI por década, variable según la prueba y el periodo; en algunas cohortes recientes se han descrito estancamientos o incluso reversiones. La consecuencia práctica se deriva de que el CI no es una puntuación absoluta sino relativa a la muestra de tipificación: usar baremos antiguos equivale a comparar a la persona evaluada hoy con una cohorte que rendía menos, de modo que la puntuación resultante queda inflada, es decir, sobreestima el CI que se obtendría con baremos actualizados. Esto es especialmente relevante allí donde se emplean puntos de corte. Conviene añadir que las ganancias no se distribuyen de forma uniforme entre subpruebas —son mayores en tareas de razonamiento abstracto que en pruebas de conocimiento verbal o cálculo—, lo que impide interpretarlas sin más como un aumento homogéneo de la inteligencia general.",
+    "evaluation_criteria": [
+      {
+        "criterion": "Define el efecto Flynn como ganancia intergeneracional en las puntuaciones, explica que el CI es relativo a la muestra de tipificación, concluye correctamente que los baremos obsoletos inflan la puntuación y justifica esa dirección; añade al menos un matiz correcto (magnitud aproximada, no uniformidad entre subpruebas o estancamiento reciente).",
+        "max_points": 3
+      },
+      {
+        "criterion": "Define correctamente el efecto y acierta la dirección del sesgo, pero justifica la dirección de forma vaga o no aporta ningún matiz.",
+        "max_points": 2
+      },
+      {
+        "criterion": "Define el efecto Flynn sin derivar ninguna consecuencia sobre la interpretación de la puntuación, o describe la consecuencia sin precisar la dirección del sesgo.",
+        "max_points": 1
+      }
+    ],
+    "source": "Flynn, J. R. (1987). Massive IQ gains in 14 nations: What IQ tests really measure. Psychological Bulletin, 101(2), 171-191. DOI: 10.1037/0033-2909.101.2.171.",
+    "notes": "Marco no utilizado en el piloto. La dificultad es 'medium' porque la demanda central es aplicar un hallazgo establecido a una situación de interpretación, no evaluar evidencia. El elemento discriminativo es la dirección del sesgo: es un punto que se invierte con facilidad, y un modelo que recupere el efecto sin razonar sobre la naturaleza relativa del CI tiende a concluir que los baremos antiguos infraestiman la puntuación. Por eso se pide la dirección de forma explícita en el enunciado, para que la evaluación sea inequívoca.",
+    "critical_errors": [
+      "Afirmar que unos baremos obsoletos infraestiman el CI de la persona evaluada.",
+      "Presentar el efecto Flynn como un aumento demostrado y homogéneo de la inteligencia general entre generaciones, sin ninguna matización.",
+      "Describir el CI como una puntuación absoluta e independiente de la muestra de tipificación."
+    ],
+    "language": "es-ES"
+  },
+  {
+    "id": "PSY-037",
+    "dimension": "knowledge",
+    "topic": "estrés y afrontamiento",
+    "difficulty": "medium",
+    "question": "Dentro del modelo transaccional del estrés, diferencia el afrontamiento centrado en el problema del centrado en la emoción. Explica después por qué es un error sostener que el primero es siempre más adaptativo que el segundo, indica de qué depende principalmente la utilidad de cada uno y aclara por qué una misma conducta puede clasificarse en uno u otro tipo según el contexto.",
+    "expected_answer": "En el modelo transaccional, el estrés no reside en el estímulo ni en la respuesta, sino en la relación entre las demandas percibidas y los recursos disponibles, mediada por la evaluación primaria y la secundaria. El afrontamiento centrado en el problema busca modificar la situación o la relación entre persona y entorno: planificar, buscar información, actuar sobre la fuente del estrés. El centrado en la emoción busca regular la respuesta emocional asociada: reevaluar, buscar apoyo emocional, aceptar, distanciarse. Jerarquizarlos de forma absoluta es un error porque su utilidad depende principalmente de la controlabilidad de la situación, en lo que se conoce como hipótesis de bondad de ajuste: ante situaciones modificables, las estrategias centradas en el problema tienden a ser más eficaces, mientras que ante situaciones no controlables —una pérdida irreversible, una enfermedad crónica— la regulación emocional y la reevaluación resultan más adaptativas, y persistir en intentos de control puede ser contraproducente. Conviene añadir que las categorías no son excluyentes, que una misma estrategia se clasifica por su función en el contexto y no por su forma, y que dentro del afrontamiento centrado en la emoción deben distinguirse estrategias de regulación como la reevaluación o la aceptación de la evitación y la rumiación, que sí muestran peores resultados de forma más consistente.",
+    "evaluation_criteria": [
+      {
+        "criterion": "Diferencia con precisión ambos tipos de afrontamiento dentro del marco transaccional, identifica la controlabilidad de la situación como determinante principal de su utilidad y explica que las estrategias se clasifican por la función que cumplen en el contexto y no por su forma, ilustrándolo con un caso en que una misma conducta cambia de categoría.",
+        "max_points": 3
+      },
+      {
+        "criterion": "Diferencia correctamente ambos tipos y rechaza la jerarquía absoluta, e identifica la controlabilidad o el criterio funcional, pero no ambos, o los menciona sin explicar en qué dirección operan.",
+        "max_points": 2
+      },
+      {
+        "criterion": "Describe los dos tipos de afrontamiento sin cuestionar la superioridad del centrado en el problema, o los describe de forma imprecisa.",
+        "max_points": 1
+      }
+    ],
+    "source": "Lazarus, R. S., & Folkman, S. (1984). Stress, Appraisal, and Coping. Nueva York: Springer.",
+    "notes": "Marco no utilizado en el piloto y única incorporación de psicología de la salud, lo que mejora el equilibrio de subcampos exigido por la sección 11 de la rúbrica. Dificultad 'medium': comparación e integración de un número limitado de conceptos. El enunciado pide de forma explícita el criterio funcional de clasificación —una misma conducta puede ser afrontamiento centrado en el problema o en la emoción según su función en el contexto— porque es el elemento que un modelo mediocre omite: la jerarquía problema-emoción y la clasificación por forma son simplificaciones muy difundidas en material divulgativo y en manuales introductorios, que se reproducen como si fueran doctrina del propio modelo transaccional.",
+    "critical_errors": [
+      "Presentar el afrontamiento centrado en la emoción como intrínsecamente desadaptativo o equipararlo sin más a la evitación.",
+      "Situar el estrés en el estímulo o en la respuesta, ignorando el carácter relacional y evaluativo del modelo transaccional.",
+      "Clasificar las estrategias de afrontamiento por su forma sin atender a su función en el contexto.",
+      "Sostener que la utilidad de cada tipo de afrontamiento es independiente de la controlabilidad de la situación."
+    ],
+    "language": "es-ES"
+  },
+  {
+    "id": "PSY-038",
+    "dimension": "knowledge",
+    "topic": "psicometría: fiabilidad y consistencia interna",
+    "difficulty": "hard",
+    "question": "El coeficiente alfa de Cronbach se interpreta con frecuencia como prueba de que una escala mide un único constructo. Explica qué informa exactamente el alfa, por qué un valor elevado no permite concluir que la escala sea unidimensional y qué efecto tiene sobre su valor el número de ítems de la escala.",
+    "expected_answer": "El alfa es un estimador de la consistencia interna de las puntuaciones, y su valor depende de dos cosas: la interrelación media entre los ítems y el número de ítems. Bajo supuestos restrictivos —esencialmente tau-equivalencia y errores no correlacionados— puede interpretarse como una estimación de la fiabilidad; cuando esos supuestos no se cumplen tiende a subestimarla, mientras que la presencia de errores correlacionados puede inflarla. El alfa no informa sobre la estructura factorial: una escala claramente multidimensional puede alcanzar valores altos si sus ítems mantienen correlaciones moderadas entre sí, de modo que la unidimensionalidad debe evaluarse mediante procedimientos específicos, como el análisis factorial o modelos equivalentes, y no mediante el alfa. Además, el alfa aumenta con el número de ítems aunque la interrelación media permanezca constante: por eso una escala larga con ítems muy redundantes puede obtener valores muy elevados sin que ello indique mejor calidad de medida. Finalmente, es una propiedad de las puntuaciones obtenidas en una muestra concreta y no una propiedad fija del instrumento.",
+    "evaluation_criteria": [
+      {
+        "criterion": "Explica el alfa como estimación de consistencia interna dependiente de la interrelación media y del número de ítems, señala explícitamente que no informa de la dimensionalidad e indica el procedimiento adecuado para evaluarla, y explica que el alfa crece con la longitud del test a interrelación constante. Menciona además al menos un supuesto del coeficiente o su dependencia de la muestra.",
+        "max_points": 3
+      },
+      {
+        "criterion": "Niega correctamente que el alfa demuestre unidimensionalidad y lo describe como índice de consistencia interna, pero no explica el papel del número de ítems o no menciona ningún supuesto ni el procedimiento alternativo.",
+        "max_points": 2
+      },
+      {
+        "criterion": "Describe el alfa de forma genérica como 'índice de fiabilidad' sin distinguir consistencia interna de dimensionalidad.",
+        "max_points": 1
+      }
+    ],
+    "source": "Sijtsma, K. (2009). On the use, the misuse, and the very limited usefulness of Cronbach's alpha. Psychometrika, 74(1), 107-120. DOI: 10.1007/s11336-008-9101-0.",
+    "notes": "Marco no utilizado en el piloto: los ítems estadísticos existentes (PSY-015 sobre valores p y PSY-028 sobre tamaño del efecto) pertenecen a la inferencia estadística, no a la teoría de la medida, y ninguno aborda fiabilidad ni estructura interna. Dificultad 'hard' por integración de varios conceptos —consistencia interna, dimensionalidad, longitud del test, supuestos del modelo— y por exigir identificar supuestos, que la sección 6 de la rúbrica sitúa en ese nivel. No se exige el nombre técnico 'tau-equivalencia': basta con formular correctamente la condición o mencionar la dependencia de la muestra.",
+    "critical_errors": [
+      "Afirmar que un alfa elevado demuestra que la escala es unidimensional o que mide un solo constructo.",
+      "Presentar el alfa como una propiedad fija del test, independiente de la muestra en que se calcula.",
+      "Tratar el alfa como un índice de validez del instrumento.",
+      "Sostener que el número de ítems no influye en el valor del coeficiente."
+    ],
+    "language": "es-ES"
+  },
+  {
+    "id": "PSY-039",
+    "dimension": "knowledge",
+    "topic": "genética de la conducta: heredabilidad",
+    "difficulty": "hard",
+    "question": "Un informe indica que la heredabilidad de un rasgo psicológico, estimada en una población concreta, es de 0,50. Explica qué significa exactamente ese valor y por qué es incorrecto interpretarlo como que 'en cada persona, la mitad del rasgo se debe a los genes'. A continuación, predice qué le ocurriría a la estimación de heredabilidad de ese mismo rasgo si en esa población se redujeran drásticamente las diferencias ambientales relevantes, y justifica la predicción.",
+    "expected_answer": "La heredabilidad es la proporción de la varianza observada de un rasgo, en una población concreta y en unas condiciones ambientales concretas, que puede atribuirse a la varianza genética entre sus individuos. Es un estadístico poblacional referido a las diferencias entre personas y no describe la composición causal del rasgo dentro de un individuo, por lo que la lectura 'la mitad de mi rasgo procede de los genes' es un error de nivel de análisis: no existe una porción del rasgo individual que sea genética y otra ambiental. Tampoco implica inmutabilidad ni ineficacia de las intervenciones ambientales, ni autoriza a explicar mediante genes las diferencias medias entre poblaciones distintas. Predicción: si se redujeran drásticamente las diferencias ambientales relevantes, la varianza ambiental disminuiría y, manteniéndose la varianza genética, la proporción de varianza atribuible a lo genético aumentaría; la heredabilidad estimada sería por tanto mayor, sin que el papel causal del ambiente en el desarrollo del rasgo hubiese cambiado. El razonamiento simétrico también se sostiene: ampliar la diversidad ambiental de la población reduce la heredabilidad estimada.",
+    "evaluation_criteria": [
+      {
+        "criterion": "Define la heredabilidad como proporción de varianza poblacional y no de rasgo individual, explica por qué la lectura individual es un error de nivel de análisis, predice correctamente que homogeneizar el ambiente aumenta la heredabilidad estimada y justifica la predicción por la reducción de la varianza ambiental con varianza genética constante.",
+        "max_points": 3
+      },
+      {
+        "criterion": "Define correctamente la heredabilidad como proporción de varianza y rechaza la lectura individual, pero acierta la dirección de la predicción sin justificarla en términos de componentes de varianza, o la justifica de forma confusa.",
+        "max_points": 2
+      },
+      {
+        "criterion": "Rechaza la interpretación individual sin explicar por qué, o predice la dirección incorrecta pese a definir la heredabilidad de forma aceptable.",
+        "max_points": 1
+      }
+    ],
+    "source": "Visscher, P. M., Hill, W. G., & Wray, N. R. (2008). Heritability in the genomics era — concepts and misconceptions. Nature Reviews Genetics, 9(4), 255-266. DOI: 10.1038/nrg2322.",
+    "notes": "Marco no utilizado en el piloto. Ítem construido siguiendo la vía de la sección 10 de la rúbrica y el patrón validado en PSY-004: conocimiento conceptual más predicción justificada sobre una manipulación, para que no pueda resolverse recuperando una definición. La predicción es contraintuitiva —homogeneizar el ambiente aumenta la heredabilidad—, lo que la convierte en el elemento discriminativo principal. No se exige la formulación algebraica de los componentes de varianza; se puntúa la justificación conceptual.",
+    "critical_errors": [
+      "Interpretar la heredabilidad como la proporción del rasgo, y no de su varianza, atribuible a los genes en un individuo.",
+      "Concluir que una heredabilidad alta implica que el rasgo no puede modificarse mediante intervenciones ambientales.",
+      "Predecir que homogeneizar las condiciones ambientales reduce la heredabilidad estimada.",
+      "Extrapolar la heredabilidad estimada en una población a la explicación de las diferencias medias entre poblaciones distintas."
+    ],
+    "language": "es-ES"
+  },
+  {
+    "id": "PSY-040",
+    "dimension": "knowledge",
+    "topic": "aprendizaje asociativo: extinción y contexto",
+    "difficulty": "hard",
+    "question": "En el aprendizaje asociativo se sostiene que la extinción de una respuesta condicionada no consiste en borrar el aprendizaje original. Explica qué fenómenos experimentales respaldan esa afirmación y qué se considera que ocurre en su lugar. A partir de ese principio, predice qué es más probable que suceda si la exposición a un estímulo se lleva a cabo siempre en un mismo entorno y la persona se reencuentra después con ese estímulo en un entorno distinto, y justifica la predicción.",
+    "expected_answer": "Respaldan la afirmación varios fenómenos de recuperación posteriores a la extinción: la recuperación espontánea, en que la respuesta reaparece simplemente al transcurrir tiempo desde la extinción; la renovación, en que reaparece al cambiar el contexto respecto de aquel en que se extinguió; el restablecimiento, en que reaparece tras la presentación aislada del estímulo incondicionado; y la rápida readquisición cuando se reintroduce el emparejamiento. En lugar de un borrado, se considera que durante la extinción se adquiere un nuevo aprendizaje, de carácter inhibitorio, que deja al estímulo condicionado con dos significados disponibles; ese nuevo aprendizaje es marcadamente dependiente del contexto y compite en el momento de la recuperación con el aprendizaje original, que permanece intacto. Predicción: es más probable que la respuesta reaparezca en el entorno nuevo, que es precisamente el fenómeno de renovación, porque el aprendizaje de extinción está más ligado al contexto en que se adquirió que el aprendizaje original, cuya recuperación es comparativamente menos dependiente del contexto. De ahí se deriva el principio general de variar contextos y señales de recuperación durante la exposición para reducir esa dependencia contextual.",
+    "evaluation_criteria": [
+      {
+        "criterion": "Cita al menos dos fenómenos de recuperación posextinción y los describe correctamente, explica la extinción como nuevo aprendizaje que no elimina el original, predice la reaparición de la respuesta en el contexto nuevo y justifica la predicción por la dependencia contextual asimétrica del aprendizaje de extinción.",
+        "max_points": 3
+      },
+      {
+        "criterion": "Explica correctamente que la extinción no borra el aprendizaje original y acierta la dirección de la predicción, pero cita un solo fenómeno o justifica la predicción sin apelar a la dependencia del contexto.",
+        "max_points": 2
+      },
+      {
+        "criterion": "Afirma que la extinción no borra el aprendizaje sin aportar ningún fenómeno que lo respalde, o describe la extinción correctamente pero no formula predicción alguna.",
+        "max_points": 1
+      }
+    ],
+    "source": "Bouton, M. E. (2004). Context and behavioral processes in extinction. Learning & Memory, 11(5), 485-494. DOI: 10.1101/lm.78804.",
+    "notes": "Repite el campo general del condicionamiento, ya presente en PSY-007 (refuerzo operante, dimensión reasoning) y PSY-025 (condicionamiento clásico, dimensión communication), y se declara de forma intencionada según la restricción de no reutilizar marcos: la capacidad evaluada es distinta y no está cubierta por ninguno de los dos. PSY-007 exige aplicar la distinción funcional refuerzo-castigo a un caso y PSY-025 traducir el principio de adquisición a lenguaje llano; este ítem evalúa conocimiento de la extinción como aprendizaje nuevo y dependiente del contexto, con predicción justificada de un fenómeno de recuperación, contenido que ninguno de los otros dos toca. Cumple G6: la predicción versa sobre un principio general del aprendizaje y sus implicaciones para el diseño de la exposición, sin evaluar ni recomendar tratamiento a ninguna persona concreta.",
+    "critical_errors": [
+      "Describir la extinción como la eliminación o el borrado de la asociación original.",
+      "Predecir que el cambio de entorno no afectará al resultado porque la respuesta 'ya está extinguida'.",
+      "Confundir la extinción con el castigo o con el olvido por simple paso del tiempo."
+    ],
+    "language": "es-ES"
+  },
+  {
+    "id": "PSY-041",
+    "dimension": "knowledge",
+    "topic": "desarrollo cognitivo temprano y demandas de tarea",
+    "difficulty": "hard",
+    "question": "La edad a la que se atribuye a los bebés la permanencia del objeto varía notablemente según el procedimiento empleado: en tareas de búsqueda manual del objeto oculto se sitúa en torno a los ocho o nueve meses, mientras que con tareas de violación de expectativas basadas en el tiempo de mirada se han descrito indicios bastante antes. Explica a qué se atribuye esa discrepancia y qué precaución impone al inferir competencias cognitivas a partir del rendimiento en una tarea.",
+    "expected_answer": "La discrepancia se atribuye a que ambos procedimientos no imponen las mismas demandas. La búsqueda manual exige, además de representar el objeto oculto, planificar y ejecutar una acción dirigida a una meta, inhibir respuestas previas y mantener la información activa durante la demora, capacidades motoras y ejecutivas que maduran más tarde. Las tareas de tiempo de mirada tienen una demanda de respuesta mucho menor y pueden por ello revelar antes indicios de representación del objeto. La precaución general es que el fracaso en una tarea constituye evidencia ambigua: puede reflejar la ausencia de la competencia estudiada o bien limitaciones en las demandas auxiliares —motoras, atencionales, ejecutivas o de comprensión de la tarea—, de modo que un rendimiento bajo no autoriza a concluir la ausencia de la competencia; es la distinción clásica entre competencia y ejecución. La precaución es simétrica: un mayor tiempo de mirada tampoco demuestra por sí solo una representación conceptual rica, ya que admite interpretaciones más simples como la novedad o la familiaridad perceptiva, y exige por tanto sus propios controles. La conclusión razonable es que las estimaciones de edad son relativas al paradigma y deben interpretarse en relación con él.",
+    "evaluation_criteria": [
+      {
+        "criterion": "Atribuye la discrepancia a la diferencia en las demandas de respuesta entre paradigmas y especifica alguna demanda concreta de la búsqueda manual, formula la precaución de que el fracaso en una tarea es evidencia ambigua sobre la competencia, y aplica la precaución también en sentido inverso señalando que el tiempo de mirada admite interpretaciones más simples.",
+        "max_points": 3
+      },
+      {
+        "criterion": "Atribuye correctamente la discrepancia a las demandas de la tarea y formula la precaución sobre la inferencia de competencia a partir del fracaso, pero no señala la limitación simétrica de las medidas de mirada.",
+        "max_points": 2
+      },
+      {
+        "criterion": "Constata la discrepancia entre paradigmas o toma partido por uno de ellos como el correcto, sin analizar las demandas de respuesta ni derivar precaución inferencial alguna.",
+        "max_points": 1
+      }
+    ],
+    "source": "Baillargeon, R., Spelke, E. S., & Wasserman, S. (1985). Object permanence in five-month-old infants. Cognition, 20(3), 191-208. Véase también Baillargeon, R. (2004). Infants' physical world. Current Directions in Psychological Science, 13(3), 89-94.",
+    "notes": "Marco no utilizado en el piloto: no hay ningún ítem de psicología del desarrollo cognitivo, y PSY-011 aborda desarrollo socioemocional y apego con una demanda completamente distinta (inferencia causal a partir de datos longitudinales). Dificultad 'hard' por integración de varios conceptos y por exigir identificar los supuestos que subyacen a la inferencia de competencia desde el rendimiento. El ítem está deliberadamente construido para no premiar la adhesión a una de las dos tradiciones: se puntúa el análisis de las demandas y la simetría de la precaución, y por eso el criterio de tres puntos exige aplicarla también a las medidas de mirada. Se citan dos fuentes: el estudio primario que documenta indicios tempranos con tiempo de mirada y una revisión posterior de la misma autora que discute la dependencia del paradigma, que es el núcleo del ítem. Se han omitido los DOI por no haber podido confirmarlos en una fuente autorizada desde este entorno.",
+    "critical_errors": [
+      "Concluir que uno de los dos paradigmas es simplemente erróneo, sin analizar sus demandas de respuesta.",
+      "Interpretar el fracaso en la tarea de búsqueda manual como prueba concluyente de que el bebé carece de representación del objeto oculto.",
+      "Presentar el mayor tiempo de mirada como demostración directa de una representación conceptual, sin considerar explicaciones perceptivas más simples."
+    ],
+    "language": "es-ES"
+  },
+  {
+    "id": "PSY-042",
+    "dimension": "knowledge",
+    "topic": "evaluación psicológica: índices diagnósticos y tasa base",
+    "difficulty": "hard",
+    "question": "En evaluación psicológica se emplean instrumentos de cribado con sensibilidad y especificidad conocidas. Explica qué informa cada uno de esos dos índices, en qué se diferencian del valor predictivo positivo y por qué un mismo instrumento, sin que cambien su sensibilidad ni su especificidad, puede producir valores predictivos positivos muy distintos al aplicarse en un servicio especializado o en un cribado en población general. Indica en cuál de los dos contextos será menor y por qué.",
+    "expected_answer": "La sensibilidad es la proporción de personas que presentan realmente la condición y son identificadas como positivas por el instrumento; la especificidad es la proporción de personas que no la presentan y son clasificadas como negativas. Ambas son probabilidades condicionadas al estado real y, en principio, no dependen de la prevalencia. El valor predictivo positivo invierte el condicional: es la probabilidad de que quien supera el punto de corte presente realmente la condición, y sí depende de la prevalencia o tasa base de la población evaluada. La razón es que, cuando la prevalencia es baja, el número absoluto de personas sin la condición es muy superior, de modo que incluso una especificidad elevada genera una cantidad de falsos positivos que puede igualar o superar a la de verdaderos positivos. Por eso el valor predictivo positivo será menor en el cribado en población general, donde la prevalencia es baja, que en un servicio especializado, cuya población ya está preseleccionada y presenta una prevalencia mucho mayor. La consecuencia práctica es que un resultado positivo en un cribado poblacional no equivale a la presencia del problema y exige una evaluación posterior.",
+    "evaluation_criteria": [
+      {
+        "criterion": "Define correctamente sensibilidad y especificidad como condicionadas al estado real, define el valor predictivo positivo como el condicional inverso, explica que depende de la prevalencia mediante el argumento de los números absolutos de falsos positivos y concluye correctamente que será menor en el cribado poblacional.",
+        "max_points": 3
+      },
+      {
+        "criterion": "Distingue correctamente los tres índices y acierta el contexto en que el valor predictivo positivo es menor, pero explica la dependencia de la prevalencia de forma vaga o sin apelar a la proporción de falsos positivos.",
+        "max_points": 2
+      },
+      {
+        "criterion": "Define los índices sin establecer la relación entre valor predictivo positivo y prevalencia, o acierta la conclusión sin justificarla.",
+        "max_points": 1
+      }
+    ],
+    "source": "Meehl, P. E., & Rosen, A. (1955). Antecedent probability and the efficiency of psychometric signs, patterns, or cutting scores. Psychological Bulletin, 52(3), 194-216.",
+    "notes": "Marco no utilizado en el piloto y distinto del de PSY-038: aquel trata la fiabilidad de las puntuaciones y este la exactitud clasificatoria y su dependencia de la tasa base. Dificultad 'hard' por integrar varios conceptos y requerir la inversión del condicional, que es el punto donde falla la intuición. El potencial discriminativo reside en que la confusión entre sensibilidad y valor predictivo positivo es un error frecuente incluso en textos profesionales. Cumple G6: se pregunta por las propiedades métricas de los instrumentos, no por el diagnóstico de ninguna persona. Se ha omitido el DOI por no haber podido confirmarlo en una fuente autorizada desde este entorno.",
+    "critical_errors": [
+      "Afirmar que el valor predictivo positivo no depende de la prevalencia o que coincide con la sensibilidad.",
+      "Sostener que el valor predictivo positivo será menor en el servicio especializado que en el cribado poblacional.",
+      "Interpretar la sensibilidad como la probabilidad de que una persona con resultado positivo presente la condición."
+    ],
+    "language": "es-ES"
+  },
+  {
+    "id": "PSY-043",
+    "dimension": "knowledge",
+    "topic": "emoción: hipótesis del feedback facial",
+    "difficulty": "hard",
+    "question": "Distingue la versión fuerte de la hipótesis del feedback facial, según la cual la retroalimentación de la musculatura facial sería necesaria o suficiente para experimentar una emoción, de su versión débil, según la cual solo modularía la intensidad de la experiencia emocional. Expón después qué ha establecido sobre ellas la evidencia acumulada, incluidas las replicaciones multilaboratorio del paradigma del bolígrafo sostenido en la boca.",
+    "expected_answer": "La versión fuerte atribuye a la actividad facial un papel necesario o suficiente en la experiencia emocional; la débil le atribuye únicamente una capacidad de modular su intensidad, sin ser causa necesaria. La evidencia no sostiene la versión fuerte. Respecto de la débil, el resultado clásico obtenido con el paradigma del bolígrafo —mayor divertimiento informado al sostenerlo entre los dientes que entre los labios— no se replicó en un informe de replicación registrada multilaboratorio publicado en 2016, lo que llevó a cuestionar la solidez del hallazgo original. Un esfuerzo multilaboratorio posterior, publicado en 2022 con tareas de posado y de mímica de expresiones, sí encontró efectos pequeños pero consistentes sobre el estado afectivo autoinformado, mientras que de nuevo no obtuvo apoyo con la tarea del bolígrafo. La lectura razonable es que existe un efecto de feedback facial de magnitud pequeña y fuertemente dependiente del procedimiento empleado, insuficiente para sostener la versión fuerte, y que el fracaso de replicación de un paradigma concreto no equivale a la refutación de la hipótesis general: distinguir el estatus del paradigma del estatus de la hipótesis es parte de la respuesta correcta.",
+    "evaluation_criteria": [
+      {
+        "criterion": "Formula correctamente ambas versiones, informa de que la versión fuerte carece de apoyo, describe con exactitud el resultado divergente de los esfuerzos multilaboratorio —fracaso del paradigma del bolígrafo y efectos pequeños con otros procedimientos— y distingue explícitamente el estatus de un paradigma del de la hipótesis general.",
+        "max_points": 3
+      },
+      {
+        "criterion": "Distingue ambas versiones e informa de que la evidencia es débil o inconsistente y de que hubo problemas de replicación, pero describe el estado de la evidencia de forma imprecisa o no distingue paradigma de hipótesis.",
+        "max_points": 2
+      },
+      {
+        "criterion": "Presenta la hipótesis sin diferenciar sus dos versiones, o adopta un veredicto global —confirmada o refutada— sin referirse a la evidencia de replicación.",
+        "max_points": 1
+      }
+    ],
+    "source": "Coles, N. A., et al. (2022). A multi-lab test of the facial feedback hypothesis by the Many Smiles Collaboration. Nature Human Behaviour, 6, 1731-1742. Véase también Wagenmakers, E.-J., et al. (2016). Registered Replication Report: Strack, Martin, & Stepper (1988). Perspectives on Psychological Science, 11(6), 917-928.",
+    "notes": "Marco no utilizado en el piloto. Dificultad 'hard' porque la sección 6 de la rúbrica sitúa en ese nivel la interpretación de evidencia conflictiva, que es exactamente la demanda: dos esfuerzos multilaboratorio con resultados divergentes según el procedimiento. Alto potencial discriminativo en las dos direcciones del error: un modelo débil o desactualizado presenta el efecto del bolígrafo como establecido, y otro sobrecorrige declarando refutada toda la hipótesis. El enunciado no exige citar autores ni años, solo describir correctamente el estado de la evidencia, de modo que se puntúa el conocimiento y no la memoria bibliográfica. Se han omitido los DOI por no haber podido confirmarlos en una fuente autorizada desde este entorno; la verificación de fuentes del flujo de trabajo debe cerrar ese punto.",
+    "critical_errors": [
+      "Presentar la versión fuerte de la hipótesis del feedback facial como un hecho establecido.",
+      "Concluir, a partir del fracaso de replicación de un paradigma concreto, que la retroalimentación facial no tiene ningún efecto sobre la experiencia emocional.",
+      "Atribuir a la evidencia disponible efectos de gran magnitud sobre la experiencia emocional."
+    ],
+    "language": "es-ES"
+  },
+  {
+    "id": "PSY-044",
+    "dimension": "knowledge",
+    "topic": "actitudes: disonancia cognitiva y autopercepción",
+    "difficulty": "hard",
+    "question": "En los experimentos clásicos de conformidad forzada se observa que quien defiende públicamente una postura contraria a la suya a cambio de un incentivo pequeño cambia su actitud más que quien recibe un incentivo grande. Explica cómo interpreta ese resultado la teoría de la disonancia cognitiva, qué explicación alternativa propuso la teoría de la autopercepción y qué condición delimita, según la investigación posterior, el dominio de aplicación de cada una.",
+    "expected_answer": "La teoría de la disonancia interpreta el resultado como la reducción de un estado motivacional aversivo: actuar en contra de la propia actitud sin justificación externa suficiente genera disonancia, que se reduce modificando la actitud para acercarla a la conducta; con un incentivo grande la justificación externa es suficiente, la disonancia no se genera y no hace falta cambiar la actitud. La teoría de la autopercepción, propuesta por Bem, explica el mismo patrón sin postular estado motivacional alguno: las personas infieren sus actitudes observando su propia conducta y las circunstancias en que se produjo, igual que haría un observador externo; si la conducta no queda explicada por un incentivo saliente, se atribuye a la propia actitud. La investigación posterior indica que no son alternativas excluyentes, sino que se aplican a dominios distintos delimitados por la magnitud de la discrepancia entre la conducta y la actitud previa: cuando la conducta cae fuera de la latitud de aceptación de la actitud, es decir, es claramente discrepante, se produce activación y opera el proceso descrito por la disonancia; cuando cae dentro de esa latitud, siendo solo levemente discrepante o congruente, el cambio se explica mejor como inferencia autoperceptiva, sin activación. Los estudios sobre mala atribución de la activación respaldan esa delimitación al mostrar que el componente de activación es específico del primer caso.",
+    "evaluation_criteria": [
+      {
+        "criterion": "Explica la interpretación de la disonancia apelando al estado aversivo y a la insuficiencia de justificación externa, expone la explicación autoperceptiva señalando que prescinde de dicho estado y se basa en la inferencia a partir de la propia conducta, e identifica la magnitud de la discrepancia o la latitud de aceptación como condición que delimita el dominio de cada teoría.",
+        "max_points": 3
+      },
+      {
+        "criterion": "Expone correctamente ambas teorías y su aplicación al resultado, pero no identifica la condición delimitadora o la formula de manera imprecisa.",
+        "max_points": 2
+      },
+      {
+        "criterion": "Expone solo la interpretación de la disonancia, o presenta la autopercepción como una reformulación de la disonancia sin señalar que prescinde del estado motivacional.",
+        "max_points": 1
+      }
+    ],
+    "source": "Fazio, R. H., Zanna, M. P., & Cooper, J. (1977). Dissonance and self-perception: An integrative view of each theory's proper domain of application. Journal of Experimental Social Psychology, 13(5), 464-479.",
+    "notes": "Marco no utilizado en el piloto y distinto del de PSY-035, el otro ítem de psicología social de esta tanda: aquel trata la atribución de causas a la conducta ajena y este el cambio de actitudes propio. Dificultad 'hard' porque la demanda es la comparación de explicaciones competidoras del mismo hallazgo y la identificación de la condición límite que las reconcilia, que la sección 6 de la rúbrica sitúa en ese nivel. El enunciado describe el patrón empírico de forma genérica, sin reproducir las cantidades concretas del experimento clásico, para que la respuesta no dependa de recordar un dato numérico. Se ha omitido el DOI por no haber podido confirmarlo en una fuente autorizada desde este entorno.",
+    "critical_errors": [
+      "Presentar la teoría de la autopercepción como una variante de la disonancia, sin señalar que prescinde del estado motivacional aversivo.",
+      "Afirmar que en este paradigma un incentivo mayor produce un cambio de actitud mayor.",
+      "Sostener que una de las dos teorías quedó simplemente refutada por la otra."
+    ],
+    "language": "es-ES"
+  }
+]
