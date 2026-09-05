@@ -26,8 +26,12 @@ la curación queda auditable contra su fuente.
 
 Estructura: hoja `Evaluación piloto` (30 filas, una por ítem, con gates G1-G8, criterios
 Q1-Q9, totales, `Decisión sugerida`, `Decisión final` y `Notas`), más las hojas
-`Instrucciones` y `Resumen`. Recuento oficial de la hoja `Resumen`: **20 ACCEPT, 10 REVISE,
-0 REJECT**, media de Q Total 15,6.
+`Instrucciones` y `Resumen`. Recuento oficial de la hoja `Resumen`: **22 ACCEPT, 8 REVISE,
+0 REJECT**, media de Q Total 15,67.
+
+La plantilla se actualizó posteriormente para incorporar una corrección de sincronización en
+PSY-024 y PSY-026 (ver sección 7); las cifras anteriores a esa corrección eran 20 ACCEPT y
+10 REVISE.
 
 ### Cómo se leen las discrepancias de `Difficulty` en esta plantilla
 
@@ -221,21 +225,25 @@ Ninguna decisión previa ha tenido que revertirse.
 No se ha actuado sobre ninguna de ellas; se documentan porque afectan al dataset y requieren
 decisión humana.
 
-1. **Cuatro ítems `REVISE` siguen en el dataset curado sin remediar:** PSY-006, PSY-024,
-   PSY-025 y PSY-026. La curación abordó los otros seis `REVISE` (PSY-004 reescrito, PSY-018 y
-   PSY-020 eliminados, PSY-009, PSY-017 y PSY-021 revisados). Motivos registrados por el
-   revisor: sobrerrepresentación de la teoría de la autodeterminación en PSY-006 (cuatro ítems
-   del piloto usan ese marco, en tensión con la sección 11), solapamiento parcial en PSY-024 y
-   PSY-026, y criterios de evaluación poco operativos en PSY-025 (Q4=1).
+1. **Dos ítems `REVISE` siguen en el dataset curado sin remediar:** PSY-006 y PSY-025.
+   Motivos registrados por el revisor: sobrerrepresentación de la teoría de la
+   autodeterminación en PSY-006 (cuatro ítems del piloto usan ese marco, en tensión con la
+   sección 11) y criterios de evaluación poco operativos en PSY-025 (Q4=1).
 
-   > **Corrección anunciada y aún no incorporada.** Se ha comunicado que el revisor había
-   > decidido `Q7 = 2` para PSY-024 y PSY-026 —lo que los llevaría a 15/16 (93,75 %) y por
-   > tanto a `ACCEPT`, dejando esta lista en solo dos ítems (PSY-006 y PSY-025)—, pero la
-   > versión corregida de la plantilla todavía **no** se ha incorporado al repositorio: el
-   > fichero en `docs/pilot-evaluation/` sigue registrando `Q7 = 1` y `Decisión final = REVISE`
-   > para ambos, y su hoja `Resumen` seguía marcando 20 ACCEPT / 10 REVISE. Esta sección
-   > describe deliberadamente el contenido del fichero versionado, para que changelog y
-   > plantilla no se contradigan. Debe actualizarse en cuanto se incorpore el Excel corregido.
+   **Corrección de sincronización aplicada en PSY-024 y PSY-026.** Ambos figuraban con
+   `Q7 = 1` y `Decisión final = REVISE` por un desfase de sincronización, pero el revisor había
+   decidido `Q7 = 2` en los dos casos. Con esa puntuación pasan de 14/16 (87,5 %) a
+   **15/16 (93,75 %)**, por encima del umbral del 88,9 % de la hoja `Instrucciones`, y su
+   `Decisión final` pasa a **`ACCEPT`**. La versión corregida de la plantilla ya está
+   incorporada al repositorio y es la que refleja este changelog. Por eso la lista de `REVISE`
+   sin remediar baja de cuatro ítems a dos: el reparto global queda en 22 ACCEPT y 8 REVISE.
+
+   > **Inconsistencia interna menor en la plantilla corregida.** En las filas de PSY-024 y
+   > PSY-026, la celda `Q7` vale ya 2, pero el texto de `Notas` sigue empezando por «Q7=1: …»
+   > con la redacción anterior. Es solo el relato justificativo, que no se reescribió al
+   > actualizar la puntuación; las celdas de puntuación, total, porcentaje y decisión sí son
+   > coherentes entre sí. No se ha modificado el texto del revisor. Conviene alinearlo en una
+   > próxima revisión de la plantilla para que no confunda a quien la audite.
 
 2. **`RUBRIC_ISSUE` recurrentes señalados por el revisor**, que afectan a la rúbrica y no a
    ítems concretos: la fórmula de `Decisión sugerida` no implementa el veto de la sección 6
@@ -247,7 +255,11 @@ decisión humana.
 
 ## 8. Ítems no modificados
 
-El resto del dataset se conserva **sin cambios**, incluidos los 20 ACCEPT originales y
+El resto del dataset se conserva **sin cambios**, incluidos los 22 ítems `ACCEPT` y
 específicamente PSY-006, PSY-010, PSY-017, PSY-024, PSY-025, PSY-026, PSY-029 y PSY-030.
 Se verificó por comparación campo a campo que los únicos ítems con diferencias respecto al raw
 son **PSY-004, PSY-009 y PSY-021**.
+
+Nótese que la corrección de PSY-024 y PSY-026 descrita en la sección 7 afecta únicamente a su
+`Decisión final` en la plantilla de revisión: **el contenido de ambos ítems en el dataset no se
+ha tocado**, ni antes ni ahora.
