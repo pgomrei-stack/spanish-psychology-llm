@@ -153,3 +153,186 @@ habría convertido un patrón en un molde. Quedan disponibles para pasadas futur
   los metaanálisis y los experimentos preregistrados a gran escala.
 
 Ambos deberían generarse en una dimensión o con una estructura distinta si se incorporan.
+
+---
+
+## Pasada 2 — dimensión `communication`, 29 ítems (PSY-045 a PSY-073)
+
+Segunda pasada sobre este archivo. Los 14 ítems de la pasada 1 **no se han modificado**: la
+fusión se hizo por anexado y se verificó comparando el hash del bloque previo antes y después
+de escribir el archivo. Acumulado tras esta pasada: **43 ítems** (14 `knowledge` + 29
+`communication`).
+
+**Validación:** `python3 scripts/validate_dataset.py --data data/processed/new_items_draft.json`
+→ `RESULTADO: OK`, exit code 0, 0 IDs duplicados, sin colisión con el piloto (máximo previo
+`PSY-044`). El conjunto combinado piloto + draft (71 ítems) también pasa sin errores
+bloqueantes. Los avisos de equilibrio de dimensiones son la consecuencia esperada de escalar
+una dimensión por pasada y no son bloqueantes.
+
+### Distribución
+
+| Dificultad | N | IDs |
+|---|---|---|
+| `easy` | 3 | PSY-045, PSY-046, PSY-047 |
+| `medium` | 9 | PSY-048 a PSY-056 |
+| `hard` | 17 | PSY-057 a PSY-073 |
+
+Los tres ítems `easy` miden errores conceptuales extendidos —placebo entendido como
+simulación, multitarea entendida como procesamiento paralelo, resiliencia entendida como
+aguante— y los tres están construidos para penalizar también la **sobrecorrección opuesta**,
+que es el modo de fallo característico de un modelo que ha memorizado el desmentido sin
+entender el fenómeno.
+
+### Control de redundancia estructural (Q7-C)
+
+Con 29 ítems en una sola dimensión, el riesgo dominante no es el temático sino el
+**estructural**: que el lote sea la misma pregunta con destinatarios distintos. Los ítems se
+han construido cruzando contenido con **demanda comunicativa**, y ninguna pareja comparte las
+dos. Demandas empleadas:
+
+| Demanda comunicativa | IDs |
+|---|---|
+| Explicar un concepto a audiencia lega | 045, 046, 047, 050, 055, 063 |
+| Corregir una creencia sostenida por experiencia propia o buena fe | 046, 047, 059, 065, 071, 073 |
+| Comunicar a un profesional de otra disciplina para que lo reutilice | 049, 053, 056, 060, 071 |
+| Producir un texto sujeto a restricciones de forma y tono | 048, 054, 067, 068 |
+| Comunicar magnitud, incertidumbre o un resultado nulo | 057, 058, 061, 066, 072 |
+| Resolver un conflicto entre exigencias legítimas | 062, 064, 068 |
+| Resistir una simplificación o una presión sobre el mensaje | 054, 060, 066, 070, 072 |
+| Adaptar el registro a menores o adolescentes | 051, 067, 068 |
+| Sostener honestidad ante hostilidad o ante malas noticias | 069, 070, 073 |
+
+Ningún ítem del piloto reaparece: las seis demandas de PSY-025 a PSY-030 (explicar
+condicionamiento clásico, correlación a un periodista, confianza frente a exactitud del
+recuerdo, significación frente a relevancia práctica, motivación autónoma y eficacia
+poblacional frente a individual) quedan fuera del lote. **No se reutiliza la teoría de la
+autodeterminación.**
+
+### Marcos reincidentes declarados
+
+Ninguno se repite sin declaración en el campo `notes` del ítem:
+
+| ID | Proximidad declarada | Capacidad distinta |
+|---|---|---|
+| PSY-055 | PSY-036 y PSY-038 (pasada 1): baremos y fiabilidad | Convertir una puntuación en información útil para una familia sin generar una etiqueta |
+| PSY-056 | PSY-031 (pasada 1): esquizofrenia | Revisar un texto ajeno; contenido sustantivo distinto (violencia atribuible) |
+| PSY-057 | PSY-026 (piloto) y PSY-061 | El elemento puntuado es la traducción a frecuencias naturales, no la causalidad |
+| PSY-058 | PSY-015 y PSY-028 (piloto): valor p y relevancia práctica | Asimetría lógica de un resultado nulo ante quien debe decidir con él |
+| PSY-059 | PSY-030 (piloto): paciente pregunta por su tratamiento | Separar validez de un mecanismo causal de evidencia de eficacia |
+| PSY-060 | PSY-005 (piloto) y PSY-038 (pasada 1) | Objeción técnica en reunión con restricción interpersonal |
+| PSY-064 | PSY-045 (este lote): placebo | Fenómeno inverso y resolución de un dilema ético operativo |
+| PSY-066 | PSY-022 (piloto): muestra pequeña | Mecanismo de selección, no tamaño |
+| PSY-069 | PSY-019 (piloto): viñeta de síntomas | Comunicar sin patologizar ni banalizar, no gestionar incertidumbre diagnóstica |
+| PSY-070 | PSY-043 (pasada 1): replicaciones multilaboratorio | Responder a crítica hostil en público |
+| PSY-065, PSY-071, PSY-072 | Candidatos **aplazados expresamente en la pasada 1** | Incorporados aquí en otra dimensión, como aquel changelog indicaba |
+
+Los tres candidatos que la pasada 1 dejó documentados como aplazados —regresión a la media,
+estilos de aprendizaje y mentalidad de crecimiento— quedan así incorporados. La lista de
+pendientes de la pasada 1 queda cerrada.
+
+---
+
+## Autoevaluación de la pasada 2 (QQR v1.0)
+
+### Gates obligatorios
+
+Los 29 ítems pasan los ocho gates. Comprobaciones que requerían atención específica:
+
+| Gate | Ítems | Resultado |
+|---|---|---|
+| G3 (desalineación constructo-pregunta) | 054, 057, 058, 061, 066 | Pasan. Todos tienen contenido metodológico y podrían confundirse con `critical_analysis`, pero en ninguno se pide evaluar la calidad de un estudio: se pide producir un mensaje para un destinatario definido bajo restricciones de registro y tono, que es lo que la sección 7.5 define como el constructo. En PSY-054 el producto exigido es literalmente un texto reescrito. |
+| G5 (inferencia injustificada incrustada) | 054, 057, 066 | Pasan. El enunciado aporta en cada caso los datos de diseño necesarios (voluntarios sin grupo control; tasa de respuesta del 12 %) y en PSY-057 la respuesta correcta consiste precisamente en señalar que falta el riesgo de partida, de modo que el ítem no da por supuesta la conclusión. |
+| G6 (tarea clínica inapropiada) | 059, 063, 069, 073 | Pasan. Los cuatro enunciados **prohíben expresamente** valorar el caso, y esa abstención forma parte de lo puntuado y figura entre los errores críticos. La psicoeducación general —qué situaciones harían razonable consultar— no es evaluación personalizada, y la rúbrica admite explícitamente evaluar clínica cuando la tarea versa sobre conceptos, evidencia o comunicación. |
+| G6 (contenido sensible) | 062 | Pasa. Es comunicación de salud pública dirigida a un profesional de medios, basada en guías establecidas. La respuesta correcta **no contiene ni requiere información sobre métodos**, y su omisión es uno de los contenidos evaluados; incluir esos detalles figura como error crítico. |
+| G7 (dependencia cultural) | 053, 068 | Pasan. Ambos enunciados excluyen expresamente la normativa de un país concreto: la respuesta correcta se apoya en principios deontológicos y técnicos generales. |
+
+### Criterios de calidad
+
+Umbral de aceptación: 16/18 (88,9 %). Ningún ítem puntúa 0 en Q1, Q2, Q3 o Q4.
+
+| ID | Q1 | Q2 | Q3 | Q4 | Q5 | Q6 | Q7 | Q8 | Q9 | Total | Decisión |
+|---|---|---|---|---|---|---|---|---|---|---|---|
+| PSY-045 | 2 | 2 | 1 | 2 | 2 | 2 | 2 | 2 | 2 | **17** | ACCEPT |
+| PSY-046 | 2 | 2 | 1 | 2 | 2 | 2 | 2 | 2 | 2 | **17** | ACCEPT |
+| PSY-047 | 2 | 2 | 1 | 2 | 2 | 2 | 2 | 2 | 2 | **17** | ACCEPT |
+| PSY-048 | 2 | 2 | 2 | 2 | 2 | 2 | 2 | 2 | 2 | **18** | ACCEPT |
+| PSY-049 | 2 | 2 | 2 | 2 | 2 | 2 | 2 | 2 | 2 | **18** | ACCEPT |
+| PSY-050 | 2 | 2 | 1 | 2 | 2 | 2 | 2 | N/A | 2 | **15/16** | ACCEPT |
+| PSY-051 | 2 | 2 | 2 | 2 | 2 | 2 | 2 | 2 | 2 | **18** | ACCEPT |
+| PSY-052 | 2 | 2 | 2 | 2 | 2 | 2 | 2 | 2 | 2 | **18** | ACCEPT |
+| PSY-053 | 2 | 2 | 2 | 2 | 2 | 2 | 2 | 2 | 2 | **18** | ACCEPT |
+| PSY-054 | 2 | 2 | 2 | 2 | 2 | 2 | 2 | 2 | 2 | **18** | ACCEPT |
+| PSY-055 | 2 | 2 | 2 | 2 | 2 | 2 | 2 | 2 | 2 | **18** | ACCEPT |
+| PSY-056 | 2 | 2 | 2 | 2 | 2 | 2 | 2 | 2 | 2 | **18** | ACCEPT |
+| PSY-057 | 2 | 2 | 2 | 2 | 2 | 2 | 2 | 2 | 2 | **18** | ACCEPT |
+| PSY-058 | 2 | 2 | 2 | 2 | 2 | 2 | 2 | 2 | 2 | **18** | ACCEPT |
+| PSY-059 | 2 | 2 | 2 | 2 | 2 | 2 | 2 | 2 | 2 | **18** | ACCEPT |
+| PSY-060 | 2 | 2 | 2 | 2 | 2 | 2 | 2 | 2 | 2 | **18** | ACCEPT |
+| PSY-061 | 2 | 2 | 2 | 2 | 2 | 2 | 2 | 2 | 2 | **18** | ACCEPT |
+| PSY-062 | 2 | 2 | 2 | 2 | 2 | 2 | 2 | 2 | 2 | **18** | ACCEPT |
+| PSY-063 | 2 | 2 | 2 | 2 | 2 | 2 | 2 | 2 | 2 | **18** | ACCEPT |
+| PSY-064 | 2 | 2 | 2 | 2 | 2 | 2 | 2 | 2 | 2 | **18** | ACCEPT |
+| PSY-065 | 2 | 2 | 2 | 2 | 2 | 2 | 2 | 2 | 2 | **18** | ACCEPT |
+| PSY-066 | 2 | 2 | 2 | 2 | 2 | 2 | 2 | 2 | 2 | **18** | ACCEPT |
+| PSY-067 | 2 | 2 | 2 | 2 | 2 | 2 | 2 | 2 | 2 | **18** | ACCEPT |
+| PSY-068 | 2 | 2 | 2 | 2 | 2 | 2 | 2 | 2 | 2 | **18** | ACCEPT |
+| PSY-069 | 2 | 2 | 2 | 2 | 2 | 2 | 2 | 2 | 2 | **18** | ACCEPT |
+| PSY-070 | 2 | 2 | 2 | 2 | 2 | 2 | 2 | 2 | 2 | **18** | ACCEPT |
+| PSY-071 | 2 | 2 | 2 | 2 | 2 | 2 | 2 | 2 | 2 | **18** | ACCEPT |
+| PSY-072 | 2 | 2 | 2 | 2 | 2 | 2 | 1 | 2 | 2 | **17** | ACCEPT |
+| PSY-073 | 2 | 2 | 2 | 2 | 2 | 2 | 2 | 2 | 2 | **18** | ACCEPT |
+
+28 ítems puntuados sobre 18: media **17,86**, mínimo 17. PSY-050 se puntúa sobre 16 por
+`Q8 = N/A` y obtiene 15/16 (93,75 %), por encima del umbral. Ningún ítem por debajo de ACCEPT.
+
+### Matices honestos sobre las puntuaciones
+
+1. **Q3 = 1 en los tres ítems `easy` y en PSY-050.** Puntuación deliberadamente conservadora:
+   una parte sustancial de la respuesta es recuperable por un modelo competente. Los cuatro
+   incorporan un elemento que sí discrimina —el límite del alcance del placebo, la excepción de
+   las tareas automatizadas, la negativa a negar las diferencias individuales, y la atención al
+   agravio además de a la explicación técnica—, pero no se les atribuye Q3 = 2. Todos siguen en
+   ACCEPT y cumplen el mínimo Q3 ≥ 1 de la sección 6.
+2. **Q7 = 1 en PSY-072.** Es la proximidad estructural más fuerte del lote: PSY-071 y PSY-072
+   comparten destinatario educativo y la forma general «lo que promete la divulgación no es lo
+   que muestra la evidencia». Se mantienen ambos porque la demanda difiere —en PSY-071 hay que
+   hacer comprobable una objeción describiendo el diseño de contraste ante un profesional que
+   se juega su método; en PSY-072 hay que comunicar una magnitud pequeña impidiendo las dos
+   lecturas erróneas opuestas—, pero la penalización se refleja en la puntuación en lugar de
+   negarse. Con 17/18 la decisión no cambia.
+3. **Lecturas conservadoras que no se han aplicado.** Un revisor estricto podría puntuar Q7 = 1
+   en PSY-064 por compartir familia conceptual con PSY-045, o en PSY-057 por compartir con
+   PSY-061 el terreno de la comunicación cuantitativa a audiencia lega. En ambos casos el
+   resultado sería 17/18, sin cambio de decisión.
+4. **Q2 y magnitudes.** Tres ítems tocan literaturas donde las cifras concretas están en
+   revisión o varían según el criterio: PSY-060 (validez de métodos de selección), PSY-070
+   (tasa de replicación) y PSY-057 (riesgos de base). En los tres, el `expected_answer` y los
+   criterios están redactados para puntuar **el argumento y no la cifra**, y en PSY-057 ofrecer
+   cifras de riesgo como si fueran datos reales del estudio figura como error crítico.
+5. **Q8 y verificación de fuentes.** Se puntúa Q8 = 2 cuando la fuente sostiene directamente la
+   afirmación del ítem. En **PSY-045, PSY-046, PSY-047, PSY-052 y PSY-059** se han omitido
+   deliberadamente los DOI por no haber podido confirmarlos en una fuente autorizada desde este
+   entorno de ejecución, con la omisión anotada en el `notes` del ítem; es el mismo criterio de
+   prudencia de la pasada 1 y de la curación del piloto. PSY-050 no cita fuente por tratarse de
+   un principio metodológico general, uso de `Q8 = N/A` que la sección 5 admite y que el piloto
+   ya aplica en PSY-025 y PSY-026. **El paso de verificación de fuentes (sección 12 de la
+   rúbrica) debe cerrar este punto antes de la inclusión en el dataset final.**
+6. **Separación entre generación y validación.** Se mantiene lo dicho en la pasada 1: esta
+   autoevaluación es el filtro previo exigido por el encargo, no un sustituto de la revisión
+   humana.
+
+---
+
+## Ítems descartados durante la generación (pasada 2)
+
+| Candidato | Motivo del descarte |
+|---|---|
+| Explicar a un tribunal la fiabilidad del testimonio y la identificación de sospechosos | Redundancia con PSY-001, PSY-021 y PSY-027, que ya cubren memoria, confianza y exactitud desde tres dimensiones distintas. |
+| Explicar la motivación intrínseca a un entrenador o a un docente | La teoría de la autodeterminación está sobrerrepresentada en el piloto; excluida por la restricción 1. |
+| Corregir un titular sobre pantallas y depresión adolescente | Habría concentrado dos ítems del lote en el mismo dominio y reproducido el patrón causal de PSY-026. Sustituido por PSY-054, cuyo problema es el diseño pre-post y cuyo producto es un texto reescrito. |
+| Explicar sensibilidad y valor predictivo a un médico de atención primaria | Solapamiento demasiado directo con PSY-042 de la pasada 1, incluso admitiendo el cambio de dimensión. |
+| Desmontar el neuromito del 10 % del cerebro | Reproduce el patrón de PSY-032 (pasada 1) sin añadir demanda nueva. |
+
+Dos candidatos válidos quedaron fuera solo por límite de cupo y siguen disponibles para pasadas
+futuras: **comunicar el sesgo de retrospectiva a un comité que analiza un incidente** y
+**responder a la exigencia de un sí o un no sobre una cuestión con evidencia conflictiva**.

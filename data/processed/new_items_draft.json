@@ -421,5 +421,886 @@
       "Sostener que una de las dos teorías quedó simplemente refutada por la otra."
     ],
     "language": "es-ES"
+  },
+  {
+    "id": "PSY-045",
+    "dimension": "communication",
+    "topic": "efecto placebo",
+    "difficulty": "easy",
+    "question": "Una persona sin formación en psicología te dice: 'Lo del efecto placebo es que la gente se lo imagina; si mejoras con una pastilla que no lleva nada, es que en realidad no te pasaba nada'. Explícale de forma comprensible qué es el efecto placebo y por qué esa interpretación no es correcta. Evita los tecnicismos que no expliques y no des ninguna indicación sobre tratamientos concretos.",
+    "expected_answer": "Debe explicar que el efecto placebo es una mejoría real producida por el contexto del tratamiento —las expectativas de la persona, el aprendizaje por experiencias previas, la relación con quien la atiende, el propio hecho de estar haciendo algo por resolverlo— y no por un principio activo. Debe dejar claro qué significa aquí 'real': la mejoría puede acompañarse de cambios medibles, por ejemplo en la percepción del dolor o en el malestar informado, de modo que mejorar con un placebo no demuestra que el problema fuera inventado ni que la persona esté fingiendo o exagerando. Conviene añadir el límite en la otra dirección: el efecto placebo influye sobre todo en síntomas y experiencias subjetivas y no cura la enfermedad subyacente, por lo que su existencia no convierte cualquier tratamiento en equivalente a otro. El tono debe evitar tanto ridiculizar la creencia previa como exagerar el alcance del fenómeno.",
+    "evaluation_criteria": [
+      {
+        "criterion": "Explica el efecto placebo como respuesta real al contexto del tratamiento, menciona al menos un mecanismo en lenguaje llano (expectativa, aprendizaje previo o relación asistencial), rechaza explícitamente la idea de que la mejoría implique que el problema fuera inventado y añade el límite de que no cura la enfermedad subyacente. No emplea jerga sin explicar.",
+        "max_points": 3
+      },
+      {
+        "criterion": "Explica correctamente el fenómeno y rechaza la interpretación de 'imaginación', pero omite el límite del alcance del placebo o introduce algún término técnico sin traducir.",
+        "max_points": 2
+      },
+      {
+        "criterion": "Describe el placebo como una pastilla sin principio activo sin explicar por qué la mejoría puede ser real.",
+        "max_points": 1
+      }
+    ],
+    "source": "Finniss, D. G., Kaptchuk, T. J., Miller, F., & Benedetti, F. (2010). Biological, clinical, and ethical advances of placebo effects. The Lancet, 375(9715), 686-695.",
+    "notes": "Ítem 'easy' por demanda cognitiva: explicar un único concepto a una audiencia lega y corregir una creencia. No es recuerdo trivial, porque mide un error conceptual muy extendido —placebo entendido como sinónimo de imaginación o de simulación— y penaliza la sobrecorrección opuesta, atribuir al placebo capacidades curativas que no tiene. El elemento discriminativo es el límite: un modelo mediocre defiende que el placebo es real y se detiene ahí. Ningún ítem del piloto ni de la pasada anterior aborda el placebo. Se ha omitido el DOI por no haber podido confirmarlo en una fuente autorizada desde este entorno.",
+    "critical_errors": [
+      "Dar a entender que quien mejora con un placebo simula o exagera su malestar.",
+      "Presentar el efecto placebo como capaz de curar enfermedades.",
+      "Concluir que, si hubo mejoría con placebo, la persona no tenía ningún problema real."
+    ],
+    "language": "es-ES"
+  },
+  {
+    "id": "PSY-046",
+    "dimension": "communication",
+    "topic": "atención y coste de cambio de tarea",
+    "difficulty": "easy",
+    "question": "Un compañero de trabajo te dice, con cierto orgullo, que él sí puede contestar correos mientras participa en una reunión porque 'está acostumbrado a la multitarea'. Explícale, en un registro coloquial y sin sonar condescendiente, qué ocurre realmente cuando se intentan hacer a la vez dos tareas que exigen atención y por qué la sensación de que le funciona bien puede ser engañosa.",
+    "expected_answer": "Debe explicar que, cuando las dos tareas exigen atención, no se ejecutan de forma simultánea: la atención alterna entre ellas, y cada cambio tiene un coste en tiempo y en errores, de modo que el resultado suele ser peor y más lento que hacerlas por separado. Debe matizar que esto no significa que toda multitarea sea imposible: tareas muy automatizadas o que usan recursos distintos pueden solaparse sin apenas coste, y el problema aparece cuando ambas compiten por lo mismo. Debe explicar por qué la sensación engaña: la persona recuerda fragmentos de las dos cosas y concluye que ha atendido a ambas, pero no dispone de la comparación con el rendimiento que habría tenido dedicándose solo a una, y lo que no llegó a procesar no deja rastro que le permita echarlo en falta. El registro debe ser cercano y sin reproche, reconociendo que la impresión del compañero es comprensible en lugar de corregirle como a un alumno.",
+    "evaluation_criteria": [
+      {
+        "criterion": "Explica la alternancia atencional y su coste en tiempo o errores, matiza que el coste depende del tipo de tarea, explica por qué la valoración subjetiva del propio rendimiento no es fiable en este caso, y mantiene un registro coloquial sin condescendencia.",
+        "max_points": 3
+      },
+      {
+        "criterion": "Explica correctamente la alternancia y su coste, pero no explica el origen de la ilusión subjetiva o no matiza el tipo de tarea.",
+        "max_points": 2
+      },
+      {
+        "criterion": "Afirma que la multitarea no funciona o que 'el cerebro no puede hacer dos cosas a la vez' sin explicar el mecanismo, o adopta un tono de reprimenda.",
+        "max_points": 1
+      }
+    ],
+    "source": "Monsell, S. (2003). Task switching. Trends in Cognitive Sciences, 7(3), 134-140.",
+    "notes": "Ítem 'easy' por demanda cognitiva. El error conceptual medido es doble y por eso no es recuerdo trivial: la creencia popular de que se atiende en paralelo, y la sobrecorrección de que la multitarea es siempre imposible, que ignora las tareas automatizadas. Ninguna otra pregunta del piloto ni de la pasada anterior aborda control atencional; PSY-004 trata la interferencia Stroop, un fenómeno y una demanda distintos, y aquí no se menciona. Se ha omitido el DOI por no haber podido confirmarlo desde este entorno.",
+    "critical_errors": [
+      "Afirmar que la multitarea es imposible en cualquier circunstancia, sin distinguir el tipo de tarea.",
+      "Sostener que el coste de alternar desaparece por completo con la práctica.",
+      "Convertir la explicación en un reproche personal al compañero."
+    ],
+    "language": "es-ES"
+  },
+  {
+    "id": "PSY-047",
+    "dimension": "communication",
+    "topic": "resiliencia",
+    "difficulty": "easy",
+    "question": "En una charla para público general, un asistente afirma: 'Ser resiliente es aguantar sin venirse abajo; o se tiene o no se tiene'. Explica de forma accesible qué se entiende hoy por resiliencia en psicología y por qué esa definición es engañosa, sin caer en el extremo contrario de negar que existan diferencias entre personas.",
+    "expected_answer": "Debe explicar que la resiliencia se entiende como una trayectoria observable a lo largo del tiempo: mantener o recuperar un funcionamiento adaptativo tras una adversidad. Debe corregir las dos partes de la afirmación. Primera, resiliencia no es no sufrir: la mayoría de las personas expuestas a un suceso muy adverso presentan reacciones intensas al principio y aun así siguen una trayectoria de recuperación, que es de hecho la más frecuente; presentarla como aguante equivale a pedir que no se note el malestar y a considerar un fracaso el pedir ayuda. Segunda, no es un rasgo fijo que se tiene o no se tiene: depende también de los apoyos disponibles, de los recursos materiales y de las características de la situación, y una misma persona puede mostrar trayectorias distintas ante adversidades distintas. Debe evitar el extremo opuesto: sí existen diferencias entre personas, y afirmar que todo el mundo se recupera igual sería inexacto. Conviene señalar la consecuencia práctica: definir la resiliencia como fortaleza de carácter traslada la responsabilidad a quien no se recupera.",
+    "evaluation_criteria": [
+      {
+        "criterion": "Define la resiliencia como proceso o trayectoria de adaptación tras la adversidad, corrige explícitamente las dos partes de la afirmación —que sea ausencia de sufrimiento y que sea un rasgo fijo—, reconoce que existen diferencias individuales y señala el riesgo de culpabilizar a quien no se recupera.",
+        "max_points": 3
+      },
+      {
+        "criterion": "Corrige correctamente una de las dos partes de la afirmación y define la resiliencia de forma aceptable, pero no aborda la otra o no marca el límite frente a la negación de las diferencias individuales.",
+        "max_points": 2
+      },
+      {
+        "criterion": "Se limita a decir que la resiliencia se puede desarrollar, sin explicar qué es ni por qué la definición del asistente es engañosa.",
+        "max_points": 1
+      }
+    ],
+    "source": "Bonanno, G. A. (2004). Loss, trauma, and human resilience: Have we underestimated the human capacity to thrive after extremely aversive events? American Psychologist, 59(1), 20-28.",
+    "notes": "Ítem 'easy' por demanda cognitiva: corregir una definición ante público general. Mide un error conceptual extendido, no recuerdo, y su potencial discriminativo procede de exigir la corrección en dos direcciones a la vez: quien solo desmonta el 'aguantar' suele acabar afirmando que la resiliencia es universal o puramente contextual, que es igualmente inexacto. Marco no utilizado en el piloto ni en la pasada anterior. Se ha omitido el DOI por no haber podido confirmarlo desde este entorno.",
+    "critical_errors": [
+      "Definir la resiliencia como ausencia de sufrimiento o de reacciones emocionales intensas.",
+      "Presentarla como un rasgo fijo e inmodificable de la persona.",
+      "Atribuir la falta de recuperación exclusivamente a una carencia personal, ignorando el contexto y los recursos disponibles."
+    ],
+    "language": "es-ES"
+  },
+  {
+    "id": "PSY-048",
+    "dimension": "communication",
+    "topic": "consentimiento informado en investigación",
+    "difficulty": "medium",
+    "question": "Vas a explicar a una persona adulta con escasa formación y poca familiaridad con el lenguaje sanitario en qué consistiría su participación en un estudio de psicología: dos sesiones de una hora, cuestionarios sobre estado de ánimo y hábitos de sueño, datos anonimizados y sin compensación económica. Redacta la explicación oral que le darías, cubriendo qué se le pedirá, qué ocurre con sus datos y su derecho a retirarse. Debe poder entenderla alguien que no haya participado nunca en una investigación, y no debe presionarla para que acepte.",
+    "expected_answer": "Debe cubrir, en lenguaje llano y frases cortas, cinco contenidos: en qué consiste exactamente la participación (qué hará, cuánto dura, cuántas veces, dónde); qué se le va a preguntar, indicando que puede dejar sin responder preguntas concretas; qué se hace con sus datos, explicando en palabras corrientes qué significa que se separen sus respuestas de su nombre, quién las verá, para qué se usarán y cuánto tiempo se conservan; que no hay compensación económica; y que participar es voluntario y puede retirarse en cualquier momento, sin dar explicaciones y sin ninguna consecuencia para ella. Debe indicar además a quién puede preguntar sus dudas. Debe traducir o evitar términos como 'anonimizar', 'protocolo', 'consentimiento informado' o 'confidencialidad' si los utiliza. El tono debe ser neutro: no debe insistir, apelar a la contribución a la ciencia como forma de persuasión, minimizar el esfuerzo requerido ni prometer beneficios personales. Es adecuado invitar a preguntar y comprobar que se ha entendido, en lugar de recitar la información de una vez.",
+    "evaluation_criteria": [
+      {
+        "criterion": "Cubre los cinco contenidos —tarea, tipo de preguntas, tratamiento de los datos, ausencia de compensación y derecho a retirarse sin consecuencias—, emplea lenguaje llano sin tecnicismos ni jerga jurídica sin traducir, mantiene un tono no persuasivo e incluye alguna forma de comprobar la comprensión o invitar a preguntar.",
+        "max_points": 3
+      },
+      {
+        "criterion": "Cubre la mayor parte de los contenidos con lenguaje comprensible, pero omite uno de ellos o desliza algún término técnico sin explicar.",
+        "max_points": 2
+      },
+      {
+        "criterion": "Produce una explicación formalmente correcta pero con registro de documento escrito, o que omite el derecho a retirarse o el tratamiento de los datos.",
+        "max_points": 1
+      }
+    ],
+    "source": "American Psychological Association (2017). Ethical Principles of Psychologists and Code of Conduct, Standard 8: Research and Publication. Washington, DC: APA.",
+    "notes": "La tarea es producir un texto sujeto a restricciones simultáneas de contenido, registro y tono, no explicar un concepto: por eso no solapa con ningún ítem del piloto. El potencial discriminativo está en el tono: la deriva típica es persuadir de forma sutil apelando a la importancia del estudio, algo que el enunciado prohíbe explícitamente y que la rúbrica evalúa como adaptación al destinatario en la sección 7.5. Dificultad 'medium': la exigencia es de aplicación y adaptación, sin evaluación de evidencia.",
+    "critical_errors": [
+      "Omitir el derecho a retirarse sin consecuencias o presentarlo sujeto a condiciones.",
+      "Emplear terminología técnica o jurídica sin traducirla a lenguaje corriente.",
+      "Introducir elementos de presión, como insistir en la importancia del estudio para convencer a la persona.",
+      "Prometer beneficios personales que el estudio no ofrece."
+    ],
+    "language": "es-ES"
+  },
+  {
+    "id": "PSY-049",
+    "dimension": "communication",
+    "topic": "burnout como fenómeno ocupacional",
+    "difficulty": "medium",
+    "question": "La dirección de una empresa te encarga una charla titulada 'Cómo curar el burnout de nuestros empleados'. Explica a la persona que te hace el encargo, en términos que le resulten útiles, por qué el burnout se conceptualiza como un fenómeno asociado al trabajo y no como un diagnóstico médico individual, y qué consecuencia tiene eso para lo que la empresa puede esperar de una charla. Hazlo sin desautorizar su preocupación.",
+    "expected_answer": "Debe explicar que las clasificaciones internacionales describen el burnout como un fenómeno ocupacional derivado de estrés laboral crónico que no ha sido gestionado con éxito, y no como una enfermedad o un diagnóstico clínico de la persona; se caracteriza por agotamiento, distanciamiento mental o cinismo respecto del trabajo y reducción de la eficacia percibida, y se define en relación con el contexto laboral. La consecuencia práctica es que sus determinantes principales están en las condiciones de trabajo —carga, control sobre la propia tarea, claridad de rol, apoyo, reconocimiento y equidad— y no en la capacidad de aguante de cada empleado. De ahí que una charla dirigida a que la plantilla gestione mejor su estrés pueda ser útil como complemento, pero difícilmente modifique el fenómeno si las condiciones siguen igual; y que el propio título del encargo traslade a quien lo sufre la responsabilidad de un problema que en buena medida es organizativo. Debe reconocer expresamente que la preocupación de la dirección es legítima y ofrecer una alternativa concreta —evaluar las condiciones de trabajo, actuar sobre carga y autonomía, y comprobar después el resultado— en lugar de limitarse a rechazar el encargo.",
+    "evaluation_criteria": [
+      {
+        "criterion": "Explica el burnout como fenómeno ocupacional y no como diagnóstico individual, describe sus componentes, deriva la consecuencia de que los determinantes principales están en las condiciones de trabajo, señala el límite de una acción formativa aislada y ofrece una alternativa concreta reconociendo la legitimidad de la preocupación.",
+        "max_points": 3
+      },
+      {
+        "criterion": "Establece correctamente la distinción y su implicación organizativa, pero no propone alternativa concreta o desautoriza el encargo sin cuidar la relación con quien lo hace.",
+        "max_points": 2
+      },
+      {
+        "criterion": "Describe los síntomas del burnout y acepta el encargo tal como está formulado, o lo rechaza sin explicar la distinción conceptual que lo motiva.",
+        "max_points": 1
+      }
+    ],
+    "source": "Organización Mundial de la Salud (2019). Clasificación Internacional de Enfermedades, 11.ª revisión (CIE-11), QD85 'Burnout'. Ginebra: OMS. Véase también Maslach, C., & Leiter, M. P. (2016). Understanding the burnout experience: recent research and its implications for psychiatry. World Psychiatry, 15(2), 103-111.",
+    "notes": "Marco no utilizado en el piloto ni en la pasada anterior. La audiencia es un destinatario profesional no psicólogo con un interés previo en una conclusión concreta, lo que añade a la tarea comunicativa una tensión ausente en los ítems del piloto: hay que corregir la premisa del encargo sin perder al interlocutor. PSY-037, de la pasada anterior, trata el afrontamiento del estrés como conocimiento conceptual; aquí no se evalúa ese contenido sino la comunicación de una distinción con consecuencias organizativas. Dificultad 'medium': aplicación de una distinción conceptual a un contexto, sin evaluación de evidencia conflictiva.",
+    "critical_errors": [
+      "Presentar el burnout como un diagnóstico clínico o una enfermedad mental de la persona.",
+      "Aceptar sin matiz que una acción formativa individual resolverá el problema.",
+      "Rechazar el encargo sin ofrecer ninguna alternativa ni reconocer la preocupación de la dirección."
+    ],
+    "language": "es-ES"
+  },
+  {
+    "id": "PSY-050",
+    "dimension": "communication",
+    "topic": "asignación aleatoria y grupo de comparación",
+    "difficulty": "medium",
+    "question": "Una persona que participa en un estudio sobre un programa de bienestar te escribe: 'Me han puesto en el grupo que no recibe el programa. ¿Por qué a mí? ¿No es injusto que unos lo reciban y otros no?'. Respóndele explicando para qué sirven la asignación aleatoria y el grupo de comparación, de forma comprensible y sin que se sienta tratada como una participante de segunda.",
+    "expected_answer": "Debe explicar tres cosas. Que la asignación se hace al azar, no en función de sus características ni por decisión de nadie del equipo, y que por eso no hay nada personal en el resultado; conviene explicar que el azar es precisamente lo que hace comparables los dos grupos, porque reparte de forma pareja tanto lo que se conoce como lo que no. Que el grupo de comparación es imprescindible, porque sin él no puede saberse si los cambios observados se deben al programa o a cosas que ocurren igualmente con el paso del tiempo, de modo que su participación aporta información tan necesaria como la del otro grupo. Y qué recibe su grupo, si el estudio lo contempla —la práctica habitual, o el acceso al programa una vez terminado el estudio—, sin prometer nada que el protocolo no prevea. Debe reconocer que la situación puede resultar frustrante y no descalificar esa reacción, y debe evitar el tecnicismo no explicado y el tono de manual.",
+    "evaluation_criteria": [
+      {
+        "criterion": "Explica que la asignación es aleatoria y ajena a las características de la persona, justifica para qué sirve el grupo de comparación en términos comprensibles, transmite que su aportación al estudio es equivalente y valida la frustración sin prometer nada que el protocolo no contemple.",
+        "max_points": 3
+      },
+      {
+        "criterion": "Explica correctamente la aleatorización y la función del grupo de comparación, pero no atiende al componente emocional de la pregunta o emplea lenguaje demasiado técnico.",
+        "max_points": 2
+      },
+      {
+        "criterion": "Responde que así funciona la investigación o que es lo habitual, sin explicar la función del grupo de comparación.",
+        "max_points": 1
+      }
+    ],
+    "source": "No requiere fuente externa específica: se comunica el fundamento estándar de la asignación aleatoria y del grupo de comparación en investigación aplicada.",
+    "notes": "Q8 se considera N/A conforme a la sección 5 de la rúbrica: el ítem comunica un principio metodológico general y no depende de una cita concreta, igual que PSY-025 y PSY-026 del piloto. La tarea combina explicación técnica y manejo de una queja, combinación que ningún ítem del piloto plantea. Dificultad 'medium': aplicación y adaptación al destinatario. El fallo típico es responder correctamente en lo técnico y dejar sin atender la parte de la pregunta que expresa agravio, o al contrario, consolar sin explicar.",
+    "critical_errors": [
+      "Dar a entender que la asignación se ha decidido en función de las características de la persona.",
+      "Sugerir que el grupo de comparación aporta menos valor al estudio.",
+      "Prometer que recibirá el programa si el protocolo no lo contempla."
+    ],
+    "language": "es-ES"
+  },
+  {
+    "id": "PSY-051",
+    "dimension": "communication",
+    "topic": "sueño y rendimiento cognitivo",
+    "difficulty": "medium",
+    "question": "Un chico de 15 años te cuenta que durante la semana de exámenes duerme cuatro horas para poder estudiar más, y que 'ya dormirá cuando acabe'. Explícale, en un registro que le resulte cercano y sin sermonearle, qué le ocurre a su rendimiento cuando reduce el sueño de esa manera y por qué es probable que él no lo esté notando.",
+    "expected_answer": "Debe explicar dos cosas y una tercera menos evidente. Primera: el sueño no es tiempo que compite con el estudio, porque durante el sueño se estabiliza lo aprendido durante el día, de modo que quitar horas de sueño para estudiar puede restar más de lo que suma. Segunda: la restricción de sueño afecta especialmente a la atención sostenida, a la velocidad de respuesta y al control de impulsos, con lapsos breves de atención durante los cuales simplemente no se registra la información. Tercera, la que responde a por qué no lo nota: con la privación acumulada, la valoración subjetiva del propio estado deja de acompañar a la caída del rendimiento, de modo que uno se habitúa a sentirse así y cree estar rindiendo igual mientras el rendimiento sigue bajando; por eso la propia sensación no es un buen indicador. El registro debe ser directo y sin moralina, y conviene ofrecer una alternativa realista —repartir el estudio en los días previos, priorizar contenidos, proteger el sueño de la noche anterior al examen— en lugar de una prohibición.",
+    "evaluation_criteria": [
+      {
+        "criterion": "Explica el papel del sueño en la estabilización de lo aprendido, describe el efecto de la restricción sobre la atención, explica por qué la sensación subjetiva no refleja la caída del rendimiento, y mantiene un registro cercano con alguna alternativa realista en lugar de una prohibición.",
+        "max_points": 3
+      },
+      {
+        "criterion": "Explica correctamente el efecto sobre el aprendizaje o sobre la atención y adapta el registro, pero no explica por qué el chico no percibe el deterioro.",
+        "max_points": 2
+      },
+      {
+        "criterion": "Recomienda dormir más apelando a que es sano o necesario, sin explicar el mecanismo, o adopta un tono de advertencia adulta.",
+        "max_points": 1
+      }
+    ],
+    "source": "Diekelmann, S., & Born, J. (2010). The memory function of sleep. Nature Reviews Neuroscience, 11(2), 114-126. Véase también Van Dongen, H. P. A., Maislin, G., Mullington, J. M., & Dinges, D. F. (2003). The cumulative cost of additional wakefulness: dose-response effects on neurobehavioral functions and sleep physiology from chronic sleep restriction and total sleep deprivation. Sleep, 26(2), 117-126.",
+    "notes": "Marco no utilizado: el piloto trata estrategias de estudio en PSY-003 y PSY-008 mediante el efecto de espaciamiento, un fenómeno y un mecanismo distintos, que aquí no se mencionan ni se evalúan. La demanda propia de este ítem es la adaptación evolutiva del registro a un adolescente sin adoptar el papel de adulto que amonesta, algo que ningún ítem del piloto exige. El elemento discriminativo es el tercer contenido —la disociación entre sensación subjetiva y rendimiento—, que un modelo mediocre omite porque no forma parte del consejo habitual sobre higiene del sueño. Dificultad 'medium'.",
+    "critical_errors": [
+      "Presentar el sueño únicamente como tiempo de descanso que compite con el estudio, sin su papel en la consolidación de lo aprendido.",
+      "Afirmar que el sueño perdido se recupera íntegramente después.",
+      "Adoptar un tono de reprimenda o de advertencia moral en lugar de explicar."
+    ],
+    "language": "es-ES"
+  },
+  {
+    "id": "PSY-052",
+    "dimension": "communication",
+    "topic": "programas de prevención del acoso escolar",
+    "difficulty": "medium",
+    "question": "La dirección de un colegio quiere contratar un taller único de dos horas sobre gestión emocional para 'acabar con el acoso escolar' en el centro. Explícales por qué es poco probable que una intervención con ese formato produzca un cambio sostenido y qué características se asocian a los programas que sí muestran efectos, sin desdeñar la iniciativa ni dar a entender que no merece la pena hacer nada.",
+    "expected_answer": "Debe explicar que la evidencia acumulada sobre programas antiacoso muestra efectos pequeños pero reales, y que aparecen asociados a programas intensivos y prolongados que implican a todo el centro y no solo al alumnado: formación del profesorado, normas explícitas y procedimientos claros de actuación ante los casos, supervisión de los espacios donde ocurre, trabajo con las familias y continuidad en el tiempo. Debe explicar por qué una acción puntual de sensibilización no basta: el acoso depende de dinámicas de grupo y de lo que el entorno tolera o sanciona, y eso no se modifica con una sesión aislada por buena que sea; además, quienes deben cambiar su conducta rara vez lo hacen por haber recibido información. Debe reconocer expresamente que la preocupación del centro es valiosa, señalar que el taller puede tener sentido como una pieza dentro de un plan más amplio, indicar qué habría que añadir y proponer cómo comprobar después si algo ha cambiado. Debe evitar tanto prometer resultados como transmitir que nada funciona.",
+    "evaluation_criteria": [
+      {
+        "criterion": "Explica que los efectos documentados son pequeños y se asocian a programas intensivos y de centro completo, enumera al menos dos componentes concretos de esos programas, explica por qué una sesión aislada no modifica dinámicas de grupo, reconoce la legitimidad de la iniciativa y propone una alternativa viable con alguna forma de comprobar el resultado.",
+        "max_points": 3
+      },
+      {
+        "criterion": "Explica correctamente por qué el taller aislado es insuficiente y menciona características de los programas eficaces, pero no ofrece alternativa concreta o transmite un mensaje global de escepticismo.",
+        "max_points": 2
+      },
+      {
+        "criterion": "Afirma que un taller de dos horas es insuficiente sin explicar qué caracteriza a los programas que funcionan, o acepta el encargo tal como está formulado.",
+        "max_points": 1
+      }
+    ],
+    "source": "Ttofi, M. M., & Farrington, D. P. (2011). Effectiveness of school-based programs to reduce bullying: a systematic and meta-analytic review. Journal of Experimental Criminology, 7(1), 27-56.",
+    "notes": "Marco no utilizado en el piloto ni en la pasada anterior. La demanda comunicativa característica es decir que algo no va a funcionar a quien ya ha decidido contratarlo, conservando la relación y la posibilidad de hacer algo mejor: ni el rechazo técnico ni la aceptación complaciente obtienen la puntuación máxima. Dificultad 'medium': aplicación de evidencia establecida a una decisión concreta, sin evidencia conflictiva que evaluar. Se ha omitido el DOI por no haber podido confirmarlo desde este entorno.",
+    "critical_errors": [
+      "Afirmar que los programas antiacoso no funcionan en general.",
+      "Aceptar sin matiz que un taller puntual reducirá el acoso en el centro.",
+      "Rechazar la propuesta sin ofrecer alternativa ni reconocer la legitimidad de la preocupación."
+    ],
+    "language": "es-ES"
+  },
+  {
+    "id": "PSY-053",
+    "dimension": "communication",
+    "topic": "polígrafo y detección del engaño",
+    "difficulty": "medium",
+    "question": "Un abogado te consulta, en calidad de experto en psicología, si puede apoyar su estrategia en el resultado de una prueba de polígrafo que califica a su cliente como 'sincero'. Explícale, en términos que él pueda trasladar a personas sin formación técnica, qué mide realmente el polígrafo y qué limita el valor de ese resultado, sin emitir ninguna valoración sobre la veracidad de su cliente.",
+    "expected_answer": "Debe explicar que el polígrafo no detecta mentiras: registra indicadores de activación fisiológica —como cambios en la respiración, la conductancia de la piel o la frecuencia cardiaca— y es el examinador quien infiere el engaño comparando las respuestas ante distintos tipos de pregunta. El problema central es que esa activación no es específica del engaño: puede producirla el miedo a no ser creído, la ansiedad ante la propia prueba, la implicación emocional con el asunto o la indignación; y a la inversa, puede atenuarse mediante contramedidas o ser escasa en personas poco reactivas. De ahí que la exactitud supere el azar pero con errores en ambas direcciones, de modo que un resultado no permite afirmar que una persona concreta dice la verdad. Debe señalar también que el propio marco de la pregunta es defectuoso: un resultado etiquetado como 'sincero' no es una prueba de sinceridad, sino la clasificación de un patrón fisiológico. Debe abstenerse expresamente de opinar sobre el caso y ofrecer al abogado una formulación breve y precisa que pueda usar.",
+    "evaluation_criteria": [
+      {
+        "criterion": "Explica que el instrumento registra activación fisiológica y no engaño, identifica la falta de especificidad de esa activación con al menos dos causas alternativas, indica que hay errores en ambas direcciones, corrige el marco de la pregunta y se abstiene de valorar la veracidad del cliente.",
+        "max_points": 3
+      },
+      {
+        "criterion": "Explica correctamente qué mide el polígrafo y su limitación principal, pero no corrige el planteamiento del abogado o no adapta la explicación a un uso no técnico.",
+        "max_points": 2
+      },
+      {
+        "criterion": "Afirma que el polígrafo no es fiable sin explicar qué mide ni por qué la inferencia falla.",
+        "max_points": 1
+      }
+    ],
+    "source": "National Research Council (2003). The Polygraph and Lie Detection. Washington, DC: The National Academies Press.",
+    "notes": "Marco no utilizado en el piloto ni en la pasada anterior. La audiencia es un profesional de otra disciplina que necesita la explicación para reutilizarla, lo que añade una capa —comunicar para que el interlocutor pueda a su vez comunicar— que ningún ítem del piloto plantea. El enunciado evita deliberadamente cualquier referencia a la admisibilidad procesal en un ordenamiento concreto, de modo que la respuesta no dependa del conocimiento del derecho de un país (gate G7). El error típico es el rechazo global, afirmar que el polígrafo acierta al nivel del azar, que es inexacto. Dificultad 'medium'.",
+    "critical_errors": [
+      "Presentar el polígrafo como un instrumento que detecta el engaño de forma directa.",
+      "Ofrecer una valoración sobre la veracidad del cliente.",
+      "Afirmar que la tasa de acierto del polígrafo es equivalente al azar."
+    ],
+    "language": "es-ES"
+  },
+  {
+    "id": "PSY-054",
+    "dimension": "communication",
+    "topic": "comunicación de resultados de una evaluación de programa",
+    "difficulty": "medium",
+    "question": "El gabinete de comunicación de tu organización te envía para el visto bueno el borrador de una nota de prensa que afirma: 'Nuestro programa de bienestar mejora el bienestar de los empleados un 30 %'. El dato procede de comparar un cuestionario aplicado antes y después del programa a quienes se apuntaron voluntariamente, sin ningún grupo de comparación. Explica al gabinete por qué la frase no puede publicarse tal cual y propón una redacción alternativa que sea fiel al dato y siga resultando publicable.",
+    "expected_answer": "Debe explicar, sin tecnicismos innecesarios, que un cambio antes-después en quienes se apuntan voluntariamente no permite atribuir la mejoría al programa, porque hay explicaciones alternativas que el diseño no descarta: quienes se apuntan pueden diferir de los demás y hacerlo en un momento particularmente malo, las puntuaciones extremas tienden a moderarse al repetir la medida, puede haber cambios en el entorno durante el periodo, y quien participa y sabe qué se espera tiende a informar de mejoría. Debe señalar además que el '30 %' es ambiguo mientras no se precise sobre qué medida y qué escala se calcula. Debe proponer una redacción alternativa concreta que se limite a lo observado —por ejemplo, que quienes participaron voluntariamente informaron de una mejora media de una magnitud determinada en una escala identificada entre el inicio y el final del programa, sin que el diseño permita atribuir ese cambio al programa— y ofrecer qué haría falta para poder afirmar más: un grupo de comparación y un seguimiento posterior. El tono debe ser de colaboración con el gabinete, no de veto.",
+    "evaluation_criteria": [
+      {
+        "criterion": "Identifica que el diseño no permite la atribución causal y menciona al menos dos explicaciones alternativas concretas, señala la ambigüedad del porcentaje, redacta una alternativa publicable que no atribuye la mejoría al programa e indica qué diseño permitiría afirmar más.",
+        "max_points": 3
+      },
+      {
+        "criterion": "Explica correctamente el problema del diseño y propone una alternativa, pero la redacción propuesta sigue insinuando la atribución o no aborda la ambigüedad del dato.",
+        "max_points": 2
+      },
+      {
+        "criterion": "Rechaza la frase por falta de grupo control sin proponer ninguna redacción alternativa utilizable.",
+        "max_points": 1
+      }
+    ],
+    "source": "Campbell, D. T., & Stanley, J. C. (1963). Experimental and Quasi-Experimental Designs for Research. Chicago: Rand McNally.",
+    "notes": "El producto exigido es un texto reescrito y no una explicación, lo que distingue este ítem de PSY-026 del piloto: allí se explica un principio a un periodista, aquí hay que producir una formulación alternativa que sobreviva a la vez al criterio científico y al criterio de publicabilidad. La regresión a la media aparece como una de varias explicaciones alternativas y se desarrolla como contenido central en PSY-065, con una demanda distinta; se declara la proximidad. El fallo típico es el veto sin alternativa, que en un contexto profesional real equivale a que la nota se publique igual.",
+    "critical_errors": [
+      "Aceptar la afirmación causal por acompañarla de una advertencia metodológica genérica.",
+      "Proponer una redacción alternativa que siga atribuyendo la mejoría al programa.",
+      "Limitarse a rechazar la nota sin ofrecer una formulación publicable."
+    ],
+    "language": "es-ES"
+  },
+  {
+    "id": "PSY-055",
+    "dimension": "communication",
+    "topic": "interpretación de puntuaciones y error de medida",
+    "difficulty": "medium",
+    "question": "Tras una evaluación psicoeducativa, unos padres te preguntan qué significa que su hijo haya obtenido un percentil 32 en una prueba de comprensión lectora y si eso quiere decir que 'ha sacado un 32 sobre 100'. Explícaselo de forma comprensible, incluyendo qué es el error de medida y por qué conviene interpretar la puntuación como una franja y no como un número exacto, sin que el resultado se convierta en una etiqueta sobre el niño.",
+    "expected_answer": "Debe corregir la confusión de partida: un percentil no es un porcentaje de aciertos sino una posición relativa; un percentil 32 significa que su puntuación es igual o superior a la de aproximadamente el 32 % de los niños del grupo de comparación de su edad, y nada dice sobre cuántas preguntas acertó. Debe explicar el error de medida en lenguaje llano: ninguna prueba mide sin ruido, de modo que si el niño la repitiera el resultado variaría dentro de una franja; por eso lo razonable es hablar de un intervalo y no de un número exacto, y no dar importancia a diferencias pequeñas entre puntuaciones. Debe añadir que el resultado depende del grupo con el que se compara y de las condiciones del día de aplicación. Y debe situarlo sin etiquetar: un percentil 32 está dentro del rango esperable y no indica por sí solo un problema; una puntuación describe el rendimiento en una prueba concreta, no al niño, y su utilidad es orientar dónde apoyarle. Debe evitar convertir la explicación en un pronóstico o en un diagnóstico.",
+    "evaluation_criteria": [
+      {
+        "criterion": "Corrige la confusión entre percentil y porcentaje de aciertos con una formulación correcta de la posición relativa, explica el error de medida y justifica el uso de un intervalo, sitúa el resultado sin convertirlo en etiqueta ni pronóstico, y mantiene lenguaje accesible para una familia.",
+        "max_points": 3
+      },
+      {
+        "criterion": "Corrige la confusión y explica el resultado de forma comprensible, pero trata la puntuación como un valor exacto o no aborda el error de medida.",
+        "max_points": 2
+      },
+      {
+        "criterion": "Explica el percentil de forma técnicamente correcta pero inaccesible para la familia, o desliza una interpretación evaluativa sobre las capacidades del niño.",
+        "max_points": 1
+      }
+    ],
+    "source": "American Educational Research Association, American Psychological Association, & National Council on Measurement in Education (2014). Standards for Educational and Psychological Testing. Washington, DC: AERA.",
+    "notes": "Se declara proximidad con dos ítems de la pasada anterior: PSY-036 trata la obsolescencia de baremos y PSY-038 la fiabilidad de las puntuaciones, ambos como conocimiento técnico. Aquí no se evalúa ese conocimiento sino la capacidad de convertir una puntuación en información útil para una familia sin generar una etiqueta, que es una capacidad distinta y con un fallo característico propio: la explicación técnicamente correcta pero devastadora para quien la recibe. Dificultad 'medium'.",
+    "critical_errors": [
+      "Explicar el percentil como porcentaje de respuestas correctas.",
+      "Presentar la puntuación como un valor exacto y estable, sin margen de error.",
+      "Derivar de la puntuación una etiqueta o un pronóstico sobre el niño."
+    ],
+    "language": "es-ES"
+  },
+  {
+    "id": "PSY-056",
+    "dimension": "communication",
+    "topic": "estigma y lenguaje en la información sobre trastorno mental",
+    "difficulty": "medium",
+    "question": "Un periodista te envía para revisión el borrador de una noticia que empieza así: 'Un esquizofrénico agredió ayer a un vecino'. Explícale qué problemas plantea esa formulación y propón alternativas concretas, apoyándote en lo que se sabe sobre la relación entre trastorno mental grave y violencia, sin pedirle que oculte información veraz.",
+    "expected_answer": "Debe distinguir dos problemas de naturaleza distinta. El primero es de lenguaje: la construcción sustituye a la persona por el diagnóstico, reduciéndola a él; la alternativa concreta es mencionar el diagnóstico solo cuando sea informativamente pertinente y formularlo como un atributo y no como una identidad. El segundo, más importante, es de relevancia e inferencia: colocar el diagnóstico en la primera línea sugiere que explica el hecho, cuando la evidencia indica que la proporción de violencia atribuible a los trastornos mentales graves es pequeña, que el incremento de riesgo se concentra en presencia de consumo de sustancias y otros factores concurrentes, y que las personas con trastorno mental grave son con mayor frecuencia víctimas que autoras de agresiones. Debe reconocer explícitamente que el periodista puede informar de hechos veraces y proponer cómo hacerlo: comprobar si el dato es pertinente para lo que se narra, no situarlo en el titular si no es esencial, y añadir contexto en lugar de suprimir información. El tono debe ser de revisión profesional entre iguales y no de corrección moral.",
+    "evaluation_criteria": [
+      {
+        "criterion": "Separa el problema de lenguaje del problema de inferencia causal, aporta al menos un dato correcto sobre la relación entre trastorno mental grave y violencia, propone alternativas concretas de redacción y reconoce el derecho a informar de hechos veraces.",
+        "max_points": 3
+      },
+      {
+        "criterion": "Señala correctamente el problema del lenguaje y propone alternativas, pero no aborda la inferencia que sugiere la estructura de la noticia o no aporta información sobre la relación con la violencia.",
+        "max_points": 2
+      },
+      {
+        "criterion": "Reduce el problema a una cuestión de terminología correcta, o pide que se elimine el dato sin argumentar su pertinencia.",
+        "max_points": 1
+      }
+    ],
+    "source": "Fazel, S., Gulati, G., Linsell, L., Geddes, J. R., & Grann, M. (2009). Schizophrenia and violence: systematic review and meta-analysis. PLoS Medicine, 6(8), e1000120.",
+    "notes": "Se declara proximidad temática con PSY-031 de la pasada anterior, que trata la confusión entre esquizofrenia y trastorno de identidad disociativo como conocimiento nosológico. El contenido sustantivo de este ítem es distinto —la relación entre trastorno mental grave y violencia— y la capacidad evaluada también: revisar un texto ajeno y proponer alternativas manteniendo la relación profesional. El fallo típico y penalizado es el purismo terminológico que se queda en 'persona con esquizofrenia' sin tocar la inferencia causal del titular, que es lo que produce el daño. Dificultad 'medium'.",
+    "critical_errors": [
+      "Pedir que se oculte información veraz en lugar de contextualizarla.",
+      "Afirmar que no existe ninguna asociación entre trastorno mental grave y violencia.",
+      "Reducir el problema a una cuestión terminológica sin abordar la inferencia causal que sugiere la noticia."
+    ],
+    "language": "es-ES"
+  },
+  {
+    "id": "PSY-057",
+    "dimension": "communication",
+    "topic": "comunicación de riesgo relativo y absoluto",
+    "difficulty": "hard",
+    "question": "Un titular afirma: 'Vivir solo duplica el riesgo de deterioro cognitivo a partir de los 65 años'. Una persona preocupada porque su padre vive solo te pregunta qué significa eso. Explícale qué información hace falta para interpretar ese 'duplica' y cómo se comunicaría de forma comprensible una duplicación del riesgo cuando la frecuencia de partida es baja. No hagas ninguna valoración sobre el caso concreto de su padre.",
+    "expected_answer": "Debe explicar que 'duplicar el riesgo' es una expresión relativa que por sí sola no informa de nada: para interpretarla hace falta conocer el riesgo de partida, es decir, con qué frecuencia aparece el problema en el grupo de comparación. Debe mostrar la traducción a frecuencias naturales con un ejemplo explícitamente hipotético: si de cada 1.000 personas comparables el problema apareciera en 4, duplicar el riesgo significaría pasar de 4 a 8 de cada 1.000, esto es, 4 casos adicionales; la misma expresión significaría algo muy distinto si el punto de partida fuera de 200 de cada 1.000. Debe señalar que el dato del titular procede de una asociación observada y no establece por sí mismo que vivir solo produzca el deterioro, ya que pueden intervenir factores asociados a vivir solo, e incluso el orden inverso. Y debe indicar que se refiere a grupos y no permite pronosticar lo que le ocurrirá a una persona concreta. El tono debe reducir la alarma sin banalizar, y debe abstenerse de valorar la situación de su padre.",
+    "evaluation_criteria": [
+      {
+        "criterion": "Explica que una cifra relativa exige conocer el riesgo de partida, traduce la duplicación a frecuencias naturales con un ejemplo señalado como hipotético, advierte de que la asociación no establece causalidad y precisa que el dato no permite pronosticar el caso individual, todo ello en lenguaje accesible y sin valorar el caso.",
+        "max_points": 3
+      },
+      {
+        "criterion": "Distingue riesgo relativo de riesgo absoluto y pide el dato de partida, pero no llega a traducir la cifra a frecuencias comprensibles o no advierte del salto del grupo al individuo.",
+        "max_points": 2
+      },
+      {
+        "criterion": "Tranquiliza a la persona afirmando que los titulares exageran, sin explicar qué información falta ni cómo interpretarla.",
+        "max_points": 1
+      }
+    ],
+    "source": "Gigerenzer, G., Gaissmaier, W., Kurz-Milcke, E., Schwartz, L. M., & Woloshin, S. (2007). Helping doctors and patients make sense of health statistics. Psychological Science in the Public Interest, 8(2), 53-96.",
+    "notes": "Marco no utilizado en el piloto ni en la pasada anterior. El elemento nuclear puntuado es la traducción de una medida relativa a frecuencias naturales, capacidad que ningún ítem previo evalúa; la advertencia sobre causalidad y la distinción grupo-individuo aparecen como elementos secundarios y se desarrollan como contenido central en PSY-026 del piloto y en PSY-061 respectivamente, lo que se declara aquí. Dificultad 'hard': exige manejar magnitudes, construir un ejemplo numérico correcto y comunicar incertidumbre a una persona preocupada, integrando varias exigencias a la vez. El ejemplo numérico debe presentarse como hipotético: inventar cifras de prevalencia reales sería un error científico.",
+    "critical_errors": [
+      "Interpretar 'duplica el riesgo' sin señalar que hace falta conocer el riesgo de partida.",
+      "Presentar el dato como aplicable al pronóstico de una persona concreta.",
+      "Presentar la asociación observada como una relación causal establecida.",
+      "Ofrecer cifras de riesgo concretas como si fueran datos reales del estudio."
+    ],
+    "language": "es-ES"
+  },
+  {
+    "id": "PSY-058",
+    "dimension": "communication",
+    "topic": "interpretación de resultados nulos",
+    "difficulty": "hard",
+    "question": "La persona responsable de un programa de prevención te dice: 'He leído que un ensayo reciente no encontró efectos significativos de programas como el nuestro, así que está demostrado que no sirven'. Explícale la diferencia entre no haber encontrado evidencia de un efecto y haber encontrado evidencia de que no hay efecto, y qué debería mirar en ese ensayo antes de tomar una decisión. Cuida que tu explicación no funcione como una defensa automática del programa.",
+    "expected_answer": "Debe distinguir con claridad las dos afirmaciones: un resultado no significativo indica que los datos son compatibles con la ausencia de efecto, pero también con efectos pequeños o incluso moderados que el estudio no tenía capacidad de detectar; sostener que no hay efecto exige evidencia distinta, como una estimación precisa concentrada en torno a cero o un diseño concebido para contrastar equivalencia. Debe indicar qué mirar antes de decidir: el tamaño de la muestra y la capacidad del estudio para detectar el efecto de interés, la precisión del resultado —el intervalo de confianza y qué valores incluye— más que el valor p, si el programa evaluado es comparable al suyo, cómo se aplicó realmente, qué se midió y en qué plazo, y qué dicen el resto de estudios y las revisiones disponibles. Y debe cerrar de forma simétrica: la misma lógica impide concluir que su programa funciona; la conclusión honesta es que hay incertidumbre, y la vía razonable es evaluarlo con un diseño adecuado en lugar de buscar argumentos para sostener la posición previa.",
+    "evaluation_criteria": [
+      {
+        "criterion": "Distingue con precisión ausencia de evidencia de evidencia de ausencia, explica el papel de la capacidad del estudio para detectar el efecto y de la precisión de la estimación, enumera al menos tres elementos concretos que revisar en el ensayo y aplica la simetría del argumento también a favor del programa.",
+        "max_points": 3
+      },
+      {
+        "criterion": "Establece correctamente la distinción y menciona algún elemento a revisar, pero no aplica la simetría del argumento o se limita a señalar que la muestra podría ser pequeña.",
+        "max_points": 2
+      },
+      {
+        "criterion": "Afirma que un solo estudio no demuestra nada, sin explicar la asimetría entre no encontrar efecto y demostrar su ausencia.",
+        "max_points": 1
+      }
+    ],
+    "source": "Altman, D. G., & Bland, J. M. (1995). Absence of evidence is not evidence of absence. BMJ, 311(7003), 485.",
+    "notes": "Se declara proximidad con PSY-015 y PSY-028 del piloto, que tratan respectivamente la interpretación del valor p y la distinción entre significación y relevancia práctica. La capacidad aquí es otra: comunicar la asimetría lógica de un resultado nulo a alguien que debe tomar una decisión con ella, y hacerlo sin que la explicación se convierta en una defensa interesada del programa propio, exigencia que el enunciado impone y que los criterios puntúan. Dificultad 'hard': interpretación de evidencia y comunicación de incertidumbre a un destinatario con un interés en juego.",
+    "critical_errors": [
+      "Concluir que el resultado no significativo demuestra la ausencia de efecto.",
+      "Emplear la distinción para sostener que el programa sí funciona.",
+      "Interpretar el valor p como la probabilidad de que el efecto no exista."
+    ],
+    "language": "es-ES"
+  },
+  {
+    "id": "PSY-059",
+    "dimension": "communication",
+    "topic": "explicaciones causales de la depresión y adherencia",
+    "difficulty": "hard",
+    "question": "Una persona que está en tratamiento por depresión te escribe: 'He leído que lo del desequilibrio químico de serotonina es un mito y que los científicos lo han desmentido. Entonces, ¿los antidepresivos que tomo no sirven de nada?'. Responde de forma clara y honesta, corrigiendo tanto la idea del desequilibrio químico como la conclusión que extrae de ella, sin darle ninguna indicación sobre su medicación y orientándole sobre con quién debe hablarlo.",
+    "expected_answer": "Debe corregir dos cosas distintas. Primera: la explicación de la depresión como un simple déficit de serotonina no está respaldada por la evidencia acumulada; se difundió como simplificación divulgativa y no como conclusión establecida, y hoy la depresión se entiende como un fenómeno multifactorial en el que intervienen factores biológicos, psicológicos y sociales. Segunda, y de forma explícita: de lo anterior no se sigue que los antidepresivos no funcionen. La eficacia de un fármaco se establece en ensayos clínicos que lo comparan con placebo y no depende de que la teoría causal asociada sea correcta; que un mecanismo propuesto no se sostenga no anula los datos de eficacia, del mismo modo que un tratamiento puede funcionar sin que se sepa bien por qué. Debe añadir con honestidad que la magnitud media del beneficio es objeto de debate y varía entre personas. Y debe ser explícito en no aconsejar sobre su medicación: cualquier cambio corresponde a quien se la prescribió, y no es una decisión que deba tomarse a partir de una noticia ni por cuenta propia. El tono debe tomarse la pregunta en serio y no ridiculizar la lectura que ha hecho.",
+    "evaluation_criteria": [
+      {
+        "criterion": "Corrige la explicación del desequilibrio químico sin defenderla, separa con claridad la validez de una teoría causal de la evidencia de eficacia de un tratamiento, reconoce el debate sobre la magnitud del beneficio, se abstiene de toda indicación sobre la medicación y remite a quien la prescribió, manteniendo un tono que no descalifica a la persona.",
+        "max_points": 3
+      },
+      {
+        "criterion": "Corrige ambas ideas y evita aconsejar sobre la medicación, pero no explica por qué la eficacia no depende de la corrección del mecanismo, o no remite explícitamente al profesional prescriptor.",
+        "max_points": 2
+      },
+      {
+        "criterion": "Responde que la depresión es multifactorial y que debe consultar con su médico, sin abordar la inferencia errónea que la persona ha hecho.",
+        "max_points": 1
+      }
+    ],
+    "source": "Moncrieff, J., Cooper, R. E., Stockmann, T., Amendola, S., Hengartner, M. P., & Horowitz, M. A. (2023). The serotonin theory of depression: a systematic umbrella review of the evidence. Molecular Psychiatry, 28, 3243-3256.",
+    "notes": "Se declara proximidad con PSY-030 del piloto, que también sitúa a un paciente preguntando por su tratamiento: allí la capacidad evaluada es distinguir evidencia poblacional de resultado individual, y aquí es separar la validez de un mecanismo causal de la evidencia de eficacia, una disociación conceptual distinta y bastante más exigente. Cumple G6: el enunciado prohíbe expresamente cualquier indicación sobre la medicación y la respuesta correcta remite al prescriptor; esa abstención forma parte de lo evaluado. Dificultad 'hard': interpretación de evidencia, corrección en dos direcciones y comunicación responsable con consecuencias potenciales sobre la adherencia. Se ha omitido el DOI por no haber podido confirmarlo desde este entorno.",
+    "critical_errors": [
+      "Dar cualquier indicación sobre mantener, cambiar o suspender la medicación.",
+      "Concluir que la falta de apoyo a la hipótesis de la serotonina implica que los antidepresivos no son eficaces.",
+      "Defender la explicación del desequilibrio químico como si estuviera establecida.",
+      "Descalificar la fuente que la persona ha leído en lugar de explicar qué dice realmente."
+    ],
+    "language": "es-ES"
+  },
+  {
+    "id": "PSY-060",
+    "dimension": "communication",
+    "topic": "validez de instrumentos en selección de personal",
+    "difficulty": "hard",
+    "question": "En una reunión de equipo, la responsable de recursos humanos propone utilizar un test de personalidad muy conocido, que clasifica a las personas en dieciséis tipos combinando cuatro pares de categorías opuestas, como criterio para seleccionar candidatos. Explica ante el equipo por qué ese uso no es defendible y qué alternativas cuentan con respaldo, de manera que la persona que lo ha propuesto no quede desautorizada delante de sus compañeros.",
+    "expected_answer": "Debe señalar problemas concretos y no una descalificación genérica. Primero, la clasificación en categorías opuestas no se corresponde con cómo se distribuyen los rasgos de personalidad, que son continuos: dos personas con puntuaciones casi idénticas pueden quedar en tipos distintos por caer a uno u otro lado del punto de corte. Segundo, la estabilidad de la clasificación al repetir la prueba es limitada, y una proporción apreciable de personas cambia de tipo en cuestión de semanas, lo que es incompatible con usarla para decidir. Y tercero, lo decisivo: no hay evidencia de que la clasificación prediga el desempeño laboral, que es exactamente lo que una decisión de selección requiere; un instrumento puede ser interesante para la reflexión personal y no tener validez para esa finalidad. Debe indicar qué sí muestra capacidad predictiva del desempeño —pruebas de capacidad cognitiva, muestras de trabajo, entrevistas estructuradas y, entre las medidas de personalidad, dimensiones evaluadas con instrumentos con evidencia de validez— y mencionar el riesgo de decidir sobre personas con un instrumento sin validez para ese uso. Debe separar la crítica al instrumento de la crítica a quien lo propone: reconocer el objetivo legítimo de sistematizar la selección, atribuir el problema a la difusión del test y no a un error de criterio personal, y ofrecer una alternativa concreta y viable.",
+    "evaluation_criteria": [
+      {
+        "criterion": "Aporta al menos dos problemas técnicos concretos e identifica la ausencia de validez predictiva para el desempeño como el argumento decisivo, propone alternativas con respaldo, y estructura la intervención de modo que preserve la posición de quien hizo la propuesta reconociendo su objetivo legítimo.",
+        "max_points": 3
+      },
+      {
+        "criterion": "Explica correctamente por qué el instrumento no es adecuado para seleccionar y propone alguna alternativa, pero no cuida la dimensión social de la situación o basa el rechazo en un único argumento genérico.",
+        "max_points": 2
+      },
+      {
+        "criterion": "Afirma que el test no es científico o carece de validez sin precisar qué falla ni qué usar en su lugar.",
+        "max_points": 1
+      }
+    ],
+    "source": "Pittenger, D. J. (2005). Cautionary comments regarding the Myers-Briggs Type Indicator. Consulting Psychology Journal: Practice and Research, 57(3), 210-221. Véase también Sackett, P. R., Zhang, C., Berry, C. M., & Lievens, F. (2022). Revisiting meta-analytic estimates of validity in personnel selection. Journal of Applied Psychology, 107(11), 2040-2068.",
+    "notes": "Se declara proximidad con PSY-005 del piloto, que evalúa el conocimiento del modelo de los Cinco Grandes, y con PSY-038 de la pasada anterior, sobre fiabilidad: aquí no se pregunta por ese conocimiento, sino por la capacidad de comunicar una objeción técnica en una reunión sin producir un coste social que haga inviable la recomendación, exigencia que el enunciado impone expresamente. Dificultad 'hard' por la integración de varios argumentos técnicos con una restricción interpersonal fuerte. La respuesta no debe apoyarse en magnitudes concretas de validez, que han sido objeto de revisión reciente; se puntúa el argumento, no la cifra.",
+    "critical_errors": [
+      "Aceptar el uso del instrumento para decidir contrataciones si se combina con otras fuentes de información.",
+      "Rechazar el instrumento sin proponer ninguna alternativa con respaldo.",
+      "Fundamentar el rechazo en la descalificación de quien ha hecho la propuesta."
+    ],
+    "language": "es-ES"
+  },
+  {
+    "id": "PSY-061",
+    "dimension": "communication",
+    "topic": "diferencias entre grupos y variabilidad individual",
+    "difficulty": "hard",
+    "question": "Un periodista te llama a raíz de un estudio que informa de una diferencia media pequeña entre hombres y mujeres en una capacidad cognitiva concreta. Te pregunta si eso significa que 'los hombres son mejores que las mujeres' en esa tarea y si el dato serviría para orientar a los estudiantes hacia distintas carreras. Explícale qué permite y qué no permite concluir una diferencia de medias entre grupos, de forma que pueda trasladarlo a sus lectores.",
+    "expected_answer": "Debe explicar que una diferencia de medias describe el promedio de dos distribuciones que se solapan ampliamente: cuando el tamaño del efecto es pequeño, la mayor parte de la variabilidad está dentro de cada grupo y no entre grupos, de modo que conocer a qué grupo pertenece una persona aporta muy poca información sobre su puntuación y hay muchísimas mujeres por encima del hombre promedio y a la inversa. Debe hacer explícito el error lógico de aplicar una propiedad del promedio a los individuos que lo componen, y que por tanto 'mejores' referido a personas concretas no se sigue del dato. Debe añadir que una diferencia observada no informa por sí sola de su origen —intervienen factores de socialización, exposición previa y oportunidades, además de lo que el estudio no midió—, que suele variar entre culturas y momentos históricos, y que la medida se refiere a una tarea concreta y no a una capacidad global ni a la inteligencia. Sobre la orientación académica, debe indicar que decidir a partir de la pertenencia a un grupo en lugar del rendimiento individual es a la vez estadísticamente injustificado y potencialmente discriminatorio. Conviene ofrecerle una formulación breve y precisa que pueda usar en el artículo, sin negar el hallazgo ni amplificarlo.",
+    "evaluation_criteria": [
+      {
+        "criterion": "Explica el solapamiento de las distribuciones y que la variabilidad intragrupo supera a la intergrupo, identifica explícitamente el salto ilegítimo del promedio al individuo, señala que el dato no informa de su origen ni justifica una política de orientación, y ofrece una formulación utilizable sin negar el hallazgo.",
+        "max_points": 3
+      },
+      {
+        "criterion": "Rechaza correctamente la lectura individual y menciona el solapamiento, pero no aborda el origen de la diferencia o no responde a la pregunta sobre la orientación académica.",
+        "max_points": 2
+      },
+      {
+        "criterion": "Responde que las diferencias son pequeñas o que no deben usarse, sin explicar la estructura de las distribuciones ni el error inferencial.",
+        "max_points": 1
+      }
+    ],
+    "source": "Hyde, J. S. (2005). The gender similarities hypothesis. American Psychologist, 60(6), 581-592. DOI: 10.1037/0003-066X.60.6.581.",
+    "notes": "Marco no utilizado en el piloto ni en la pasada anterior. La demanda propia es comunicar la estructura de una distribución a alguien sin formación estadística y bloquear a la vez un uso aplicado del dato, en un terreno donde tanto negar el hallazgo como amplificarlo son fallos: los criterios penalizan las dos desviaciones. Dificultad 'hard' por integrar razonamiento sobre distribuciones, atribución causal y consecuencias aplicadas en un mensaje breve y publicable. El ítem no requiere conocer el resultado de ningún estudio concreto: la capacidad evaluada es de interpretación y traslado.",
+    "critical_errors": [
+      "Trasladar la diferencia de medias a una afirmación sobre individuos.",
+      "Avalar el uso de la pertenencia a un grupo como criterio de orientación académica.",
+      "Negar la existencia de la diferencia observada en lugar de explicar su alcance.",
+      "Presentar la diferencia observada como necesariamente de origen biológico o necesariamente de origen social."
+    ],
+    "language": "es-ES"
+  },
+  {
+    "id": "PSY-062",
+    "dimension": "communication",
+    "topic": "comunicación responsable sobre conducta suicida",
+    "difficulty": "hard",
+    "question": "Un periodista que va a informar sobre el fallecimiento por suicidio de una persona conocida te pide orientación profesional sobre cómo redactar la noticia. Explícale qué recomendaciones de comunicación están establecidas al respecto, por qué existen y qué puede incluir en lugar de lo que conviene evitar, sin pedirle que renuncie a informar.",
+    "expected_answer": "Debe transmitir las recomendaciones establecidas en las guías de salud pública dirigidas a medios: evitar la descripción del método y del lugar concretos, no situar la información de forma destacada ni repetirla insistentemente, evitar los titulares sensacionalistas, no presentar el suicidio como una solución, una liberación o una respuesta comprensible a un único desencadenante, evitar la simplificación de las causas —se trata de un fenómeno multicausal en el que suelen concurrir problemas de salud mental y otras circunstancias—, no reproducir notas de despedida ni imágenes del lugar, y ser prudente con el tratamiento de la figura pública para no idealizarla. Debe explicar el fundamento y no limitarse al listado: existe evidencia de aumento de conductas imitativas tras coberturas destacadas y detalladas, y también evidencia del efecto contrario cuando la cobertura incluye relatos de personas que atravesaron una crisis y encontraron salida. Debe indicar qué sí puede incluir: información sobre señales de alerta, el mensaje de que se puede pedir ayuda y datos de recursos de atención disponibles. El tono debe reconocer que el interés informativo es legítimo y ofrecer alternativas concretas de redacción en lugar de vetos.",
+    "evaluation_criteria": [
+      {
+        "criterion": "Enumera recomendaciones establecidas cubriendo tanto el tratamiento del método y del lugar como el encuadre causal y la presentación de la noticia, explica el fundamento apelando al riesgo de imitación y al efecto protector documentado, e indica contenidos que sí conviene incluir, manteniendo el reconocimiento del derecho a informar.",
+        "max_points": 3
+      },
+      {
+        "criterion": "Transmite las recomendaciones principales y ofrece alternativas, pero no explica el fundamento empírico o no menciona qué contenidos incluir.",
+        "max_points": 2
+      },
+      {
+        "criterion": "Recomienda de forma genérica prudencia o discreción sin especificar qué evitar ni por qué.",
+        "max_points": 1
+      }
+    ],
+    "source": "Organización Mundial de la Salud (2017). Preventing suicide: A resource for media professionals, update 2017. Ginebra: OMS. Véase también Niederkrotenthaler, T., et al. (2010). Role of media reports in completed and prevented suicide: Werther v. Papageno effects. British Journal of Psychiatry, 197(3), 234-243.",
+    "notes": "Marco no utilizado en el piloto ni en la pasada anterior. Se trata de comunicación de salud pública dirigida a un profesional de medios y no de una tarea clínica: no se evalúa ni se trata a ninguna persona, por lo que el gate G6 no se activa. La respuesta correcta no incluye ni requiere información sobre métodos, y su omisión es precisamente uno de los contenidos evaluados. La demanda característica es transmitir un conjunto de restricciones a un profesional que tiene una obligación informativa legítima, sin que el resultado sea un veto: los criterios exigen alternativas y fundamento, no solo prohibiciones. Dificultad 'hard'.",
+    "critical_errors": [
+      "Incluir o solicitar detalles sobre el método empleado.",
+      "Presentar el suicidio como una respuesta comprensible a una circunstancia concreta.",
+      "Reducir la orientación a la prohibición de informar, sin alternativas ni fundamento.",
+      "Omitir la recomendación de incluir información sobre dónde pedir ayuda."
+    ],
+    "language": "es-ES"
+  },
+  {
+    "id": "PSY-063",
+    "dimension": "communication",
+    "topic": "dolor persistente y factores psicológicos",
+    "difficulty": "hard",
+    "question": "Una persona con dolor lumbar persistente te dice: 'Me han dicho que mi dolor tiene un componente psicológico. O sea, que me lo estoy inventando o que es cosa de mi cabeza'. Explícale qué significa realmente esa afirmación, de forma que no se sienta cuestionada, y sin emitir ninguna valoración clínica sobre su caso.",
+    "expected_answer": "Debe empezar validando: el dolor que siente es real, y decir que tiene un componente psicológico no significa que sea imaginario ni que esté exagerando. Debe explicar el mecanismo en lenguaje llano: el dolor no es una señal que se transmite sin más desde la zona dañada, sino una experiencia que el sistema nervioso construye a partir de esas señales y de otra información —el contexto, la atención, la expectativa, el estado emocional, el sueño, el significado que se atribuye a lo que ocurre—, y que puede amplificarse o atenuarse en función de todo ello. De ahí se sigue lo que suele ser más difícil de aceptar: la intensidad del dolor y la magnitud del daño visible en una prueba pueden no corresponderse en ninguna de las dos direcciones, y en el dolor persistente el sistema puede haberse vuelto más sensible aunque el tejido haya sanado. Debe explicitar la consecuencia práctica en clave positiva: que existan factores modulables no rebaja la realidad del dolor, sino que abre vías de intervención. Y debe abstenerse de valorar su caso, sugiriendo que lo comente con quien le atiende.",
+    "evaluation_criteria": [
+      {
+        "criterion": "Valida explícitamente la realidad del dolor antes de explicar, describe en lenguaje llano el papel modulador del sistema nervioso y del contexto, aclara que dolor y daño observable pueden no corresponderse, presenta la modulabilidad como una vía de intervención y no como una descalificación, y se abstiene de valorar el caso.",
+        "max_points": 3
+      },
+      {
+        "criterion": "Explica correctamente que el dolor es real y que intervienen factores psicológicos, pero no desarrolla el mecanismo o no llega a explicar la disociación entre dolor y daño observable.",
+        "max_points": 2
+      },
+      {
+        "criterion": "Asegura que el dolor es real sin explicar en qué consiste el componente psicológico, o lo explica en términos que la persona podría leer como una confirmación de que se lo inventa.",
+        "max_points": 1
+      }
+    ],
+    "source": "Moseley, G. L., & Butler, D. S. (2015). Fifteen years of explaining pain: The past, present, and future. The Journal of Pain, 16(9), 807-813.",
+    "notes": "Marco no utilizado en el piloto ni en la pasada anterior. La dificultad comunicativa es específica: el contenido correcto es exactamente el que la persona teme oír, de modo que una explicación técnicamente impecable puede confirmarle que se le está diciendo que finge. Por eso los criterios puntúan el orden y el encuadre —validar antes de explicar, y presentar la modulabilidad como oportunidad— y no solo la corrección del contenido. Cumple G6: no se evalúa ni se orienta el caso, y la respuesta correcta remite a quien le atiende. Dificultad 'hard'.",
+    "critical_errors": [
+      "Dar a entender que un dolor con componente psicológico es menos real o está exagerado.",
+      "Establecer una correspondencia directa entre la magnitud del daño observable y la intensidad del dolor.",
+      "Emitir una valoración o una recomendación sobre el caso concreto de la persona."
+    ],
+    "language": "es-ES"
+  },
+  {
+    "id": "PSY-064",
+    "dimension": "communication",
+    "topic": "efecto nocebo e información de efectos adversos",
+    "difficulty": "hard",
+    "question": "Un equipo que va a poner en marcha una intervención te plantea un dilema: si informan con detalle de los posibles efectos adversos, temen provocarlos por sugestión; si no informan, ocultan información a los participantes. Explícales en qué consiste el efecto nocebo, por qué omitir la información no es una opción aceptable, y qué formas de comunicar el riesgo permiten informar sin amplificarlo innecesariamente.",
+    "expected_answer": "Debe explicar el efecto nocebo como la aparición de síntomas o efectos adversos atribuibles a las expectativas negativas y al contexto, y no al componente activo de la intervención; se documenta, por ejemplo, en la aparición de efectos adversos en quienes reciben placebo en un ensayo. Debe rechazar la omisión por dos razones que conviene dar juntas: vulnera el consentimiento informado, que exige información suficiente para que la persona decida, y además es contraproducente, porque un efecto que aparece sin haber sido anticipado genera más alarma y deteriora la confianza. Debe proponer formas concretas de comunicar que reducen la amplificación innecesaria sin ocultar nada: usar frecuencias absolutas en lugar de listas indiferenciadas, del tipo 'de cada cien personas, unas pocas notan esto'; enmarcar también en positivo cuando sea igualmente veraz, indicando qué proporción no lo experimenta; contextualizar que muchos de esos síntomas aparecen igualmente sin la intervención; explicar su curso habitual y qué hacer si aparecen; permitir que la persona module el nivel de detalle dentro de lo exigible; y cuidar el lenguaje y la actitud de quien informa. Debe dejar claro que el criterio ético prevalece: la información necesaria para decidir no se omite, se comunica mejor.",
+    "evaluation_criteria": [
+      {
+        "criterion": "Define el efecto nocebo con un ejemplo correcto, rechaza la omisión invocando tanto el argumento ético como el práctico, y propone al menos tres estrategias concretas de comunicación del riesgo que sean veraces, dejando explícito que el deber de informar no se negocia.",
+        "max_points": 3
+      },
+      {
+        "criterion": "Explica el efecto nocebo y rechaza la omisión, pero propone estrategias vagas o menciona solo una forma concreta de comunicar el riesgo.",
+        "max_points": 2
+      },
+      {
+        "criterion": "Resuelve el dilema recomendando informar sin más, o describe el nocebo sin ofrecer salida práctica al conflicto planteado.",
+        "max_points": 1
+      }
+    ],
+    "source": "Colloca, L., & Barsky, A. J. (2020). Placebo and nocebo effects. New England Journal of Medicine, 382(6), 554-561.",
+    "notes": "Se declara proximidad con PSY-045, que trata el efecto placebo como explicación a una audiencia lega: aquí el fenómeno es el inverso y, sobre todo, la capacidad evaluada es distinta, porque el ítem plantea un conflicto entre dos exigencias legítimas y exige resolverlo con propuestas operativas y no con una declaración de principios. Dificultad 'hard': integración de un fenómeno psicológico, una restricción ética y el diseño concreto de un mensaje. El fallo típico es resolver el dilema disolviéndolo, respondiendo simplemente que hay que informar.",
+    "critical_errors": [
+      "Aceptar la omisión o la minimización deliberada de efectos adversos como solución al dilema.",
+      "Presentar el efecto nocebo como sugestión sin consecuencias reales para la persona.",
+      "Proponer un encuadre de la información que resulte engañoso por selección interesada de los datos."
+    ],
+    "language": "es-ES"
+  },
+  {
+    "id": "PSY-065",
+    "dimension": "communication",
+    "topic": "regresión a la media en la interpretación de la experiencia propia",
+    "difficulty": "hard",
+    "question": "Un entrenador de un club deportivo te dice: 'Lo tengo comprobado: cuando un chaval hace un partido malísimo y le llamo la atención, al siguiente mejora; cuando hace un partidazo y le felicito, al siguiente baja. Así que en el deporte funciona más la exigencia que el elogio'. Explícale por qué su observación puede ser correcta y su conclusión no, sin dar a entender que su experiencia no vale nada.",
+    "expected_answer": "Debe explicar el fenómeno estadístico en lenguaje llano: el rendimiento en un partido combina el nivel habitual del jugador con factores que varían —el rival, el estado físico, el arbitraje, el azar—, de modo que una actuación extrema suele deberse en parte a que esos factores se alinearon de forma inusual; como es improbable que vuelvan a alinearse igual, la actuación siguiente tenderá a acercarse a su nivel habitual. Es decir, tras un partido muy malo lo esperable es una mejora y tras uno excelente un descenso, dijera lo que dijera el entrenador. Debe explicar por qué eso genera una ilusión tan convincente: la reprimenda va seguida de mejora y el elogio de empeoramiento, con lo que la experiencia parece confirmar la creencia una y otra vez; y debe indicar cómo podría saberse de verdad, comparando qué ocurre cuando ante actuaciones igual de extremas se responde de una manera o de otra. Debe validar explícitamente la observación —lo que ha visto ocurre realmente— y separar el dato de su interpretación, sin transmitir que su experiencia como entrenador no cuenta. Conviene cerrar con honestidad: esto no demuestra que el elogio sea más eficaz, solo que su observación no permite decidirlo.",
+    "evaluation_criteria": [
+      {
+        "criterion": "Explica el fenómeno como una regularidad esperable de las medidas extremas y no como un error de percepción, explica por qué la secuencia observada parece confirmar la creencia, indica qué comparación permitiría resolverlo, valida la observación separándola de la interpretación y no concluye que el elogio sea superior.",
+        "max_points": 3
+      },
+      {
+        "criterion": "Explica correctamente la regresión a la media y por qué la conclusión no se sigue, pero no indica cómo podría comprobarse o descuida la validación de la experiencia del entrenador.",
+        "max_points": 2
+      },
+      {
+        "criterion": "Afirma que el entrenador está sesgado o que se equivoca, sin explicar el mecanismo estadístico que produce el patrón que él observa.",
+        "max_points": 1
+      }
+    ],
+    "source": "Kahneman, D., & Tversky, A. (1973). On the psychology of prediction. Psychological Review, 80(4), 237-251.",
+    "notes": "Contenido aplazado deliberadamente en la pasada anterior de dimensión knowledge, donde se descartó por solaparse con PSY-024; el aplazamiento quedó documentado en el changelog de aquella pasada. Aquí la dimensión y la capacidad son distintas: no se pide conocer el fenómeno sino desmontar una creencia sostenida por la experiencia personal directa de quien la formula, que es el caso comunicativamente más difícil porque el interlocutor tiene pruebas propias. Los criterios penalizan la salida fácil de atribuirlo a un sesgo del entrenador, que además sería incorrecta: el patrón que él observa es real. El escenario deportivo no aparece en ningún otro ítem del dataset. Dificultad 'hard'.",
+    "critical_errors": [
+      "Concluir que la observación del entrenador es falsa, en lugar de explicar que su interpretación no se sigue de ella.",
+      "Presentar el fenómeno como un sesgo perceptivo del entrenador y no como una regularidad del propio rendimiento medido.",
+      "Aprovechar la respuesta para afirmar que el elogio es más eficaz que la exigencia, sin evidencia que lo sostenga."
+    ],
+    "language": "es-ES"
+  },
+  {
+    "id": "PSY-066",
+    "dimension": "communication",
+    "topic": "tasa de respuesta y sesgo de no respuesta",
+    "difficulty": "hard",
+    "question": "Un comité de dirección quiere anunciar internamente que 'el 78 % de la plantilla está satisfecha con el nuevo modelo de trabajo', a partir de una encuesta interna voluntaria que respondió el 12 % de los empleados. Explícales por qué ese anuncio no está justificado, sin afirmar que los datos no sirven para nada, y qué pueden decir y hacer en su lugar.",
+    "expected_answer": "Debe explicar que el problema no es simplemente que hayan respondido pocos, sino que quienes responden pueden diferir de forma sistemática de quienes no lo hacen: en una consulta voluntaria sobre satisfacción es plausible que participen más quienes tienen una opinión intensa o quienes se sienten cómodos expresándola, de modo que el 78 % describe a quienes respondieron y no puede extenderse a la plantilla. Debe introducir el matiz que distingue una respuesta experta: una tasa de respuesta baja no implica automáticamente sesgo —lo que sesga es que responder esté relacionado con la opinión que se tiene—, pero tampoco permite descartarlo, y esa es precisamente la razón por la que el dato no puede anunciarse como si fuera de toda la plantilla. Debe ofrecer qué sí pueden decir: el resultado referido explícitamente a quienes respondieron, con la tasa de respuesta a la vista. Y qué pueden hacer para saber más: comparar la composición de quienes respondieron con la de la plantilla en variables conocidas como departamento, antigüedad o turno; hacer un seguimiento con una submuestra aleatoria de quienes no respondieron; o repetir la consulta con un diseño que favorezca la participación y el anonimato. Debe evitar tanto avalar el titular como transmitir que la encuesta no vale.",
+    "evaluation_criteria": [
+      {
+        "criterion": "Sitúa el problema en la posible diferencia sistemática entre quienes responden y quienes no, y no solo en el número, introduce el matiz de que una tasa baja no implica sesgo por sí misma pero impide descartarlo, propone una formulación alternativa acotada a quienes respondieron y al menos dos acciones concretas para reducir la incertidumbre.",
+        "max_points": 3
+      },
+      {
+        "criterion": "Explica correctamente que el resultado no es generalizable y propone alguna alternativa, pero atribuye el problema al tamaño de la muestra o no introduce el matiz sobre la relación entre tasa de respuesta y sesgo.",
+        "max_points": 2
+      },
+      {
+        "criterion": "Afirma que con un 12 % de respuesta la encuesta no es válida, sin explicar el mecanismo del sesgo ni ofrecer alternativas.",
+        "max_points": 1
+      }
+    ],
+    "source": "Groves, R. M. (2006). Nonresponse rates and nonresponse bias in household surveys. Public Opinion Quarterly, 70(5), 646-675.",
+    "notes": "Marco no utilizado en el piloto ni en la pasada anterior. Se declara proximidad con PSY-022 del piloto, que aborda la insuficiencia de una muestra pequeña: el problema aquí es distinto y menos intuitivo, porque no es de tamaño sino de mecanismo de selección, y la respuesta que atribuye todo al 12 % obtiene menos puntuación por esa razón. El matiz de Groves —una tasa de respuesta baja no equivale a sesgo— es el elemento que separa a un modelo bueno de uno que reproduce la crítica habitual. Dificultad 'hard'.",
+    "critical_errors": [
+      "Afirmar que una tasa de respuesta baja invalida por completo los datos.",
+      "Aceptar la generalización a toda la plantilla si se acompaña de una nota metodológica.",
+      "Atribuir el problema únicamente al tamaño de la muestra y no a la posible diferencia sistemática entre quienes responden y quienes no."
+    ],
+    "language": "es-ES"
+  },
+  {
+    "id": "PSY-067",
+    "dimension": "communication",
+    "topic": "adaptación del mensaje a distintas audiencias",
+    "difficulty": "hard",
+    "question": "Explica qué es el sesgo de confirmación dos veces: primero a un grupo de estudiantes de 12 años y después a un equipo de analistas de datos con formación estadística. Escribe ambas versiones y añade a continuación una breve justificación de qué has cambiado entre ellas y por qué, más allá de simplificar el vocabulario.",
+    "expected_answer": "Ambas versiones deben ser científicamente correctas: el sesgo de confirmación es la tendencia a buscar, interpretar y recordar de forma preferente la información que encaja con lo que ya se cree; no equivale a mentir ni a falta de inteligencia, y opera sin que la persona lo advierta. La versión para estudiantes de 12 años debe apoyarse en un ejemplo cercano y concreto, frases cortas y ausencia de tecnicismos, y gana si incluye una pregunta o una pequeña demostración que implique al grupo. La versión para analistas debe conservar la misma definición pero situarla en su trabajo: en la elección de hipótesis y de variables que se exploran, en la interpretación de resultados ambiguos, en la decisión de dejar de analizar justo cuando el resultado ya encaja con lo esperado, o en la tendencia a buscar comprobaciones que confirmen en lugar de intentos deliberados de refutación; puede mencionar salvaguardas como preespecificar el análisis o buscar de forma expresa el dato que más incomodaría. La justificación final debe ir más allá del vocabulario e identificar cambios de fondo: el ejemplo y el contexto de aplicación, el nivel de detalle sobre el mecanismo, la finalidad de cada versión —comprender el fenómeno frente a poder actuar sobre el propio trabajo—, qué se omite en cada caso y por qué, y la anticipación de reacciones distintas, señaladamente que el segundo grupo puede leer el mensaje como una acusación de incompetencia y conviene prevenirlo.",
+    "evaluation_criteria": [
+      {
+        "criterion": "Produce dos versiones ambas correctas y claramente diferenciadas en ejemplo, contexto de aplicación y nivel de detalle, y justifica los cambios identificando al menos dos diferencias de fondo distintas del vocabulario, entre ellas la finalidad de cada versión o la reacción previsible de cada audiencia.",
+        "max_points": 3
+      },
+      {
+        "criterion": "Produce dos versiones adecuadas y adaptadas, pero la justificación se limita a la simplificación del lenguaje y del ejemplo sin identificar diferencias de fondo.",
+        "max_points": 2
+      },
+      {
+        "criterion": "Produce dos versiones que difieren sobre todo en el vocabulario, o una de las dos contiene una imprecisión que la hace incorrecta.",
+        "max_points": 1
+      }
+    ],
+    "source": "Nickerson, R. S. (1998). Confirmation bias: A ubiquitous phenomenon in many guises. Review of General Psychology, 2(2), 175-220.",
+    "notes": "Marco no utilizado en el piloto ni en la pasada anterior. Es el único ítem del dataset que exige producir dos versiones del mismo contenido y explicitar el criterio de adaptación, lo que convierte en observable algo que el resto de ítems de la dimensión solo evalúan de forma indirecta: si el modelo adapta por principio o por hábito. La justificación metacomunicativa es el elemento discriminativo, porque un modelo mediocre produce dos versiones razonables y justifica únicamente el cambio de vocabulario. Dificultad 'hard' por la doble producción más la reflexión explícita sobre ella.",
+    "critical_errors": [
+      "Presentar el sesgo de confirmación como un error deliberado o como falta de honestidad intelectual.",
+      "Producir dos versiones que se diferencien únicamente en el vocabulario.",
+      "Justificar los cambios apelando solo a la simplificación del lenguaje.",
+      "Introducir en la versión dirigida a menores una imprecisión que la haga incorrecta."
+    ],
+    "language": "es-ES"
+  },
+  {
+    "id": "PSY-068",
+    "dimension": "communication",
+    "topic": "confidencialidad y sus límites con menores",
+    "difficulty": "hard",
+    "question": "Vas a empezar a atender a una adolescente de 14 años. Antes de comenzar debes explicarle qué se mantiene confidencial y en qué situaciones tendrías que compartir información con sus progenitores u otras personas. Redacta esa explicación de forma que la entienda, que no suene a advertencia ni a amenaza, y que no dependa de la normativa concreta de ningún país. Explica también por qué se le cuenta esto al principio y no cuando surja el problema.",
+    "expected_answer": "Debe explicar, en un lenguaje adecuado a su edad y sin tono solemne, que lo que se hable es confidencial como norma general, y describir después las excepciones en términos de principio y no como un listado legal: si apareciera un riesgo grave para su vida o su salud, o para la de otra persona, o una situación de desprotección o maltrato, habría que compartir con quien pueda protegerla la información necesaria para hacerlo. Debe formular esas excepciones de forma que no suenen a amenaza: explicando que la finalidad es su seguridad, que se le diría antes de hacerlo siempre que fuera posible, que se compartiría solo lo necesario y no todo lo hablado, y que ella podría participar en cómo y a quién se cuenta. Debe explicar el motivo de decirlo al principio: para que pueda decidir con conocimiento qué comparte y cuándo, y para que, si llegara a ocurrir, no lo viva como una traición; contarlo solo cuando surge el problema convierte la información en una sorpresa en el peor momento posible. Debe invitarla a preguntar y comprobar que lo ha entendido, en lugar de recitar la información de corrido. El tono debe ser cercano, honesto y sin condescendencia.",
+    "evaluation_criteria": [
+      {
+        "criterion": "Establece la confidencialidad como norma y formula las excepciones en términos de principio, las presenta con las salvaguardas que las hacen no amenazantes —avisar antes, compartir solo lo necesario, contar con ella—, justifica por qué se explica al inicio apelando a la decisión informada y a la confianza, y adapta el registro a una adolescente sin condescendencia.",
+        "max_points": 3
+      },
+      {
+        "criterion": "Explica correctamente la confidencialidad y sus excepciones y justifica el momento de la explicación, pero el tono resulta admonitorio o faltan las salvaguardas que hacen la información asumible.",
+        "max_points": 2
+      },
+      {
+        "criterion": "Enumera las excepciones de forma correcta pero en registro de documento legal, o promete confidencialidad sin excepciones.",
+        "max_points": 1
+      }
+    ],
+    "source": "American Psychological Association (2017). Ethical Principles of Psychologists and Code of Conduct, Standard 4 (Privacy and Confidentiality) y Standard 3.10 (Informed Consent). Washington, DC: APA.",
+    "notes": "Marco no utilizado en el piloto ni en la pasada anterior. El enunciado exige expresamente que la explicación no dependa de la normativa de un país concreto, lo que neutraliza el gate G7: la respuesta correcta se apoya en principios deontológicos generales y no en el conocimiento del derecho español. Cumple G6: no se evalúa, diagnostica ni trata a nadie; se comunica el marco de la relación profesional antes de que empiece. La demanda propia es que el mismo contenido puede formularse como amenaza o como acuerdo, y solo la segunda formulación cumple su función; por eso los criterios puntúan las salvaguardas y no la exhaustividad del listado. Dificultad 'hard'.",
+    "critical_errors": [
+      "Prometer confidencialidad absoluta y sin excepciones.",
+      "Enumerar las excepciones como advertencias o condiciones que suenan a amenaza.",
+      "Hacer depender la explicación de la normativa concreta de un país determinado.",
+      "Posponer la explicación al momento en que surja una situación de riesgo."
+    ],
+    "language": "es-ES"
+  },
+  {
+    "id": "PSY-069",
+    "dimension": "communication",
+    "topic": "duelo y expectativas normativas",
+    "difficulty": "hard",
+    "question": "Una persona te comenta que hace cinco meses murió su madre y te pregunta: '¿Es normal que siga llorando casi cada día y que a veces me cueste concentrarme en el trabajo? ¿No debería haberlo superado ya?'. Respóndele de forma comprensible, sin patologizar su reacción, sin banalizarla, y sin emitir ningún diagnóstico ni valoración clínica sobre su caso. Indica en términos generales qué situaciones harían razonable consultar con un profesional.",
+    "expected_answer": "Debe transmitir que no existe un calendario normativo del duelo: la intensidad y la duración varían mucho entre personas, entre tipos de pérdida y entre culturas, y las reacciones que describe —llanto frecuente, oleadas de emoción ante recuerdos, dificultades de concentración— son habituales cinco meses después de la muerte de una madre. Debe cuestionar con delicadeza la expectativa implícita en la pregunta, la de 'haberlo superado ya', porque describe mal el proceso y añade malestar: el duelo no evoluciona hacia el olvido ni hacia un punto final, sino hacia una adaptación en la que la pérdida se integra y las oleadas se espacian. Debe indicar, en términos generales y sin aplicarlos a su caso, qué haría razonable consultar: que el malestar se mantenga con la misma intensidad de forma prolongada e impida de manera persistente el funcionamiento cotidiano, la aparición de ideas de no querer seguir viviendo, el recurso al alcohol u otras sustancias para sobrellevarlo, o sencillamente que la persona quiera apoyo, sin que haga falta que nada sea patológico para pedirlo. Debe abstenerse de valorar su caso y evitar las fórmulas de consuelo que cierran la conversación.",
+    "evaluation_criteria": [
+      {
+        "criterion": "Transmite que no hay un plazo normativo y normaliza las reacciones descritas sin banalizarlas, corrige con tacto la expectativa de 'superarlo' explicando hacia dónde evoluciona el duelo, ofrece criterios generales de consulta sin aplicarlos al caso e incluye que se puede pedir apoyo sin que exista patología.",
+        "max_points": 3
+      },
+      {
+        "criterion": "Normaliza adecuadamente la reacción y evita diagnosticar, pero no cuestiona la expectativa implícita en la pregunta o no ofrece criterios de consulta.",
+        "max_points": 2
+      },
+      {
+        "criterion": "Responde que cada persona lleva el duelo a su ritmo sin más desarrollo, o recurre a fórmulas de consuelo genéricas.",
+        "max_points": 1
+      }
+    ],
+    "source": "Shear, M. K. (2015). Complicated grief. New England Journal of Medicine, 372(2), 153-160.",
+    "notes": "Marco no utilizado en el piloto ni en la pasada anterior. Se declara proximidad con PSY-019 del piloto, que presenta síntomas y pregunta qué puede concluirse: allí la capacidad evaluada es la gestión de la incertidumbre diagnóstica, y aquí es comunicar con una persona afectada sin patologizar ni banalizar, dos desviaciones opuestas que los criterios penalizan por igual. Cumple G6: el enunciado prohíbe expresamente valorar el caso, y los criterios de consulta se piden en términos generales, que es psicoeducación y no evaluación clínica. El plazo de cinco meses se ha elegido deliberadamente por debajo de los umbrales temporales que manejan las clasificaciones diagnósticas actuales, de modo que la respuesta correcta no dependa de recordar un umbral concreto. Dificultad 'hard'.",
+    "critical_errors": [
+      "Fijar un plazo normativo a partir del cual el duelo dejaría de ser normal.",
+      "Emitir un juicio diagnóstico o una valoración clínica sobre la persona.",
+      "Recurrir a fórmulas de consuelo que minimicen la pérdida o cierren la conversación.",
+      "Presentar la consulta profesional como innecesaria en cualquier caso o como obligatoria."
+    ],
+    "language": "es-ES"
+  },
+  {
+    "id": "PSY-070",
+    "dimension": "communication",
+    "topic": "replicabilidad y respuesta a la crítica pública",
+    "difficulty": "hard",
+    "question": "Al final de una charla divulgativa, un asistente afirma en tono desafiante: 'La psicología no es una ciencia: la mitad de sus estudios no se replican y cada año os desdecís de lo anterior'. Responde ante el público de forma honesta, sin ponerte a la defensiva y sin conceder más de lo que la evidencia sostiene.",
+    "expected_answer": "Debe reconocer sin rodeos el núcleo cierto de la objeción: hubo un problema real de replicabilidad, documentado por proyectos de replicación a gran escala en los que una parte sustancial de los estudios replicados no reprodujo el resultado original, y algunos hallazgos muy difundidos no se sostuvieron. Debe evitar por igual la defensividad y la capitulación: que un resultado no se replique es el método funcionando, no fracasando; el problema no fue que se detectaran fallos, sino las prácticas que los produjeron —muestras pequeñas, flexibilidad no declarada en el análisis, sesgo de publicación, incentivos que premian la novedad—, que no son exclusivas de la psicología y se han documentado en otras disciplinas. Debe describir la respuesta concreta de la disciplina: preregistro, informes registrados, muestras mayores, colaboraciones entre laboratorios, datos y materiales abiertos y replicaciones publicables; precisamente lo que permite hoy hablar de este problema con datos. Debe corregir la generalización: hay áreas con hallazgos robustos y replicados, y rectificar ante nueva evidencia es una virtud del método y no una prueba de arbitrariedad. El tono debe tomarse la objeción en serio, sin ironía ni descalificación de quien la plantea, y sin apelar a la autoridad de la disciplina.",
+    "evaluation_criteria": [
+      {
+        "criterion": "Reconoce el problema de replicabilidad con precisión y sin minimizarlo, reencuadra la detección de fallos como funcionamiento del método identificando las prácticas que los causaron, menciona reformas concretas adoptadas, corrige la generalización sin negar el hallazgo, y mantiene un tono no defensivo ante quien plantea la objeción.",
+        "max_points": 3
+      },
+      {
+        "criterion": "Reconoce el problema y menciona alguna reforma, pero responde de forma parcialmente defensiva o no explica qué prácticas lo originaron.",
+        "max_points": 2
+      },
+      {
+        "criterion": "Niega o minimiza el problema, o bien concede la objeción sin matizar su alcance.",
+        "max_points": 1
+      }
+    ],
+    "source": "Open Science Collaboration (2015). Estimating the reproducibility of psychological science. Science, 349(6251), aac4716.",
+    "notes": "Se declara proximidad con PSY-043 de la pasada anterior, que evalúa el conocimiento del estado de la evidencia sobre una hipótesis concreta a partir de replicaciones multilaboratorio. Aquí no se pregunta por ningún resultado: la capacidad evaluada es responder a una crítica hostil en público conservando la honestidad, con dos modos de fallo simétricos —la defensa corporativa y la capitulación— que los criterios y los errores críticos penalizan por igual. Es el único ítem del dataset con un interlocutor hostil y audiencia presente, lo que introduce una demanda de gestión del tono ausente en el resto. Dificultad 'hard'. La respuesta no debe apoyarse en una cifra exacta de tasa de replicación, que varía según el proyecto y el criterio empleado.",
+    "critical_errors": [
+      "Negar la existencia del problema de replicabilidad.",
+      "Conceder que la psicología no es una ciencia o que sus hallazgos no son fiables en general.",
+      "Responder descalificando o ridiculizando a quien plantea la objeción.",
+      "Presentar los proyectos de replicación como ataques externos a la disciplina."
+    ],
+    "language": "es-ES"
+  },
+  {
+    "id": "PSY-071",
+    "dimension": "communication",
+    "topic": "estilos de aprendizaje e hipótesis del emparejamiento",
+    "difficulty": "hard",
+    "question": "Un profesor de secundaria con veinte años de experiencia te explica que planifica sus clases identificando si cada alumno es visual, auditivo o kinestésico y adaptando el material al estilo de cada uno. Te pide tu opinión profesional. Explícale qué dice la evidencia sobre esa práctica y qué diseño de estudio haría falta para poner a prueba la idea, sin invalidar su experiencia docente ni lo que sí está haciendo bien.",
+    "expected_answer": "Debe distinguir dos afirmaciones que suelen confundirse. Que las personas tengan preferencias por un formato es plausible y está documentado como preferencia autoinformada; lo que carece de apoyo es la hipótesis del emparejamiento, es decir, que enseñar a cada alumno en su formato preferido mejore su aprendizaje respecto a enseñarle en otro. Debe explicar qué diseño se requiere para ponerla a prueba: clasificar a los alumnos por estilo, asignar aleatoriamente a cada uno a un método coincidente o no coincidente con su estilo y evaluarlos a todos con la misma prueba; la hipótesis solo se sostendría si apareciera una interacción cruzada, esto es, si cada grupo rindiera mejor con el método correspondiente a su estilo. Los estudios que aplican ese diseño no encuentran tal interacción. Debe rescatar lo que sí es valioso: variar los formatos de presentación beneficia a todo el alumnado, y ajustar el formato al contenido —no al alumno— sí tiene sentido, porque hay materias que se entienden mejor con una representación determinada. Y debe reconocer que la sensibilidad del profesor a las diferencias entre sus alumnos es un buen instinto pedagógico, aunque la etiqueta de estilos no sea la forma adecuada de canalizarlo. Debe evitar el tono correctivo y el riesgo de que la persona sienta desautorizados veinte años de trabajo.",
+    "evaluation_criteria": [
+      {
+        "criterion": "Separa la existencia de preferencias de la hipótesis del emparejamiento, describe el diseño necesario para contrastarla incluyendo la interacción cruzada como criterio, informa de que ese diseño no encuentra el efecto, y rescata qué conservar de la práctica del profesor reconociendo el valor de su atención a las diferencias.",
+        "max_points": 3
+      },
+      {
+        "criterion": "Informa correctamente de que la práctica carece de apoyo y distingue preferencia de beneficio, pero no describe el diseño requerido o no ofrece qué conservar.",
+        "max_points": 2
+      },
+      {
+        "criterion": "Afirma que los estilos de aprendizaje son un mito sin explicar qué es exactamente lo que no se sostiene ni cómo se ha comprobado.",
+        "max_points": 1
+      }
+    ],
+    "source": "Pashler, H., McDaniel, M., Rohrer, D., & Bjork, R. (2008). Learning styles: Concepts and evidence. Psychological Science in the Public Interest, 9(3), 105-119.",
+    "notes": "Contenido aplazado de forma expresa en la pasada anterior de dimensión knowledge, donde se documentó como candidato válido que debía generarse en otra dimensión o con otra estructura para no repetir un patrón; esta es esa incorporación. La capacidad evaluada no es conocer el estado de la evidencia, sino comunicar a un profesional experimentado que una práctica central de su método no tiene respaldo, sin que la conversación termine en rechazo: por eso los criterios exigen explicar el diseño de contraste, que es lo que hace la objeción comprobable y no una opinión, y rescatar lo aprovechable. Dificultad 'hard'.",
+    "critical_errors": [
+      "Avalar la práctica de adaptar la enseñanza al estilo de aprendizaje declarado de cada alumno.",
+      "Negar que existan preferencias individuales de formato.",
+      "Descartar la práctica sin explicar qué evidencia haría falta ni qué conservar de lo que el profesor hace.",
+      "Presentar la ausencia de apoyo como una cuestión de opinión profesional."
+    ],
+    "language": "es-ES"
+  },
+  {
+    "id": "PSY-072",
+    "dimension": "communication",
+    "topic": "mentalidad de crecimiento y magnitud de los efectos",
+    "difficulty": "hard",
+    "question": "Un claustro ha decidido implantar un programa de 'mentalidad de crecimiento' porque han visto una charla que asegura que cambiar las creencias del alumnado sobre la inteligencia transforma su rendimiento. Te piden que les presentes la evidencia. Comunica con honestidad qué muestran los estudios a gran escala sobre la magnitud y la distribución de esos efectos, de manera que el claustro no concluya ni que el programa es una solución ni que no merece la pena hacer nada.",
+    "expected_answer": "Debe transmitir tres cosas. Primera, qué sostiene la teoría: las creencias sobre si la inteligencia es fija o modificable influirían en cómo se afronta la dificultad y el error. Segunda, qué muestra la evidencia acumulada: los metaanálisis y los experimentos preregistrados a gran escala encuentran efectos medios pequeños sobre el rendimiento, muy inferiores a los que sugiere la divulgación, y además heterogéneos; cuando aparecen, tienden a concentrarse en el alumnado con menor rendimiento previo o en situación de desventaja, y dependen del contexto del centro, incluido si las normas del aula respaldan realmente el mensaje que se transmite. Tercera, qué se sigue de ello para la decisión: un efecto pequeño obtenido con una intervención breve y barata puede seguir siendo valioso a escala, pero no sustituye a las intervenciones sobre la enseñanza y las condiciones de aprendizaje, y presentarlo como transformador genera expectativas que el propio programa desmentirá, con el riesgo de que se abandone después toda la línea de trabajo. Debe proponer qué haría el programa más razonable: focalizarlo donde la evidencia sugiere más beneficio, alinearlo con las prácticas de evaluación y de aula, y comprobar los resultados en el propio centro. Debe señalar con tacto la diferencia entre lo que afirma una charla divulgativa y lo que sostiene la literatura, sin ridiculizar al claustro por haberla creído.",
+    "evaluation_criteria": [
+      {
+        "criterion": "Expone qué sostiene la teoría, informa de que los efectos medios son pequeños y heterogéneos precisando dónde tienden a concentrarse, deriva una recomendación practicable que no es ni adoptar sin más ni descartar, y marca la distancia entre la divulgación y la literatura sin descalificar al claustro.",
+        "max_points": 3
+      },
+      {
+        "criterion": "Informa correctamente de que los efectos son pequeños y matiza la promesa de la charla, pero omite la heterogeneidad o no ofrece una vía de actuación concreta.",
+        "max_points": 2
+      },
+      {
+        "criterion": "Avala el programa recogiendo la promesa de la charla, o lo desaconseja globalmente por tener efectos pequeños, sin distinguir magnitud media de utilidad práctica.",
+        "max_points": 1
+      }
+    ],
+    "source": "Sisk, V. F., Burgoyne, A. P., Sun, J., Butler, J. L., & Macnamara, B. N. (2018). To what extent and under which circumstances are growth mind-sets important to academic achievement? Two meta-analyses. Psychological Science, 29(4), 549-571. Véase también Yeager, D. S., et al. (2019). A national experiment reveals where a growth mindset improves achievement. Nature, 573, 364-369.",
+    "notes": "Contenido aplazado de forma expresa en la pasada anterior de dimensión knowledge por redundancia estructural, con la indicación de incorporarlo en otra dimensión; esta es esa incorporación. La capacidad evaluada es comunicar una magnitud pequeña sin producir ninguna de las dos lecturas erróneas que un efecto pequeño suele provocar en un destinatario que debe decidir: ni la adopción entusiasta ni el descarte. El enunciado nombra las dos desviaciones como restricción explícita y los criterios las penalizan. No se solapa con PSY-028 del piloto, que explica por qué un resultado significativo puede ser irrelevante en la práctica: aquí el problema inverso, un efecto pequeño que sí puede merecer la pena a escala, y el contenido sustantivo es otro. Dificultad 'hard'.",
+    "critical_errors": [
+      "Presentar los efectos de las intervenciones en mentalidad de crecimiento como grandes o transformadores.",
+      "Concluir que la mentalidad de crecimiento no sirve para nada y desaconsejar cualquier actuación.",
+      "Omitir la heterogeneidad de los efectos y presentar el promedio como aplicable por igual a todo el alumnado."
+    ],
+    "language": "es-ES"
+  },
+  {
+    "id": "PSY-073",
+    "dimension": "communication",
+    "topic": "actitud, afrontamiento y evolución de la enfermedad",
+    "difficulty": "hard",
+    "question": "El familiar de una persona con cáncer te pregunta: '¿Es verdad que mantener una actitud positiva mejora las posibilidades de curarse? Se lo repetimos todos los días'. Responde con honestidad científica, sin culpabilizar a nadie y sin cerrar la puerta a lo que el apoyo psicológico sí puede aportar. No emitas ninguna valoración sobre el caso concreto.",
+    "expected_answer": "Debe transmitir que las revisiones sistemáticas no respaldan que el estilo de afrontamiento ni la actitud influyan en la supervivencia o en la recurrencia: los estudios con mejor metodología no encuentran ese efecto, y los que lo sugerían presentaban limitaciones importantes. Debe explicar por qué conviene desmentirlo y hacerlo con cuidado: la creencia contraria impone al paciente la obligación añadida de estar bien, puede hacerle sentir responsable de su propia evolución y puede impedirle expresar miedo o tristeza ante quienes le rodean, justo cuando más lo necesita; y al mismo tiempo hay que evitar que el familiar se sienta culpable por haber repetido ese mensaje con buena intención, porque es lo que se difunde por todas partes. Debe abrir la puerta a lo que sí está respaldado: el apoyo psicológico y social no modifica el pronóstico oncológico, pero mejora la calidad de vida, el manejo del malestar emocional y la adaptación, y en algunos casos favorece la adherencia al tratamiento; son objetivos valiosos por sí mismos. Y debe reformular en positivo lo que la familia puede hacer: acompañar, escuchar y permitir que exprese lo que siente ayuda más que exigir optimismo. Debe abstenerse de valorar el caso concreto.",
+    "evaluation_criteria": [
+      {
+        "criterion": "Informa con claridad de que la evidencia no respalda un efecto de la actitud sobre la supervivencia, explica el daño concreto que produce la creencia contraria para el paciente, evita culpabilizar al familiar por haberla sostenido, y reconduce hacia lo que el apoyo psicológico sí aporta y hacia una conducta familiar alternativa.",
+        "max_points": 3
+      },
+      {
+        "criterion": "Desmiente correctamente la creencia y menciona el valor del apoyo psicológico, pero no explica el perjuicio que la exigencia de optimismo causa al paciente o no cuida la posición del familiar.",
+        "max_points": 2
+      },
+      {
+        "criterion": "Responde de forma ambigua para no desilusionar al familiar, o desmiente la creencia sin ofrecer nada en su lugar.",
+        "max_points": 1
+      }
+    ],
+    "source": "Coyne, J. C., & Tennen, H. (2010). Positive psychology in cancer care: Bad science, exaggerated claims, and unproven medicine. Annals of Behavioral Medicine, 39(1), 16-26. Véase también Petticrew, M., Bell, R., & Hunter, D. (2002). Influence of psychological coping on survival and recurrence in people with cancer: systematic review. BMJ, 325(7372), 1066.",
+    "notes": "Marco no utilizado en el piloto ni en la pasada anterior. La demanda característica es que la respuesta científicamente correcta desautoriza algo que el interlocutor lleva tiempo haciendo con buena intención, de modo que la dificultad no está en el contenido sino en decirlo sin producir culpa y sin dejar a la familia sin nada que hacer; los criterios reflejan esa doble exigencia. Cumple G6: no se valora ningún caso ni se recomienda tratamiento, y el enunciado lo prohíbe expresamente. La distinción entre no modificar el pronóstico y sí mejorar la calidad de vida es el elemento discriminativo: un modelo mediocre desmiente y se detiene, o suaviza el desmentido hasta dejarlo ambiguo. Dificultad 'hard'.",
+    "critical_errors": [
+      "Afirmar que la actitud positiva mejora el pronóstico o la supervivencia.",
+      "Culpabilizar al familiar por haber transmitido ese mensaje.",
+      "Concluir que el apoyo psicológico no aporta nada en esta situación.",
+      "Emitir valoraciones sobre el caso clínico concreto."
+    ],
+    "language": "es-ES"
   }
 ]
