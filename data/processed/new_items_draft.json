@@ -1302,5 +1302,1032 @@
       "Emitir valoraciones sobre el caso clínico concreto."
     ],
     "language": "es-ES"
+  },
+  {
+    "id": "PSY-074",
+    "dimension": "reasoning",
+    "topic": "correlación: signo y magnitud",
+    "difficulty": "easy",
+    "question": "Un equipo dispone de dos resultados. En el estudio A, la correlación entre horas de sueño y número de errores en una tarea de atención es r = -0,62. En el estudio B, la correlación entre horas de estudio semanales y calificación final es r = +0,31. Un miembro del equipo concluye que la asociación del estudio B es más fuerte «porque es positiva, y la del estudio A es negativa». Indica en cuál de los dos resultados la asociación es más fuerte, explica por separado qué informa el signo y qué informa la magnitud, y describe qué patrón de puntuaciones cabría esperar en cada estudio.",
+    "expected_answer": "La asociación más fuerte es la del estudio A. El signo y la magnitud de un coeficiente de correlación informan de cosas distintas: el signo indica la dirección de la relación —en A, a más horas de sueño menos errores; en B, a más horas de estudio mayor calificación— y no dice nada sobre su intensidad, mientras que la intensidad viene dada por el valor absoluto del coeficiente, de modo que |-0,62| > |0,31|. Una correlación negativa no es una relación débil ni una relación indeseable: es una relación inversa. En cuanto al patrón esperable, en el estudio A las puntuaciones se agruparían en torno a una línea descendente con una dispersión moderada, y conocer las horas de sueño de una persona reduciría apreciablemente la incertidumbre sobre su número de errores; en el estudio B las puntuaciones se agruparían en torno a una línea ascendente con una dispersión mucho mayor, y conocer las horas de estudio reduciría poco esa incertidumbre. Conviene añadir que el coeficiente describe el grado de ajuste a una relación lineal, por lo que una relación no lineal puede producir un coeficiente bajo aunque exista una asociación sistemática.",
+    "evaluation_criteria": [
+      {
+        "criterion": "Identifica el estudio A como la asociación más fuerte, atribuye correctamente la dirección al signo y la intensidad al valor absoluto, y describe patrones de dispersión coherentes con ambos coeficientes, indicando que en A la predicción es más precisa que en B.",
+        "max_points": 3
+      },
+      {
+        "criterion": "Identifica correctamente que la fuerza depende del valor absoluto y que el signo indica la dirección, pero describe de forma imprecisa o incompleta el patrón de datos esperable.",
+        "max_points": 2
+      },
+      {
+        "criterion": "Acierta que el estudio A muestra la asociación más fuerte sin explicar la diferencia entre signo y magnitud, o la explica confundiendo dirección con intensidad en algún punto.",
+        "max_points": 1
+      }
+    ],
+    "source": "No requiere fuente externa: aplica la interpretación estándar del coeficiente de correlación de Pearson.",
+    "notes": "Ítem «easy» construido sobre un error conceptual extendido —leer el signo como si fuera un indicador de intensidad o de valor— y no sobre recuerdo de una definición. La dimensión es reasoning porque la tarea exige ordenar dos resultados concretos y derivar el patrón de datos correspondiente, no definir qué es una correlación. Se ha excluido deliberadamente toda pregunta sobre causalidad para no solapar con PSY-009 (piloto), que ocupa ese terreno; la mención a la causalidad no forma parte de lo puntuado.",
+    "critical_errors": [
+      "Interpretar una correlación negativa como una relación más débil que una positiva de menor valor absoluto.",
+      "Interpretar el signo negativo como ausencia de relación o como una relación «mala».",
+      "Afirmar que un coeficiente de correlación informa por sí mismo del porcentaje de casos en que se cumple la relación."
+    ],
+    "language": "es-ES"
+  },
+  {
+    "id": "PSY-075",
+    "dimension": "reasoning",
+    "topic": "evaluación psicológica: rasgo y estado",
+    "difficulty": "easy",
+    "question": "Una persona cumplimenta un cuestionario de ansiedad al día siguiente de sufrir un accidente doméstico y obtiene una puntuación elevada. Quien lo administra anota en el informe: «Persona de personalidad ansiosa». Explica qué permite y qué no permite concluir esa única medida, indica qué distinción psicológica está en juego y señala qué procedimiento de medida haría sostenible una afirmación sobre esa característica estable.",
+    "expected_answer": "La medida permite concluir que en ese momento, y en un contexto muy próximo a un suceso estresante, la persona informó de un nivel elevado de ansiedad. No permite concluir nada firme sobre una característica estable de la persona. La distinción en juego es la que separa el estado —una condición transitoria, sensible a la situación y al momento— del rasgo, que es una tendencia relativamente estable a responder de determinada manera a lo largo del tiempo y en situaciones distintas. Una única administración, además realizada en un contexto que por sí mismo eleva la respuesta, confunde ambos componentes: la puntuación observada refleja el rasgo, el estado provocado por la situación y el error de medida. Para sostener una afirmación sobre el rasgo haría falta emplear un instrumento cuyas instrucciones se refieran a cómo se siente la persona habitualmente, y no en este momento, y disponer de varias medidas separadas en el tiempo y en situaciones distintas que muestren estabilidad; también sería pertinente contar con información convergente de otras fuentes. Conviene señalar que el propio marco de referencia temporal de las instrucciones del cuestionario determina qué se está midiendo.",
+    "evaluation_criteria": [
+      {
+        "criterion": "Distingue con precisión estado y rasgo, indica que la medida solo autoriza una conclusión sobre el momento de la evaluación y sobre un contexto que eleva la respuesta, rechaza la inferencia sobre una característica estable y propone medidas repetidas en el tiempo y en distintas situaciones o un instrumento con marco de referencia habitual.",
+        "max_points": 3
+      },
+      {
+        "criterion": "Rechaza correctamente la conclusión del informe apelando a la distinción entre estado y rasgo, pero no concreta qué procedimiento de medida permitiría sostener una afirmación sobre el rasgo.",
+        "max_points": 2
+      },
+      {
+        "criterion": "Señala que una sola medida es insuficiente sin identificar la distinción entre estado y rasgo ni explicar qué aporta la repetición de medidas.",
+        "max_points": 1
+      }
+    ],
+    "source": "Spielberger, C. D., Gorsuch, R. L., & Lushene, R. E. (1970). Manual for the State-Trait Anxiety Inventory. Consulting Psychologists Press.",
+    "notes": "Ítem «easy» dirigido a un error conceptual habitual en la práctica evaluativa —tratar una puntuación puntual como si describiera una característica estable— y no a recuerdo de definiciones. Cumple G6: no se pide diagnosticar ni valorar a la persona, sino determinar qué autoriza a concluir un dato de medida. Ningún ítem previo del conjunto trabaja la distinción estado-rasgo; PSY-055 (pasada 2) trata el error de medida de una puntuación, que es una cuestión distinta.",
+    "critical_errors": [
+      "Atribuir un rasgo estable de personalidad a partir de una única administración.",
+      "Concluir que la puntuación elevada carece de valor informativo alguno.",
+      "Convertir la respuesta en un juicio diagnóstico sobre la persona evaluada."
+    ],
+    "language": "es-ES"
+  },
+  {
+    "id": "PSY-076",
+    "dimension": "reasoning",
+    "topic": "explicación circular en psicología",
+    "difficulty": "easy",
+    "question": "En una reunión de equipo se afirma: «Este alumno no participa en clase porque es introvertido; y sabemos que es introvertido porque no participa en clase». Explica qué problema lógico presenta este razonamiento, por qué no añade capacidad explicativa, y qué condición mínima debería cumplir la afirmación sobre la introversión para poder explicar realmente la conducta observada.",
+    "expected_answer": "El razonamiento es circular: el rasgo se infiere exclusivamente de la misma conducta que después se pretende explicar con él, de modo que la conclusión está contenida en la premisa. No añade capacidad explicativa porque se limita a redescribir la conducta con otro nombre: si el único indicio de introversión es la no participación, decir que no participa por ser introvertido no aporta información nueva ni permite anticipar nada distinto de lo ya observado. Además, formulada así, la afirmación no puede resultar falsada por ningún dato. La condición mínima para que fuese explicativa es que el rasgo se midiera de forma independiente de la conducta que se quiere explicar —mediante un cuestionario, informes de terceros u observación en situaciones no utilizadas para la inferencia— y que de esa medida se derivaran predicciones comprobables sobre otras conductas. Conviene añadir que, aun cumpliéndose esa condición, hay explicaciones alternativas de la no participación —desconocimiento del contenido, temor a la evaluación, normas del grupo o el estilo de la clase— que deberían considerarse antes de atribuirla a una característica de la persona.",
+    "evaluation_criteria": [
+      {
+        "criterion": "Identifica la circularidad indicando que el rasgo se infiere de la misma conducta que explica, explica que se trata de una redescripción sin valor predictivo ni posibilidad de contraste, y exige una medida del rasgo independiente de esa conducta con predicciones sobre otras conductas.",
+        "max_points": 3
+      },
+      {
+        "criterion": "Identifica correctamente la circularidad y la falta de valor explicativo, pero no concreta qué haría falta para que la explicación fuera admisible.",
+        "max_points": 2
+      },
+      {
+        "criterion": "Señala que la afirmación es discutible o poco rigurosa sin identificar que la premisa y la conclusión se apoyan mutuamente.",
+        "max_points": 1
+      }
+    ],
+    "source": "No requiere fuente externa: aplica el criterio general de que una explicación disposicional exige una medida independiente del explanandum.",
+    "notes": "Ítem «easy» centrado en un error de razonamiento frecuente en contextos aplicados. Se ha construido para penalizar también la sobrecorrección opuesta —sostener que los rasgos no pueden explicar nunca la conducta—, que es el modo de fallo característico de un modelo que ha memorizado la crítica sin entenderla. Ningún ítem previo trata la circularidad explicativa; PSY-016 (piloto) aborda la estabilidad de los rasgos, que es una cuestión empírica distinta.",
+    "critical_errors": [
+      "Aceptar la explicación como válida por resultar plausible.",
+      "Sostener que ningún rasgo de personalidad puede explicar la conducta, en lugar de exigir una medida independiente.",
+      "Confundir la circularidad con una simple falta de datos sobre el alumno."
+    ],
+    "language": "es-ES"
+  },
+  {
+    "id": "PSY-077",
+    "dimension": "reasoning",
+    "topic": "heurísticos de juicio: disponibilidad y representatividad",
+    "difficulty": "medium",
+    "question": "Considera dos juicios. (1) Tras conocer de cerca dos casos recientes de abandono de la terapia, un profesional estima que la tasa de abandono de su centro es mucho más alta de lo que indican los registros. (2) Un orientador lee la descripción de un estudiante —ordenado, callado y meticuloso— y considera más probable que curse Documentación que Administración de Empresas, pese a saber que en su universidad hay veinte veces más estudiantes matriculados en la segunda. Identifica qué heurístico de juicio opera principalmente en cada caso, justifica la asignación señalando qué rasgo del juicio la determina, y explica qué información concreta corregiría cada uno de los dos errores.",
+    "expected_answer": "En el primer juicio opera el heurístico de disponibilidad: la frecuencia se estima a partir de la facilidad con que acuden a la memoria ejemplos del suceso, y los casos recientes, cercanos y emocionalmente salientes se recuperan con más facilidad que la información agregada, lo que infla la estimación. El rasgo que lo identifica es que el juicio versa sobre una frecuencia y se apoya en ejemplos recuperados, no en la semejanza con una categoría. En el segundo opera el heurístico de representatividad: la probabilidad se estima por el grado de semejanza entre la descripción y el estereotipo de una categoría, con desatención de la proporción de personas que hay en cada una; el rasgo que lo identifica es precisamente que la información sobre la frecuencia de base está disponible y no se utiliza. La corrección del primero pasa por acudir al dato agregado: la proporción de abandonos sobre el total de casos atendidos en un periodo definido, en lugar de a los ejemplos recordados. La corrección del segundo pasa por partir de la frecuencia relativa de ambas titulaciones y preguntarse cuántos estudiantes ordenados y meticulosos cabe esperar en cada una en términos absolutos: aunque la proporción de personas con ese perfil sea mayor en la titulación pequeña, el número absoluto puede ser mayor en la grande.",
+    "evaluation_criteria": [
+      {
+        "criterion": "Asigna correctamente disponibilidad al primer juicio y representatividad al segundo, justifica cada asignación por el rasgo que la determina —recuperación de ejemplos frente a semejanza con una categoría— y propone para cada caso la información concreta que lo corrige, incluyendo el razonamiento sobre frecuencias absolutas en el segundo.",
+        "max_points": 3
+      },
+      {
+        "criterion": "Asigna correctamente ambos heurísticos y los define bien, pero justifica la asignación de forma genérica o solo indica cómo corregir uno de los dos juicios.",
+        "max_points": 2
+      },
+      {
+        "criterion": "Identifica correctamente uno de los dos heurísticos, o menciona que se trata de sesgos de razonamiento sin distinguir en qué se diferencian.",
+        "max_points": 1
+      }
+    ],
+    "source": "Tversky, A., & Kahneman, D. (1974). Judgment under uncertainty: Heuristics and biases. Science, 185(4157), 1124-1131. DOI omitido: no ha podido confirmarse desde este entorno de ejecución.",
+    "notes": "La capacidad evaluada es la discriminación entre dos procesos que se confunden con frecuencia, no su definición: un modelo mediocre etiqueta ambos casos como «sesgo cognitivo» o los intercambia. El segundo juicio implica frecuencias de base, terreno que también aparece en PSY-042 (pasada 1); se declara la proximidad y se señala la diferencia: allí se trata de la dependencia del valor predictivo positivo respecto de la prevalencia en un instrumento de cribado, y aquí de un juicio intuitivo de probabilidad por semejanza. El escenario del abandono terapéutico no aparece en ningún otro ítem del conjunto.",
+    "critical_errors": [
+      "Intercambiar la asignación de los dos heurísticos.",
+      "Atribuir el segundo juicio a la disponibilidad por el hecho de que el orientador recuerde estudiantes con ese perfil, sin advertir que el problema es la desatención de la frecuencia de base.",
+      "Sostener que la descripción del estudiante no aporta ninguna información relevante para el juicio."
+    ],
+    "language": "es-ES"
+  },
+  {
+    "id": "PSY-078",
+    "dimension": "reasoning",
+    "topic": "memoria: interferencia proactiva y retroactiva",
+    "difficulty": "medium",
+    "question": "Una persona cambia de teléfono y establece un PIN nuevo. Durante las semanas siguientes teclea a menudo, sin darse cuenta, el PIN del teléfono anterior. Meses después recupera brevemente el teléfono viejo y descubre que ya no consigue recordar el PIN que usaba con él. Identifica qué tipo de interferencia opera en cada una de las dos situaciones, justifica la asignación indicando qué material interfiere con cuál, y predice qué ocurriría con ambos fenómenos si el dispositivo nuevo se desbloqueara mediante un patrón de trazo en lugar de un PIN numérico. Justifica la predicción.",
+    "expected_answer": "En la primera situación opera la interferencia proactiva: el material aprendido antes —el PIN antiguo— dificulta la recuperación del aprendido después. En la segunda opera la interferencia retroactiva: el material aprendido después —el PIN nuevo— dificulta la recuperación del anterior. El criterio que decide la asignación no es cuál de los dos recuerdos se pierde, sino la relación temporal entre lo que interfiere y lo interferido. El mecanismo común es la competencia en la recuperación: ambos códigos están asociados a claves prácticamente idénticas —el mismo gesto, la misma pantalla, la misma situación—, de modo que la clave activa los dos y el que se recupera depende de su fuerza relativa y de la recencia. Predicción: con un patrón de trazo, ambos tipos de interferencia disminuirían de forma apreciable, porque el material y la respuesta pertenecen a dominios distintos y comparten menos elementos con el PIN antiguo; la interferencia depende de la similitud entre los materiales y entre las respuestas asociadas a una misma clave. No desaparecería del todo, ya que la situación de desbloqueo sigue siendo una clave compartida.",
+    "evaluation_criteria": [
+      {
+        "criterion": "Asigna correctamente interferencia proactiva a la primera situación y retroactiva a la segunda, justifica la asignación por el orden temporal entre el material que interfiere y el interferido, y predice una reducción de la interferencia con el cambio de formato justificándola por la menor similitud entre materiales y respuestas.",
+        "max_points": 3
+      },
+      {
+        "criterion": "Asigna correctamente ambos tipos de interferencia y los distingue por el orden temporal, pero la predicción es correcta en la dirección y carece de justificación en términos de similitud.",
+        "max_points": 2
+      },
+      {
+        "criterion": "Reconoce que se trata de interferencia entre recuerdos sin distinguir correctamente los dos tipos, o los intercambia pese a explicar bien el fenómeno general.",
+        "max_points": 1
+      }
+    ],
+    "source": "Underwood, B. J. (1957). Interference and forgetting. Psychological Review, 64(1), 49-60. DOI omitido: no ha podido confirmarse desde este entorno de ejecución.",
+    "notes": "El conjunto contiene ya varios ítems del dominio de la memoria (PSY-001, PSY-002, PSY-003, PSY-008, PSY-021, PSY-027); se declara esa densidad. La capacidad evaluada aquí no está cubierta por ninguno: todos ellos tratan la exactitud del recuerdo, su sugestionabilidad o las condiciones de estudio, mientras que este ítem exige clasificar dos casos según la dirección temporal de la interferencia y derivar una predicción a partir de la similitud del material. Es un error frecuente asignar las etiquetas por cuál es el recuerdo perdido y no por el orden de adquisición, y ese es el punto discriminativo.",
+    "critical_errors": [
+      "Intercambiar interferencia proactiva y retroactiva.",
+      "Explicar la segunda situación únicamente por el paso del tiempo, sin considerar la competencia con el material aprendido después.",
+      "Predecir que el cambio de formato no modificaría la interferencia porque «la memoria funciona igual en todos los casos»."
+    ],
+    "language": "es-ES"
+  },
+  {
+    "id": "PSY-079",
+    "dimension": "reasoning",
+    "topic": "diseño intrasujeto y efectos de orden",
+    "difficulty": "medium",
+    "question": "Un equipo compara dos técnicas de relajación con un diseño intrasujeto: todos los participantes practican primero la técnica A y después la B, y se registra su tensión subjetiva tras cada una. La técnica B obtiene mejores resultados y el equipo concluye que es más eficaz. Indica qué explicaciones alternativas al efecto de la técnica permite este diseño, señala qué procedimiento las controlaría sin renunciar al diseño intrasujeto y explica por qué ese procedimiento no elimina los efectos de orden. Indica además un caso en el que ese procedimiento resultaría insuficiente.",
+    "expected_answer": "Con todos los participantes recibiendo las condiciones en el mismo orden, la variable «técnica» queda confundida con la posición en la secuencia: la ventaja de B puede deberse a la práctica acumulada en la sesión, al descenso progresivo de la activación por el simple paso del tiempo o por la habituación al contexto, a la fatiga o al aburrimiento que perjudicarían a la última condición, a los efectos de arrastre de la técnica anterior y a las expectativas generadas por la propia secuencia. El procedimiento que lo controla es el contrabalanceo: distribuir los órdenes posibles entre los participantes, de forma que la mitad reciba A-B y la otra mitad B-A, o mediante un cuadrado latino si hay más condiciones. El contrabalanceo no elimina los efectos de orden: estos siguen operando en cada participante, pero afectan por igual a las dos condiciones a lo largo de la muestra y dejan de estar confundidos con ellas, de modo que su influencia se reparte en lugar de sumarse a la comparación. Es insuficiente cuando el arrastre es asimétrico, es decir, cuando el efecto de A sobre B no equivale al de B sobre A —por ejemplo, si una de las técnicas produce un aprendizaje que se transfiere a la otra—: en ese caso el contrabalanceo no compensa nada y hay que introducir un intervalo de lavado suficiente o recurrir a un diseño intersujetos.",
+    "evaluation_criteria": [
+      {
+        "criterion": "Identifica que el orden está confundido con la condición y enumera al menos dos explicaciones alternativas concretas, propone el contrabalanceo, explica que este reparte el efecto de orden entre las condiciones en lugar de suprimirlo, e identifica el arrastre asimétrico como caso en que resulta insuficiente.",
+        "max_points": 3
+      },
+      {
+        "criterion": "Identifica el problema de orden y propone el contrabalanceo con una explicación correcta de su función, pero no llega a distinguir entre neutralizar y eliminar el efecto o no identifica un caso en que falle.",
+        "max_points": 2
+      },
+      {
+        "criterion": "Señala que el diseño tiene un problema porque todos hacen lo mismo en el mismo orden, sin identificar el contrabalanceo ni explicar qué explicaciones alternativas quedan abiertas.",
+        "max_points": 1
+      }
+    ],
+    "source": "No requiere fuente externa: aplica principios generales de diseño de investigación intrasujeto.",
+    "notes": "La dimensión es reasoning y no critical_analysis: no se pide juzgar la calidad de un estudio ajeno, sino derivar qué explicaciones deja abiertas una estructura de diseño concreta y qué efecto tiene sobre ellas una manipulación procedimental determinada. El elemento discriminativo es la distinción entre neutralizar y eliminar el efecto de orden, y el caso del arrastre asimétrico, que un modelo mediocre omite tras recitar la palabra «contrabalanceo». Ningún ítem previo del conjunto trata el diseño intrasujeto.",
+    "critical_errors": [
+      "Afirmar que el contrabalanceo elimina los efectos de orden.",
+      "Sostener que el diseño intrasujeto es inválido por sí mismo, en lugar de identificar la confusión concreta que introduce la secuencia fija.",
+      "Atribuir la ventaja de B exclusivamente al azar sin considerar los efectos de secuencia."
+    ],
+    "language": "es-ES"
+  },
+  {
+    "id": "PSY-080",
+    "dimension": "reasoning",
+    "topic": "mediación y moderación",
+    "difficulty": "medium",
+    "question": "Un equipo comprueba que un programa de habilidades sociales reduce la ansiedad social. Dos investigadores formulan afirmaciones distintas sobre el resultado. La primera sostiene que el programa funciona porque aumenta la frecuencia de interacciones cotidianas de los participantes. La segunda sostiene que el programa funciona sobre todo en adolescentes y apenas en adultos. Traduce cada afirmación al tipo de relación estadística que le corresponde, explica qué se compara en cada caso y en qué momento debe medirse la variable implicada, y justifica por qué ambas afirmaciones podrían ser ciertas a la vez.",
+    "expected_answer": "La primera afirmación describe una mediación: propone una variable que se sitúa en la cadena causal entre el programa y el resultado, de manera que el programa aumentaría la frecuencia de interacciones y ese aumento produciría la reducción de la ansiedad. Se contrasta comprobando que el programa modifica el supuesto mediador, que este se asocia al resultado y que la asociación entre programa y resultado se reduce al tener en cuenta esa vía. El mediador es una consecuencia de la intervención, por lo que debe medirse después de comenzar esta y antes del resultado. La segunda describe una moderación: propone que la magnitud del efecto del programa depende del valor de una tercera variable, la edad. Se contrasta mediante la interacción entre programa y moderador, es decir, comparando el efecto del programa entre adolescentes y adultos, no el nivel de ansiedad entre unos y otros. El moderador es una característica previa que no ha sido producida por la intervención, y se mide antes. Ambas pueden ser ciertas a la vez porque responden a preguntas distintas: la mediación responde a por qué o mediante qué funciona el programa, y la moderación a en quién o en qué condiciones funciona; podría ocurrir, por ejemplo, que el programa aumentara las interacciones en todos los participantes pero que solo en los adolescentes ese aumento se tradujera en un cambio apreciable. Conviene añadir que, aunque la asignación al programa sea aleatoria, el mediador no lo es: se mide, no se manipula, de modo que la evidencia de mediación es correlacional y no establece por sí sola la cadena causal.",
+    "evaluation_criteria": [
+      {
+        "criterion": "Asigna correctamente mediación a la primera afirmación y moderación a la segunda, explica qué comparación contrasta cada una, sitúa correctamente el momento de medida de mediador y moderador, y justifica su compatibilidad indicando que responden a preguntas distintas.",
+        "max_points": 3
+      },
+      {
+        "criterion": "Distingue correctamente ambos conceptos y los asigna bien, pero no precisa el momento de medida o no explica qué comparación concreta contrasta la moderación.",
+        "max_points": 2
+      },
+      {
+        "criterion": "Identifica que se trata de dos tipos distintos de relación sin asignarlos correctamente, o los asigna bien limitándose a definirlos sin referirse al caso.",
+        "max_points": 1
+      }
+    ],
+    "source": "Baron, R. M., & Kenny, D. A. (1986). The moderator-mediator variable distinction in social psychological research: Conceptual, strategic, and statistical considerations. Journal of Personality and Social Psychology, 51(6), 1173-1182. DOI omitido: no ha podido confirmarse desde este entorno de ejecución.",
+    "notes": "La confusión entre mediación y moderación es uno de los errores más extendidos en la literatura aplicada, lo que da al ítem un potencial discriminativo alto pese a que ambos términos son conocidos. La tarea no consiste en definirlos, sino en traducir dos afirmaciones sustantivas al tipo de relación que les corresponde y derivar la comparación y el momento de medida. La advertencia final sobre el carácter no manipulado del mediador es el elemento que separa una respuesta buena de una excelente.",
+    "critical_errors": [
+      "Contrastar la moderación comparando el nivel de ansiedad entre adolescentes y adultos en lugar de comparar el efecto del programa entre ambos grupos.",
+      "Tratar el mediador como una variable previa a la intervención.",
+      "Presentar la evidencia de mediación como demostración de la cadena causal pese a que el mediador solo se ha medido."
+    ],
+    "language": "es-ES"
+  },
+  {
+    "id": "PSY-081",
+    "dimension": "reasoning",
+    "topic": "efecto techo en la medida",
+    "difficulty": "medium",
+    "question": "Un centro evalúa un programa de comprensión lectora con una prueba de 20 puntos en la que, antes de comenzar, la media del alumnado ya es de 18. Al terminar el programa no aparecen diferencias respecto al grupo de comparación y el equipo directivo concluye que el programa no produce ningún efecto. Explica por qué el resultado no autoriza esa conclusión, indica qué propiedad de la medida lo impide y qué le ocurre a la variabilidad de las puntuaciones, y predice qué se observaría si la evaluación se repitiera con una prueba de mayor dificultad. Precisa el alcance de esa predicción.",
+    "expected_answer": "El resultado no autoriza la conclusión porque el instrumento no puede registrar la mejora que pretende detectar. Con una media de 18 sobre 20 antes de empezar, la mayoría del alumnado se encuentra próxima al máximo de la prueba y dispone de muy poco margen para aumentar su puntuación: es un efecto techo. Su consecuencia inmediata es la compresión de la variabilidad, ya que las puntuaciones se acumulan en el extremo superior; y como cualquier diferencia entre grupos se estima sobre esa variabilidad, la comparación queda atenuada y puede resultar nula aunque el programa haya producido un cambio real en la capacidad medida. En términos de la conclusión, el estudio muestra que no se ha detectado un efecto con este instrumento, no que el programa carezca de efecto. Predicción: con una prueba de mayor dificultad, que sitúe la media inicial en una zona intermedia de la escala, se recuperaría variabilidad y, si el programa produce un efecto, sería posible detectarlo. La predicción tiene un alcance limitado: la nueva prueba haría el resultado interpretable, pero no garantiza que aparezcan diferencias, y hace falta que la prueba más difícil siga midiendo el mismo constructo y no introduzca demandas nuevas. También sería informativo comprobar si la ausencia de diferencias se mantiene en el subgrupo que partía de puntuaciones más bajas, que es el único con margen de mejora.",
+    "evaluation_criteria": [
+      {
+        "criterion": "Identifica el efecto techo, explica la compresión de la variabilidad y su consecuencia sobre la detección de diferencias, distingue no detectar un efecto de que no exista, y predice la recuperación de sensibilidad con una prueba más difícil precisando que no garantiza la aparición de diferencias.",
+        "max_points": 3
+      },
+      {
+        "criterion": "Identifica el efecto techo y concluye correctamente que el resultado no permite descartar el efecto del programa, pero no explica su consecuencia sobre la variabilidad o formula la predicción sin matizar su alcance.",
+        "max_points": 2
+      },
+      {
+        "criterion": "Señala que la prueba era demasiado fácil sin relacionarlo con la variabilidad ni con la capacidad de detectar diferencias, o concluye sin más que el programa sí funciona.",
+        "max_points": 1
+      }
+    ],
+    "source": "No requiere fuente externa: aplica una propiedad general de los instrumentos de medida y su efecto sobre la detección de diferencias.",
+    "notes": "Proximidad declarada con PSY-058 (pasada 2), que comunica a un responsable la diferencia entre ausencia de evidencia y evidencia de ausencia. La capacidad evaluada aquí es distinta: no se pide comunicar la asimetría lógica de un resultado nulo, sino identificar una explicación concreta del lado de la medida —el efecto techo—, derivar su consecuencia sobre la variabilidad y predecir qué ocurriría con un instrumento distinto. También difiere de PSY-022 (piloto), cuyo problema es el tamaño de la muestra.",
+    "critical_errors": [
+      "Concluir que el programa carece de efecto porque el resultado ha sido nulo.",
+      "Atribuir la ausencia de diferencias exclusivamente al tamaño de la muestra sin advertir la restricción de la medida.",
+      "Sostener que una prueba más difícil garantizaría la aparición de diferencias."
+    ],
+    "language": "es-ES"
+  },
+  {
+    "id": "PSY-082",
+    "dimension": "reasoning",
+    "topic": "regulación emocional: reevaluación y supresión",
+    "difficulty": "medium",
+    "question": "Dos personas afrontan la misma situación laboral desagradable. La primera reinterpreta lo que está ocurriendo para verlo de otro modo antes de que la reacción emocional se despliegue del todo. La segunda mantiene la misma interpretación de la situación, pero se esfuerza en no mostrar lo que siente. Al terminar, ambas afirman que «lo han controlado». Indica en qué punto del proceso emocional actúa cada estrategia y qué diferencias cabe esperar entre ambas en la experiencia emocional, en la activación fisiológica y en el recuerdo posterior de la situación. Justifica cada predicción y señala qué impide concluir que una de las dos estrategias sea siempre preferible.",
+    "expected_answer": "Las dos estrategias actúan en momentos distintos del proceso emocional. La reinterpretación es una estrategia centrada en los antecedentes: interviene sobre la valoración de la situación antes de que la respuesta emocional esté plenamente generada, de modo que modifica la emoción misma. La inhibición de la expresión es una estrategia centrada en la respuesta: actúa al final, cuando la emoción ya se ha generado, y solo modifica su manifestación externa. De ahí se derivan las predicciones. En la experiencia emocional cabe esperar una reducción del malestar en la primera persona y poca o ninguna reducción en la segunda, que sigue sintiendo lo mismo aunque no lo muestre. En la activación fisiológica cabe esperar que la primera no aumente, y que la segunda se mantenga o incluso se incremente, porque inhibir la expresión exige un esfuerzo continuado que añade activación. En el recuerdo posterior cabe esperar un deterioro en la segunda persona: mantener la inhibición consume recursos atencionales durante la situación y deja menos disponibles para codificar lo que ocurre, mientras que reinterpretar no impone ese coste una vez efectuada. La igualdad de los informes verbales ilustra que «controlar» no distingue entre modificar la emoción y ocultarla. No obstante, no se sigue que una estrategia sea siempre preferible: su valor depende del contexto y de los objetivos, y hay situaciones —profesionales, sociales o de seguridad— en que inhibir la expresión es lo adecuado, y situaciones en que reinterpretar equivale a desatender un problema que exige actuar sobre él. Lo que la evidencia respalda es la flexibilidad para ajustar la estrategia a las demandas de la situación.",
+    "evaluation_criteria": [
+      {
+        "criterion": "Sitúa correctamente cada estrategia en el proceso emocional —antes o después de que la respuesta se genere—, deriva de esa posición las tres predicciones (experiencia, activación fisiológica y recuerdo) con su justificación, y rechaza la superioridad universal de una estrategia apelando a la dependencia del contexto.",
+        "max_points": 3
+      },
+      {
+        "criterion": "Distingue correctamente ambas estrategias y acierta la dirección de al menos dos de las tres predicciones, pero las justifica de forma parcial o presenta la reinterpretación como estrategia siempre preferible.",
+        "max_points": 2
+      },
+      {
+        "criterion": "Señala que ocultar lo que se siente es peor que reinterpretar la situación sin explicar en qué punto del proceso actúa cada estrategia ni qué consecuencias distintas produce.",
+        "max_points": 1
+      }
+    ],
+    "source": "Gross, J. J. (2002). Emotion regulation: Affective, cognitive, and social consequences. Psychophysiology, 39(3), 281-291. DOI omitido: no ha podido confirmarse desde este entorno de ejecución.",
+    "notes": "Proximidad declarada con PSY-037 (pasada 1), que distingue afrontamiento centrado en el problema y en la emoción dentro del modelo transaccional del estrés. El marco teórico es distinto —modelo procesual de la regulación emocional— y la capacidad también: allí se pide explicar por qué una modalidad no es siempre más adaptativa que otra; aquí, derivar predicciones diferenciales sobre tres indicadores a partir del momento del proceso en que cada estrategia interviene. El elemento discriminativo es la predicción sobre el recuerdo, que un modelo mediocre omite, y la resistencia a convertir la reevaluación en una recomendación universal.",
+    "critical_errors": [
+      "Sostener que la inhibición de la expresión reduce la activación fisiológica.",
+      "Presentar la reevaluación como estrategia siempre superior con independencia del contexto.",
+      "Tratar ambas estrategias como equivalentes porque las dos personas informan de haberse controlado."
+    ],
+    "language": "es-ES"
+  },
+  {
+    "id": "PSY-083",
+    "dimension": "reasoning",
+    "topic": "brecha entre intención y conducta",
+    "difficulty": "medium",
+    "question": "Una campaña dirigida a estudiantes universitarios logra que, al terminar, informen de una intención mucho mayor de acudir al servicio de atención psicológica si llegan a necesitarlo. Tres meses después, la proporción de estudiantes que ha utilizado el servicio es prácticamente la misma que antes. Explica qué puede concluirse sobre la campaña, qué relación se conoce en general entre intención y conducta, y qué tipo de componente habría que añadir al diseño para acortar esa distancia. Justifica por qué ese componente actuaría e indica qué información necesitarías para interpretar correctamente el dato de uso del servicio.",
+    "expected_answer": "Puede concluirse que la campaña ha modificado un determinante próximo de la conducta —la intención declarada— pero no la conducta. No puede concluirse que sea inútil ni que la intención sea irrelevante, porque la intención es una condición que favorece la acción sin ser suficiente para producirla. La relación conocida es asimétrica: quien realiza la conducta suele haber tenido intención de hacerla, pero una proporción sustancial de quienes tienen la intención no llega a actuar, de modo que cambios apreciables en la intención producen cambios sensiblemente menores en la conducta. La distancia se explica por lo que ocurre entre una y otra: olvido en el momento oportuno, desconocimiento del procedimiento concreto, competencia con otras demandas, coste de la gestión, temor a ser identificado o falta de una ocasión clara. El componente que corresponde añadir no es más persuasión, sino apoyos a la ejecución: planes concretos de acción que asocien una situación específica a una respuesta específica —cuándo, dónde y cómo se pide la cita—, recordatorios en el momento y el lugar en que la conducta es posible, y reducción de los pasos necesarios. Actuarían porque trasladan el control de la conducta desde la deliberación, que exige que la persona recuerde y decida de nuevo, hacia una clave situacional que dispara la respuesta ya prevista. Para interpretar el dato de uso hace falta además conocer el denominador pertinente: cuántos estudiantes han llegado a necesitar el servicio en esos tres meses, ya que la campaña se dirigía a una conducta condicionada a esa necesidad, y también si el servicio tenía capacidad disponible, porque una lista de espera limitaría el uso con independencia de la intención.",
+    "evaluation_criteria": [
+      {
+        "criterion": "Concluye que la campaña modificó la intención pero no la conducta sin declararla inútil, describe correctamente la relación asimétrica entre intención y conducta, propone apoyos a la ejecución concretos justificando su mecanismo, e identifica la necesidad de conocer cuántos estudiantes llegaron a necesitar el servicio o su capacidad de atención.",
+        "max_points": 3
+      },
+      {
+        "criterion": "Explica correctamente la distancia entre intención y conducta y propone un componente pertinente, pero no justifica su mecanismo o no advierte el problema del denominador.",
+        "max_points": 2
+      },
+      {
+        "criterion": "Concluye que la campaña ha fracasado o que las intenciones no sirven, sin explicar qué se interpone entre la intención y la acción.",
+        "max_points": 1
+      }
+    ],
+    "source": "Webb, T. L., & Sheeran, P. (2006). Does changing behavioral intentions engender behavior change? A meta-analysis of the experimental evidence. Psychological Bulletin, 132(2), 249-268. DOI omitido: no ha podido confirmarse desde este entorno de ejecución.",
+    "notes": "Ítem construido sobre un resultado que un modelo mediocre resuelve declarando el fracaso de la campaña o repitiendo que «la intención no basta». Los dos elementos discriminativos son el mecanismo por el que un plan de acción concreto opera —desplazar la iniciación de la conducta a una clave situacional— y el problema del denominador, que exige advertir que la conducta objetivo estaba condicionada a una necesidad previa. Ningún ítem previo del conjunto trata la relación entre intención y conducta; PSY-052 (pasada 2) trata la insuficiencia de una intervención breve para modificar un fenómeno grupal, que es un problema distinto.",
+    "critical_errors": [
+      "Concluir que la campaña no ha tenido ningún efecto porque la conducta no cambió.",
+      "Proponer únicamente más información o más persuasión como solución a la brecha.",
+      "Interpretar la proporción de uso del servicio sin considerar cuántos estudiantes llegaron a necesitarlo."
+    ],
+    "language": "es-ES"
+  },
+  {
+    "id": "PSY-084",
+    "dimension": "reasoning",
+    "topic": "adquisición de pericia y condiciones de la práctica",
+    "difficulty": "medium",
+    "question": "En un servicio, dos profesionales atienden el mismo tipo de casos. Una acumula veinte años de ejercicio y la otra cinco, y su rendimiento en una tarea estandarizada resulta equivalente. Explica por qué los años de experiencia predicen la pericia peor de lo que suele suponerse, indica qué condiciones debe reunir la práctica para producir mejora sostenida, y señala qué característica del entorno de trabajo determina que la experiencia acumulada se traduzca o no en aprendizaje. Justifica esa última respuesta.",
+    "expected_answer": "Los años de ejercicio miden tiempo de exposición, no cantidad de aprendizaje. La repetición de una actividad produce mejora mientras la ejecución todavía exige control atencional, pero una vez que la actuación alcanza un nivel aceptable tiende a automatizarse y estabilizarse: a partir de ahí, repetir lo que ya se hace mantiene el nivel en lugar de elevarlo. Para que la práctica siga produciendo mejora tiene que reunir condiciones específicas: tareas situadas algo por encima del nivel actual, objetivos definidos para cada intento, información sobre el resultado que sea inmediata e informativa, corrección deliberada del error y repetición del componente corregido. La característica decisiva del entorno es si permite o no obtener esa información: hace falta que las consecuencias de las decisiones sean observables, que lleguen con poca demora, que se pueda atribuir el resultado a la actuación y que la relación entre actuación y resultado sea suficientemente regular. En entornos donde el resultado tarda meses en manifestarse, depende de muchos factores ajenos o rara vez llega de vuelta, la experiencia acumula casos sin corregir errores, y es posible que aumente la confianza sin que aumente la exactitud. El caso descrito es por tanto compatible con que la profesional más veterana haya practicado durante quince años más en condiciones que no permitían aprender.",
+    "evaluation_criteria": [
+      {
+        "criterion": "Distingue exposición temporal de práctica que produce mejora, enumera condiciones concretas de esta última incluyendo objetivos específicos y retroalimentación correctiva, e identifica la disponibilidad de información sobre el resultado —su demora, su atribuibilidad y la regularidad del entorno— como la característica que determina si la experiencia enseña.",
+        "max_points": 3
+      },
+      {
+        "criterion": "Explica correctamente que la mera repetición no produce mejora y describe las condiciones de la práctica eficaz, pero trata la retroalimentación de forma genérica sin referirse a las propiedades del entorno que la hacen posible.",
+        "max_points": 2
+      },
+      {
+        "criterion": "Afirma que la experiencia no garantiza la pericia sin explicar qué condiciones diferencian una práctica que mejora el rendimiento de una que solo lo mantiene.",
+        "max_points": 1
+      }
+    ],
+    "source": "Ericsson, K. A., Krampe, R. T., & Tesch-Römer, C. (1993). The role of deliberate practice in the acquisition of expert performance. Psychological Review, 100(3), 363-406. Kahneman, D., & Klein, G. (2009). Conditions for intuitive expertise: A failure to disagree. American Psychologist, 64(6), 515-526. DOI omitido: no ha podido confirmarse desde este entorno de ejecución.",
+    "notes": "El elemento discriminativo no es la noción de práctica deliberada, que es recuperable, sino el desplazamiento del foco desde el individuo hacia las propiedades del entorno que hacen posible el aprendizaje. Se ha evitado deliberadamente cualquier cifra sobre el peso de la práctica en la varianza del rendimiento, magnitud en discusión, de modo que lo puntuado es el argumento y no un dato numérico. Cumple G6: la comparación entre dos profesionales versa sobre condiciones del aprendizaje, no sobre la competencia de ninguna persona concreta ni sobre una decisión clínica.",
+    "critical_errors": [
+      "Identificar años de experiencia con nivel de pericia.",
+      "Atribuir la equivalencia de rendimiento exclusivamente a diferencias de talento entre ambas profesionales.",
+      "Sostener que la práctica produce mejora por sí misma, sin condiciones sobre la retroalimentación."
+    ],
+    "language": "es-ES"
+  },
+  {
+    "id": "PSY-085",
+    "dimension": "reasoning",
+    "topic": "indicadores de desempeño y contingencias en las organizaciones",
+    "difficulty": "medium",
+    "question": "Un servicio de atención telefónica decide evaluar y premiar a su personal por el número de llamadas atendidas por hora. A los tres meses el indicador ha mejorado mucho y las reclamaciones de los usuarios han aumentado. Explica por qué este resultado era previsible, qué relación guarda el indicador elegido con el desempeño que se pretendía medir, y qué propiedad debería reunir un sistema de indicadores para no producir este efecto. Indica además por qué el problema no se resuelve pidiendo al personal que además atienda bien.",
+    "expected_answer": "El resultado era previsible porque el sistema establece una contingencia explícita entre una dimensión concreta de la conducta y una consecuencia valorada, de modo que aumenta lo que se mide y se premia. Como el tiempo y el esfuerzo disponibles son limitados, ese aumento se produce a costa de las dimensiones no medidas: acortar llamadas eleva el indicador y deteriora la resolución del problema del usuario, que es lo que genera las reclamaciones. El indicador elegido cubre solo una parte del desempeño relevante —la cantidad— y deja fuera la calidad y el resultado para el usuario: es un criterio deficiente, y además puede maximizarse sin producir el resultado que se persigue. Un sistema adecuado debe cubrir conjuntamente las dimensiones que definen el desempeño, incluir alguna medida de resultado y no solo de actividad, y evitar que ninguno de sus componentes pueda optimizarse aisladamente en perjuicio de los demás. Pedir al personal que además atienda bien no resuelve el problema porque deja intacta la contingencia: la instrucción verbal compite con una consecuencia real y sistemática asociada a la conducta contraria, y cuando ambas discrepan prevalece la consecuencia. La corrección debe hacerse en el sistema de medida y en las consecuencias, no en la exhortación.",
+    "evaluation_criteria": [
+      {
+        "criterion": "Explica que la conducta se desplaza hacia la dimensión medida y premiada a costa de las no medidas, identifica el indicador como cobertura parcial del desempeño y susceptible de maximizarse sin producir el resultado, exige un sistema que cubra las dimensiones relevantes incluyendo resultado, y explica que la instrucción verbal no compensa una contingencia real.",
+        "max_points": 3
+      },
+      {
+        "criterion": "Explica correctamente el desplazamiento de la conducta hacia lo medido y propone incorporar indicadores de calidad, pero no analiza por qué la instrucción verbal resulta insuficiente o no identifica la cobertura parcial del criterio.",
+        "max_points": 2
+      },
+      {
+        "criterion": "Señala que medir solo la cantidad es un error sin explicar el mecanismo por el que el sistema de medida modifica la conducta del personal.",
+        "max_points": 1
+      }
+    ],
+    "source": "Kerr, S. (1975). On the folly of rewarding A, while hoping for B. Academy of Management Journal, 18(4), 769-783. DOI omitido: no ha podido confirmarse desde este entorno de ejecución.",
+    "notes": "Ítem de psicología de las organizaciones, subcampo con escasa presencia en el conjunto. El análisis funcional de la contingencia lo emparenta con PSY-007 (piloto), pero la capacidad evaluada es distinta: allí se pide clasificar una consecuencia dentro de la distinción refuerzo-castigo, y aquí derivar el efecto sistémico de un criterio de medida sobre la distribución del esfuerzo y explicar por qué la instrucción verbal no lo corrige. Proximidad declarada también con PSY-060 (pasada 2), que trata la validez de un instrumento de selección, no el diseño de indicadores de desempeño.",
+    "critical_errors": [
+      "Atribuir el aumento de reclamaciones a una falta de motivación o de profesionalidad del personal.",
+      "Proponer como solución únicamente insistir en la importancia de la calidad, manteniendo el sistema de incentivos.",
+      "Sostener que el problema es medir el desempeño, en lugar de la elección del indicador."
+    ],
+    "language": "es-ES"
+  },
+  {
+    "id": "PSY-086",
+    "dimension": "reasoning",
+    "topic": "aprendizaje observacional: adquisición y ejecución",
+    "difficulty": "medium",
+    "question": "En un aula, un alumno hace una gracia y el docente le sanciona delante de todo el grupo. En los días siguientes ningún compañero repite esa conducta, pero cuando el docente se ausenta y le sustituye otra persona la conducta aparece en varios de ellos. Explica qué distinción del aprendizaje observacional da cuenta de este patrón, por qué la ausencia inicial de la conducta no indica que los compañeros no hubieran aprendido nada, y predice qué habría ocurrido si la gracia del primer alumno no hubiese tenido ninguna consecuencia visible. Justifica la predicción.",
+    "expected_answer": "El patrón se explica por la distinción entre adquisición y ejecución. Observar la conducta de otro y sus consecuencias basta para adquirirla: los compañeros aprendieron tanto la conducta como la consecuencia que tuvo. Lo que la sanción presenciada modifica no es lo aprendido, sino la disposición a ejecutarlo, porque anticipa una consecuencia aversiva. Que la conducta no aparezca no informa, por tanto, de que no se haya aprendido: informa de que las condiciones no favorecen su ejecución. La reaparición al cambiar de docente muestra además que la presencia de quien sancionó funciona como señal que indica cuándo la conducta tendrá esa consecuencia y cuándo no: el control es discriminativo, ligado a la situación, y no un cambio general de la conducta. Predicción: sin consecuencia visible, la imitación sería mayor que tras la sanción y menor que si la gracia hubiera sido celebrada o premiada de algún modo, porque la consecuencia observada actúa sobre la ejecución de manera graduada; la conducta quedaría entonces bajo la influencia de otros factores, como la reacción del grupo o el interés de la propia gracia. Además, la ausencia de consecuencias hace menos probable que la conducta quede restringida a la situación en que el docente no está presente.",
+    "evaluation_criteria": [
+      {
+        "criterion": "Identifica la distinción entre adquisición y ejecución, explica que la sanción observada actúa sobre la segunda y no sobre la primera, interpreta la reaparición como control discriminativo asociado a la presencia del docente, y predice una imitación intermedia sin consecuencia visible con justificación.",
+        "max_points": 3
+      },
+      {
+        "criterion": "Explica correctamente que los compañeros aprendieron aunque no ejecutaran la conducta y acierta la dirección de la predicción, pero no interpreta la dependencia de la situación en términos de señal discriminativa.",
+        "max_points": 2
+      },
+      {
+        "criterion": "Describe el episodio como aprendizaje por imitación o por observación de consecuencias, sin distinguir entre lo aprendido y lo ejecutado.",
+        "max_points": 1
+      }
+    ],
+    "source": "Bandura, A. (1965). Influence of models' reinforcement contingencies on the acquisition of imitative responses. Journal of Personality and Social Psychology, 1(6), 589-595. DOI omitido: no ha podido confirmarse desde este entorno de ejecución.",
+    "notes": "El conjunto contiene ya ítems sobre contingencias de refuerzo (PSY-007, piloto) y sobre extinción y contexto (PSY-040, pasada 1); se declara la proximidad de campo. La capacidad evaluada aquí no está en ninguno de los dos: se trata de sostener que la ausencia de conducta no es prueba de ausencia de aprendizaje, distinción que un modelo mediocre pasa por alto al concluir que la sanción «funcionó» o «no funcionó». El escenario del aula no reproduce ningún caso previo del conjunto.",
+    "critical_errors": [
+      "Concluir que los compañeros no aprendieron la conducta porque no la ejecutaron.",
+      "Interpretar la reaparición de la conducta como olvido del episodio de la sanción.",
+      "Predecir que sin consecuencia visible la imitación sería nula."
+    ],
+    "language": "es-ES"
+  },
+  {
+    "id": "PSY-087",
+    "dimension": "reasoning",
+    "topic": "expectativas del evaluador y rendimiento",
+    "difficulty": "medium",
+    "question": "En un centro escolar, los docentes reciben al comenzar el curso un listado de alumnos supuestamente «de alto potencial». El listado se ha elaborado al azar y ellos no lo saben. Al final del curso, esos alumnos han mejorado algo más que el resto en una prueba estandarizada. Explica por qué el resultado no puede atribuirse a características de los alumnos incluidos en la lista, describe la cadena de procesos por la que una expectativa del docente puede acabar produciendo un cambio real en el rendimiento, e indica un procedimiento que permitiría comprobar en qué eslabón de esa cadena se produce el efecto. Señala también qué cautela exige la magnitud de este tipo de resultados.",
+    "expected_answer": "El resultado no puede atribuirse a los alumnos porque la lista se confeccionó al azar: la pertenencia a ella no está asociada a ninguna característica previa, de modo que en promedio ambos grupos eran equivalentes al comenzar. Si aparece una diferencia, su origen tiene que estar en lo que ocurrió después, y la única variable que la asignación introdujo es la creencia del docente. La cadena plausible es la siguiente: la expectativa modifica la conducta del docente hacia esos alumnos —les dedica más tiempo, les propone material más exigente, les da más ocasiones de responder, espera más tras la pregunta, ofrece retroalimentación más detallada y transmite un clima más cálido—; esa conducta modifica la experiencia del alumno, sus oportunidades de práctica y lo que espera de sí mismo; y esa práctica adicional produce el cambio en el rendimiento. El efecto no es magia: requiere que la expectativa se traduzca en conducta observable. Para localizar el eslabón habría que medir directamente los pasos intermedios: registrar y codificar la conducta del docente hacia unos y otros alumnos y comprobar si explica la diferencia final; y, de manera más concluyente, manipular por separado las conductas concretas —por ejemplo, aumentar deliberadamente las oportunidades de respuesta sin inducir ninguna expectativa— para ver si reproducen el efecto. Cautela: los efectos de este tipo son de magnitud pequeña, no aparecen en todos los estudios y son mayores cuando el docente no conoce todavía a los alumnos, de modo que el resultado no autoriza a sostener que las expectativas determinan el rendimiento.",
+    "evaluation_criteria": [
+      {
+        "criterion": "Argumenta desde la asignación al azar que la diferencia no puede proceder de los alumnos, describe una cadena con al menos dos eslabones intermedios concretos de conducta docente, propone medir u observar esos eslabones o manipularlos por separado, y advierte de la magnitud reducida e inconstante de este tipo de efectos.",
+        "max_points": 3
+      },
+      {
+        "criterion": "Explica correctamente el papel de la asignación al azar y describe la cadena de procesos, pero no propone un procedimiento para localizar el eslabón o no matiza la magnitud del efecto.",
+        "max_points": 2
+      },
+      {
+        "criterion": "Afirma que se trata de una profecía autocumplida sin describir por qué medios la expectativa del docente podría producir un cambio real en el rendimiento.",
+        "max_points": 1
+      }
+    ],
+    "source": "Rosenthal, R., & Jacobson, L. (1968). Pygmalion in the Classroom: Teacher Expectation and Pupils' Intellectual Development. Holt, Rinehart & Winston.",
+    "notes": "La dimensión es reasoning: no se pide valorar la calidad del estudio original —que ha recibido críticas metodológicas— sino derivar, a partir del hecho de que la lista fuera aleatoria, dónde tiene que estar el origen del efecto y reconstruir la cadena causal intermedia. La cautela sobre la magnitud forma parte de lo puntuado para impedir que la respuesta correcta consista en afirmar sin más el efecto Pigmalión. Proximidad declarada con PSY-045 (pasada 2), sobre el efecto placebo: comparten la idea de que una expectativa produce cambios reales, pero allí se trata de comunicar el fenómeno a una persona lega y aquí de derivar y localizar el mecanismo.",
+    "critical_errors": [
+      "Atribuir la diferencia a características de los alumnos incluidos en la lista.",
+      "Presentar la expectativa como causa directa del rendimiento sin ningún proceso intermedio de conducta.",
+      "Presentar el efecto como grande y sistemáticamente replicado."
+    ],
+    "language": "es-ES"
+  },
+  {
+    "id": "PSY-088",
+    "dimension": "reasoning",
+    "topic": "contrastación de hipótesis y búsqueda de evidencia falsadora",
+    "difficulty": "hard",
+    "question": "Un orientador sostiene la hipótesis: «Todo alumno que asiste al programa de refuerzo aprueba la asignatura». Dispone de cuatro fichas; cada ficha corresponde a un alumno y tiene escrito en una cara si asistió o no al programa, y en la otra si aprobó o suspendió. Las caras visibles de las cuatro fichas son: (1) «asistió al programa», (2) «no asistió al programa», (3) «aprobó», (4) «suspendió». Indica qué fichas hay que dar la vuelta necesariamente para poner a prueba la hipótesis y cuáles no aportan información, justificando cada decisión. Explica después qué limitación tiene esta lógica cuando la hipótesis psicológica no es una regla estricta sino una regularidad probabilística.",
+    "expected_answer": "Hay que dar la vuelta a las fichas (1) y (4). La hipótesis afirma que asistir implica aprobar, de modo que el único caso que la refuta es un alumno que asistió y suspendió. La ficha (1) debe girarse porque, si al dorso figura «suspendió», la hipótesis queda refutada. La ficha (4) debe girarse porque, si al dorso figura «asistió», se produce exactamente ese mismo caso. Las otras dos no aportan información. La ficha (3), «aprobó», es la que más tienta porque parece confirmar la hipótesis, pero su dorso no puede refutarla: haya asistido o no, ese alumno es compatible con la regla, ya que la hipótesis no afirma que aprobar exija haber asistido. La ficha (2), «no asistió», tampoco puede refutarla: la hipótesis no dice nada sobre quienes no asisten, de modo que cualquier resultado es compatible con ella. El principio general es que una afirmación condicional se pone a prueba buscando el caso que la haría falsa, no acumulando casos que la ilustran; la búsqueda de confirmaciones no la somete a riesgo alguno. La limitación es que una hipótesis psicológica de este tipo rara vez es una regla estricta: si se entiende como una regularidad —asistir aumenta la probabilidad de aprobar—, un solo alumno que asistiera y suspendiera no la refuta, porque es un resultado esperable bajo la hipótesis. En ese caso la contrastación exige estimar frecuencias en las cuatro combinaciones y, sobre todo, comparar la proporción de aprobados entre quienes asisten y quienes no, información para la que las fichas (2) y (3) sí resultan pertinentes. Se mantiene, eso sí, la asimetría: los casos potencialmente desconfirmadores siguen siendo los más informativos.",
+    "evaluation_criteria": [
+      {
+        "criterion": "Selecciona las fichas (1) y (4) y justifica cada una identificando el caso que refuta la condicional, explica por qué (3) y (2) no aportan información distinguiendo la hipótesis de su recíproca, y expone que con una regularidad probabilística un caso aislado no refuta y hace falta comparar frecuencias entre quienes asisten y quienes no.",
+        "max_points": 3
+      },
+      {
+        "criterion": "Selecciona correctamente las dos fichas y justifica la lógica de la falsación, pero no explica adecuadamente por qué la ficha «aprobó» es irrelevante o no desarrolla la limitación probabilística.",
+        "max_points": 2
+      },
+      {
+        "criterion": "Selecciona la ficha «asistió al programa» reconociendo que hay que buscar casos contrarios, pero omite la ficha «suspendió» o añade fichas irrelevantes.",
+        "max_points": 1
+      }
+    ],
+    "source": "Wason, P. C. (1968). Reasoning about a rule. Quarterly Journal of Experimental Psychology, 20(3), 273-281. DOI omitido: no ha podido confirmarse desde este entorno de ejecución.",
+    "notes": "Ítem con solución objetivamente determinada, lo que le da una evaluabilidad muy alta, y con un distractor que es precisamente el error modal: girar la ficha «aprobó» buscando confirmación. La segunda parte impide que la respuesta perfecta consista en aplicar la lógica formal sin advertir que las hipótesis psicológicas no tienen esa forma, y es el elemento que separa una respuesta correcta de una excelente. Proximidad declarada con PSY-067 (pasada 2), que pide explicar el sesgo de confirmación a dos audiencias: allí la capacidad es comunicativa, aquí es la aplicación de la asimetría entre confirmación y falsación a la selección de la evidencia que hay que examinar.",
+    "critical_errors": [
+      "Girar la ficha «aprobó» por considerar que confirma la hipótesis.",
+      "Omitir la ficha «suspendió».",
+      "Sostener que hay que girar las cuatro fichas para estar seguros.",
+      "Tratar la hipótesis como equivalente a su recíproca, es decir, como si afirmara que solo aprueban quienes asisten."
+    ],
+    "language": "es-ES"
+  },
+  {
+    "id": "PSY-089",
+    "dimension": "reasoning",
+    "topic": "programas de reforzamiento intermitente y contingencias recíprocas",
+    "difficulty": "hard",
+    "question": "Un niño pide una golosina en el supermercado y, cuando se le niega, llora con intensidad creciente. Su madre resiste casi siempre, pero aproximadamente una de cada diez veces, cuando el llanto se prolonga mucho, acaba cediendo. Explica por qué este patrón hace que el llanto sea más difícil de eliminar que si la madre cediera todas las veces, analiza qué consecuencia mantiene la conducta de ceder de la madre, y predice qué ocurrirá con la frecuencia y la intensidad del llanto durante los primeros días si la madre deja de ceder por completo. Justifica cada una de las tres respuestas. No propongas un plan de intervención para esta familia.",
+    "expected_answer": "El llanto se refuerza de forma intermitente: solo algunas ocasiones terminan en golosina. Un programa así genera una conducta muy persistente porque la ausencia de la consecuencia en un episodio concreto no distingue la nueva situación de la habitual: si el refuerzo llegara siempre, dejar de darlo sería inmediatamente discriminable y la conducta descendería antes; cuando llega de forma imprevisible, seguir insistiendo ha sido en el pasado la vía por la que la consecuencia acababa llegando. A ello se añade que la madre cede cuando el llanto se ha prolongado y ha aumentado de intensidad, de modo que lo que se refuerza selectivamente son las formas más intensas y persistentes: la contingencia va modelando la topografía de la conducta hacia versiones más extremas. La conducta de la madre tiene su propia contingencia y opera en sentido inverso: ceder pone fin de forma inmediata a un episodio aversivo —el llanto en un lugar público, con la observación de otras personas—, y esa terminación refuerza el ceder. Se trata de un reforzamiento negativo, y ahí está la reciprocidad del proceso: la conducta de cada uno refuerza la del otro, lo que explica que el patrón se consolide sin que nadie lo haya buscado. Predicción para los primeros días: al retirarse por completo la consecuencia cabe esperar un aumento inicial de la frecuencia, de la duración y de la intensidad del llanto, junto con la aparición de conductas nuevas y de respuestas emocionales; es el incremento característico del comienzo de la extinción, y se produce precisamente porque intensificar ha funcionado antes. Después, si la consecuencia no vuelve a presentarse en ningún caso, cabe esperar un descenso progresivo, con posibles reapariciones puntuales tras periodos sin la situación. Un solo episodio en que se cediera durante esa fase reforzaría la forma más intensa alcanzada y restablecería la conducta con más fuerza.",
+    "evaluation_criteria": [
+      {
+        "criterion": "Explica la mayor resistencia a la extinción del reforzamiento intermitente apelando a la menor discriminabilidad del cambio de contingencia, identifica que se refuerzan selectivamente las formas más intensas, analiza la conducta de la madre como reforzamiento negativo por terminación de un episodio aversivo, y predice el incremento inicial propio de la extinción seguido de descenso.",
+        "max_points": 3
+      },
+      {
+        "criterion": "Identifica el reforzamiento intermitente y su mayor persistencia, y predice correctamente la evolución del llanto, pero no analiza la contingencia que mantiene la conducta de la madre o no advierte el modelado de la intensidad.",
+        "max_points": 2
+      },
+      {
+        "criterion": "Señala que ceder a veces mantiene la conducta del niño sin explicar por qué el reforzamiento intermitente produce mayor resistencia que el continuo.",
+        "max_points": 1
+      }
+    ],
+    "source": "Ferster, C. B., & Skinner, B. F. (1957). Schedules of Reinforcement. Appleton-Century-Crofts. Patterson, G. R. (1982). Coercive Family Process. Castalia.",
+    "notes": "Reincidencia declarada en el campo del condicionamiento operante, ya presente en PSY-007 (piloto) y PSY-040 (pasada 1). La capacidad evaluada es distinta de ambas: PSY-007 pide clasificar una consecuencia como refuerzo y distinguirla del castigo, y PSY-040 versa sobre la extinción como aprendizaje nuevo y dependiente del contexto. Aquí se exige derivar el efecto del programa de reforzamiento sobre la resistencia a la extinción, analizar dos contingencias recíprocas —cada agente refuerza la conducta del otro— y predecir el curso temporal del llanto. El análisis de la conducta del adulto es el elemento que un modelo mediocre omite. Cumple G6: la viñeta es genérica, el enunciado prohíbe expresamente proponer un plan de intervención y lo puntuado es la derivación de principios del aprendizaje.",
+    "critical_errors": [
+      "Sostener que el reforzamiento continuo produciría una conducta más resistente a la extinción que el intermitente.",
+      "Analizar únicamente la conducta del niño y omitir la contingencia que mantiene la de la madre.",
+      "Predecir un descenso inmediato del llanto desde el primer día en que la madre deja de ceder.",
+      "Clasificar la conducta de ceder de la madre como castigo o como refuerzo positivo de su propia conducta."
+    ],
+    "language": "es-ES"
+  },
+  {
+    "id": "PSY-090",
+    "dimension": "reasoning",
+    "topic": "mantenimiento del miedo por evitación",
+    "difficulty": "hard",
+    "question": "Una persona que teme viajar en metro empieza a desplazarse siempre en autobús. Cada vez que decide no coger el metro, su malestar disminuye de inmediato. Al cabo de unos meses, el miedo no solo no se ha reducido, sino que se ha extendido a otros transportes subterráneos. Explica, identificando los dos procesos de aprendizaje implicados, por qué una conducta que alivia el malestar a corto plazo mantiene el miedo a largo plazo, y por qué el miedo se extiende en lugar de restringirse. Predice después qué debería ocurrir con el miedo si la persona permaneciera repetidamente en la situación temida sin evitarla, e indica qué aprendizaje daría cuenta de esa reducción. No propongas un tratamiento para esta persona.",
+    "expected_answer": "Intervienen dos procesos distintos. El primero es asociativo: el metro ha quedado asociado a una respuesta de miedo, de manera que la sola anticipación de la situación produce malestar. El segundo es operante: la conducta de evitar va seguida de la desaparición inmediata del malestar, y esa terminación de un estado aversivo refuerza la evitación, que se hace más probable y más rápida. La clave de la paradoja está en que ambos procesos se acoplan: la evitación es eficaz a corto plazo precisamente porque suprime el malestar, y por eso mismo impide que la persona llegue a comprobar qué habría ocurrido de haber permanecido en la situación. La expectativa de peligro no se somete nunca a prueba y, al no recibir información que la desmienta, se mantiene intacta; además, cada evitación exitosa refuerza la interpretación de que se ha librado de algo, lo que puede fortalecer la creencia. La extensión a otros transportes subterráneos responde a la generalización: estímulos que comparten rasgos con el original evocan la misma respuesta, y como también se evitan, tampoco reciben información correctiva; la evitación no restringe el problema, lo amplía. Predicción: permaneciendo repetidamente en la situación sin evitarla, cabe esperar una disminución del miedo, tanto dentro de cada exposición como entre exposiciones sucesivas, así como una reducción de la expectativa de que ocurra lo temido. El aprendizaje responsable no consiste en borrar la asociación original, sino en adquirir una nueva —la situación no va seguida de la consecuencia temida— que compite con ella; por eso la reducción es sensible al contexto y el miedo puede reaparecer al cambiar de situación o tras un tiempo.",
+    "evaluation_criteria": [
+      {
+        "criterion": "Identifica el componente asociativo del miedo y el reforzamiento negativo de la evitación, explica que la evitación impide la desconfirmación de la expectativa y por eso mantiene el miedo, atribuye la extensión a la generalización con evitación no corregida, y predice la reducción por exposición atribuyéndola a un aprendizaje nuevo que compite con el original.",
+        "max_points": 3
+      },
+      {
+        "criterion": "Identifica correctamente ambos procesos y explica por qué la evitación mantiene el miedo, pero no da cuenta de la extensión del miedo o describe la reducción por exposición sin caracterizar el aprendizaje que la produce.",
+        "max_points": 2
+      },
+      {
+        "criterion": "Afirma que evitar refuerza el miedo o que hay que exponerse, sin distinguir los dos procesos de aprendizaje ni explicar el papel del alivio inmediato.",
+        "max_points": 1
+      }
+    ],
+    "source": "Mowrer, O. H. (1947). On the dual nature of learning: A re-interpretation of «conditioning» and «problem-solving». Harvard Educational Review, 17, 102-148.",
+    "notes": "Reincidencia declarada en el campo del aprendizaje asociativo, presente en PSY-040 (pasada 1). Aquel ítem pide conocer qué fenómenos experimentales muestran que la extinción no borra el aprendizaje original; aquí se exige derivar el mantenimiento de un problema a partir del acoplamiento de dos contingencias y explicar la generalización, mientras que la caracterización del aprendizaje por exposición ocupa una posición secundaria en la puntuación para minimizar el solapamiento. Cumple G6: no se pide evaluar ni tratar a la persona, el enunciado lo prohíbe expresamente y la viñeta es genérica.",
+    "critical_errors": [
+      "Explicar la reducción del malestar al evitar como un castigo de la conducta de evitación.",
+      "Sostener que la exposición reduce el miedo porque borra el aprendizaje original.",
+      "Atribuir el mantenimiento del miedo únicamente a la falta de voluntad o de motivación de la persona.",
+      "Convertir la respuesta en una indicación terapéutica para el caso descrito."
+    ],
+    "language": "es-ES"
+  },
+  {
+    "id": "PSY-091",
+    "dimension": "reasoning",
+    "topic": "agregación de datos e inversión de una asociación",
+    "difficulty": "hard",
+    "question": "Un servicio compara dos programas de intervención, A y B, en dos centros. En el centro 1, el programa A obtiene éxito en 90 de 100 casos y el B en 250 de 300. En el centro 2, el A obtiene éxito en 60 de 300 casos y el B en 10 de 100. En el conjunto de los datos, el programa A tiene éxito en 150 de 400 casos y el B en 260 de 400. Explica cómo pueden ser ciertas a la vez la conclusión que se obtiene en cada centro por separado y la que se obtiene con los datos agregados, identifica qué variable produce la discrepancia y qué condiciones debe cumplir para producirla, e indica qué comparación debería fundamentar la decisión sobre los programas y por qué. Señala además en qué caso agregar por esa variable sería un error.",
+    "expected_answer": "Ambas conclusiones son aritméticamente correctas. En cada centro por separado, A supera a B: 90 % frente a 83,3 % en el centro 1 y 20 % frente a 10 % en el centro 2. En el agregado, B supera a A: 65 % frente a 37,5 %. No hay contradicción porque las dos comparaciones no responden a la misma pregunta. La variable responsable es el centro, que aquí funciona como indicador del tipo de casos que atiende: el centro 1 tiene una tasa de éxito alta con cualquiera de los dos programas y el centro 2 una tasa baja. Para producir la inversión, esa variable debe cumplir dos condiciones simultáneas: estar asociada al resultado y estar repartida de forma muy desigual entre los programas. Es lo que ocurre aquí, ya que el programa A concentra 300 de sus 400 casos en el centro desfavorable y B concentra 300 de los suyos en el favorable. El resultado agregado mide, sobre todo, esa desigualdad de composición: compara programas aplicados a poblaciones distintas. La decisión debe apoyarse en la comparación dentro de cada centro, porque solo ahí se comparan programas sobre casos comparables en la variable que determina el pronóstico; A es preferible en ambos. Agregar por esa variable sería un error si el centro no fuera una característica previa de los casos sino una consecuencia del propio programa —por ejemplo, si aplicar A hiciera que los casos acabaran siendo atendidos en un centro u otro—: en ese supuesto, el centro formaría parte de la vía por la que el programa produce su efecto, y controlarlo eliminaría precisamente aquello que se quiere medir. La regla no es «estratificar siempre», sino estratificar por variables anteriores al tratamiento y asociadas al resultado. Conviene añadir que, si la asignación a los programas hubiera sido aleatoria, la composición de casos sería equivalente en expectativa y el problema no se plantearía.",
+    "evaluation_criteria": [
+      {
+        "criterion": "Comprueba que ambas conclusiones son correctas, identifica el centro como variable asociada al resultado y desigualmente repartida entre programas, explica que el agregado refleja esa composición, opta razonadamente por la comparación estratificada, y advierte que estratificar sería un error si la variable fuera consecuencia del tratamiento.",
+        "max_points": 3
+      },
+      {
+        "criterion": "Reconoce la inversión y la atribuye correctamente a la distinta composición de casos, y elige la comparación por centros, pero no formula las condiciones que debe cumplir la variable o no advierte el caso en que estratificar es incorrecto.",
+        "max_points": 2
+      },
+      {
+        "criterion": "Advierte que los datos agregados y los desagregados discrepan y sospecha de un tercer factor, sin identificar el reparto desigual de casos ni justificar qué comparación debe fundamentar la decisión.",
+        "max_points": 1
+      }
+    ],
+    "source": "Simpson, E. H. (1951). The interpretation of interaction in contingency tables. Journal of the Royal Statistical Society: Series B, 13(2), 238-241.",
+    "notes": "Las cifras se han construido para que la inversión sea exacta y comprobable, lo que hace el ítem verificable de forma objetiva. La dimensión es reasoning: no se pide criticar un estudio ajeno, sino resolver una discrepancia entre dos cálculos correctos y decidir cuál responde a la pregunta. El último elemento —que estratificar por una variable posterior al tratamiento es un error— es el que separa una respuesta buena de una excelente, e impide que la regla se aplique mecánicamente. Ningún ítem previo del conjunto trata la agregación de datos.",
+    "critical_errors": [
+      "Sostener que uno de los dos cálculos está mal hecho.",
+      "Concluir que el programa B es preferible apoyándose en los datos agregados.",
+      "Atribuir la discrepancia al azar o al tamaño de las muestras.",
+      "Formular como regla general que siempre debe controlarse cualquier tercera variable disponible."
+    ],
+    "language": "es-ES"
+  },
+  {
+    "id": "PSY-092",
+    "dimension": "reasoning",
+    "topic": "sesgo de selección en muestras clínicas",
+    "difficulty": "hard",
+    "question": "En un servicio especializado se observa que, entre las personas atendidas, quienes presentan un problema de tipo A tienen bastante más probabilidad de presentar además un problema de tipo B que quienes no presentan A. Un estudio posterior realizado en población general, con instrumentos equivalentes, no encuentra ninguna asociación entre ambos problemas. Suponiendo que las dos observaciones sean correctas y que no haya errores de medida, explica cómo puede producirse esa discrepancia, identifica qué característica del proceso por el que las personas llegan al servicio la genera, y predice qué ocurriría con la asociación observada si el servicio atendiera a toda la población de su área. Indica también de qué depende que la asociación inducida sea positiva o negativa.",
+    "expected_answer": "La discrepancia no requiere ningún error: procede de que la muestra clínica no es una muestra de la población, sino un subconjunto seleccionado por un proceso que ambos problemas influyen. Llegar al servicio es una consecuencia común de A y de B. Cuando se analiza solo a quienes han llegado, se está condicionando el análisis a ese efecto común, y ese condicionamiento crea dependencia estadística entre dos causas que en la población son independientes. En términos concretos: si presentar los dos problemas a la vez aumenta la probabilidad de ser derivado o de solicitar atención más de lo que la aumenta presentar uno solo —porque la interferencia es mayor, el malestar mayor o los profesionales que derivan detectan antes los casos complejos—, la combinación de ambos queda sobrerrepresentada entre los atendidos y aparece una asociación positiva que no existe fuera. La predicción es directa: si el servicio atendiera a toda la población de su área no habría selección, la muestra coincidiría con la población y la asociación observada desaparecería, acercándose al valor poblacional, que aquí es nulo. La dirección de la asociación inducida depende de cómo se combinen ambos problemas para determinar la entrada. Si el efecto conjunto sobre la probabilidad de ser atendido es superior al de cada uno por separado, la asociación inducida es positiva. Si, en cambio, bastara con presentar uno cualquiera de los dos problemas para ser atendido con una probabilidad muy alta, entre los atendidos saber que alguien presenta A explicaría ya su presencia en el servicio y haría menos probable que además presentara B, con lo que la asociación inducida sería negativa. Por eso las tasas de coocurrencia estimadas en servicios especializados no pueden trasladarse a la población.",
+    "evaluation_criteria": [
+      {
+        "criterion": "Explica que llegar al servicio es una consecuencia común de ambos problemas y que analizar solo a los seleccionados crea dependencia entre causas independientes, concreta el mecanismo de sobrerrepresentación de los casos con ambos problemas, predice la desaparición de la asociación sin selección, y explica que la dirección depende de cómo se combinen los dos problemas para determinar la entrada.",
+        "max_points": 3
+      },
+      {
+        "criterion": "Identifica correctamente que se trata de un sesgo de selección de la muestra clínica y predice bien lo que ocurriría sin selección, pero explica el mecanismo de forma imprecisa o no aborda la dirección de la asociación inducida.",
+        "max_points": 2
+      },
+      {
+        "criterion": "Señala que la muestra clínica no es representativa de la población, sin explicar por qué la selección puede crear una asociación que no existe.",
+        "max_points": 1
+      }
+    ],
+    "source": "Berkson, J. (1946). Limitations of the application of the fourfold table analysis to hospital data. Biometrics Bulletin, 2(3), 47-53.",
+    "notes": "Ítem de alto potencial discriminativo: el error modal consiste en concluir que uno de los dos estudios se equivoca, o en atribuir la asociación clínica a una relación causal entre ambos problemas. La respuesta correcta exige advertir que condicionar sobre un efecto común de dos variables independientes genera asociación estadística, razonamiento que ningún ítem del conjunto evalúa: PSY-009 y PSY-011 (piloto) tratan la inferencia causal a partir de una asociación observada, no la creación de una asociación por el procedimiento de muestreo. Proximidad declarada con PSY-066 (pasada 2), cuyo problema es el sesgo de no respuesta en una encuesta, distinto del descrito aquí. Cumple G6: no se pide diagnosticar ni caracterizar a ninguna persona, y los problemas se designan de forma genérica.",
+    "critical_errors": [
+      "Concluir que uno de los dos estudios contiene un error de medida o de método.",
+      "Concluir que uno de los problemas causa el otro a partir del dato clínico.",
+      "Trasladar la tasa de coocurrencia observada en el servicio a la población general."
+    ],
+    "language": "es-ES"
+  },
+  {
+    "id": "PSY-093",
+    "dimension": "reasoning",
+    "topic": "restricción del rango en la validez predictiva",
+    "difficulty": "hard",
+    "question": "Una empresa emplea desde hace años una prueba de aptitud como criterio de selección y solo contrata a quienes superan una puntuación alta. Transcurrido un tiempo analiza, entre las personas contratadas, la correlación entre su puntuación en la prueba y su desempeño posterior, y obtiene r = 0,10. La dirección concluye que la prueba no predice el desempeño y decide retirarla. Explica por qué ese dato no autoriza la conclusión, describe qué le ocurre a una correlación cuando se calcula únicamente en un subconjunto seleccionado por la propia variable predictora, e indica qué información permitiría estimar la validez de la prueba en el conjunto de candidatos. Señala además otro factor del propio análisis que podría estar reduciendo la correlación observada.",
+    "expected_answer": "El dato no autoriza la conclusión porque no se ha calculado sobre el conjunto de candidatos, sino sobre el grupo que la prueba misma seleccionó. Una correlación describe la covariación entre dos variables y depende de su variabilidad: al excluir a todos los candidatos con puntuaciones bajas, la variabilidad del predictor entre los contratados es muy pequeña y sus valores ocupan un tramo estrecho de la escala. Aunque la relación entre aptitud y desempeño se mantenga inalterada, la correlación calculada en ese tramo se atenúa, y tanto más cuanto más exigente es el punto de corte; la selección extrema puede reducirla casi a cero. El coeficiente obtenido entre contratados no es, por tanto, el coeficiente de validez de la prueba en la población de candidatos, que es la magnitud pertinente para decidir si conviene seguir usándola. Para estimarla haría falta conocer la variabilidad de las puntuaciones en el conjunto de candidatos y compararla con la de los contratados, lo que permite aplicar una corrección por restricción del rango; esa corrección descansa en supuestos —relación lineal y dispersión del desempeño homogénea a lo largo del predictor— que conviene declarar. La estimación más sólida procedería de datos no restringidos: disponer de medidas de desempeño de personas contratadas sin aplicar el criterio, por ejemplo mediante un periodo o una submuestra en que se contrate con un punto de corte más bajo o al azar entre quienes superan un mínimo, o de un estudio previo a la implantación de la prueba. Otro factor que reduce la correlación observada es la medida de desempeño: si es poco fiable, poco discriminativa o está a su vez restringida —porque las evaluaciones se concentran en unos pocos valores altos, o porque quienes rinden peor han abandonado la empresa—, la correlación queda atenuada por el lado del criterio, con independencia de la calidad de la prueba.",
+    "evaluation_criteria": [
+      {
+        "criterion": "Identifica la restricción del rango, explica que la correlación depende de la variabilidad y que seleccionar por el predictor la atenúa aunque la relación no cambie, distingue el coeficiente entre contratados del coeficiente de validez en candidatos, propone datos no restringidos o la corrección con la variabilidad del conjunto de candidatos, e identifica un problema adicional en la medida de desempeño.",
+        "max_points": 3
+      },
+      {
+        "criterion": "Identifica la restricción del rango y rechaza correctamente la conclusión de la dirección, pero no concreta qué información permitiría estimar la validez o no advierte los problemas del criterio.",
+        "max_points": 2
+      },
+      {
+        "criterion": "Señala que la muestra de contratados no es representativa de los candidatos sin explicar el efecto de la selección sobre la magnitud de la correlación.",
+        "max_points": 1
+      }
+    ],
+    "source": "Sackett, P. R., & Yang, H. (2000). Correction for range restriction: An expanded typology. Journal of Applied Psychology, 85(1), 112-118. DOI omitido: no ha podido confirmarse desde este entorno de ejecución.",
+    "notes": "Proximidad declarada con PSY-060 (pasada 2), que trata la validez de un instrumento de selección de personal ante un equipo directivo; allí la capacidad es comunicativa y el contenido es la ausencia de evidencia sobre un test tipológico concreto, mientras que aquí se exige derivar el efecto de un procedimiento de selección sobre la magnitud de una correlación. La paradoja —usar bien una prueba destruye la evidencia de que funciona— es el elemento discriminativo: un modelo mediocre acepta el dato de r = 0,10 al pie de la letra o lo rechaza apelando genéricamente a la representatividad de la muestra.",
+    "critical_errors": [
+      "Aceptar r = 0,10 como estimación de la validez de la prueba en el conjunto de candidatos.",
+      "Atribuir la correlación baja a que la prueba mide un constructo equivocado, sin considerar el efecto de la selección.",
+      "Proponer una corrección por restricción del rango sin indicar que se necesita la variabilidad del grupo no seleccionado."
+    ],
+    "language": "es-ES"
+  },
+  {
+    "id": "PSY-094",
+    "dimension": "reasoning",
+    "topic": "atenuación de la correlación por error de medida",
+    "difficulty": "hard",
+    "question": "Dos investigaciones estiman la relación entre el mismo par de constructos psicológicos con muestras grandes y comparables, pero obtienen resultados distintos: r = 0,55 en la primera y r = 0,40 en la segunda. En la primera se emplearon las versiones completas de ambas escalas, con fiabilidades en torno a 0,85. En la segunda, una de las escalas se administró en una versión reducida de cuatro ítems cuya fiabilidad estimada es de 0,50, y la otra fue la versión completa. Explica por qué el error de medida puede dar cuenta de esa diferencia sin que la relación entre los constructos sea distinta, indica en qué dirección actúa siempre el error aleatorio sobre la correlación observada y qué consecuencia tiene esto al comparar magnitudes entre estudios que usan instrumentos distintos. Señala también un supuesto bajo el cual el razonamiento anterior no se sostendría.",
+    "expected_answer": "La correlación que se observa entre dos medidas no es la correlación entre los constructos, sino esa relación degradada por la calidad de las medidas. El error aleatorio de medición no está asociado a nada y, al añadirse a las puntuaciones, aumenta su varianza sin aumentar la parte compartida: por eso atenúa la correlación observada, siempre en dirección al cero, y nunca la infla. El techo que impone la fiabilidad es la raíz del producto de las fiabilidades de ambas medidas. En el caso descrito, la primera investigación tiene un factor de atenuación en torno a 0,85, lo que sitúa la relación entre constructos alrededor de 0,65; la segunda tiene un factor próximo a la raíz de 0,50 por 0,85, esto es, alrededor de 0,65, de modo que la correlación observada esperable sería aproximadamente 0,42, muy cercana al 0,40 obtenido. Las dos investigaciones son por tanto compatibles con una única relación entre los constructos, y no hay que postular ninguna diferencia sustantiva entre ellas. La consecuencia es que comparar magnitudes crudas entre estudios que emplean instrumentos distintos confunde la relación entre constructos con la calidad de las medidas, y que la degradación de un instrumento puede simular la ausencia o la debilidad de un efecto; de ahí que convenga informar de las fiabilidades, considerar la corrección por atenuación —con cautela, porque amplifica el error de la propia estimación de fiabilidad y puede arrojar valores imposibles— o estimar la relación con modelos que separen la parte de error. El razonamiento no se sostiene si el error no es aleatorio: la varianza compartida por el método —dos autoinformes contestados a la vez por la misma persona, un mismo formato de respuesta, un sesgo de deseabilidad común— es error sistemático y puede inflar la correlación observada en lugar de reducirla. Tampoco se sostiene sin más si la versión reducida no solo es menos fiable, sino que cubre un contenido distinto del constructo: entonces la diferencia no sería solo de precisión sino de qué se ha medido.",
+    "evaluation_criteria": [
+      {
+        "criterion": "Explica que el error aleatorio atenúa siempre la correlación hacia cero y que la fiabilidad impone un techo, aplica el razonamiento a las cifras concluyendo que ambos resultados son compatibles con una misma relación, deriva la consecuencia para la comparación de magnitudes entre estudios, e identifica un supuesto que invalidaría el razonamiento (error sistemático compartido o cambio de contenido de la escala reducida).",
+        "max_points": 3
+      },
+      {
+        "criterion": "Explica correctamente la atenuación y su dirección y concluye que los resultados pueden ser compatibles, pero no llega a estimar el valor esperable ni a identificar un supuesto que invalide el razonamiento.",
+        "max_points": 2
+      },
+      {
+        "criterion": "Señala que la escala reducida es peor y que eso puede reducir la correlación, sin explicar en qué dirección actúa el error de medida ni por qué.",
+        "max_points": 1
+      }
+    ],
+    "source": "Spearman, C. (1904). The proof and measurement of association between two things. American Journal of Psychology, 15(1), 72-101.",
+    "notes": "Las cifras se han elegido para que el cálculo cuadre: con fiabilidades de 0,85 la relación desatenuada de la primera investigación ronda 0,65 y predice para la segunda una correlación observada de aproximadamente 0,42, próxima al 0,40 informado. Los criterios puntúan el argumento y la estimación aproximada, no el desarrollo algebraico, siguiendo el criterio ya aplicado en PSY-039 (pasada 1). Proximidad declarada con PSY-038 (pasada 1), sobre lo que informa el alfa de Cronbach, y con PSY-055 (pasada 2), sobre el error de medida en una puntuación individual: ninguno de los dos trata el efecto de la fiabilidad sobre la magnitud de una asociación ni la comparación entre estudios. La advertencia sobre la varianza de método impide que la respuesta se reduzca a «menos fiabilidad, menos correlación».",
+    "critical_errors": [
+      "Sostener que el error aleatorio de medida puede aumentar la correlación observada.",
+      "Concluir que las dos investigaciones son incompatibles o que una de ellas está mal hecha.",
+      "Aplicar la corrección por atenuación como si no dependiera de la calidad de la estimación de fiabilidad."
+    ],
+    "language": "es-ES"
+  },
+  {
+    "id": "PSY-095",
+    "dimension": "reasoning",
+    "topic": "análisis de subgrupos y comparaciones múltiples",
+    "difficulty": "hard",
+    "question": "Un ensayo evalúa un programa de prevención en 1.200 adolescentes y no encuentra efecto en la variable principal. Los autores analizan después el resultado en doce subgrupos definidos por sexo, curso, nivel socioeconómico y otras variables, y encuentran un efecto estadísticamente significativo (p = 0,04) en uno de ellos: las chicas de tercer curso. Concluyen que el programa es eficaz en ese subgrupo. Explica por qué la probabilidad de encontrar al menos un resultado significativo en esas condiciones es alta aunque el programa carezca de efecto, cuantificando aproximadamente esa probabilidad e indicando qué supuesto emplea tu cálculo. Explica qué diferencia hay entre este análisis y una hipótesis formulada de antemano sobre ese subgrupo, y qué habría que hacer para poder sostener la conclusión.",
+    "expected_answer": "Cada contraste realizado con un nivel de significación del 5 % tiene, si no hay efecto alguno, una probabilidad del 5 % de resultar significativo por azar. Al realizar doce contrastes, lo que importa ya no es la probabilidad de error de cada uno, sino la de que al menos uno resulte significativo en el conjunto: suponiendo independencia entre los contrastes, es 1 menos 0,95 elevado a doce, esto es, alrededor del 46 %. El supuesto de independencia es una simplificación, porque los subgrupos se solapan y las variables que los definen están correlacionadas, de modo que la cifra exacta será algo distinta; pero la conclusión no cambia: encontrar un resultado significativo entre doce es un suceso esperable bajo la hipótesis de ausencia total de efecto. A ello se añade que cada subgrupo tiene una fracción de la muestra y, por tanto, mucha menos potencia: en esas condiciones, los efectos que alcanzan significación tienden a ser estimaciones infladas del efecto real, de modo que la magnitud observada tampoco es de fiar. La diferencia con una hipótesis previa es decisiva. Cuando el subgrupo se especifica antes de ver los datos y se analiza como estaba previsto, el contraste conserva su nivel de error nominal y el resultado significa lo que dice significar. Cuando se selecciona después de examinar doce resultados y se informa del mejor, el valor p ya no refleja la probabilidad relevante, porque no incorpora las comparaciones descartadas. Para sostener la conclusión habría que, en primer lugar, contrastar formalmente la interacción entre el programa y la variable que define el subgrupo —la pregunta no es si el efecto es significativo dentro de las chicas de tercer curso, sino si el efecto es distinto entre ese grupo y los demás—, y en segundo lugar, ajustar por el número de comparaciones o, mejor, tratar el hallazgo como generador de hipótesis y contrastarlo en un estudio nuevo, preinscrito, con ese subgrupo como objetivo principal y con potencia suficiente.",
+    "evaluation_criteria": [
+      {
+        "criterion": "Cuantifica la probabilidad de al menos un falso positivo en torno al 46 % declarando el supuesto de independencia y su carácter aproximado, señala la menor potencia y la consiguiente sobrestimación del efecto en el subgrupo, distingue el análisis posterior de una hipótesis prevista en términos de lo que significa el valor p, y propone contrastar la interacción y replicar en un estudio preinscrito.",
+        "max_points": 3
+      },
+      {
+        "criterion": "Explica correctamente la inflación del error por comparaciones múltiples y la necesidad de replicar o corregir, pero no cuantifica la probabilidad o no distingue el contraste de la interacción del contraste dentro del subgrupo.",
+        "max_points": 2
+      },
+      {
+        "criterion": "Señala que analizar muchos subgrupos es problemático o que el resultado puede deberse al azar, sin explicar por qué la probabilidad conjunta de error es mucho mayor que 0,05.",
+        "max_points": 1
+      }
+    ],
+    "source": "Wang, R., Lagakos, S. W., Ware, J. H., Hunter, D. J., & Drazen, J. M. (2007). Statistics in medicine — reporting of subgroup analyses in clinical trials. New England Journal of Medicine, 357(21), 2189-2194. DOI omitido: no ha podido confirmarse desde este entorno de ejecución.",
+    "notes": "Proximidad declarada con PSY-015 (piloto), que evalúa la interpretación de un valor p aislado, y con PSY-022 (piloto), cuyo problema es el tamaño de la muestra. La capacidad evaluada aquí no está en ninguno de los dos: exige razonar sobre la tasa de error de una familia de contrastes, cuantificarla, y advertir que el contraste pertinente es la interacción y no el efecto dentro del subgrupo, punto que se omite habitualmente incluso en la literatura publicada. El cálculo 1 - 0,95^12 = 0,46 hace la respuesta verificable.",
+    "critical_errors": [
+      "Sostener que el valor p de 0,04 conserva su interpretación habitual tras haber examinado doce subgrupos.",
+      "Concluir que el programa es eficaz en ese subgrupo a partir de este análisis.",
+      "Aceptar la significación dentro del subgrupo como prueba de que el efecto difiere entre subgrupos.",
+      "Descartar el hallazgo como carente de todo valor, en lugar de tratarlo como generador de hipótesis."
+    ],
+    "language": "es-ES"
+  },
+  {
+    "id": "PSY-096",
+    "dimension": "reasoning",
+    "topic": "diseño transversal y efectos de cohorte",
+    "difficulty": "hard",
+    "question": "Un estudio transversal realizado en 2026 mide vocabulario y velocidad de procesamiento en tres grupos de personas de 25, 45 y 70 años. El grupo de mayor edad obtiene peores resultados en ambas medidas y un titular concluye que «a partir de cierta edad se pierde vocabulario». Explica qué diferencias entre los grupos, además de la edad, quedan confundidas con ella en este diseño, por qué la conclusión resulta menos sostenible para el vocabulario que para la velocidad de procesamiento, y qué diseño permitiría separar ambas fuentes de variación. Indica también qué nueva confusión y qué problema específico introduce ese diseño alternativo.",
+    "expected_answer": "En un estudio transversal los grupos de edad son también grupos de generación: las personas de 70 años nacieron cuarenta y cinco años antes que las de 25 y difieren de ellas en años de escolarización, calidad y contenido de la enseñanza recibida, salud y nutrición a lo largo de la vida, familiaridad con pruebas estandarizadas y con soportes digitales, y exposición ocupacional a tareas de lectura. La edad y la cohorte de nacimiento están, por tanto, completamente confundidas: cualquier diferencia observada admite dos lecturas —cambio con la edad o diferencia entre generaciones— y el diseño no permite decidir entre ellas. La conclusión es menos sostenible para el vocabulario porque es precisamente la medida en la que las diferencias generacionales de escolarización resultan más plausibles y porque, cuando se sigue a las mismas personas a lo largo del tiempo, el vocabulario y en general las capacidades apoyadas en conocimiento acumulado se mantienen o incluso mejoran hasta edades avanzadas; la discrepancia entre lo que muestra el corte transversal y lo que muestra el seguimiento es la señal de que la diferencia observada es en buena parte de cohorte. La velocidad de procesamiento, en cambio, muestra descensos con la edad tanto en estudios transversales como en estudios de seguimiento, y esa convergencia entre diseños con confusiones distintas refuerza la interpretación en términos de edad. El diseño que separa edad y cohorte es el longitudinal: seguir a las mismas personas y observar el cambio intraindividual elimina la diferencia generacional entre las comparaciones. Pero introduce una confusión nueva —la edad queda ahora confundida con el momento histórico de la medición, de modo que cualquier cambio social o sanitario ocurrido durante el seguimiento se suma al efecto de la edad— y un problema específico: la pérdida selectiva de participantes, ya que quienes abandonan o fallecen tienden a ser los de peor rendimiento y salud, lo que hace que la muestra que permanece esté progresivamente seleccionada y que el declive quede subestimado. A ello se añaden los efectos de práctica por la repetición de las pruebas, que también lo enmascaran. Los diseños secuenciales, que combinan varias cohortes seguidas durante un tiempo, permiten estimar por separado las tres fuentes.",
+    "evaluation_criteria": [
+      {
+        "criterion": "Identifica la confusión entre edad y cohorte enumerando diferencias generacionales concretas, justifica la asimetría entre vocabulario y velocidad de procesamiento apelando a la convergencia o divergencia entre diseños, propone el diseño longitudinal, e identifica tanto la confusión con el momento de medición como la pérdida selectiva de participantes o los efectos de práctica.",
+        "max_points": 3
+      },
+      {
+        "criterion": "Identifica el efecto de cohorte y propone el diseño longitudinal con alguna de sus limitaciones, pero no justifica por qué la conclusión es menos sostenible para el vocabulario que para la velocidad de procesamiento.",
+        "max_points": 2
+      },
+      {
+        "criterion": "Señala que un estudio transversal no permite hablar de cambio con la edad, sin identificar qué diferencias concretas entre generaciones están confundidas ni qué diseño lo resolvería.",
+        "max_points": 1
+      }
+    ],
+    "source": "Schaie, K. W. (1965). A general model for the study of developmental problems. Psychological Bulletin, 64(2), 92-107. DOI omitido: no ha podido confirmarse desde este entorno de ejecución.",
+    "notes": "El elemento discriminativo es la asimetría entre las dos medidas: un modelo mediocre rechaza en bloque toda inferencia sobre la edad, y uno bueno advierte que la convergencia entre diseños con sesgos distintos justifica tratar de manera diferente la velocidad de procesamiento y el vocabulario. La segunda parte impide además que la respuesta se detenga en «hágase longitudinal», al exigir las limitaciones específicas de esa alternativa. Ningún ítem previo del conjunto trata la confusión entre edad y cohorte; PSY-016 (piloto) versa sobre la estabilidad de los rasgos de personalidad, que es una cuestión sustantiva distinta.",
+    "critical_errors": [
+      "Concluir que el estudio transversal demuestra un declive del vocabulario con la edad.",
+      "Sostener que el diseño longitudinal está libre de confusiones.",
+      "Omitir la pérdida selectiva de participantes al evaluar el diseño longitudinal.",
+      "Tratar por igual las dos medidas pese a la distinta convergencia de la evidencia disponible."
+    ],
+    "language": "es-ES"
+  },
+  {
+    "id": "PSY-097",
+    "dimension": "reasoning",
+    "topic": "costes irrecuperables y escalada del compromiso",
+    "difficulty": "hard",
+    "question": "Un servicio lleva dos años y 60.000 euros invertidos en desarrollar una herramienta propia de evaluación. Una revisión interna concluye que terminarla costará otros 20.000 euros y que existe en el mercado una alternativa de prestaciones equivalentes por 5.000. La dirección decide continuar «para no tirar por la borda lo ya invertido». Explica por qué el argumento empleado no es pertinente para esta decisión y qué información es la única relevante, describe dos procesos psicológicos distintos que expliquen por qué decisiones así son tan frecuentes, e indica un procedimiento que reduciría la probabilidad de incurrir en ellas. Señala además qué dato, de existir, haría racional continuar.",
+    "expected_answer": "El argumento no es pertinente porque los 60.000 euros ya gastados no son recuperables y, sobre todo, porque son idénticos en las dos opciones: se han gastado tanto si se continúa como si se abandona, de modo que no distinguen entre alternativas y no pueden inclinar la elección. Lo único relevante son las consecuencias futuras de cada opción: 20.000 euros para obtener la herramienta propia frente a 5.000 para obtener una equivalente. Con la información disponible, continuar cuesta 15.000 euros más por un resultado equivalente. Dos procesos distintos explican la frecuencia de este error. El primero es la necesidad de justificar las decisiones previas y de mantener la coherencia con ellas: abandonar equivale a reconocer, ante uno mismo y ante otros, que los dos años y el dinero invertidos fueron un error, y continuar permite aplazar ese reconocimiento; la escalada es mayor cuando quien decide es la misma persona que tomó la decisión inicial y cuando la decisión es pública. El segundo opera sobre cómo se representa la elección: abandonar se percibe como asumir una pérdida segura, mientras que continuar se percibe como una opción que todavía puede evitarla; ante alternativas planteadas en el dominio de las pérdidas se tiende a preferir la opción arriesgada, aunque su valor esperado sea peor. A ello se suma la aversión al desperdicio, que interpreta como despilfarro no utilizar lo ya producido. Como procedimiento, lo más eficaz es hacer que la decisión de continuar la evalúe alguien que no participó en la decisión inicial, o plantear expresamente la pregunta como si se partiera de cero —si hoy no tuviéramos nada hecho, ¿invertiríamos 20.000 euros en desarrollar esto en lugar de 5.000 en comprarlo?—; complementariamente, fijar de antemano criterios explícitos de continuación o abandono, con puntos de revisión y umbrales definidos antes de empezar. Sí haría racional continuar un dato sobre el futuro, no sobre el pasado: que la herramienta propia aporte ventajas de las que carece la comercial —adaptación a los procedimientos del servicio, ausencia de licencias recurrentes, posibilidad de modificarla o de usarla en investigación— cuyo valor supere los 15.000 euros de diferencia. Ese argumento sería legítimo; el de no desperdiciar lo invertido no lo es.",
+    "evaluation_criteria": [
+      {
+        "criterion": "Explica que los costes ya incurridos son irrecuperables e idénticos en ambas opciones y que solo cuentan las consecuencias futuras, describe dos procesos psicológicos distintos —autojustificación o compromiso con la decisión previa, y representación de la elección en el dominio de las pérdidas—, propone un procedimiento concreto de descontaminación de la decisión, e identifica que solo una ventaja futura de la herramienta propia justificaría continuar.",
+        "max_points": 3
+      },
+      {
+        "criterion": "Identifica correctamente la irrelevancia de los costes ya incurridos y propone un procedimiento razonable, pero describe un solo proceso psicológico o no distingue qué dato haría racional continuar.",
+        "max_points": 2
+      },
+      {
+        "criterion": "Afirma que la dirección está incurriendo en la falacia del coste hundido sin explicar por qué el gasto previo no discrimina entre las dos opciones.",
+        "max_points": 1
+      }
+    ],
+    "source": "Arkes, H. R., & Blumer, C. (1985). The psychology of sunk cost. Organizational Behavior and Human Decision Processes, 35(1), 124-140. Staw, B. M. (1976). Knee-deep in the big muddy: A study of escalating commitment to a chosen course of action. Organizational Behavior and Human Performance, 16(1), 27-44. DOI omitido: no ha podido confirmarse desde este entorno de ejecución.",
+    "notes": "Proximidad declarada con PSY-044 (pasada 1), sobre disonancia cognitiva y autopercepción: la autojustificación aparece aquí como uno de los dos procesos, pero no es el contenido del ítem, y la capacidad evaluada es la evaluación de una decisión concreta y la propuesta de un procedimiento que la corrija. Exigir dos procesos distintos evita que la respuesta se agote en nombrar la falacia, y la última parte impide la sobrecorrección de concluir que continuar es necesariamente irracional. Ningún ítem previo trata la toma de decisiones en organizaciones.",
+    "critical_errors": [
+      "Considerar el gasto ya realizado como una razón a favor de continuar.",
+      "Concluir que continuar es irracional en cualquier circunstancia, sin considerar ventajas futuras de la herramienta propia.",
+      "Proponer como única solución que la dirección «sea más objetiva», sin ningún procedimiento que modifique quién decide o cómo se plantea la decisión."
+    ],
+    "language": "es-ES"
+  },
+  {
+    "id": "PSY-098",
+    "dimension": "reasoning",
+    "topic": "privación temprana, momento de la intervención y reversibilidad",
+    "difficulty": "hard",
+    "question": "En los estudios de seguimiento de niños que pasaron sus primeros años en instituciones con muy escasa atención individual y fueron adoptados después, se observa un patrón consistente: quienes fueron adoptados antes de los seis meses presentan a los once años resultados cognitivos y socioemocionales próximos a los de la población general, mientras que quienes lo fueron después de los dos años mantienen dificultades apreciables. Explica qué principio del desarrollo permite dar cuenta de este patrón, por qué la diferencia entre ambos grupos no puede atribuirse sin más al hecho de haber sido adoptados, y qué condición del proceso de adopción hace que la comparación entre grupos de distinta edad de adopción resulte informativa. Indica también qué no permite concluir este patrón sobre la reversibilidad de los efectos.",
+    "expected_answer": "El principio es el de los periodos sensibles del desarrollo, combinado con una relación entre duración de la privación y magnitud del efecto. La variable que ordena los resultados no es la adopción, sino cuánto tiempo se prolongó la ausencia de cuidado individualizado durante una fase en la que ciertos sistemas se organizan a partir de la experiencia esperable: superado ese periodo, aportar después la experiencia que faltó ya no produce el mismo resultado. La diferencia entre grupos no puede atribuirse a la adopción por sí misma porque todos los niños fueron adoptados; lo que varía es el momento, de modo que la comparación informa sobre el tiempo de exposición a la privación y no sobre el efecto de ser adoptado. La comparación entre adoptados y no adoptados, en cambio, sería mucho más débil, porque quienes son adoptados y quienes no lo son pueden diferir sistemáticamente en salud, características personales o circunstancias. Ese mismo riesgo se plantea aquí en menor grado: la edad de adopción no fue asignada por nadie con fines de investigación, y si dependiera de características del propio niño —que los más sanos o los más responsivos fueran adoptados antes— la diferencia entre grupos quedaría confundida con esas características. La comparación es informativa en la medida en que la edad de adopción vino determinada por factores administrativos, legales o de disponibilidad ajenos al niño, lo que aproxima la situación a un experimento natural; declarar ese supuesto y aportar evidencia a su favor es parte de la interpretación correcta. El patrón no permite concluir que los efectos sean irreversibles ni que el desarrollo esté fijado. Se trata de promedios de grupo con una variabilidad considerable dentro de cada uno: hay niños del grupo de adopción tardía con buena evolución, la mejoría respecto de la situación inicial es sustancial en todos, y el promedio no determina la trayectoria de ningún niño concreto. Tampoco permite identificar qué componente de la privación —el vínculo estable, la estimulación cognitiva, la nutrición, la respuesta contingente del adulto— es el responsable, porque todos ellos faltaban a la vez.",
+    "evaluation_criteria": [
+      {
+        "criterion": "Identifica el periodo sensible junto con la relación entre duración de la privación y resultado, explica que la variable comparada es el momento y no el hecho de la adopción, condiciona el valor de la comparación a que la edad de adopción no dependa de características del niño, y rechaza la lectura de irreversibilidad apelando a la variabilidad interna y al carácter promedio del dato.",
+        "max_points": 3
+      },
+      {
+        "criterion": "Explica correctamente el papel del momento de la adopción en términos de periodo sensible o de duración de la privación y advierte de que no debe concluirse irreversibilidad, pero no examina si la edad de adopción pudo depender de características del propio niño.",
+        "max_points": 2
+      },
+      {
+        "criterion": "Afirma que cuanto antes se adopta mejor es el resultado, sin identificar el principio del desarrollo implicado ni las condiciones que hacen interpretable la comparación.",
+        "max_points": 1
+      }
+    ],
+    "source": "Sonuga-Barke, E. J. S., et al. (2017). Child-to-adult neurodevelopmental and mental health trajectories after early life deprivation: The young adult follow-up of the longitudinal English and Romanian Adoptees study. The Lancet, 389(10078), 1539-1548. DOI omitido: no ha podido confirmarse desde este entorno de ejecución.",
+    "notes": "Proximidad declarada con PSY-011 (piloto), que también trata inferencia causal en desarrollo a partir de datos longitudinales; allí la cuestión es si la precedencia temporal basta para atribuir causalidad, y aquí se exige identificar un principio del desarrollo, evaluar la validez de una comparación no aleatorizada entre grupos definidos por el momento de la intervención y delimitar el alcance de la conclusión. El marco teórico —periodo sensible y relación dosis-respuesta— no aparece en ningún otro ítem. Cumple G6: se razona sobre resultados de grupo en un cuerpo de investigación, no sobre la evaluación de ningún niño.",
+    "critical_errors": [
+      "Concluir que los efectos de la privación temprana son irreversibles.",
+      "Atribuir la diferencia entre grupos al hecho de haber sido adoptados.",
+      "Tratar la edad de adopción como si hubiera sido asignada al azar sin examinar de qué dependió.",
+      "Aplicar el promedio del grupo al pronóstico de un niño concreto."
+    ],
+    "language": "es-ES"
+  },
+  {
+    "id": "PSY-099",
+    "dimension": "reasoning",
+    "topic": "normas sociales descriptivas y prescriptivas",
+    "difficulty": "hard",
+    "question": "Un ayuntamiento lanza una campaña sobre consumo de alcohol dirigida a jóvenes con este mensaje: «El 70 % de los jóvenes de tu ciudad bebe más de lo recomendable los fines de semana. No seas uno de ellos». Identifica los dos tipos de norma social que contiene el mensaje, indica cuál de ellas es más probable que guíe la conducta de quien lo lee y por qué, y predice qué efecto puede tener la campaña sobre los jóvenes que actualmente beben poco. Reformula después el mensaje de modo que ambas normas apunten en la misma dirección, justificando el cambio y señalando qué restricción debe respetar cualquier reformulación.",
+    "expected_answer": "El mensaje contiene dos normas de distinto tipo. La primera es descriptiva: informa de lo que la mayoría hace, y afirma que beber en exceso es la conducta habitual entre los jóvenes de la ciudad. La segunda es prescriptiva: expresa lo que se aprueba o desaprueba, y desaconseja esa conducta. Ambas apuntan en direcciones opuestas, y ese es el problema. La norma descriptiva suele tener una influencia considerable sobre la conducta, porque informa de lo que es normal y esperable en un grupo con el que la persona se identifica y ofrece una guía inmediata de acción, mientras que la prescriptiva actúa a través de la anticipación de aprobación o desaprobación y resulta más fácil de desatender cuando el entorno inmediato no la sostiene. La predicción para quienes beben poco es un efecto contraproducente: al situarse por debajo de una norma que se les presenta como mayoritaria, el mensaje les informa de que su conducta es minoritaria y puede desplazarla hacia la media, aumentando su consumo. La campaña arriesga así perjudicar precisamente al grupo que no necesitaba cambiar, mientras que para quienes ya beben en exceso el mensaje les confirma que su conducta es la común. La reformulación debe hacer que la norma descriptiva sostenga la conducta deseada, no la contraria: por ejemplo, informando de la proporción de jóvenes que se mantiene dentro de las recomendaciones, o de una conducta protectora mayoritaria y concreta; una alternativa complementaria es la retroalimentación normativa personalizada, que sitúa el consumo de cada persona respecto al de sus iguales y añade una señal explícita de aprobación de la conducta moderada, lo que alinea ambas normas y evita el efecto de arrastre hacia la media en quienes están por debajo. La restricción imprescindible es que la cifra empleada sea verdadera: si la mayoría no cumple la conducta deseada, no puede inventarse ni maquillarse el dato; en ese caso hay que recurrir a otras formulaciones veraces —una norma descriptiva más específica, la tendencia de cambio o un grupo de referencia definido— antes que a una cifra falsa.",
+    "evaluation_criteria": [
+      {
+        "criterion": "Identifica y distingue norma descriptiva y prescriptiva en el mensaje, argumenta la mayor influencia de la descriptiva, predice el efecto contraproducente sobre quienes beben poco por acercamiento a la norma percibida, y reformula alineando ambas normas con la exigencia explícita de veracidad del dato.",
+        "max_points": 3
+      },
+      {
+        "criterion": "Distingue correctamente ambos tipos de norma y predice el efecto contraproducente, pero la reformulación es genérica o no plantea la restricción de veracidad.",
+        "max_points": 2
+      },
+      {
+        "criterion": "Señala que el mensaje puede normalizar el consumo sin distinguir los dos tipos de norma ni explicar por qué una influye más que la otra.",
+        "max_points": 1
+      }
+    ],
+    "source": "Cialdini, R. B., Reno, R. R., & Kallgren, C. A. (1990). A focus theory of normative conduct: Recycling the concept of norms to reduce littering in public places. Journal of Personality and Social Psychology, 58(6), 1015-1026. Schultz, P. W., Nolan, J. M., Cialdini, R. B., Goldstein, N. J., & Griskevicius, V. (2007). The constructive, destructive, and reconstructive power of social norms. Psychological Science, 18(5), 429-434. DOI omitido: no ha podido confirmarse desde este entorno de ejecución.",
+    "notes": "La predicción del efecto contraproducente sobre quienes ya cumplen la conducta deseada es contraintuitiva y constituye el elemento discriminativo: un modelo mediocre evalúa el mensaje como correcto o critica solo su tono. La restricción de veracidad impide que la respuesta óptima consista en inventar una cifra favorable. Ningún ítem previo del conjunto trata la influencia normativa; PSY-052 (pasada 2) versa sobre el formato y la duración de un programa de prevención escolar, no sobre el contenido normativo de un mensaje.",
+    "critical_errors": [
+      "Considerar que el mensaje es adecuado porque desaconseja explícitamente la conducta.",
+      "Omitir el efecto sobre quienes beben poco o predecir que el mensaje reducirá su consumo.",
+      "Proponer una reformulación que atribuya a la mayoría una conducta que no le corresponde en los datos."
+    ],
+    "language": "es-ES"
+  },
+  {
+    "id": "PSY-100",
+    "dimension": "reasoning",
+    "topic": "ignorancia pluralista y difusión de responsabilidad",
+    "difficulty": "hard",
+    "question": "Considera dos situaciones. En la primera, un profesor explica un contenido de forma confusa y pregunta si alguien tiene dudas; nadie interviene, aunque después, en privado, muchos estudiantes reconocen que no lo habían entendido. En la segunda, unas veinte personas presencian en la calle cómo alguien necesita ayuda y ninguna se acerca. Identifica qué proceso predomina en cada situación y en qué se diferencian, propón una intervención concreta para reducir la inacción en cada caso, y justifica por qué la intervención adecuada para una de las situaciones no resolvería la otra. Indica también qué elemento comparten ambas.",
+    "expected_answer": "En la primera situación predomina la ignorancia pluralista: cada estudiante no entiende, observa que nadie más pregunta e infiere de ese silencio que los demás sí han entendido; como todos hacen la misma inferencia y todos actúan conforme a ella, el grupo sostiene colectivamente una creencia que ninguno de sus miembros mantiene en privado. El problema es un error sobre el estado mental ajeno. En la segunda predomina la difusión de responsabilidad: la obligación de actuar se reparte entre los presentes, de modo que cuanto mayor es el número menor es la parte que cada uno se atribuye y menor la probabilidad de que actúe; el problema no es lo que cada persona cree que ocurre, sino a quién corresponde intervenir. La intervención adecuada difiere en consecuencia. En el aula hay que hacer visible el estado privado de los demás o suprimir la señal engañosa: preguntar de forma anónima mediante una herramienta de respuesta, pedir un resumen escrito breve de lo entendido, invitar a que levante la mano quien quiera que se repita la explicación, o normalizar la duda declarando de antemano que ese punto suele resultar confuso. En la calle hay que asignar la responsabilidad a una persona determinada: dirigirse a alguien concreto identificándolo —«usted, el de la chaqueta azul, llame al 112»— convierte una obligación difusa en una tarea personal. Cambiar la intervención no funcionaría: preguntar anónimamente a los transeúntes qué opinan de la situación no asigna responsabilidad a nadie, y señalar a un estudiante para que pregunte no corrige la creencia errónea de los demás y añade el coste de exponerse ante el grupo. El elemento que ambas comparten es que la inacción de los demás se toma como información: en un caso sobre lo que los demás piensan, en el otro sobre si la situación requiere intervención o sobre si ya se está ocupando alguien; por eso los dos procesos pueden concurrir en una misma situación, y en la de la calle es habitual que la ambigüedad inicial añada ignorancia pluralista a la difusión de responsabilidad.",
+    "evaluation_criteria": [
+      {
+        "criterion": "Asigna correctamente ignorancia pluralista a la situación del aula y difusión de responsabilidad a la de la calle, caracteriza la diferencia entre un error sobre el estado ajeno y un reparto de la obligación de actuar, propone para cada caso una intervención coherente con su mecanismo, y explica por qué no son intercambiables.",
+        "max_points": 3
+      },
+      {
+        "criterion": "Asigna correctamente ambos procesos y propone intervenciones pertinentes, pero no justifica por qué cada intervención resulta específica de su mecanismo o no identifica el elemento común.",
+        "max_points": 2
+      },
+      {
+        "criterion": "Describe ambas situaciones como efecto espectador o como presión del grupo, sin distinguir los dos procesos implicados.",
+        "max_points": 1
+      }
+    ],
+    "source": "Latané, B., & Darley, J. M. (1970). The Unresponsive Bystander: Why Doesn't He Help? Appleton-Century-Crofts. Prentice, D. A., & Miller, D. T. (1993). Pluralistic ignorance and alcohol use on campus. Journal of Personality and Social Psychology, 64(2), 243-256. DOI omitido: no ha podido confirmarse desde este entorno de ejecución.",
+    "notes": "La capacidad evaluada es la discriminación entre dos procesos que suelen agruparse bajo la etiqueta común de «efecto espectador», y la derivación de intervenciones específicas de cada uno: la prueba de que la distinción se ha entendido es que las intervenciones no sean intercambiables. Se admite y se valora que la respuesta señale la concurrencia de ambos procesos en la situación de la calle. Ningún ítem previo trata la influencia del grupo sobre la acción.",
+    "critical_errors": [
+      "Atribuir el silencio del aula a la difusión de responsabilidad.",
+      "Proponer la misma intervención para ambas situaciones.",
+      "Explicar la inacción de la calle exclusivamente por falta de empatía o de valores de los presentes."
+    ],
+    "language": "es-ES"
+  },
+  {
+    "id": "PSY-101",
+    "dimension": "reasoning",
+    "topic": "influencia informativa e influencia normativa",
+    "difficulty": "hard",
+    "question": "En una tarea de juicio perceptivo con una respuesta objetivamente correcta y fácil de determinar, un participante escucha primero cómo cinco personas dan en voz alta la misma respuesta errónea y a continuación responde también en voz alta ante ellas: se alinea con el grupo en una proporción alta de ensayos. En una segunda condición, idéntica salvo que la respuesta se escribe en privado y nadie más la conoce, el alineamiento cae drásticamente. En una tercera condición la tarea es tan ambigua que el participante no puede resolverla por sí mismo, y allí el alineamiento se mantiene alto tanto en público como en privado. Deriva qué tipo de influencia opera predominantemente en cada condición, justificando la derivación a partir de la comparación entre condiciones y no de la descripción de cada una por separado. Explica después qué predicción distinta hace cada tipo de influencia sobre la persistencia del cambio cuando el grupo ya no está presente.",
+    "expected_answer": "La derivación se apoya en qué cambia entre condiciones. Entre la primera y la segunda solo varía la publicidad de la respuesta: la tarea, el grupo y la respuesta errónea son los mismos. Si el alineamiento desaparece al responder en privado, lo que lo sostenía no puede ser la creencia sobre cuál es la respuesta correcta —esa creencia no depende de quién vea la respuesta— sino la relación con el grupo: se trata de influencia normativa, esto es, de una conformidad pública motivada por evitar la desaprobación o la incomodidad de disentir, sin cambio en el juicio privado. La tercera condición aporta la comparación complementaria: cuando la tarea es ambigua y la persona no puede resolverla por sí misma, el alineamiento se mantiene aunque nadie vea la respuesta. Aquí la respuesta ajena funciona como evidencia sobre la realidad, que es lo único de lo que se dispone: es influencia informativa, y produce un cambio en el juicio propio y no solo en su manifestación. Las predicciones sobre la persistencia son opuestas y permiten distinguir ambos procesos empíricamente. Si la influencia fue normativa, el cambio desaparece en cuanto desaparece la razón que lo producía: preguntado de nuevo a solas y sin posibilidad de que el grupo conozca la respuesta, el participante volverá a su juicio inicial. Si fue informativa, el cambio persiste, porque la persona ha modificado lo que cree y no solo lo que dice; puede incluso transmitirlo después a otros. Conviene añadir que ambos procesos coexisten en grado variable en la mayoría de las situaciones reales, y que la fuerza del componente normativo depende de la unanimidad del grupo, de su tamaño y sobre todo de que no haya ningún aliado disidente, cuya sola presencia la reduce de manera considerable.",
+    "evaluation_criteria": [
+      {
+        "criterion": "Deriva la influencia normativa de la caída del alineamiento al pasar de respuesta pública a privada manteniendo constante el resto, deriva la influencia informativa de su persistencia en privado bajo ambigüedad, distingue conformidad pública de cambio en el juicio, y formula las predicciones opuestas sobre la persistencia en ausencia del grupo.",
+        "max_points": 3
+      },
+      {
+        "criterion": "Identifica correctamente ambos tipos de influencia y sus predicciones sobre la persistencia, pero justifica la asignación describiendo cada condición por separado en lugar de apoyarse en la comparación entre condiciones.",
+        "max_points": 2
+      },
+      {
+        "criterion": "Afirma que se trata de conformidad y menciona la presión del grupo, sin distinguir el componente normativo del informativo.",
+        "max_points": 1
+      }
+    ],
+    "source": "Deutsch, M., & Gerard, H. B. (1955). A study of normative and informational social influences upon individual judgment. Journal of Abnormal and Social Psychology, 51(3), 629-636. Asch, S. E. (1956). Studies of independence and conformity: A minority of one against a unanimous majority. Psychological Monographs, 70(9), 1-70. DOI omitido: no ha podido confirmarse desde este entorno de ejecución.",
+    "notes": "La demanda cognitiva no es reconocer el paradigma —que un modelo competente identifica— sino derivar la conclusión de la lógica de la comparación entre condiciones: qué se mantiene constante y qué varía. Los criterios reservan la puntuación máxima a esa derivación y no a la descripción correcta de los dos tipos de influencia, que es recuperable. Ningún ítem previo del conjunto trata la conformidad; PSY-044 (pasada 1) trata la conformidad forzada como paradigma de cambio de actitud, cuestión distinta que se declara aquí.",
+    "critical_errors": [
+      "Asignar la influencia informativa a la condición pública o la normativa a la condición ambigua.",
+      "Sostener que la influencia normativa produce un cambio duradero del juicio privado.",
+      "Justificar la asignación sin utilizar la comparación entre condiciones."
+    ],
+    "language": "es-ES"
+  },
+  {
+    "id": "PSY-102",
+    "dimension": "reasoning",
+    "topic": "contacto intergrupal: condiciones y dirección del efecto",
+    "difficulty": "hard",
+    "question": "Un centro escolar pone en marcha un programa para mejorar las relaciones entre dos grupos de alumnos entre los que existían tensiones previas. La actividad elegida es un torneo deportivo en el que cada equipo está formado por los miembros de uno de los grupos, con un premio para el equipo ganador. Al terminar, las actitudes recíprocas han empeorado. Explica por qué este resultado era previsible pese a que el programa aumentó el contacto entre ambos grupos, indica qué condiciones favorecen que el contacto reduzca el prejuicio, y rediseña la actividad manteniendo el formato deportivo justificando cada cambio con la condición que satisface. Precisa además qué estatus tienen esas condiciones según la evidencia acumulada.",
+    "expected_answer": "El resultado era previsible porque el contacto no reduce el prejuicio por sí mismo: lo que importa es en qué términos se produce. La actividad diseñada establece una interdependencia negativa entre los grupos, ya que el premio es único y lo que uno gana el otro lo pierde, y además hace coincidir exactamente la frontera de los equipos con la frontera de los grupos preexistentes, con lo que refuerza la identidad de cada uno frente al otro y convierte cada jugada en un episodio de la rivalidad previa. En esas condiciones el contacto ofrece ocasiones de fricción, atribuciones hostiles y confirmación del estereotipo, y cabe esperar que las actitudes empeoren. Las condiciones que favorecen el efecto contrario son: estatus equiparable de los participantes dentro de la situación, objetivos comunes que exijan la aportación de unos y otros, cooperación —interdependencia positiva— en lugar de competición, y apoyo explícito de la institución y de las figuras de autoridad; a ello suele añadirse que el contacto permita un conocimiento personal suficiente para que los participantes dejen de ser meros representantes de su grupo. El rediseño debe romper la coincidencia entre equipo y grupo: formar equipos mixtos, con miembros de ambos grupos en cada uno, satisface la interdependencia positiva, porque el resultado del equipo pasa a depender de la cooperación entre miembros de los dos grupos; asignar dentro de cada equipo funciones equivalentes en importancia y rotarlas satisface el estatus equiparable e impide que uno de los grupos quede en posición subordinada; sustituir el premio único por objetivos que exijan la colaboración entre equipos —una marca conjunta del centro, retos colectivos, una liga en la que la puntuación dependa también del juego limpio— introduce un objetivo superordinado; y la implicación visible del profesorado en las normas y en la respuesta a los incidentes aporta el apoyo institucional. Precisión importante: la evidencia acumulada indica que estas condiciones no son requisitos imprescindibles, ya que el contacto tiende a reducir el prejuicio también cuando no se cumplen todas, sino factores que potencian el efecto; lo que sí muestra la evidencia es que el contacto negativo o competitivo puede aumentar el prejuicio, que es lo ocurrido aquí.",
+    "evaluation_criteria": [
+      {
+        "criterion": "Explica el empeoramiento por la interdependencia competitiva y la coincidencia entre equipos y grupos preexistentes, enumera las condiciones facilitadoras del contacto, rediseña la actividad con al menos tres cambios concretos justificados cada uno por la condición que satisface, y precisa que las condiciones potencian el efecto sin ser imprescindibles.",
+        "max_points": 3
+      },
+      {
+        "criterion": "Explica correctamente por qué la competición entre grupos empeora las actitudes y propone un rediseño cooperativo con equipos mixtos, pero no justifica cada cambio por su condición o presenta las condiciones como requisitos indispensables.",
+        "max_points": 2
+      },
+      {
+        "criterion": "Afirma que el contacto por sí solo no basta o que la competición es perjudicial, sin especificar qué condiciones debe reunir el contacto ni cómo modificar la actividad.",
+        "max_points": 1
+      }
+    ],
+    "source": "Allport, G. W. (1954). The Nature of Prejudice. Addison-Wesley. Pettigrew, T. F., & Tropp, L. R. (2006). A meta-analytic test of intergroup contact theory. Journal of Personality and Social Psychology, 90(5), 751-783. DOI omitido: no ha podido confirmarse desde este entorno de ejecución.",
+    "notes": "El producto exigido es un rediseño justificado condición por condición, lo que hace la respuesta evaluable de forma objetiva y no permite resolver el ítem recitando la lista de Allport. El último elemento —que la evidencia metaanalítica trata esas condiciones como facilitadoras y no como requisitos— es el que separa una respuesta buena de una excelente y evita un error científico frecuente. Cumple G7: la situación no depende de ninguna característica cultural española y los grupos se designan de forma genérica, sin atribuirles identidad alguna.",
+    "critical_errors": [
+      "Sostener que aumentar el contacto entre los grupos reduce el prejuicio con independencia de cómo se organice.",
+      "Mantener equipos formados por cada grupo por separado en el rediseño.",
+      "Presentar las condiciones de Allport como requisitos sin los cuales el contacto nunca reduce el prejuicio."
+    ],
+    "language": "es-ES"
+  },
+  {
+    "id": "PSY-103",
+    "dimension": "reasoning",
+    "topic": "activación fisiológica e interpretación de la emoción",
+    "difficulty": "hard",
+    "question": "En un estudio de campo, dos grupos de personas son abordadas por la misma persona, que les propone participar en una tarea breve y les deja un teléfono de contacto. El primer grupo acaba de cruzar un puente colgante alto e inestable; el segundo, un puente bajo y firme. Quienes cruzaron el puente inestable llaman después con mucha mayor frecuencia y valoran a esa persona como más atractiva. Explica qué proceso psicológico se propone para dar cuenta del resultado, distinguiendo el papel de la activación fisiológica del papel de su interpretación. Formula después dos condiciones de control distintas: una que descarte que quienes cruzan el puente inestable sean simplemente personas distintas, y otra que ponga a prueba el mecanismo propuesto prediciendo qué debería ocurrir si el mecanismo es correcto.",
+    "expected_answer": "El proceso propuesto es la atribución errónea de la activación. La experiencia emocional se analiza en dos componentes: un estado de activación fisiológica, que aporta la intensidad pero es relativamente inespecífico, y una interpretación cognitiva de a qué se debe esa activación, que determina qué emoción se experimenta. Cruzar un puente inestable produce activación; si en ese momento la persona se encuentra ante alguien a quien podría resultar razonable atribuirla, parte de esa activación puede interpretarse como atracción, y esa interpretación, y no la activación por sí sola, es lo que produce el efecto observado. La activación aporta la intensidad, la interpretación aporta la cualidad. Primera condición de control, dirigida a la explicación alternativa de la autoselección: en el estudio de campo son las propias personas quienes eligen qué puente cruzar, de modo que los grupos podrían diferir en búsqueda de sensaciones, sociabilidad u otras características asociadas también a la conducta de llamar. El control consiste en asignar al azar a los participantes a uno u otro puente en lugar de dejar que se autoseleccionen, de modo que ambos grupos sean equivalentes en promedio en cualquier característica previa; una alternativa parcial es medir esas características y comprobar que no difieren entre grupos. Segunda condición de control, dirigida al mecanismo: si el efecto se debe a la atribución de una activación todavía presente, debería desaparecer cuando la activación se haya disipado o cuando exista una explicación alternativa saliente para ella. Cabe por tanto predecir que abordar a las personas diez o quince minutos después de cruzar el puente inestable, con la activación ya reducida, eliminaría o reduciría notablemente el efecto; y que hacer explícita la causa de la activación —comentarles que es normal que el corazón siga acelerado tras cruzar ese puente— también lo reduciría, porque la activación queda atribuida a su causa real. Ambas predicciones son arriesgadas: si el efecto persistiera en esas condiciones, la explicación por atribución errónea quedaría en entredicho. Conviene añadir que se trata de un resultado clásico cuyo tamaño y condiciones de replicación han sido discutidos, de modo que la interpretación se presenta como la hipótesis mejor apoyada y no como un hecho establecido.",
+    "evaluation_criteria": [
+      {
+        "criterion": "Identifica la atribución errónea de la activación, distingue con precisión la aportación de la activación (intensidad) de la de la interpretación (cualidad de la emoción), propone la asignación aleatoria al puente como control de la autoselección, y formula al menos una predicción arriesgada sobre el mecanismo, ya sea por demora o por explicitación de la causa de la activación.",
+        "max_points": 3
+      },
+      {
+        "criterion": "Identifica correctamente el proceso y propone un control adecuado de la autoselección, pero no formula una predicción que ponga a prueba el mecanismo o no distingue con claridad los dos componentes.",
+        "max_points": 2
+      },
+      {
+        "criterion": "Menciona que el miedo o los nervios se confunden con la atracción, sin distinguir activación e interpretación ni proponer controles.",
+        "max_points": 1
+      }
+    ],
+    "source": "Schachter, S., & Singer, J. E. (1962). Cognitive, social, and physiological determinants of emotional state. Psychological Review, 69(5), 379-399. Dutton, D. G., & Aron, A. P. (1974). Some evidence for heightened sexual attraction under conditions of high anxiety. Journal of Personality and Social Psychology, 30(4), 510-517. DOI omitido: no ha podido confirmarse desde este entorno de ejecución.",
+    "notes": "Proximidad declarada con PSY-043 (pasada 1), sobre la hipótesis del feedback facial: ambos pertenecen al campo de la emoción, pero aquel pide informar del estatus de la evidencia sobre una hipótesis y este exige derivar el mecanismo de un resultado y diseñar controles, incluida una predicción arriesgada. La exigencia de dos controles con funciones distintas —descartar una explicación alternativa frente a poner a prueba el propio mecanismo— es el elemento discriminativo. La cautela sobre la replicación se puntúa dentro de la respuesta esperada para preservar la exactitud científica.",
+    "critical_errors": [
+      "Presentar el resultado como demostración establecida de que el miedo produce atracción.",
+      "Omitir que en el estudio original los participantes eligieron el puente y no fueron asignados.",
+      "Proponer únicamente controles que descarten explicaciones alternativas, sin ninguna predicción que someta a riesgo el mecanismo propuesto."
+    ],
+    "language": "es-ES"
+  },
+  {
+    "id": "PSY-104",
+    "dimension": "reasoning",
+    "topic": "inferencia de la causa a partir de la eficacia del tratamiento",
+    "difficulty": "hard",
+    "question": "Un divulgador razona así: «El fármaco X, que actúa sobre un neurotransmisor concreto, reduce los síntomas del trastorno Y; por tanto, el trastorno Y está causado por una alteración de ese neurotransmisor». Explica qué tipo de error de razonamiento comete, construye un contraejemplo que muestre por qué la eficacia de un tratamiento no identifica la causa del problema, y describe qué tipos de evidencia sí resultarían pertinentes para sostener una hipótesis causal sobre el mecanismo del trastorno. Indica además qué observación relativa al curso temporal de la respuesta al fármaco resultaría difícil de encajar en la versión simple de esa hipótesis.",
+    "expected_answer": "El error consiste en inferir la causa de un problema a partir de aquello que lo alivia. La eficacia de un tratamiento indica que el sistema sobre el que actúa participa de algún modo en la producción o el mantenimiento de los síntomas, pero no que su alteración sea el origen del trastorno: un tratamiento puede actuar en un punto situado más adelante en la cadena causal, en una vía paralela que compensa el problema sin corregirlo, o sobre una consecuencia del trastorno en lugar de sobre su causa. Un contraejemplo claro: un analgésico alivia el dolor de cabeza y nadie concluye que el dolor de cabeza esté causado por una carencia de analgésico; unas gafas corrigen la miopía sin que la miopía consista en una deficiencia de lentes. La evidencia pertinente para una hipótesis causal es de otro tipo: mostrar que la alteración propuesta está presente antes de que aparezca el trastorno, en estudios prospectivos con personas todavía no afectadas; que su magnitud se relaciona con la gravedad o con el riesgo; que manipular experimentalmente ese sistema produce los síntomas o los agrava; que la mejoría clínica producida por el tratamiento está efectivamente mediada por el cambio en el marcador propuesto, y no simplemente asociada a él; y que estas evidencias convergen procediendo de diseños con limitaciones distintas. Sobre el curso temporal: si el fármaco modifica la disponibilidad del neurotransmisor en cuestión de horas y la mejoría clínica tarda en cambio varias semanas en aparecer, esa disociación resulta difícil de encajar en la versión simple de la hipótesis, que espera que la corrección de la alteración produzca la mejoría de forma aproximadamente inmediata; obliga a postular procesos intermedios más lentos, lo que debilita la lectura directa del razonamiento inicial. Conviene añadir que nada de esto implica que el fármaco no funcione: la eficacia del tratamiento y la validez de la hipótesis sobre la causa son dos cuestiones independientes.",
+    "evaluation_criteria": [
+      {
+        "criterion": "Identifica el error como inferencia de la causa a partir de la respuesta al tratamiento, construye un contraejemplo válido, enumera al menos tres tipos de evidencia pertinentes —anterioridad, manipulación experimental, mediación de la mejoría o convergencia entre diseños—, y señala la disociación temporal entre efecto bioquímico y mejoría clínica como observación difícil de encajar.",
+        "max_points": 3
+      },
+      {
+        "criterion": "Identifica correctamente el error y aporta un contraejemplo adecuado, pero describe la evidencia necesaria de forma genérica o no aborda el argumento del curso temporal.",
+        "max_points": 2
+      },
+      {
+        "criterion": "Señala que la eficacia de un fármaco no demuestra la causa del trastorno, sin explicar por qué ni indicar qué evidencia sería pertinente.",
+        "max_points": 1
+      }
+    ],
+    "source": "No requiere fuente externa referida a ningún trastorno concreto: el ítem versa sobre la estructura del razonamiento causal a partir de la respuesta al tratamiento, formulada de forma genérica.",
+    "notes": "Proximidad declarada con PSY-059 (pasada 2), que responde a una persona en tratamiento sobre el llamado desequilibrio químico. El ítem se ha formulado deliberadamente en términos genéricos —fármaco X, trastorno Y, un neurotransmisor no identificado— para no reproducir aquel contenido y para que lo evaluado sea exclusivamente la estructura del razonamiento; la capacidad también es distinta, ya que aquí se exige construir un contraejemplo y especificar los tipos de evidencia pertinentes. Cumple G6: no se valora ningún tratamiento concreto para ninguna persona, y la respuesta esperada señala expresamente que la crítica al razonamiento no cuestiona la eficacia del fármaco.",
+    "critical_errors": [
+      "Aceptar que la eficacia de un tratamiento identifica la causa del trastorno.",
+      "Concluir que, si el razonamiento es incorrecto, el fármaco no es eficaz.",
+      "Proponer como evidencia adicional únicamente más ensayos de eficacia del mismo tratamiento."
+    ],
+    "language": "es-ES"
+  },
+  {
+    "id": "PSY-105",
+    "dimension": "reasoning",
+    "topic": "sensibilidad y criterio de respuesta en una tarea de reconocimiento",
+    "difficulty": "hard",
+    "question": "En una tarea de reconocimiento, dos grupos estudian una lista de palabras y después deciden, para cada palabra de una lista de prueba, si estaba o no en la lista original. El grupo 1 responde «sí, estaba» en el 85 % de las palabras que efectivamente estaban y también en el 40 % de las palabras nuevas. El grupo 2 responde «sí» en el 60 % de las palabras estudiadas y en el 10 % de las nuevas. Determina qué grupo muestra mejor rendimiento de memoria y en qué difieren principalmente los dos grupos, justifica por qué la proporción de aciertos no permite por sí sola ordenarlos, e indica qué habría que calcular. Señala también qué factores, ajenos a la memoria, pueden producir la diferencia observada entre ambos grupos.",
+    "expected_answer": "La proporción de aciertos no basta porque puede aumentarse sin mejorar la memoria: quien responde «sí» con más facilidad acierta más palabras estudiadas y, a la vez, acepta más palabras nuevas. Los aciertos y las falsas alarmas deben considerarse conjuntamente. El grupo 1 acierta el 85 % pero acepta el 40 % de las palabras nuevas, con una diferencia de 45 puntos; el grupo 2 acierta el 60 % y acepta solo el 10 %, con una diferencia de 50 puntos. Con este índice sencillo, y también con la medida estandarizada habitual —la diferencia entre las puntuaciones típicas correspondientes a aciertos y falsas alarmas, próxima a 1,3 en el grupo 1 y a 1,5 en el grupo 2—, el orden es el mismo: el grupo 2 discrimina algo mejor entre lo estudiado y lo nuevo, es decir, muestra un rendimiento de memoria igual o ligeramente superior, pese a tener menos aciertos. En lo que los grupos difieren sobre todo es en su disposición a responder afirmativamente: el grupo 1 emplea un criterio mucho más laxo y el grupo 2 uno más estricto. La lectura correcta exige por tanto separar dos parámetros independientes: la sensibilidad o capacidad de discriminación, y el criterio de decisión, que es la cantidad de evidencia que la persona exige antes de responder que sí. Un criterio distinto puede simular una diferencia de memoria que no existe. Los factores ajenos a la memoria que pueden desplazar el criterio son varios: las instrucciones recibidas —si se ha insistido en no dejar escapar ninguna palabra estudiada o, al contrario, en no equivocarse—, las consecuencias asociadas a cada tipo de error, la proporción de palabras estudiadas que el participante supone que contiene la prueba, la confianza que exige antes de comprometerse, y características de grupo como una mayor cautela o una mayor tendencia a la aquiescencia. Por eso, para comparar la memoria de dos grupos hay que emplear un índice que combine aciertos y falsas alarmas, y no la tasa de aciertos.",
+    "evaluation_criteria": [
+      {
+        "criterion": "Concluye que el grupo 2 discrimina igual o mejor pese a tener menos aciertos, justifica la conclusión combinando aciertos y falsas alarmas mediante un índice explícito, identifica el criterio de respuesta como la diferencia principal entre los grupos, y menciona al menos dos factores ajenos a la memoria que lo desplazan.",
+        "max_points": 3
+      },
+      {
+        "criterion": "Advierte que hay que considerar las falsas alarmas junto con los aciertos y distingue sensibilidad de criterio, pero no llega a ordenar correctamente a los grupos o no indica qué índice permitiría hacerlo.",
+        "max_points": 2
+      },
+      {
+        "criterion": "Señala que el grupo 1 comete más errores con las palabras nuevas, sin integrar ambas tasas en una conclusión sobre el rendimiento de memoria.",
+        "max_points": 1
+      }
+    ],
+    "source": "Green, D. M., & Swets, J. A. (1966). Signal Detection Theory and Psychophysics. Wiley.",
+    "notes": "Las cifras se han elegido para que la lectura ingenua (85 % > 60 %) invierta el orden correcto, y para que los dos índices habituales —la diferencia entre proporciones y la diferencia entre puntuaciones típicas— coincidan en el resultado, lo que garantiza que la conclusión puntuada sea robusta y verificable. No se exige el cálculo formal del índice de sensibilidad: se puntúa la integración conjunta de aciertos y falsas alarmas. Proximidad declarada con PSY-042 (pasada 1), que trata sensibilidad, especificidad y valor predictivo de instrumentos de cribado: allí el problema es la dependencia de la prevalencia y aquí la separación entre capacidad de discriminación y criterio de decisión dentro de un mismo observador. Se declara asimismo la densidad de ítems del dominio de la memoria en el conjunto; ninguno de ellos aborda la medida del rendimiento en reconocimiento.",
+    "critical_errors": [
+      "Concluir que el grupo 1 tiene mejor memoria por su mayor tasa de aciertos.",
+      "Interpretar la diferencia entre grupos como una diferencia de capacidad de memoria sin considerar el criterio de respuesta.",
+      "Tratar las falsas alarmas como un dato secundario o desdeñable."
+    ],
+    "language": "es-ES"
+  },
+  {
+    "id": "PSY-106",
+    "dimension": "reasoning",
+    "topic": "consistencia de la conducta y agregación de observaciones",
+    "difficulty": "hard",
+    "question": "Un investigador observa a un grupo de niños en una situación concreta y registra si ayudan a un compañero. Correlaciona esa observación con la de la misma conducta en otra situación distinta y obtiene un coeficiente en torno a 0,20. Concluye que «la conducta de ayuda no constituye una característica de la persona, sino que depende únicamente de la situación». Explica qué le ocurriría a esa correlación si en lugar de una observación por momento se promediaran veinte observaciones en situaciones distintas en cada uno de los dos momentos, por qué se produce ese cambio, y qué conclusión permite y cuál no permite el dato original. Indica también qué sigue sin poder predecirse aunque la correlación entre promedios sea alta.",
+    "expected_answer": "La correlación aumentaría de manera sustancial, hasta valores muy superiores. La razón es que una observación única es una muestra muy pobre de la disposición que se quiere medir: su resultado depende de la disposición, pero también de los detalles de esa situación concreta —quién necesitaba ayuda, quién más estaba presente, el coste de intervenir, el estado de ánimo de ese día— y del error de registro. Todo eso es variación no sistemática respecto de la disposición y, al correlacionar dos observaciones únicas, esa variación aparece en ambos términos sin ser compartida, con lo que la correlación queda muy atenuada. Al promediar veinte observaciones en situaciones distintas, las influencias específicas de cada situación se compensan entre sí y el promedio refleja mucho mejor la tendencia general de cada niño; es el mismo principio por el que un cuestionario de veinte ítems es más fiable que uno de uno solo. La conclusión que el dato original permite es que un acto aislado predice mal otro acto aislado, es decir, que la conducta en una situación concreta está fuertemente determinada por esa situación. La que no permite es que no exista una tendencia estable: la baja correlación entre observaciones únicas es en buena parte un resultado sobre la fiabilidad de la medida, no sobre la inexistencia de la disposición. Formulado con precisión, la conducta concreta depende conjuntamente de la persona y de la situación, y la consistencia se manifiesta en el nivel agregado. Lo que sigue sin poder predecirse, aunque la correlación entre promedios sea alta, es precisamente la conducta en una situación singular: promediar aumenta la fiabilidad de la medida de la disposición, pero no convierte la disposición en un predictor preciso de un acto concreto, para el que las características de esa situación siguen siendo determinantes. La regla práctica es que los agregados predicen agregados; predecir un acto único exige información sobre esa situación. Conviene añadir que una mayor fiabilidad tampoco garantiza que lo medido sea el constructo que se pretende medir.",
+    "evaluation_criteria": [
+      {
+        "criterion": "Predice un aumento sustancial de la correlación al agregar, explica el mecanismo como compensación de la variación específica de cada situación y del error, distingue lo que el dato original permite concluir de lo que no, y advierte de que la agregación no permite predecir la conducta en una situación singular.",
+        "max_points": 3
+      },
+      {
+        "criterion": "Predice correctamente el aumento y rechaza la conclusión del investigador, pero explica el mecanismo de forma imprecisa o no advierte de la limitación de los promedios para predecir un acto concreto.",
+        "max_points": 2
+      },
+      {
+        "criterion": "Señala que una sola observación es insuficiente, sin predecir el efecto de la agregación ni explicar por qué se produce.",
+        "max_points": 1
+      }
+    ],
+    "source": "Epstein, S. (1979). The stability of behavior: I. On predicting most of the people much of the time. Journal of Personality and Social Psychology, 37(7), 1097-1126. Mischel, W. (1968). Personality and Assessment. Wiley. DOI omitido: no ha podido confirmarse desde este entorno de ejecución.",
+    "notes": "Proximidad declarada con PSY-005 y PSY-016 (piloto), que tratan los factores de personalidad y la estabilidad de los rasgos. La capacidad evaluada aquí es de medida y no sustantiva: exige advertir que un coeficiente bajo entre observaciones únicas es en gran parte un resultado sobre la fiabilidad, y derivar el efecto de la agregación. El elemento que impide la sobrecorrección —que la agregación no autoriza a predecir un acto singular— es el que separa una respuesta buena de una excelente, y evita convertir el ítem en una defensa acrítica de los rasgos.",
+    "critical_errors": [
+      "Predecir que la correlación no cambiaría al agregar observaciones.",
+      "Aceptar la conclusión de que la conducta depende únicamente de la situación.",
+      "Concluir que, una vez agregadas las observaciones, puede predecirse con precisión lo que hará un niño en una situación concreta."
+    ],
+    "language": "es-ES"
+  },
+  {
+    "id": "PSY-107",
+    "dimension": "reasoning",
+    "topic": "automatización de la destreza y foco atencional",
+    "difficulty": "hard",
+    "question": "Una jugadora experta de baloncesto falla los tiros libres con mucha más frecuencia en los momentos de máxima presión. Su entrenador le pide que en esas situaciones se concentre en la posición exacta de sus dedos y en cada fase del movimiento; la tasa de fallos aumenta todavía más. Un jugador principiante, en cambio, mejora cuando se le da exactamente la misma indicación. Explica qué diferencia entre ambos niveles de destreza da cuenta de resultados opuestos ante la misma instrucción, por qué atender a la propia ejecución perjudica a la experta y no al principiante, y deriva qué tipo de foco atencional convendría a cada uno. Menciona además otra explicación distinta del deterioro bajo presión e indica qué predicción permitiría distinguir entre ambas.",
+    "expected_answer": "La diferencia es el grado de automatización de la destreza. En las fases iniciales del aprendizaje, la ejecución se controla paso a paso mediante instrucciones explícitas que el principiante debe mantener activas y aplicar de forma deliberada; el proceso es lento, consume atención y se beneficia de indicaciones sobre los componentes del movimiento, porque aporta la estructura de la que aún carece. Con la práctica, la secuencia se integra en una unidad que se ejecuta como un todo y deja de requerir control atencional explícito; la experta ya no dispone del movimiento como una lista de pasos. Cuando se le pide que atienda a la posición de sus dedos y a cada fase, se fuerza un control consciente sobre un proceso que se ejecuta mejor sin él: la atención fragmenta la secuencia integrada en componentes, interfiere en su temporización y degrada el resultado. De ahí la recomendación opuesta para cada uno: al principiante conviene un foco interno y explícito sobre los componentes técnicos, con retroalimentación correctiva; a la experta conviene un foco externo, dirigido al efecto del movimiento y al objetivo —el aro, la trayectoria del balón— o a una clave global que ocupe la atención sin supervisar la ejecución, como una rutina previa al lanzamiento constante. La explicación alternativa del deterioro bajo presión es distinta: la presión genera preocupación y pensamientos sobre las consecuencias del fallo, que ocupan recursos de la memoria de trabajo y perjudican sobre todo a las tareas que dependen de ellos. Las dos explicaciones no coinciden en sus predicciones y eso permite distinguirlas. Si el problema es el control consciente de un automatismo, la presión debería perjudicar más a los expertos que a los principiantes, y una tarea secundaria que ocupe la atención durante el lanzamiento debería mejorar el rendimiento del experto bajo presión, por impedir la supervisión. Si el problema es el consumo de recursos por la preocupación, esa misma tarea secundaria debería empeorarlo aún más, y el deterioro debería aparecer sobre todo en tareas que exigen cálculo o control atencional y no en destrezas motoras automatizadas. Comparar el efecto de una tarea secundaria bajo presión es, por tanto, la comprobación que separa ambas hipótesis.",
+    "evaluation_criteria": [
+      {
+        "criterion": "Identifica la automatización de la destreza como la diferencia relevante, explica que el control consciente fragmenta e interfiere en una secuencia integrada mientras aporta estructura al principiante, deriva un foco externo para la experta e interno y explícito para el principiante, y formula una predicción que distingue la hipótesis del control consciente de la del consumo de recursos por preocupación.",
+        "max_points": 3
+      },
+      {
+        "criterion": "Explica correctamente el efecto opuesto de la instrucción en función del nivel de destreza y deriva los focos atencionales adecuados, pero no formula una predicción que permita distinguir entre las dos explicaciones del deterioro bajo presión.",
+        "max_points": 2
+      },
+      {
+        "criterion": "Afirma que pensar demasiado perjudica al experto, sin explicar qué propiedad de la destreza automatizada hace que el control atencional interfiera.",
+        "max_points": 1
+      }
+    ],
+    "source": "Masters, R. S. W. (1992). Knowledge, knerves and know-how: The role of explicit versus implicit knowledge in the breakdown of a complex motor skill under pressure. British Journal of Psychology, 83(3), 343-358. Beilock, S. L., & Carr, T. H. (2001). On the fragility of skilled performance: What governs choking under pressure? Journal of Experimental Psychology: General, 130(4), 701-725. DOI omitido: no ha podido confirmarse desde este entorno de ejecución.",
+    "notes": "El elemento discriminativo principal es la exigencia de una predicción que separe dos explicaciones que coexisten en la literatura y que un modelo mediocre presenta como una sola: el control consciente de un automatismo y el consumo de memoria de trabajo por la preocupación. El efecto opuesto de la misma instrucción según el nivel de destreza impide además resolver el ítem con la máxima genérica de que la presión perjudica el rendimiento. Ningún ítem previo del conjunto trata la adquisición de destrezas motoras ni el foco atencional; PSY-046 (pasada 2) trata el coste del cambio de tarea, que es un fenómeno distinto.",
+    "critical_errors": [
+      "Sostener que atender a la propia ejecución perjudica por igual a expertos y principiantes.",
+      "Recomendar a la jugadora experta un foco interno más detallado sobre la técnica.",
+      "Presentar las dos explicaciones del deterioro bajo presión como una sola, sin ninguna predicción que las distinga."
+    ],
+    "language": "es-ES"
   }
 ]
