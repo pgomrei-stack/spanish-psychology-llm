@@ -238,12 +238,18 @@ decisión humana.
    incorporada al repositorio y es la que refleja este changelog. Por eso la lista de `REVISE`
    sin remediar baja de cuatro ítems a dos: el reparto global queda en 22 ACCEPT y 8 REVISE.
 
-   > **Inconsistencia interna menor en la plantilla corregida.** En las filas de PSY-024 y
-   > PSY-026, la celda `Q7` vale ya 2, pero el texto de `Notas` sigue empezando por «Q7=1: …»
-   > con la redacción anterior. Es solo el relato justificativo, que no se reescribió al
-   > actualizar la puntuación; las celdas de puntuación, total, porcentaje y decisión sí son
-   > coherentes entre sí. No se ha modificado el texto del revisor. Conviene alinearlo en una
-   > próxima revisión de la plantilla para que no confunda a quien la audite.
+   > **Inconsistencia interna en la plantilla: detectada y corregida.** Al incorporar la
+   > plantilla corregida se observó que, en las filas de PSY-024 y PSY-026, la celda `Q7` valía
+   > ya 2 pero el texto de `Notas` seguía empezando por «Q7=1: …» con la redacción anterior:
+   > solo el relato justificativo se había quedado atrás, mientras que las celdas de
+   > puntuación, total, porcentaje y decisión sí eran coherentes entre sí. El texto del revisor
+   > **no se editó desde el repositorio**; se solicitó y se incorporó una versión de la
+   > plantilla con las notas ya reescritas, que es la actualmente versionada.
+   >
+   > Comprobación posterior sobre la versión definitiva: las **71 menciones con formato
+   > `Qn = valor`** presentes en las `Notas` de las 30 filas coinciden con sus celdas de
+   > puntuación, y en todas las filas `Q Total`, `Q Máx.` y `Score %` son aritméticamente
+   > consistentes. No queda ninguna discrepancia de este tipo.
 
 2. **`RUBRIC_ISSUE` recurrentes señalados por el revisor**, que afectan a la rúbrica y no a
    ítems concretos: la fórmula de `Decisión sugerida` no implementa el veto de la sección 6
