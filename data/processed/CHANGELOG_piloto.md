@@ -46,15 +46,34 @@ Filas con discrepancia entre la columna `Difficulty` y el JSON:
 | PSY-019 | `medium` | `hard` | 2 | «Q6 puntuado sobre 'hard'» | **hard** |
 | PSY-025 | `medium` | `easy` | 2 | «Q6 puntuado sobre 'easy'» | **easy** |
 | PSY-028 | `medium` | `hard` | 2 | «Q6 puntuado sobre 'hard'» | **hard** |
-| PSY-030 | `medium` | `hard` | 2 | no la declara | sin determinar |
+| PSY-030 | `medium` | `hard` | 2 | no la declara (resuelto por inferencia) | **hard** |
 
 PSY-021 no aparece aquí porque columna y JSON coinciden (`hard`), pero sus `Notas` sí
 corrigen la demanda a `medium` (ver sección 3).
 
-Consecuencia: en PSY-019, PSY-025 y PSY-028 el revisor puntuó sobre el valor que ya tiene el
-JSON, de modo que **el JSON es correcto y la columna es la desfasada**; no requieren cambio.
-PSY-030 es el único caso donde la base de Q6 no está declarada y la discrepancia queda sin
-resolver; no se ha modificado y se documenta en la sección 7.
+Consecuencia: en PSY-019, PSY-025, PSY-028 y PSY-030 el revisor puntuó sobre el valor que ya
+tiene el JSON, de modo que **el JSON es correcto y la columna es la desfasada**. Ninguno
+requiere cambio. Las seis filas quedan resueltas.
+
+### PSY-030 — resolución
+
+Es el único caso cuyas `Notas` registran la discrepancia sin declarar sobre qué valor se
+puntuó Q6, por lo que no puede cerrarse por cita literal como PSY-017. Se resuelve **por
+inferencia a partir de las puntuaciones**, y conviene dejar constancia de que ese es su
+estatus:
+
+- `Q6 = 2` significa, según la sección 6 de la rúbrica, que la dificultad asignada refleja con
+  exactitud la demanda cognitiva. La puntuación es por tanto una validación del valor sobre el
+  que se puntuó, sea cual sea.
+- `Q3 = 2` describe un ítem que «exige separar evidencia poblacional de resultado individual
+  sin prometer eficacia ni declarar irrelevante la evidencia». Esa demanda —razonamiento bajo
+  incertidumbre más comunicación responsable de la misma— encaja en `hard` según la sección 6,
+  y no en la aplicación o interpretación simple que define `medium`.
+- El patrón de las otras cinco filas es uniforme: cuando la base está declarada, el valor
+  validado es siempre el del JSON, no el de la columna.
+
+**Conclusión: se mantiene `difficulty = "hard"`. No se modifica el JSON.** La columna
+`Difficulty` de la plantilla es, también aquí, el dato desfasado.
 
 ---
 
@@ -202,19 +221,23 @@ Ninguna decisión previa ha tenido que revertirse.
 No se ha actuado sobre ninguna de ellas; se documentan porque afectan al dataset y requieren
 decisión humana.
 
-1. **PSY-030 — discrepancia de `difficulty` sin resolver.** Columna `Difficulty` = `medium`,
-   JSON = `hard`. Es la única fila cuyas `Notas` registran la discrepancia pero **no declaran
-   sobre qué valor se puntuó Q6**, por lo que no puede resolverse como se resolvió PSY-017.
-   El JSON se ha dejado en `hard`.
-
-2. **Cuatro ítems `REVISE` siguen en el dataset curado sin remediar:** PSY-006, PSY-024,
+1. **Cuatro ítems `REVISE` siguen en el dataset curado sin remediar:** PSY-006, PSY-024,
    PSY-025 y PSY-026. La curación abordó los otros seis `REVISE` (PSY-004 reescrito, PSY-018 y
    PSY-020 eliminados, PSY-009, PSY-017 y PSY-021 revisados). Motivos registrados por el
    revisor: sobrerrepresentación de la teoría de la autodeterminación en PSY-006 (cuatro ítems
    del piloto usan ese marco, en tensión con la sección 11), solapamiento parcial en PSY-024 y
    PSY-026, y criterios de evaluación poco operativos en PSY-025 (Q4=1).
 
-3. **`RUBRIC_ISSUE` recurrentes señalados por el revisor**, que afectan a la rúbrica y no a
+   > **Corrección anunciada y aún no incorporada.** Se ha comunicado que el revisor había
+   > decidido `Q7 = 2` para PSY-024 y PSY-026 —lo que los llevaría a 15/16 (93,75 %) y por
+   > tanto a `ACCEPT`, dejando esta lista en solo dos ítems (PSY-006 y PSY-025)—, pero la
+   > versión corregida de la plantilla todavía **no** se ha incorporado al repositorio: el
+   > fichero en `docs/pilot-evaluation/` sigue registrando `Q7 = 1` y `Decisión final = REVISE`
+   > para ambos, y su hoja `Resumen` seguía marcando 20 ACCEPT / 10 REVISE. Esta sección
+   > describe deliberadamente el contenido del fichero versionado, para que changelog y
+   > plantilla no se contradigan. Debe actualizarse en cuanto se incorpore el Excel corregido.
+
+2. **`RUBRIC_ISSUE` recurrentes señalados por el revisor**, que afectan a la rúbrica y no a
    ítems concretos: la fórmula de `Decisión sugerida` no implementa el veto de la sección 6
    (devolvió ACCEPT para PSY-004 con Q3=0), el tratamiento de `Q8=NA` en el umbral, y la
    frontera no operativizada entre las dimensiones `reasoning`, `uncertainty` y
