@@ -566,3 +566,257 @@ Umbral de aceptación: 16/18 (88,9 %). Ningún ítem puntúa 0 en Q1, Q2, Q3 o Q
 Un candidato válido queda disponible para pasadas futuras: **exigencia de una respuesta
 dicotómica sobre una cuestión con evidencia conflictiva**, ya anotado como pendiente en la pasada
 2 y adecuado para `uncertainty`, dimensión aún sin escalar junto con `critical_analysis`.
+
+---
+
+## Pasada 4 — dimensión `uncertainty`, 30 ítems (PSY-108 a PSY-137)
+
+Cuarta pasada sobre este archivo. Acumulado tras esta pasada: **107 ítems** (77 de las pasadas 1 a
+3 + 30 nuevos). No se ha modificado ningún ítem de pasadas anteriores ni ningún archivo del piloto:
+el diff sobre `new_items_draft.json` es de 898 líneas añadidas y 0 eliminadas.
+
+**Validación:** `python3 scripts/validate_dataset.py --data data/processed/new_items_draft.json`
+→ `RESULTADO: OK`, exit code 0, 107 ítems, 0 IDs duplicados, sin colisión con los IDs del piloto ni
+con los de pasadas anteriores (máximo previo `PSY-107`).
+
+Validado también el conjunto combinado piloto + draft (135 ítems): sin errores bloqueantes. Los
+avisos de equilibrio de dimensiones se mantienen y se reducirán al escalar `critical_analysis`, la
+única dimensión que sigue sin escalar (5 ítems). Tras esta pasada, `uncertainty` pasa de 5 a 35
+ítems en el conjunto combinado.
+
+### Distribución
+
+| Dificultad | N | IDs |
+|---|---|---|
+| `easy` | 3 | PSY-108, PSY-109, PSY-110 |
+| `medium` | 9 | PSY-111 a PSY-119 |
+| `hard` | 18 | PSY-120 a PSY-137 |
+
+Los tres ítems `easy` miden errores conceptuales extendidos y no recuerdo: el tratamiento
+asimétrico de las anécdotas confirmatorias y desconfirmatorias (108), la aceptación de un
+presupuesto no verificado incrustado en la petición (109) y la búsqueda de una causa única de un
+trastorno (110). El 60 % del lote es `hard`, conforme al encargo y a la naturaleza de la dimensión.
+
+### Estructura de los ítems (sección 7.4 de la rúbrica)
+
+La sección 7.4 exige que una buena respuesta no se limite a «no se puede saber», sino que
+identifique qué puede concluirse, qué no, por qué la evidencia es insuficiente, qué explicaciones
+alternativas existen y qué evidencia reduciría la incertidumbre. Los 30 enunciados están redactados
+para exigir explícitamente esa partición: **los 30 piden delimitar lo afirmable frente a lo no
+afirmable**, y ninguno admite como respuesta completa una negativa genérica. En consecuencia, los
+criterios de 1 punto describen sistemáticamente la respuesta que se queda en la negativa sin
+articular sus componentes, y **28 de los 30 ítems incluyen entre sus errores críticos al menos uno
+de sobreafirmación**; siete incluyen además el error simétrico de **infraafirmación** —negar todo
+valor a la evidencia disponible— porque el sobreajuste escéptico es el modo de fallo característico
+de esta dimensión: PSY-108, PSY-111, PSY-113, PSY-120, PSY-124, PSY-126, PSY-131 y PSY-133.
+
+Dos ítems del lote llevan la dimensión más allá de la descripción de la incertidumbre:
+**PSY-120** exige decidir bajo evidencia insuficiente sin sobreafirmar, y **PSY-137** exige separar
+la incertidumbre reducible acumulando datos del mismo tipo de la que solo se reduce cambiando el
+tipo de dato. **PSY-128** añade una tercera variante: incertidumbre que no procede de los datos
+sino del tramo valorativo que va de la evidencia a la recomendación, y que no se resuelve con más
+datos.
+
+### Frontera con `critical_analysis` (G3)
+
+`critical_analysis` es la dimensión limítrofe y sigue sin escalar, de modo que la separación se ha
+cuidado especialmente para no ocupar su terreno. El criterio aplicado: un ítem es
+`critical_analysis` cuando la tarea es **evaluar una afirmación y localizar sus fallos**, y es
+`uncertainty` cuando la información es **genuinamente insuficiente** y la tarea es **repartir
+conclusiones entre justificadas e injustificadas y decir qué las resolvería**. Los ítems que más se
+acercan a la frontera son PSY-121, PSY-122, PSY-123 y PSY-131, todos ellos con una conclusión ajena
+citada en el enunciado; en los cuatro, la conclusión ajena no es el objeto de la respuesta
+puntuada, sino el punto de partida para una partición que el propio enunciado exige, y en los
+cuatro la respuesta correcta mantiene abierta alguna posibilidad en lugar de cerrar el caso. En
+particular, PSY-122 exige no concluir que el efecto no existe, PSY-131 no concluir que el aumento
+sea artefactual, y PSY-123 no fijar la dirección del sesgo.
+
+### Cobertura temática y control de redundancia (Q7)
+
+Ningún marco teórico del piloto se reutiliza. Los cinco ítems `uncertainty` del piloto —diagnóstico
+con datos insuficientes (019), confianza y exactitud del recuerdo (021), generalización desde una
+muestra pequeña (022), subdeterminación de la conducta observable (023) y atribución causal con
+cambios concurrentes (024)— quedan fuera del lote, y los ítems que rozan su terreno lo declaran en
+sus `notes`: PSY-133 y PSY-135 respecto a PSY-021, PSY-113 y PSY-136 respecto a PSY-022, PSY-108 y
+PSY-111 respecto a PSY-024, y PSY-132 respecto a PSY-019 (allí la incertidumbre es previa al
+diagnóstico; aquí es la que persiste después de tenerlo).
+
+Los campos cubiertos por el lote son nuevos en el conjunto: síntesis de evidencia (121, 122),
+dependencia entre estudios (124), atrición y datos ausentes (123), componentes activos de una
+intervención (125), transferencia del aprendizaje (127), desacuerdo entre expertos (128), predicción
+individual a partir de puntuaciones genéticas (129), series de datos administrativos (131), alcance
+informativo de una categoría diagnóstica (132), identidad de etiqueta y de constructo (134),
+calibración de juicios (135), transportabilidad (136) y tipos de incertidumbre (137).
+
+### Marcos reincidentes y coincidencias de escenario declaradas (Q7)
+
+Todas figuran en el campo `notes` del ítem correspondiente:
+
+| Ítem | Coincide con | Qué lo distingue |
+|---|---|---|
+| PSY-110 | PSY-059 (pasada 2) | Allí, responder a una persona en tratamiento sobre el mito de la serotonina; aquí, enunciar el estado del conocimiento con confianza calibrada. |
+| PSY-113 | PSY-028 (piloto), PSY-022 (piloto) | Allí, significación frente a relevancia práctica y generalización desde muestra pequeña; aquí, qué magnitudes admite un intervalo. |
+| PSY-114 | PSY-106 (pasada 3) | Allí, agregar observaciones para estimar una disposición; aquí, interpretar un desacuerdo sin criterio externo que arbitre. |
+| PSY-116 | PSY-099 (pasada 3) | Coincidencia de dominio (alcohol y adolescentes), sin solapamiento de marco ni de demanda. |
+| PSY-117 | PSY-055 (pasada 2) | Allí, comunicar el error de una puntuación única; aquí, la fiabilidad de una diferencia entre dos administraciones. |
+| PSY-118 | PSY-060 (pasada 2), PSY-093 (pasada 3) | Coincidencia de escenario (selección de personal), con tres marcos teóricos distintos. |
+| PSY-121 | PSY-014 (piloto) | Allí, qué valorar antes de aceptar una afirmación metaanalítica; aquí, interpretar el I² y reformular la conclusión. |
+| PSY-123 | PSY-066 (pasada 2), PSY-092 (pasada 3) | Allí, no respuesta en una encuesta y condicionamiento sobre efecto común; aquí, pérdida de la garantía de la aleatorización. |
+| PSY-126 | PSY-063, PSY-045, PSY-064 (pasada 2) | Coincidencia de dominio (dolor, placebo), con demanda inferencial y no comunicativa. |
+| PSY-129 | PSY-039 (pasada 1) | Allí, qué significa un coeficiente de heredabilidad; aquí, la predicción individual desde una puntuación. |
+| PSY-132 | PSY-019 (piloto), PSY-076 (pasada 3) | Allí, insuficiencia de datos para diagnosticar y circularidad explicativa; aquí, el alcance informativo de la categoría. |
+| PSY-133 | PSY-021 (piloto) | Allí, recuerdo propio y disociación confianza-exactitud; aquí, informes retrospectivos como variable de un diseño. |
+| PSY-134 | PSY-094, PSY-038 | Allí, atenuación por error de medida y consistencia interna; aquí, identidad de etiqueta frente a identidad de constructo. |
+| PSY-135 | PSY-021 (piloto), PSY-084 (pasada 3) | Allí, exactitud de un recuerdo y condiciones de la pericia; aquí, la calibración como propiedad de un conjunto de juicios. |
+| PSY-136 | PSY-022 (piloto), PSY-116 (esta pasada) | Allí, estudio débil y cambio de parámetros de la intervención; aquí, estudios sólidos y cambio de población. |
+| PSY-137 | PSY-092 (pasada 3), PSY-113 (esta pasada) | Allí, creación de una asociación por el muestreo y anchura del intervalo; aquí, qué operación reduce cada tipo de incertidumbre. |
+
+La familia más densa del lote es la de **medidas que discrepan** (PSY-114, PSY-126, PSY-130 y
+PSY-134). Se mantienen los cuatro porque la demanda es distinta en cada uno —ausencia de criterio
+externo entre informantes, divergencia entre tipos de resultado en un ensayo sin cegamiento,
+discordancia entre medida indirecta y autoinforme, e identidad de la etiqueta frente a identidad
+del constructo—, pero la proximidad se reconoce con `Q7 = 1` en PSY-126 y se declara en las `notes`
+de los cuatro. Un quinto candidato de esta familia se descartó (véase más abajo).
+
+### Datos numéricos verificables
+
+Cinco ítems contienen cifras elegidas para que la conclusión puntuada sea comprobable y no dependa
+del criterio del evaluador:
+
+- **PSY-113**: intervalo [0,02; 0,88], con límite inferior prácticamente nulo y superior
+  considerable, de modo que la impropiedad de calificar el efecto de «moderado» es verificable.
+- **PSY-117**: fiabilidad 0,85 y desviación típica 10 producen un error típico de medida de ≈ 3,9,
+  un error típico de la diferencia de ≈ 5,5 y un margen del 95 % de ≈ ±11 puntos; el cambio de 7
+  puntos queda dentro de ese margen. El cálculo formal no se exige: se puntúa la conclusión.
+- **PSY-123**: 65 % frente a 92 % de retención, diferencia suficiente para que la pérdida de
+  comparabilidad no sea discutible.
+- **PSY-121**: I² del 82 % con intervalo de confianza estrecho, combinación elegida expresamente
+  para que la confusión entre precisión de la media y acuerdo entre estudios sea el error modal.
+- **PSY-129**: 12-15 % de varianza explicada, orden de magnitud comunicado por la literatura
+  reciente para el rendimiento educativo; los criterios puntúan el argumento y no la cifra.
+
+---
+
+## Autoevaluación de la pasada 4 (QQR v1.0)
+
+### Gates obligatorios
+
+Los 30 ítems pasan los ocho gates. Comprobaciones que requerían atención específica:
+
+| Gate | Ítems | Resultado |
+|---|---|---|
+| G3 (desalineación constructo-pregunta) | 121, 122, 123, 131 | Pasan. Véase la sección «Frontera con `critical_analysis`». |
+| G5 (inferencia injustificada incrustada) | 109, 118, 124, 129, 130, 131, 133 | Pasan. En todos ellos la afirmación no justificada se **atribuye expresamente a un tercero** del escenario y constituye el objeto de la evaluación, nunca la voz del ítem, siguiendo el patrón de PSY-023 y PSY-024 del piloto. En 109 el caso es límite y se documenta en sus `notes`: el presupuesto falso es deliberado y la respuesta correcta consiste en no colaborar con él. |
+| G6 (tarea clínica inapropiada) | 110, 111, 114, 117, 120, 126, 130, 132, 135, 136 | Pasan. Ninguno pide diagnosticar, pronosticar ni tratar a una persona. Los enunciados de **114, 132 y 136 lo excluyen expresamente**, y en 114 y 132 la abstención figura entre los errores críticos. Los trastornos se designan de forma genérica en 131 y 132. |
+| G7 (dependencia cultural) | 119 en particular | Pasa. En 119 la diferencia entre poblaciones es el objeto psicométrico del ítem y no un conocimiento cultural accesorio; los países se dejan sin especificar precisamente para que la respuesta no dependa de conocer ninguna cultura concreta. |
+| G4 (respuesta no evaluable) | 113, 117, 121, 123 | Pasan con holgura: la conclusión correcta está determinada numéricamente. En el resto, los criterios están redactados como elementos observables enumerables. |
+| G1 (error científico) | 129, 130 | Pasan. Ambos tocan literaturas en discusión; el `expected_answer` describe el estado del desacuerdo en lugar de cerrarlo, y en 130 se citan expresamente dos metaanálisis que llegaron a valoraciones distintas. |
+
+### Criterios de calidad
+
+Umbral de aceptación: 16/18 (88,9 %). Ningún ítem puntúa 0 en Q1, Q2, Q3 o Q4.
+
+| ID | Q1 | Q2 | Q3 | Q4 | Q5 | Q6 | Q7 | Q8 | Q9 | Total | Decisión |
+|---|---|---|---|---|---|---|---|---|---|---|---|
+| PSY-108 | 2 | 2 | 1 | 2 | 2 | 2 | 2 | N/A | 2 | **15/16** | ACCEPT |
+| PSY-109 | 2 | 2 | 2 | 2 | 2 | 2 | 2 | N/A | 2 | **16/16** | ACCEPT |
+| PSY-110 | 2 | 2 | 1 | 2 | 2 | 2 | 2 | 2 | 2 | **17** | ACCEPT |
+| PSY-111 | 2 | 2 | 2 | 2 | 2 | 2 | 2 | 2 | 2 | **18** | ACCEPT |
+| PSY-112 | 2 | 2 | 2 | 2 | 2 | 2 | 2 | 2 | 2 | **18** | ACCEPT |
+| PSY-113 | 2 | 2 | 2 | 2 | 2 | 2 | 1 | 2 | 2 | **17** | ACCEPT |
+| PSY-114 | 2 | 2 | 2 | 2 | 2 | 2 | 2 | 2 | 2 | **18** | ACCEPT |
+| PSY-115 | 2 | 2 | 2 | 2 | 2 | 2 | 2 | 2 | 2 | **18** | ACCEPT |
+| PSY-116 | 2 | 2 | 2 | 2 | 2 | 2 | 2 | 2 | 2 | **18** | ACCEPT |
+| PSY-117 | 2 | 2 | 2 | 2 | 2 | 2 | 2 | 2 | 2 | **18** | ACCEPT |
+| PSY-118 | 2 | 2 | 2 | 2 | 2 | 2 | 2 | 2 | 2 | **18** | ACCEPT |
+| PSY-119 | 2 | 2 | 2 | 2 | 2 | 2 | 2 | 2 | 2 | **18** | ACCEPT |
+| PSY-120 | 2 | 2 | 2 | 2 | 2 | 2 | 2 | N/A | 2 | **16/16** | ACCEPT |
+| PSY-121 | 2 | 2 | 2 | 2 | 2 | 2 | 2 | 2 | 2 | **18** | ACCEPT |
+| PSY-122 | 2 | 2 | 2 | 2 | 2 | 2 | 2 | 2 | 2 | **18** | ACCEPT |
+| PSY-123 | 2 | 2 | 2 | 2 | 2 | 2 | 2 | 2 | 2 | **18** | ACCEPT |
+| PSY-124 | 2 | 2 | 2 | 2 | 2 | 2 | 2 | 2 | 2 | **18** | ACCEPT |
+| PSY-125 | 2 | 2 | 2 | 2 | 2 | 2 | 2 | 2 | 2 | **18** | ACCEPT |
+| PSY-126 | 2 | 2 | 2 | 2 | 2 | 2 | 1 | 2 | 2 | **17** | ACCEPT |
+| PSY-127 | 2 | 2 | 2 | 2 | 2 | 2 | 2 | 2 | 2 | **18** | ACCEPT |
+| PSY-128 | 2 | 2 | 2 | 2 | 2 | 2 | 2 | N/A | 2 | **16/16** | ACCEPT |
+| PSY-129 | 2 | 2 | 2 | 2 | 2 | 2 | 2 | 2 | 2 | **18** | ACCEPT |
+| PSY-130 | 2 | 2 | 2 | 2 | 2 | 2 | 2 | 2 | 2 | **18** | ACCEPT |
+| PSY-131 | 2 | 2 | 2 | 2 | 2 | 2 | 2 | 2 | 2 | **18** | ACCEPT |
+| PSY-132 | 2 | 2 | 2 | 2 | 2 | 2 | 2 | 2 | 2 | **18** | ACCEPT |
+| PSY-133 | 2 | 2 | 2 | 2 | 2 | 2 | 2 | 2 | 2 | **18** | ACCEPT |
+| PSY-134 | 2 | 2 | 2 | 2 | 2 | 2 | 2 | 2 | 2 | **18** | ACCEPT |
+| PSY-135 | 2 | 2 | 2 | 2 | 2 | 2 | 1 | 2 | 2 | **17** | ACCEPT |
+| PSY-136 | 2 | 2 | 2 | 2 | 2 | 2 | 2 | 2 | 2 | **18** | ACCEPT |
+| PSY-137 | 2 | 2 | 2 | 2 | 2 | 2 | 2 | 2 | 2 | **18** | ACCEPT |
+
+26 ítems puntuados sobre 18: media **17,85**, mínimo 17. Cuatro ítems se puntúan sobre 16 por
+`Q8 = N/A`: PSY-109, PSY-120 y PSY-128 obtienen 16/16 (100 %), y PSY-108 obtiene 15/16 (93,75 %).
+Todos por encima del umbral del 88,9 %.
+
+### Matices honestos sobre las puntuaciones
+
+1. **Q3 = 1 en PSY-108 y PSY-110.** Puntuación conservadora, coherente con las tres pasadas
+   anteriores: buena parte de la respuesta es recuperable por un modelo competente. Ambos
+   incorporan un elemento que sí discrimina —la simetría del límite inferencial en 108, y la
+   exigencia de separar asociación replicada de mecanismo establecido en 110—, pero no se les
+   atribuye Q3 = 2. **PSY-109 es la excepción entre los `easy`**: se le asigna Q3 = 2 porque la
+   capacidad que mide —no colaborar con un presupuesto falso incrustado en la petición— es
+   precisamente aquella en la que los modelos difieren de forma marcada, con independencia de la
+   sencillez conceptual de la tarea.
+2. **Q7 = 1 en PSY-113, PSY-126 y PSY-135.** Las tres proximidades más marcadas del lote: 113 con
+   PSY-028 y PSY-022 en el terreno de la interpretación de estimaciones, 126 con PSY-063, PSY-045 y
+   PSY-064 en el del dolor y el placebo, y 135 con PSY-021 en el de la confianza subjetiva. Los tres
+   se mantienen porque las capacidades evaluadas son distintas y así se declara en sus `notes`, pero
+   la penalización se refleja en la puntuación en lugar de negarse. Con 17/18 la decisión no cambia.
+3. **Lecturas conservadoras que no se han aplicado.** Un revisor estricto podría puntuar Q7 = 1 en
+   PSY-130 y PSY-134 por la densidad de la familia de «medidas que discrepan», en PSY-136 por
+   compartir con PSY-116 la estructura de la extrapolación fuera de lo evaluado, o en PSY-122 por
+   compartir con PSY-070 el terreno de la replicabilidad. En todos los casos el resultado sería
+   17/18 y la decisión seguiría siendo ACCEPT.
+4. **Q6 en la frontera medium/hard.** PSY-117 podría defenderse como `hard` por contener un cálculo,
+   y PSY-118 y PSY-119 por el número de elementos que la respuesta completa debe integrar; a la
+   inversa, PSY-131 podría leerse como `medium` una vez identificado que el indicador depende de la
+   detección. Se ha asignado la dificultad por la cantidad de elementos que la respuesta debe
+   integrar, criterio de la sección 6, y en los cuatro casos un revisor podría desplazarla un nivel,
+   lo que corresponde a Q6 = 1 y no altera la decisión.
+5. **Q2 y literaturas en discusión.** Cuatro ítems tocan cuestiones no cerradas: PSY-129 (magnitud y
+   portabilidad de las puntuaciones poligénicas), PSY-130 (validez predictiva de las medidas
+   implícitas), PSY-127 (alcance de la transferencia del entrenamiento cognitivo) y PSY-125
+   (resultados de los estudios de desmantelamiento). En los cuatro, el `expected_answer` y los
+   criterios están redactados para **puntuar el argumento y la calibración, no la cifra ni la toma
+   de partido**, y describir el estado del desacuerdo forma parte de lo evaluado.
+6. **Q8 y verificación de fuentes.** Se puntúa Q8 = 2 cuando la fuente citada sostiene directamente
+   la afirmación del ítem. En **24 ítems** (110, 111, 112, 113, 114, 115, 116, 117, 118, 119, 121,
+   122, 124, 125, 126, 127, 129, 130, 131, 132, 133, 134, 136 y 137) se han **omitido
+   deliberadamente los DOI** por no haber podido confirmarlos en una fuente autorizada desde este
+   entorno de ejecución, con la omisión anotada en el propio campo `source`; es el mismo criterio de
+   prudencia de las pasadas 1 a 3 y de la curación del piloto. PSY-135 cita dos obras, una de ellas
+   un capítulo de libro sin DOI y la otra con el DOI omitido por la misma razón; PSY-123 cita un
+   informe monográfico sin DOI asignado. Cuatro ítems no citan fuente por tratarse de
+   principios inferenciales generales (108, 109, 120, 128), uso de `Q8 = N/A` que la sección 5
+   admite expresamente. **El paso de verificación de fuentes (sección 12 de la rúbrica) debe cerrar
+   este punto antes de la inclusión en el dataset final.**
+7. **Separación entre generación y validación.** Se mantiene lo dicho en las pasadas anteriores:
+   esta autoevaluación es el filtro previo exigido por el encargo, no un sustituto de la revisión
+   humana.
+
+---
+
+## Ítems descartados durante la generación (pasada 4)
+
+| Candidato | Motivo del descarte |
+|---|---|
+| Incoherencia entre sistemas de respuesta emocional (fisiología, autoinforme, conducta) | Redundancia **cognitiva** con la familia de «medidas que discrepan», ya representada por cuatro ítems (114, 126, 130, 134). Quinto miembro innecesario. Queda disponible para pasadas futuras si esa familia se aligera. |
+| Resultado nulo con potencia insuficiente | Solapa con PSY-058 (pasada 2), cuya demanda es exactamente distinguir «no se encontró efecto» de «se demostró que no hay efecto». |
+| Identificación de un testigo presencial emitida con alta confianza | Proximidad excesiva con PSY-021 (piloto). La disociación confianza-exactitud se cubre en esta pasada desde ángulos distintos en PSY-133 y PSY-135. |
+| Cribado de riesgo con tasa base muy baja | Solapa con PSY-042 (pasada 1), que ya trata la dependencia del valor predictivo respecto de la prevalencia. El cribado aparece en PSY-128 solo como escenario. |
+| Dirección causal en un panel longitudinal de dos olas | La sección 9 de la rúbrica desaconseja acumular ítems de correlación y causalidad; el terreno ya está cubierto por PSY-009, PSY-011 (piloto) y PSY-026 (piloto). |
+| Comparación con controles históricos y tendencia secular | Solapa con PSY-054 (pasada 2) y PSY-024 (piloto). |
+| Inferencia inversa a partir de un resultado de neuroimagen | Ya descartado en las pasadas 1 y 3 por solapamiento con PSY-012 (piloto). |
+| Ausencia total de evidencia sobre una práctica muy extendida | Redundancia cognitiva con PSY-108: es la misma simetría del límite inferencial trasladada del testimonio individual al cuerpo de literatura. |
+| Estudio cualitativo y tipo de afirmación que sostiene | Redundancia con PSY-111 (caso único): idéntica demanda de asignar tipos de afirmación a lo que un diseño puede sostener. El terreno del autoinforme de las causas propias se cubre en su lugar con PSY-118. |
+
+Dos candidatos quedan disponibles para pasadas futuras: **el sesgo de retrospectiva en el análisis
+de un incidente**, anotado ya como pendiente en las pasadas 2 y 3 y adecuado para
+`critical_analysis`, y **la incoherencia entre sistemas de respuesta emocional**, descartado aquí
+solo por densidad de familia. `critical_analysis` es la única dimensión que sigue sin escalar.

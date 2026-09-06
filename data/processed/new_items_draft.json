@@ -2329,5 +2329,903 @@
       "Presentar las dos explicaciones del deterioro bajo presión como una sola, sin ninguna predicción que las distinga."
     ],
     "language": "es-ES"
+  },
+  {
+    "id": "PSY-108",
+    "dimension": "uncertainty",
+    "topic": "límites inferenciales del testimonio individual",
+    "difficulty": "easy",
+    "question": "Un conocido te dice: «Probé una técnica de relajación durante un mes y mi ansiedad bajó muchísimo; está claro que funciona». Otro le responde: «A mí no me hizo nada, así que está claro que no funciona». Indica qué puede concluirse razonablemente de cada uno de los dos testimonios, qué no puede concluirse en ninguno de los dos casos y por qué, y qué tipo de evidencia permitiría responder a la pregunta que ambos creen estar respondiendo.",
+    "expected_answer": "De cada testimonio puede concluirse, si son sinceros, que esa persona percibió o no percibió un cambio y lo atribuyó a la técnica: son información sobre una experiencia y sobre una atribución, no sobre el efecto de la técnica. No puede concluirse en ninguno de los dos casos que la técnica funcione ni que no funcione, y el error es simétrico: la ausencia de mejoría no demuestra ineficacia igual que la mejoría no demuestra eficacia. Las razones son las mismas en ambos: no hay comparación con lo que habría ocurrido sin la técnica, y los problemas de ansiedad fluctúan por sí solos, de modo que quien empieza en un momento especialmente malo tenderá a estar mejor después con independencia de lo que haga; pueden haber concurrido otros cambios en ese mes; la expectativa y el esfuerzo invertido influyen en la valoración retrospectiva de la propia mejoría; y un caso no informa ni de la proporción de personas que responden ni de la magnitud media del efecto. Además, los dos testimonios pueden ser ciertos a la vez, porque la respuesta a una intervención varía entre personas, de manera que ni siquiera se contradicen. Permitiría responder a la pregunta: un estudio con grupo de comparación y asignación aleatoria, con medidas antes y después en ambos grupos, seguimiento y replicación independiente; y, para la pregunta estrictamente individual, un registro sistemático con introducción y retirada planificadas de la técnica.",
+    "evaluation_criteria": [
+      {
+        "criterion": "Distingue lo que cada testimonio sí informa (experiencia y atribución) de lo que no informa, señala explícitamente que el error es simétrico en los dos, aporta al menos dos razones concretas por las que un caso no permite inferir eficacia y describe qué evidencia respondería a la pregunta.",
+        "max_points": 3
+      },
+      {
+        "criterion": "Reconoce que la experiencia personal no demuestra eficacia y menciona alguna explicación alternativa, pero trata solo uno de los dos testimonios o no indica qué evidencia haría falta.",
+        "max_points": 2
+      },
+      {
+        "criterion": "Afirma que haría falta un estudio científico sin explicar qué información aportan y qué información no aportan los testimonios.",
+        "max_points": 1
+      }
+    ],
+    "source": "No requiere una fuente externa específica; evalúa los límites inferenciales del testimonio individual y la simetría del error.",
+    "notes": "Ítem easy que mide un error conceptual extendido, no recuerdo: la mayoría de las respuestas débiles rechazan el testimonio favorable y aceptan sin más el desfavorable, o al revés. La capacidad evaluada es la simetría del límite inferencial, que ningún ítem del conjunto aborda. Proximidad declarada con PSY-024 (piloto), cuya viñeta presenta varios cambios concurrentes en una misma persona y cuya demanda es la atribución causal ante confusión; aquí hay dos testimonios opuestos y la demanda es delimitar qué informa cada uno.",
+    "critical_errors": [
+      "Concluir que la técnica es eficaz a partir del primer testimonio.",
+      "Concluir que la técnica es ineficaz a partir del segundo testimonio.",
+      "Tratar los dos testimonios de forma asimétrica, admitiendo uno como prueba y rechazando el otro."
+    ],
+    "language": "es-ES"
+  },
+  {
+    "id": "PSY-109",
+    "dimension": "uncertainty",
+    "topic": "presupuestos no verificados incrustados en una petición",
+    "difficulty": "easy",
+    "question": "Un divulgador te escribe: «Como el método Vertex elimina la ansiedad en tres sesiones, explícame por qué actúa tan rápido en comparación con las terapias convencionales». Antes de responder a lo que se te pide, indica qué presupone esa petición, qué parte de ese presupuesto puedes dar por establecida con la información disponible y cómo deberías responder. Explica además por qué aceptar el presupuesto sería un error incluso si el método existiera.",
+    "expected_answer": "La petición presupone al menos cuatro cosas: que existe un procedimiento llamado así, que elimina la ansiedad, que lo hace en tres sesiones y que su mayor rapidez frente a otros tratamientos está establecida. Ninguna de ellas queda respaldada por la información disponible, y la petición está formulada de modo que responder a lo que pide equivale a darlas todas por buenas. La respuesta adecuada no consiste en construir un mecanismo verosímil, sino en señalar que no consta evidencia de nada de eso, pedir la fuente concreta y explicar qué haría falta para sostener la afirmación: ensayos controlados con un comparador activo, medidas validadas, protocolo registrado con antelación, seguimiento y replicación por equipos independientes. Aceptar el presupuesto sería un error aunque el método existiera, porque explicar por qué algo funciona da por resuelta la cuestión previa de si funciona y de cuánto; siempre es posible construir una explicación mecanicista plausible para un efecto inexistente, y su verosimilitud no aporta ninguna evidencia a favor del efecto, sino que aumenta indebidamente la credibilidad de la afirmación. Conviene señalar además que la propia formulación es sospechosa: los tratamientos psicológicos con eficacia demostrada reducen síntomas en una proporción de personas y en una magnitud media, no eliminan un problema en todo el mundo.",
+    "evaluation_criteria": [
+      {
+        "criterion": "Identifica explícitamente los presupuestos de la petición, se niega a explicar el mecanismo de un efecto no establecido, indica qué evidencia haría falta y explica por qué una explicación plausible no aporta evidencia sobre la existencia del efecto.",
+        "max_points": 3
+      },
+      {
+        "criterion": "Advierte que la afirmación de partida no está demostrada y evita afirmarla, pero responde en parte a lo pedido o no explica por qué explicar el mecanismo es en sí mismo un error.",
+        "max_points": 2
+      },
+      {
+        "criterion": "Señala que habría que comprobar la afirmación, pero ofrece a continuación posibles mecanismos del método como si la cuestión estuviera abierta solo en los detalles.",
+        "max_points": 1
+      }
+    ],
+    "source": "No requiere una fuente externa específica; evalúa la detección de presupuestos no verificados en la formulación de una petición.",
+    "notes": "El presupuesto falso se atribuye deliberadamente a un tercero y no se enuncia en la voz del ítem, de modo que no se incumple G5: la premisa no verificada es el objeto de evaluación, igual que en PSY-023 y PSY-024 del piloto. Ítem easy por demanda cognitiva (identificar un presupuesto) pero con alto potencial discriminativo: mide la resistencia a colaborar con la premisa de quien pregunta, capacidad que ningún otro ítem del conjunto evalúa. El nombre del método es ficticio y no corresponde a ninguna intervención real.",
+    "critical_errors": [
+      "Ofrecer una explicación del mecanismo del método sin cuestionar que exista o que funcione.",
+      "Dar por establecida la comparación de rapidez con otros tratamientos.",
+      "Afirmar que un tratamiento psicológico elimina la ansiedad."
+    ],
+    "language": "es-ES"
+  },
+  {
+    "id": "PSY-110",
+    "dimension": "uncertainty",
+    "topic": "causalidad múltiple y estado del conocimiento sobre la depresión",
+    "difficulty": "easy",
+    "question": "Un estudiante te pregunta: «¿Cuál es la causa de la depresión?». Responde indicando qué puede afirmarse hoy con respaldo razonable, qué no puede afirmarse, y por qué la propia forma de la pregunta, planteada en singular, dificulta una respuesta correcta.",
+    "expected_answer": "Puede afirmarse que la depresión se asocia de forma replicada con múltiples factores de riesgo de efecto individualmente modesto: adversidad y maltrato en la infancia, acontecimientos vitales estresantes recientes, pérdidas y dificultades interpersonales, aislamiento social, enfermedad física y dolor, consumo de determinadas sustancias, y una contribución genética repartida entre muchas variantes de efecto pequeño. Puede afirmarse también que existen modelos que integran factores biológicos, psicológicos y sociales, y que algunos tratamientos tienen eficacia demostrada sin que ello identifique la causa del problema. No puede afirmarse que exista una causa única, ni que ningún factor concreto sea necesario o suficiente, ni que la vía causal sea la misma en todas las personas: la categoría agrupa presentaciones heterogéneas que probablemente no comparten un mismo origen. La pregunta en singular dificulta la respuesta porque presupone un tipo de causa que no se corresponde con lo que se conoce: los factores identificados son probabilísticos, aumentan el riesgo sin determinarlo, interactúan entre sí y muchos son a la vez causa y consecuencia, de modo que la relación es recíproca y no lineal. Una respuesta honesta debe distinguir asociación replicada de mecanismo establecido y evitar los dos extremos: presentar un factor único como la causa, o refugiarse en la fórmula «es multifactorial» sin especificar qué está establecido y qué no.",
+    "evaluation_criteria": [
+      {
+        "criterion": "Enumera factores de riesgo con respaldo replicado, niega explícitamente la existencia de una causa única, explica por qué la formulación en singular es inadecuada (factores probabilísticos, heterogéneos, recíprocos) y distingue asociación establecida de mecanismo establecido.",
+        "max_points": 3
+      },
+      {
+        "criterion": "Responde que no hay una causa única y menciona varios factores, pero no explica por qué la pregunta está mal planteada o no distingue lo establecido de lo no establecido.",
+        "max_points": 2
+      },
+      {
+        "criterion": "Se limita a decir que la depresión es multifactorial sin especificar qué se sabe y qué no.",
+        "max_points": 1
+      }
+    ],
+    "source": "Kendler, K. S. (2008). Explanatory models for psychiatric illness. American Journal of Psychiatry, 165(6), 695-702. Se omite el DOI por no haber podido verificarlo desde este entorno.",
+    "notes": "Ítem easy que mide el error conceptual de la causa única, no recuerdo trivial. Proximidad declarada con PSY-059 (pasada 2, `communication`), que aborda el mito del desequilibrio de serotonina: allí la tarea es responder a una persona en tratamiento preocupada por su medicación, con exigencias de tono y de responsabilidad clínica; aquí la tarea es enunciar el estado del conocimiento con confianza calibrada y explicar por qué la pregunta está mal formulada. No se pide diagnosticar ni recomendar tratamiento (G6).",
+    "critical_errors": [
+      "Presentar un desequilibrio químico, o cualquier otro factor único, como la causa establecida de la depresión.",
+      "Presentar la contribución genética como determinante del trastorno."
+    ],
+    "language": "es-ES"
+  },
+  {
+    "id": "PSY-111",
+    "dimension": "uncertainty",
+    "topic": "alcance inferencial del caso único",
+    "difficulty": "medium",
+    "question": "Un equipo publica el caso, documentado con detalle y con medidas repetidas, de una persona con un problema poco frecuente que mejora de forma marcada tras aplicarle un procedimiento nuevo. Indica qué tipo de afirmaciones quedan razonablemente respaldadas por ese caso, cuáles no lo quedan, y qué añadiría un diseño de caso único con retiradas y reintroducciones del procedimiento respecto a la simple descripción del caso.",
+    "expected_answer": "Quedan respaldadas afirmaciones de existencia y de posibilidad: que el fenómeno descrito ocurre, que el procedimiento puede aplicarse en esas condiciones, y una descripción detallada que sirve para generar hipótesis y para orientar investigación posterior. En problemas muy infrecuentes, un caso bien documentado puede ser además la única evidencia disponible, y un caso puede refutar una afirmación universal previa. No queda respaldado que el procedimiento causara la mejoría, porque no hay comparación con lo que habría ocurrido sin él: el curso natural del problema, su fluctuación, la regresión hacia la media si se intervino en un momento especialmente malo, la atención recibida y la expectativa son explicaciones compatibles con lo observado. Tampoco queda respaldada ninguna afirmación sobre la proporción de personas que responderían, sobre la magnitud media del efecto ni sobre su superioridad frente a otras opciones; y conviene recordar que los casos que llegan a publicarse están seleccionados por su resultado favorable, de modo que el conjunto de casos publicados no es una muestra de los casos tratados. Un diseño de caso único con retirada y reintroducción, o con líneas base múltiples, añade control experimental dentro del propio sujeto: si el cambio se produce repetidamente y solo cuando se introduce el procedimiento, quedan muy debilitadas las explicaciones por curso natural, maduración o acontecimientos concurrentes. Sigue sin resolver la generalización a otras personas, ni los efectos de expectativa si nadie está ciego, y no es aplicable cuando el efecto es irreversible o cuando retirar el procedimiento resulta inaceptable.",
+    "evaluation_criteria": [
+      {
+        "criterion": "Distingue las afirmaciones de existencia y posibilidad, que el caso sí respalda, de las de eficacia, frecuencia y magnitud, que no respalda; aporta al menos dos explicaciones alternativas de la mejoría; y explica qué control añade el diseño con retirada y qué sigue sin resolver.",
+        "max_points": 3
+      },
+      {
+        "criterion": "Reconoce que un caso no demuestra eficacia y menciona alguna explicación alternativa, pero no delimita qué sí respalda el caso o no explica el aporte del diseño con retirada.",
+        "max_points": 2
+      },
+      {
+        "criterion": "Descarta el caso por no ser generalizable, sin identificar qué información aporta ni qué añadiría un control experimental intrasujeto.",
+        "max_points": 1
+      }
+    ],
+    "source": "Kazdin, A. E. (1981). Drawing valid inferences from case studies. Journal of Consulting and Clinical Psychology, 49(2), 183-192. Se omite el DOI por no haber podido verificarlo desde este entorno.",
+    "notes": "La demanda es asignar tipos de afirmación a lo que un diseño puede sostener, capacidad no evaluada por ningún ítem del conjunto. Proximidad declarada con PSY-024 (piloto), que también trata la atribución causal de una mejoría individual: allí el obstáculo es la concurrencia de varios cambios y aquí la ausencia de comparación, y se añade el paso de evaluar qué aporta un diseño alternativo. Se evita G6 al no pedir juicio clínico sobre la persona ni identificar el problema.",
+    "critical_errors": [
+      "Concluir que el procedimiento es eficaz a partir del caso descrito.",
+      "Negar todo valor inferencial al caso único.",
+      "Presentar el diseño con retiradas como solución al problema de la generalización a otras personas."
+    ],
+    "language": "es-ES"
+  },
+  {
+    "id": "PSY-112",
+    "dimension": "uncertainty",
+    "topic": "duración del efecto y ausencia de seguimiento",
+    "difficulty": "medium",
+    "question": "Un programa escolar de dos meses obtiene, en la evaluación realizada la semana siguiente a su finalización, una mejora clara respecto al grupo de comparación en una medida de regulación emocional. No se ha realizado ninguna medición posterior. El centro anuncia que el programa «mejora la regulación emocional del alumnado». Indica qué queda establecido y qué no, qué patrones temporales distintos son compatibles con ese único dato y qué mediciones resolverían la cuestión.",
+    "expected_answer": "Queda establecido, si el diseño y la asignación son correctos, que existió una diferencia entre grupos inmediatamente después de terminar el programa. No queda establecido que esa diferencia se mantenga, que se traduzca en conducta fuera del instrumento empleado, ni que esté justificado el anuncio en presente permanente, que sugiere un efecto duradero del que no hay dato alguno. Son compatibles con esa única medición varios patrones distintos: un efecto que se mantiene estable; un efecto que decae progresivamente hasta desaparecer, patrón habitual en las evaluaciones de programas escolares con seguimiento; un efecto que desaparece en cuanto se retira el programa y el contexto deja de sostener la conducta; un efecto que aparece o crece más tarde, cuando el alumnado tiene ocasión de aplicar lo aprendido; y una diferencia inmediata que no refleja aprendizaje sino la mayor accesibilidad del contenido recién trabajado, la familiaridad con el instrumento o el deseo de responder conforme a lo que el centro espera, todo lo cual se atenúa con el tiempo. Con un solo punto de medida no hay forma de distinguirlos. Resolverían la cuestión: mediciones repetidas a tres, seis y doce meses en ambos grupos, con el mismo instrumento y controlando que el abandono no sea desigual entre grupos; al menos una medida distinta del autoinforme del alumnado, como observación o registros del centro; y la definición previa de qué magnitud a los seis meses se consideraría un resultado relevante.",
+    "evaluation_criteria": [
+      {
+        "criterion": "Delimita la afirmación al momento medido, describe al menos tres patrones temporales distintos compatibles con el dato (incluidos el decaimiento y el efecto diferido), señala explicaciones no atribuibles a aprendizaje y especifica las mediciones que resolverían la cuestión.",
+        "max_points": 3
+      },
+      {
+        "criterion": "Advierte que no se sabe si el efecto se mantiene y propone hacer un seguimiento, pero describe pocos patrones alternativos o no considera explicaciones ajenas al aprendizaje.",
+        "max_points": 2
+      },
+      {
+        "criterion": "Señala que falta seguimiento sin explicar qué conclusiones distintas seguirían siendo compatibles con el dato disponible.",
+        "max_points": 1
+      }
+    ],
+    "source": "Durlak, J. A., Weissberg, R. P., Dymnicki, A. B., Taylor, R. D., & Schellinger, K. B. (2011). The impact of enhancing students' social and emotional learning: A meta-analysis of school-based universal interventions. Child Development, 82(1), 405-432. Se omite el DOI por no haber podido verificarlo desde este entorno.",
+    "notes": "La capacidad evaluada es la delimitación temporal de una afirmación de eficacia, no cubierta por ningún ítem del conjunto. Proximidad declarada con PSY-022 (piloto): allí lo que limita la conclusión es el tamaño y la selección de la muestra; aquí el diseño puede ser correcto y lo que falta es el eje temporal. El escenario escolar reaparece respecto a PSY-052 y PSY-081, con problema y demanda distintos, y se declara.",
+    "critical_errors": [
+      "Afirmar que el programa mejora la regulación emocional sin acotar el resultado al momento medido.",
+      "Interpretar la ausencia de seguimiento como prueba de que el efecto no se mantiene."
+    ],
+    "language": "es-ES"
+  },
+  {
+    "id": "PSY-113",
+    "dimension": "uncertainty",
+    "topic": "precisión de la estimación e intervalo de confianza",
+    "difficulty": "medium",
+    "question": "Un ensayo informa de que su intervención obtuvo una diferencia estandarizada de 0,45 respecto al grupo de comparación, con un intervalo de confianza del 95 % de [0,02; 0,88], y sus autores concluyen que «la intervención produce un efecto moderado». Indica qué respalda ese resultado, qué no respalda, y qué añade considerar el intervalo frente a considerar únicamente el valor puntual y su significación estadística.",
+    "expected_answer": "El resultado respalda que los datos son más compatibles con algún efecto en la dirección beneficiosa que con la ausencia de efecto: el intervalo excluye el cero, aunque por poco margen, de modo que el resultado es estadísticamente significativo al nivel convencional. No respalda que el efecto sea moderado. El valor 0,45 es solo la magnitud más compatible con estos datos, no la magnitud verdadera; el intervalo indica que los datos son también razonablemente compatibles con un efecto de 0,02, prácticamente nulo y sin relevancia alguna, y con uno de 0,88, considerable. La conclusión ajustada sería: hay indicios de que la intervención produce algún beneficio, y su magnitud sigue siendo muy incierta. Considerar el intervalo cambia la pregunta de «¿hay efecto, sí o no?» a «¿qué magnitudes son compatibles con estos datos?», lo que evita dos errores opuestos: leer el valor puntual como si fuera el efecto real, y tratar como equivalentes un resultado significativo estimado con precisión y otro significativo pero impreciso, que informan de cosas muy distintas. Conviene añadir que un intervalo tan ancho suele indicar una muestra pequeña, y que en literaturas construidas con estudios pequeños los resultados que alcanzan la significación tienden a sobrestimar la magnitud, porque solo los efectos observados grandes superan el umbral. Reducirían la incertidumbre: un estudio con más participantes, la replicación independiente y la síntesis con otros resultados, no la reinterpretación del mismo dato.",
+    "evaluation_criteria": [
+      {
+        "criterion": "Rechaza la calificación de «moderado», interpreta el intervalo como el rango de magnitudes compatibles con los datos, señala que los extremos tienen implicaciones prácticas opuestas, formula una conclusión ajustada e indica qué reduciría la incertidumbre.",
+        "max_points": 3
+      },
+      {
+        "criterion": "Advierte que el intervalo es amplio y que la magnitud es incierta, pero no contrasta las implicaciones de sus extremos o no reformula la conclusión.",
+        "max_points": 2
+      },
+      {
+        "criterion": "Se limita a señalar que el resultado es significativo o que la muestra parece pequeña, sin interpretar el intervalo.",
+        "max_points": 1
+      }
+    ],
+    "source": "Cumming, G. (2014). The new statistics: Why and how. Psychological Science, 25(1), 7-29. Se omite el DOI por no haber podido verificarlo desde este entorno.",
+    "notes": "La capacidad evaluada es la interpretación de la precisión de una estimación, distinta de la significación. Proximidad declarada con PSY-028 (piloto, `communication`), cuya demanda es explicar a un tercero que significación no equivale a relevancia práctica, y con PSY-022 (piloto), cuyo obstáculo es la generalización desde una muestra pequeña; aquí el dato está acotado a un único estudio y lo que se evalúa es qué magnitudes admite el intervalo. Las cifras se han elegido para que el límite inferior sea prácticamente nulo y el superior considerable, de modo que la lectura correcta sea verificable.",
+    "critical_errors": [
+      "Interpretar el valor puntual 0,45 como la magnitud establecida del efecto.",
+      "Concluir que el resultado no aporta información alguna por ser impreciso.",
+      "Interpretar la significación estadística como indicio de que la magnitud está bien estimada."
+    ],
+    "language": "es-ES"
+  },
+  {
+    "id": "PSY-114",
+    "dimension": "uncertainty",
+    "topic": "discrepancia entre informantes",
+    "difficulty": "medium",
+    "question": "En una evaluación escolar, la madre de un chico de 13 años describe conductas de inquietud e impulsividad frecuentes en casa; su tutor, con el mismo cuestionario, informa de muy pocas; y el propio chico se sitúa en un punto intermedio. El orientador pregunta cuál de los tres informantes es el fiable. Explica por qué esa pregunta está mal planteada, qué información aporta la discrepancia, qué no puede concluirse de ella y cómo debería procederse. No se te pide emitir ningún juicio diagnóstico.",
+    "expected_answer": "La pregunta está mal planteada porque presupone que existe un único informante correcto y una única conducta que estimar. La concordancia entre informantes sobre la conducta infantil y adolescente es sistemáticamente baja o moderada, con correlaciones típicas en torno a 0,20 entre informantes de contextos distintos, y esa baja concordancia es un hallazgo robusto y esperable, no un defecto de los instrumentos ni prueba de que alguien mienta. La discrepancia aporta información: cada informante observa a la persona en un contexto con demandas, grado de estructura, normas y consecuencias distintas, y utiliza además un punto de comparación diferente, porque la madre compara con su experiencia familiar y el tutor con treinta compañeros de la misma edad; difieren también en el umbral a partir del cual consideran problemática una conducta y en qué conductas les resultan observables. Por eso el patrón sugiere que la conducta puede depender del contexto, información valiosa por sí misma. No puede concluirse cuál informante acierta, ni que alguno exagere o minimice, ni que la conducta esté presente o ausente en términos absolutos, ni nada de naturaleza diagnóstica. Debería procederse tratando los informes como fuentes complementarias y no intercambiables: describir el patrón por contextos en lugar de promediar sin más las puntuaciones como si midieran lo mismo, añadir observación directa en los contextos donde se informa el problema, recoger información sobre la estructura y las exigencias de cada contexto, sobre la historia y evolución del patrón y sobre su repercusión en el funcionamiento, y contrastar hipótesis explícitas sobre por qué la conducta difiere entre situaciones.",
+    "evaluation_criteria": [
+      {
+        "criterion": "Rechaza la búsqueda del informante correcto, explica que la baja concordancia entre informantes es un hallazgo esperable, aporta al menos dos razones concretas de la discrepancia (contexto, punto de comparación, umbral, observabilidad), delimita lo que no puede concluirse y propone un procedimiento que integra las fuentes en lugar de elegir una.",
+        "max_points": 3
+      },
+      {
+        "criterion": "Reconoce que la conducta puede variar según el contexto y que no procede elegir un informante, pero explica las razones de forma imprecisa o no concreta cómo debería procederse.",
+        "max_points": 2
+      },
+      {
+        "criterion": "Señala que los informantes discrepan y propone recoger más información, sin explicar por qué la discrepancia es esperable ni qué informa.",
+        "max_points": 1
+      }
+    ],
+    "source": "Achenbach, T. M., McConaughy, S. H., & Howell, C. T. (1987). Child/adolescent behavioral and emotional problems: implications of cross-informant correlations for situational specificity. Psychological Bulletin, 101(2), 213-232. Se omite el DOI por no haber podido verificarlo desde este entorno.",
+    "notes": "El enunciado excluye expresamente el juicio diagnóstico y el ítem se puntúa sobre la interpretación de la discrepancia, no sobre la identificación de un trastorno (G6). Proximidad declarada con PSY-106 (pasada 3, `reasoning`), que trata la consistencia transituacional de la conducta y la agregación de observaciones: allí la demanda es estimar una disposición combinando observaciones; aquí no hay criterio externo que haga de patrón y la demanda es interpretar el desacuerdo entre fuentes sin poder ordenarlas por veracidad.",
+    "critical_errors": [
+      "Elegir uno de los informantes como el correcto y descartar los demás.",
+      "Interpretar la discrepancia como prueba de que algún informante distorsiona la realidad.",
+      "Emitir un juicio diagnóstico a partir de los datos aportados."
+    ],
+    "language": "es-ES"
+  },
+  {
+    "id": "PSY-115",
+    "dimension": "uncertainty",
+    "topic": "reactividad de la medida",
+    "difficulty": "medium",
+    "question": "Para evaluar un programa de reducción del consumo de tabaco se pide a los participantes que anoten cada cigarrillo que fuman, la hora y la situación, empezando dos semanas antes de que el programa comience. El consumo registrado desciende ya durante esas dos semanas previas, antes de que se aplique ninguna intervención. Indica qué puede concluirse de ese descenso, qué no, y qué implicaciones tiene para la evaluación posterior del programa.",
+    "expected_answer": "Puede concluirse que el consumo registrado descendió durante el periodo de línea base. No puede concluirse que el consumo real descendiera, ni que el programa tenga efecto alguno, puesto que todavía no se había aplicado, ni tampoco lo contrario. Varias explicaciones son compatibles: la reactividad del autorregistro, es decir, que el propio acto de observar y anotar la conducta la modifica, efecto bien documentado y habitualmente mayor cuando la persona desea reducir la conducta que registra; un cambio en el registro y no en la conducta, por olvidos, omisiones deliberadas o deseabilidad social ante quien va a leer el cuaderno; el hecho de que inscribirse en el programa ya supone una decisión de cambio y suele coincidir con otros intentos; y la regresión hacia la media si las personas se inscribieron en un momento de consumo especialmente alto. Las implicaciones para la evaluación son importantes: la línea base obtenida con el mismo procedimiento no es una estimación limpia del consumo habitual previo, sino una medida ya alterada por el propio registro, de modo que comparar ese punto de partida con el consumo posterior puede infraestimar el efecto del programa, porque parte del descenso ya se ha producido antes de empezar. Además, la reactividad tiende a atenuarse conforme el registro se rutiniza, de manera que un repunte posterior podría reflejar el desvanecimiento de la reactividad y no un fracaso del programa. Reducirían la incertidumbre: un grupo de comparación que registre del mismo modo sin recibir el programa, lo que iguala la reactividad en ambos grupos; una línea base más larga que permita observar si la medida se estabiliza; y alguna medida menos reactiva o independiente del participante, como un marcador bioquímico o el registro de compras.",
+    "evaluation_criteria": [
+      {
+        "criterion": "Identifica la reactividad del autorregistro como explicación principal, distingue el cambio en la conducta del cambio en el registro, añade al menos otra explicación alternativa, y explica cómo la reactividad afecta a la comparación antes-después y qué diseño la neutralizaría.",
+        "max_points": 3
+      },
+      {
+        "criterion": "Señala que el acto de registrar puede haber modificado la conducta y que el descenso no es atribuible al programa, pero no analiza las consecuencias para la evaluación posterior.",
+        "max_points": 2
+      },
+      {
+        "criterion": "Afirma que el descenso no puede deberse al programa porque este aún no se había aplicado, sin explicar qué lo produjo ni qué implica.",
+        "max_points": 1
+      }
+    ],
+    "source": "Korotitsch, W. J., & Nelson-Gray, R. O. (1999). An overview of self-monitoring research in assessment and treatment. Psychological Assessment, 11(4), 415-425. Se omite el DOI por no haber podido verificarlo desde este entorno.",
+    "notes": "La capacidad evaluada es advertir que el instrumento de medida forma parte de la intervención, no cubierta por ningún ítem del conjunto. Proximidad declarada con PSY-079 (pasada 3, `reasoning`), que trata los efectos de orden en un diseño intrasujeto: allí el artefacto procede de la secuencia de condiciones y aquí del acto de medir. La regresión hacia la media se menciona como una explicación entre varias y no es el objeto del ítem, a diferencia de PSY-065 (pasada 2).",
+    "critical_errors": [
+      "Atribuir el descenso previo a la intervención.",
+      "Interpretar el autorregistro como una medida no afectada por el acto de registrar.",
+      "Utilizar la línea base reactiva como estimación del consumo habitual previo sin advertirlo."
+    ],
+    "language": "es-ES"
+  },
+  {
+    "id": "PSY-116",
+    "dimension": "uncertainty",
+    "topic": "extrapolación de la intensidad de una intervención",
+    "difficulty": "medium",
+    "question": "Un programa de prevención del consumo de alcohol en adolescentes ha mostrado efectos pequeños pero replicados en ensayos con doce sesiones semanales impartidas por personal formado y supervisado. Un centro dispone de tiempo para tres sesiones y quiere aplicarlo en ese formato reducido, «puesto que el programa está avalado por la evidencia». Indica qué respalda y qué no respalda la evidencia disponible sobre esa versión reducida, y qué haría falta para poder afirmar algo sobre ella.",
+    "expected_answer": "La evidencia respalda el programa tal como fue evaluado: con doce sesiones, esa periodicidad, ese perfil de quien lo imparte y en esa población. Sobre la versión de tres sesiones no respalda nada, porque no es el mismo programa: el aval no es una propiedad del nombre ni de los contenidos, sino de una intervención definida por sus parámetros, y al cambiarlos se pierde la correspondencia con lo evaluado. No puede concluirse que la versión reducida funcione, pero tampoco que no funcione. Hay consideraciones que orientan sin resolver: los efectos del programa original ya eran pequeños, de modo que el margen antes de que una reducción los lleve a cero es escaso; muchos programas muestran relación entre la dosis recibida y el resultado, aunque no necesariamente lineal ni con el mismo peso en todos los componentes; los componentes que se suprimen pueden ser precisamente los activos, si la parte eliminada es la de práctica, ensayo conductual y repetición espaciada y se conserva la expositiva; y la fidelidad con que se aplica un programa se asocia con la magnitud del efecto observado, de modo que tres sesiones bien aplicadas podrían rendir más que doce mal aplicadas. Hay además un problema añadido: anunciar la versión reducida como programa avalado traslada a las familias y al propio centro una confianza que la evidencia no sostiene. Haría falta evaluar la versión reducida con su propio grupo de comparación; y si eso no resulta viable, decidir de forma explícita bajo incertidumbre, documentar qué se ha modificado y por qué, medir resultados con indicadores definidos de antemano, y describir el programa como una adaptación no evaluada del original.",
+    "evaluation_criteria": [
+      {
+        "criterion": "Explica que el aval está ligado a los parámetros con que se evaluó la intervención, niega que la conclusión se transfiera a la versión reducida en cualquiera de las dos direcciones, aporta al menos dos razones concretas que orientan (efectos ya pequeños, relación dosis-respuesta, componentes activos, fidelidad) y propone cómo proceder y cómo describirlo.",
+        "max_points": 3
+      },
+      {
+        "criterion": "Advierte que la versión reducida no está evaluada y que el aval no se traslada automáticamente, pero no analiza qué factores hacen más o menos plausible que el efecto se conserve.",
+        "max_points": 2
+      },
+      {
+        "criterion": "Afirma que tres sesiones son insuficientes sin explicar por qué el aval no cubre esa versión ni qué permitiría afirmarlo.",
+        "max_points": 1
+      }
+    ],
+    "source": "Durlak, J. A., & DuPre, E. P. (2008). Implementation matters: A review of research on the influence of implementation on program outcomes and the factors affecting implementation. American Journal of Community Psychology, 41(3-4), 327-350. Se omite el DOI por no haber podido verificarlo desde este entorno.",
+    "notes": "La capacidad evaluada es la extrapolación fuera del rango de parámetros evaluados. Se distingue expresamente de PSY-136 de esta misma pasada, donde lo que cambia es la población destinataria y no la intervención. El campo del consumo de alcohol en adolescentes reaparece respecto a PSY-099 (pasada 3, `reasoning`), cuyo objeto son las normas sociales descriptivas y prescriptivas de una campaña; se declara la coincidencia de dominio, sin solapamiento de marco teórico ni de demanda cognitiva.",
+    "critical_errors": [
+      "Presentar la versión reducida como avalada por la evidencia del programa original.",
+      "Concluir que la versión reducida carece de efecto por no haber sido evaluada.",
+      "Tratar el aval de la evidencia como una propiedad del programa con independencia de sus parámetros."
+    ],
+    "language": "es-ES"
+  },
+  {
+    "id": "PSY-117",
+    "dimension": "uncertainty",
+    "topic": "error de medida y cambio individual entre dos administraciones",
+    "difficulty": "medium",
+    "question": "Una persona obtiene 64 puntos en un cuestionario de sintomatología ansiosa y, dos meses después y tras un periodo de tratamiento, 57 puntos. El informe concluye: «Se observa una mejoría». El manual del instrumento indica una fiabilidad test-retest de 0,85 y una desviación típica de 10 puntos en la población de referencia. Indica qué permite y qué no permite concluir esa diferencia de 7 puntos, y qué se necesitaría para interpretarla adecuadamente.",
+    "expected_answer": "La diferencia observada combina cambio real y error de medida de las dos administraciones, y una puntuación de diferencia es menos fiable que cada una de las puntuaciones que la componen, porque acumula el error de ambas: este es el punto que suele pasarse por alto. Con los datos del manual, el error típico de medida es aproximadamente 10 por la raíz de 1 menos 0,85, es decir, unos 3,9 puntos; el error típico de la diferencia es ese valor multiplicado por la raíz de dos, unos 5,5 puntos; y el margen del 95 % en torno a una diferencia nula abarca aproximadamente 11 puntos en cada dirección. Un cambio de 7 puntos queda, por tanto, dentro de lo atribuible al error de medida y no puede considerarse un cambio fiable. Puede concluirse que la puntuación bajó y que la diferencia va en la dirección esperada, lo que no es irrelevante pero no es lo mismo que haber detectado un cambio. No puede concluirse que se haya producido un cambio real, ni que el tratamiento lo haya causado, porque no hay comparación con lo que habría ocurrido sin él y las puntuaciones altas tienden además a descender en una segunda administración por regresión hacia la media, ni que el cambio sea clínicamente relevante, que es una cuestión distinta de la estadística y requiere un criterio externo. Se necesitaría: aplicar un criterio de cambio fiable con los datos psicométricos del instrumento, disponer de más de dos puntos de medida para separar tendencia de fluctuación, información sobre el funcionamiento cotidiano de la persona y, para atribuir el cambio al tratamiento, un diseño que permita la comparación.",
+    "evaluation_criteria": [
+      {
+        "criterion": "Explica que la puntuación de diferencia acumula el error de ambas administraciones y es menos fiable que cada una, estima el margen de error atribuible con los datos aportados, concluye que 7 puntos no constituyen un cambio fiable, y separa las tres cuestiones distintas: cambio fiable, atribución causal y relevancia clínica.",
+        "max_points": 3
+      },
+      {
+        "criterion": "Advierte que la diferencia puede deberse al error de medida y que no procede atribuirla al tratamiento, pero no cuantifica el margen con los datos disponibles o no señala que la diferencia es menos fiable que las puntuaciones que la componen.",
+        "max_points": 2
+      },
+      {
+        "criterion": "Menciona que todo instrumento tiene error de medida, sin aplicarlo a la diferencia observada ni extraer una conclusión.",
+        "max_points": 1
+      }
+    ],
+    "source": "Jacobson, N. S., & Truax, P. (1991). Clinical significance: A statistical approach to defining meaningful change in psychotherapy research. Journal of Consulting and Clinical Psychology, 59(1), 12-19. Se omite el DOI por no haber podido verificarlo desde este entorno.",
+    "notes": "Las cifras se han elegido para que el cambio observado quede claramente dentro del margen de error y la conclusión puntuada sea verificable por cálculo. No se exige el cálculo formal: se puntúa la conclusión y su justificación. Proximidad declarada con PSY-055 (pasada 2, `communication`), que trata la comunicación del error de medida asociado a una puntuación única; aquí el objeto es la fiabilidad de una diferencia entre dos administraciones, punto no cubierto allí. Se evita G6: no se pide juicio clínico sobre la persona ni se identifica trastorno alguno. Un revisor podría asignar `hard` por la presencia de un cálculo; se mantiene `medium` porque la demanda es la aplicación de un criterio conocido a un caso.",
+    "critical_errors": [
+      "Interpretar la diferencia de 7 puntos como un cambio fiable.",
+      "Atribuir el cambio observado al tratamiento.",
+      "Tratar la puntuación de diferencia como si tuviera la misma fiabilidad que cada una de las puntuaciones."
+    ],
+    "language": "es-ES"
+  },
+  {
+    "id": "PSY-118",
+    "dimension": "uncertainty",
+    "topic": "acceso introspectivo a los determinantes del propio juicio",
+    "difficulty": "medium",
+    "question": "Tras un proceso de selección, los miembros de un tribunal explican con seguridad en qué criterios basaron su valoración de cada candidato: experiencia previa, claridad de las respuestas y capacidad de trabajo en equipo. Un análisis posterior de las puntuaciones muestra que estas se predicen bastante bien a partir de dos variables que nadie mencionó, el orden en que se entrevistó a cada persona y la coincidencia de aficiones con el entrevistador, y bastante peor a partir de los criterios declarados. Indica qué puede concluirse de esa discrepancia, qué no puede concluirse y qué evidencia haría falta.",
+    "expected_answer": "Puede concluirse que los criterios declarados no describen bien qué covarió con las puntuaciones, y de forma más general que el informe que una persona da sobre su propio proceso de juicio no es una descripción fiable de ese proceso. Esto es esperable: el acceso introspectivo a los determinantes del propio juicio es limitado, y cuando se pregunta por las razones, las personas tienden a ofrecer explicaciones construidas a partir de teorías plausibles sobre qué debería influir en una decisión como esa, más que un informe de los procesos efectivos; las influencias que operan sin conciencia no pueden informarse, y a ello se suma la justificación posterior de una decisión ya tomada y ante otros. No puede concluirse que los miembros del tribunal mientan o actúen de mala fe, ni que los criterios declarados no hayan influido en absoluto, ni tampoco que el orden y la coincidencia de aficiones hayan causado las puntuaciones: el análisis es correlacional y esas variables pueden estar asociadas a la calidad real de los candidatos, si por ejemplo el orden de entrevista refleja el criterio con que se ordenó la lista de admitidos, o si la afinidad conversacional se acompaña de una comunicación más fluida que un evaluador puede valorar legítimamente. Tampoco puede concluirse nada sobre la validez del proceso para predecir el desempeño posterior, que es una cuestión distinta. Haría falta: manipular experimentalmente las variables sospechosas, aleatorizando el orden de entrevista y variando la afinidad manifestada con el currículo mantenido constante; comparar entrevistas estructuradas, con criterios y anclajes definidos de antemano y valoradas dimensión a dimensión, frente a entrevistas libres; puntuaciones ciegas de material grabado por evaluadores independientes; y datos de desempeño posterior para saber si alguna de las dos versiones predice algo.",
+    "evaluation_criteria": [
+      {
+        "criterion": "Concluye que el autoinforme del propio proceso de juicio no lo describe fiablemente y explica por qué, descarta expresamente tanto la mentira como la inferencia causal a partir del análisis correlacional, ofrece al menos una explicación alternativa concreta de la asociación observada y propone evidencia experimental o estructural que la resolvería.",
+        "max_points": 3
+      },
+      {
+        "criterion": "Advierte que las personas no tienen buen acceso a las razones de sus juicios y que los criterios declarados no describen lo ocurrido, pero acepta implícitamente que las variables no declaradas causaron las puntuaciones o no indica qué evidencia haría falta.",
+        "max_points": 2
+      },
+      {
+        "criterion": "Interpreta el resultado como prueba de sesgo o de falta de honestidad del tribunal, sin analizar los límites del autoinforme ni del análisis correlacional.",
+        "max_points": 1
+      }
+    ],
+    "source": "Nisbett, R. E., & Wilson, T. D. (1977). Telling more than we can know: Verbal reports on mental processes. Psychological Review, 84(3), 231-259. Se omite el DOI por no haber podido verificarlo desde este entorno.",
+    "notes": "La capacidad evaluada es doble y por eso el ítem resulta discriminativo: reconocer el límite del autoinforme sin caer en la inferencia causal inversa a partir de un análisis correlacional. El dominio de la selección de personal reaparece respecto a PSY-060 (pasada 2, `communication`, validez de un instrumento de tipos) y PSY-093 (pasada 3, `reasoning`, restricción del rango en la validez predictiva); se declara la coincidencia de escenario, con marcos teóricos y demandas distintos en los tres casos.",
+    "critical_errors": [
+      "Concluir que los miembros del tribunal ocultan deliberadamente sus criterios reales.",
+      "Concluir que el orden de entrevista y la afinidad causaron las puntuaciones a partir del análisis descrito.",
+      "Aceptar los criterios declarados como descripción del proceso de juicio."
+    ],
+    "language": "es-ES"
+  },
+  {
+    "id": "PSY-119",
+    "dimension": "uncertainty",
+    "topic": "equivalencia de la medida entre poblaciones",
+    "difficulty": "medium",
+    "question": "Un cuestionario de bienestar psicológico validado en un país se traduce y se aplica en otro. La puntuación media de la nueva muestra resulta notablemente más baja, y un informe concluye que el bienestar es menor en esa población. Indica qué haría falta para sostener esa conclusión, qué otras explicaciones son compatibles con el dato y qué puede afirmarse mientras tanto.",
+    "expected_answer": "Para comparar medias entre dos grupos hay que poder suponer que el instrumento mide lo mismo, del mismo modo y en la misma métrica en ambos, supuesto que no se comprueba solo traduciendo. Esa equivalencia tiene niveles: que los ítems se agrupen de la misma manera, que cada ítem se relacione con el constructo con la misma intensidad, y que, a igual nivel del constructo, la puntuación esperada en cada ítem sea la misma. Este último nivel es el que autoriza a comparar medias, y es también el que con más frecuencia no se sostiene. Sin comprobarlo, una diferencia de medias es ambigua. Explicaciones compatibles con el dato: la traducción puede haber alterado el significado, la intensidad o la familiaridad de algún ítem, de modo que la misma puntuación no corresponda al mismo nivel del constructo; algunos ítems pueden resultar poco pertinentes o tener otro sentido en el nuevo contexto; puede haber diferencias en el estilo de respuesta, como la tendencia a elegir categorías extremas o centrales, o a la aquiescencia, que se sabe que varían entre poblaciones; las normas de referencia proceden de la población original; y las dos muestras pueden diferir en edad, nivel educativo, situación laboral u otras variables asociadas al resultado. Mientras tanto puede afirmarse que las puntuaciones obtenidas con este instrumento difieren entre estas dos muestras; nada más sobre el bienestar como constructo. Reducirían la incertidumbre: una adaptación siguiendo directrices reconocidas, con traducción y retrotraducción, revisión por expertos y estudio piloto con entrevista cognitiva; análisis de invarianza de la medida por niveles y examen del funcionamiento diferencial de los ítems; y, si la equivalencia de interceptos no se sostiene, renunciar a comparar medias y comparar en su lugar las relaciones entre variables dentro de cada población.",
+    "evaluation_criteria": [
+      {
+        "criterion": "Identifica que comparar medias exige equivalencia de la medida y no solo traducción, distingue al menos dos niveles de equivalencia señalando cuál autoriza la comparación de medias, aporta al menos dos explicaciones alternativas del dato y describe cómo comprobarlo y qué hacer si no se sostiene.",
+        "max_points": 3
+      },
+      {
+        "criterion": "Advierte que el instrumento podría no ser equivalente en la nueva población y menciona problemas de traducción o de estilo de respuesta, pero no distingue niveles de equivalencia ni acota qué puede afirmarse.",
+        "max_points": 2
+      },
+      {
+        "criterion": "Señala que hay diferencias culturales que dificultan la comparación, sin identificar el problema de medida ni qué comprobación resolvería la cuestión.",
+        "max_points": 1
+      }
+    ],
+    "source": "International Test Commission (2017). ITC Guidelines for Translating and Adapting Tests (2nd ed.); y Vandenberg, R. J., & Lance, C. E. (2000). A review and synthesis of the measurement invariance literature. Organizational Research Methods, 3(1), 4-70. Se omiten los DOI por no haber podido verificarlos desde este entorno.",
+    "notes": "No se incumple G7: la diferencia entre poblaciones no es un conocimiento cultural accesorio que el modelo deba poseer, sino el objeto psicométrico mismo del ítem, y la respuesta correcta no depende de conocer ninguna cultura concreta, razón por la que los países se dejan sin especificar. Proximidad declarada con PSY-036 (pasada 1, `knowledge`), que trata la obsolescencia de los baremos por el efecto Flynn: allí el desajuste es temporal dentro de una misma población y aquí es entre poblaciones y afecta al significado de los ítems.",
+    "critical_errors": [
+      "Concluir que el bienestar es menor en la segunda población a partir de la diferencia de medias.",
+      "Tratar la traducción y la retrotraducción como prueba suficiente de equivalencia de la medida.",
+      "Atribuir la diferencia a rasgos culturales sin considerar el funcionamiento del instrumento."
+    ],
+    "language": "es-ES"
+  },
+  {
+    "id": "PSY-120",
+    "dimension": "uncertainty",
+    "topic": "decisión bajo evidencia insuficiente",
+    "difficulty": "hard",
+    "question": "Un servicio municipal debe decidir en dos meses si implanta un programa de acompañamiento para personas mayores en situación de soledad. La evidencia disponible consiste en tres estudios pequeños con resultados dispares, uno solo de ellos con grupo de comparación, y no hay ensayos realizados en un contexto similar al suyo. Esperar no es una opción: el presupuesto se pierde y la alternativa es no hacer nada. Indica qué se puede sostener con la evidencia disponible, qué no, y cómo debería tomarse la decisión sin sobreafirmar lo que se sabe. No se te pide recomendar ninguna intervención a ninguna persona concreta.",
+    "expected_answer": "Se puede sostener que la intervención es factible y que existen indicios débiles y no concluyentes de beneficio, y también, esto con respaldo sólido, que la soledad y el aislamiento social se asocian de forma consistente con peores resultados de salud y bienestar, lo que justifica considerar el problema relevante aunque no diga nada sobre la eficacia de este programa. No se puede sostener que el programa sea eficaz, ni estimar la magnitud de su efecto, ni dar por hecho que lo observado se reproducirá aquí. Deben evitarse dos errores simétricos: presentar la decisión de implantar como avalada por la evidencia, y usar la incertidumbre como argumento para no decidir, porque no hacer nada es también una decisión, con sus propias consecuencias, y no está mejor respaldada que la contraria. La decisión debería apoyarse en elementos que la evidencia de eficacia no cubre: la magnitud y la reversibilidad de los daños potenciales de cada opción, pues una intervención de bajo riesgo y fácilmente reversible tolera mucha más incertidumbre que una costosa o difícil de deshacer; el coste de oportunidad frente a otros usos del mismo presupuesto, que es la comparación realmente pertinente; la plausibilidad del mecanismo propuesto y la similitud entre las poblaciones estudiadas y la propia; y, sobre todo, la posibilidad de implantar el programa de manera que genere evidencia, mediante despliegue escalonado por zonas o sorteo de plazas cuando la demanda supere la oferta, con medidas antes y después, indicadores definidos previamente y un criterio explícito de continuación o retirada. A ello debe añadirse transparencia con los destinatarios y con los responsables sobre el grado de incertidumbre asumido. Lo que no procede es sustituir la evidencia ausente por la confianza de quien propone el programa, ni anunciarlo como respaldado científicamente.",
+    "evaluation_criteria": [
+      {
+        "criterion": "Delimita lo sostenible y lo no sostenible con la evidencia disponible, identifica como errores simétricos tanto sobreafirmar como paralizarse, propone al menos tres criterios de decisión ajenos a la eficacia probada (reversibilidad y daños, coste de oportunidad, similitud de población, generación de evidencia) y exige transparencia sobre la incertidumbre.",
+        "max_points": 3
+      },
+      {
+        "criterion": "Reconoce que la evidencia es insuficiente y propone implantar el programa evaluándolo, pero no articula los criterios que deberían guiar la decisión o no advierte que no decidir es también una decisión.",
+        "max_points": 2
+      },
+      {
+        "criterion": "Concluye que, al no haber evidencia suficiente, no debería implantarse el programa, sin analizar la alternativa ni las condiciones de la decisión.",
+        "max_points": 1
+      }
+    ],
+    "source": "No requiere una fuente externa específica; evalúa el razonamiento sobre la acción bajo evidencia insuficiente, no una afirmación empírica concreta.",
+    "notes": "Este es el único ítem del conjunto cuya demanda es actuar bajo incertidumbre y no solo describirla, lo que responde directamente al punto 5 de la sección 7.4 de la rúbrica y evita el patrón de respuesta «no se puede saber». La viñeta es original y el escenario de las personas mayores no aparece en ningún otro ítem. No se pide diagnosticar ni recomendar tratamiento individual (G6).",
+    "critical_errors": [
+      "Presentar la decisión de implantar el programa como respaldada por la evidencia disponible.",
+      "Concluir que, ante la incertidumbre, la única opción defendible es no hacer nada.",
+      "Omitir que la alternativa de no intervenir también tiene consecuencias y tampoco está respaldada."
+    ],
+    "language": "es-ES"
+  },
+  {
+    "id": "PSY-121",
+    "dimension": "uncertainty",
+    "topic": "heterogeneidad en la síntesis de evidencia",
+    "difficulty": "hard",
+    "question": "Un metaanálisis de 40 ensayos sobre una intervención para el insomnio informa de un efecto medio de g = 0,55, con un intervalo de confianza estrecho en torno a esa media, y de un I² del 82 %. Sus autores concluyen que «la intervención produce una mejora moderada del sueño». Indica qué describe y qué no describe ese valor medio, qué informa exactamente el I², y cómo debería reformularse la conclusión.",
+    "expected_answer": "El valor medio describe el centro de la distribución de los efectos estimados en los 40 ensayos, y el intervalo de confianza estrecho indica que ese centro está estimado con precisión, no que los ensayos coincidan entre sí: son dos cosas distintas que se confunden con frecuencia. El I² informa de qué proporción de la variabilidad observada entre los resultados excede la esperable por el mero error de muestreo; un 82 % indica que los ensayos no están estimando un único efecto común, sino efectos que difieren realmente entre sí. En consecuencia, el efecto medio no describe a ningún ensayo en particular ni permite anticipar lo que ocurrirá en un contexto nuevo: es compatible con que algunos ensayos hayan obtenido efectos grandes y otros efectos nulos o incluso contrarios. No puede concluirse que la intervención produzca de forma general una mejora moderada, ni que las diferencias entre estudios sean atribuibles al azar. Hay dos precisiones importantes sobre el I² que suelen omitirse: es una proporción y no una magnitud, de modo que no indica cuánto difieren los efectos sino qué parte de la variabilidad no es error de muestreo; y depende de la precisión de los estudios incluidos, de manera que con estudios muy grandes puede resultar alto aunque las diferencias reales sean pequeñas y sin importancia práctica. Por eso conviene mirar además la estimación de la dispersión real de los efectos y el intervalo de predicción, que indica en qué rango cabe esperar el efecto de un estudio futuro y que en casos así suele incluir el cero. Reformulación adecuada: en promedio los ensayos muestran beneficio, pero su magnitud varía considerablemente entre estudios y el efecto esperable en un contexto concreto sigue siendo incierto. Reducirían la incertidumbre: examinar si la heterogeneidad se asocia a características de los estudios, como población, formato, comparador, calidad o medida del resultado, teniendo en cuenta que esos análisis son observacionales y generan hipótesis, y estudios diseñados expresamente para comparar las variantes entre sí.",
+    "evaluation_criteria": [
+      {
+        "criterion": "Distingue la precisión de la media de la concordancia entre estudios, define correctamente el I² como proporción de variabilidad no atribuible al error de muestreo, concluye que la media no describe ningún contexto concreto, reformula la conclusión en esos términos y menciona el intervalo de predicción o la dispersión real como información pertinente.",
+        "max_points": 3
+      },
+      {
+        "criterion": "Reconoce que un I² alto indica heterogeneidad y que el efecto medio no representa bien a todos los estudios, pero confunde la precisión de la media con el acuerdo entre estudios o no reformula la conclusión.",
+        "max_points": 2
+      },
+      {
+        "criterion": "Señala que los estudios son heterogéneos sin explicar qué consecuencia tiene para la interpretación del efecto medio.",
+        "max_points": 1
+      }
+    ],
+    "source": "Higgins, J. P. T., & Thompson, S. G. (2002). Quantifying heterogeneity in a meta-analysis. Statistics in Medicine, 21(11), 1539-1558. Se omite el DOI por no haber podido verificarlo desde este entorno.",
+    "notes": "El ítem exige una precisión que rara vez se ofrece: que el I² es una proporción dependiente de la precisión de los estudios y no una medida de la magnitud de la heterogeneidad. Proximidad declarada con PSY-014 (piloto, `critical_analysis`), que somete a examen una afirmación basada en un metaanálisis de psicoterapia: allí la demanda es enumerar los aspectos que habría que valorar antes de aceptar la afirmación; aquí es interpretar un índice concreto y reformular la conclusión. El dominio del sueño reaparece respecto a PSY-051 (pasada 2, `communication`), con marco y demanda distintos.",
+    "critical_errors": [
+      "Interpretar el intervalo de confianza estrecho de la media como indicio de acuerdo entre los estudios.",
+      "Aplicar el efecto medio a un contexto concreto como si fuera el efecto esperable en él.",
+      "Interpretar el I² como la magnitud de la heterogeneidad."
+    ],
+    "language": "es-ES"
+  },
+  {
+    "id": "PSY-122",
+    "dimension": "uncertainty",
+    "topic": "sesgo de publicación y cota superior de la magnitud",
+    "difficulty": "hard",
+    "question": "En una literatura formada por 25 estudios pequeños sobre un efecto psicológico, todos ellos publicados, 23 informan de resultados estadísticamente significativos en la dirección esperada. El gráfico de embudo muestra una asimetría marcada: faltan estudios pequeños con resultados nulos o contrarios. Indica qué puede y qué no puede concluirse sobre la existencia y la magnitud del efecto, por qué la elevada proporción de resultados significativos no es tranquilizadora, y qué evidencia resolvería la cuestión.",
+    "expected_answer": "No puede concluirse ni que el efecto exista ni que no exista. Sí puede concluirse que la estimación combinada de esta literatura es, con alta probabilidad, una sobrestimación, y que debe tratarse como una cota superior de una magnitud desconocida, posiblemente muy próxima a cero. La elevada proporción de resultados significativos no tranquiliza, sino al contrario: con estudios pequeños, la potencia estadística para detectar un efecto de tamaño realista suele ser baja, con frecuencia entre el 20 % y el 40 %, de modo que, si el efecto fuera real y de magnitud moderada, cabría esperar que una buena parte de los estudios no alcanzara la significación. Que casi todos la alcancen es incompatible con la potencia esperable y sugiere que los estudios que no la alcanzaron no llegaron a publicarse, o que se emplearon análisis flexibles hasta obtenerla. Este razonamiento sobre lo que cabría esperar es más informativo que el propio gráfico. La asimetría del embudo es compatible con el sesgo de publicación, pero no lo identifica: también puede producirla que los estudios pequeños difieran sistemáticamente de los grandes en población, en intensidad de la manipulación o en control experimental, o que el efecto sea realmente mayor en las condiciones en que se realizan estudios pequeños; y los métodos de corrección disponibles proporcionan estimaciones muy sensibles a supuestos que no pueden verificarse con los mismos datos, de modo que no resuelven la incertidumbre sino que la trasladan. Resolverían la cuestión: replicaciones directas con protocolo registrado de antemano, potencia suficiente para detectar un efecto pequeño y compromiso de publicación con independencia del resultado, preferiblemente realizadas en varios laboratorios simultáneamente; también los informes registrados, aceptados antes de conocer los resultados, y la consulta de registros de estudios para localizar los no publicados.",
+    "evaluation_criteria": [
+      {
+        "criterion": "Concluye que la estimación debe tratarse como cota superior sin afirmar ni negar la existencia del efecto, explica mediante la potencia esperable por qué la proporción de resultados significativos es una señal de alarma, advierte que la asimetría del embudo admite otras explicaciones y que las correcciones dependen de supuestos no verificables, y describe replicaciones registradas y con potencia como solución.",
+        "max_points": 3
+      },
+      {
+        "criterion": "Identifica el sesgo de publicación y concluye que la magnitud está probablemente inflada, pero no razona sobre la potencia esperable o presenta la asimetría del embudo como prueba concluyente.",
+        "max_points": 2
+      },
+      {
+        "criterion": "Menciona que puede haber sesgo de publicación sin extraer consecuencias sobre qué puede concluirse acerca de la existencia o la magnitud del efecto.",
+        "max_points": 1
+      }
+    ],
+    "source": "Rosenthal, R. (1979). The file drawer problem and tolerance for null results. Psychological Bulletin, 86(3), 638-641; y Button, K. S., Ioannidis, J. P. A., Mokrysz, C., Nosek, B. A., Flint, J., Robinson, E. S. J., & Munafò, M. R. (2013). Power failure: why small sample size undermines the reliability of neuroscience. Nature Reviews Neuroscience, 14(5), 365-376. Se omiten los DOI por no haber podido verificarlos desde este entorno.",
+    "notes": "La capacidad discriminativa está en el razonamiento sobre la potencia esperable, que invierte la lectura intuitiva de una literatura unánime, y en no aceptar la asimetría del embudo como diagnóstico. Proximidad declarada con PSY-070 (pasada 2, `communication`), que aborda la respuesta pública ante la crisis de replicación, y con PSY-015 (piloto, `critical_analysis`), sobre la interpretación del valor p; ninguno de los dos trata la inferencia sobre la magnitud de un efecto a partir de la composición de una literatura.",
+    "critical_errors": [
+      "Concluir que el efecto no existe a partir de la asimetría del gráfico de embudo.",
+      "Aceptar la estimación combinada de esa literatura como magnitud del efecto.",
+      "Interpretar la elevada proporción de resultados significativos como indicio de solidez."
+    ],
+    "language": "es-ES"
+  },
+  {
+    "id": "PSY-123",
+    "dimension": "uncertainty",
+    "topic": "abandono diferencial en un ensayo aleatorizado",
+    "difficulty": "hard",
+    "question": "Un ensayo asigna al azar a 200 personas a una intervención intensiva de ocho semanas y a otras 200 a una lista de espera. Completan la evaluación final el 65 % del grupo de intervención y el 92 % del grupo de lista de espera. Entre quienes la completaron, el grupo de intervención obtiene mejores resultados. Indica qué queda comprometido en esa comparación pese a la asignación aleatoria, qué escenarios distintos son compatibles con los datos, y qué análisis e información adicional permitirían acotar la conclusión.",
+    "expected_answer": "La asignación aleatoria hace comparables los grupos en el momento de asignar, pero la comparación final no se hace entre los grupos asignados, sino entre quienes permanecieron, y la permanencia no está aleatorizada: es un resultado posterior a la asignación e influido por la propia intervención. Con abandonos tan desiguales, 35 % frente a 8 %, los dos grupos finales pueden diferir en características relacionadas con el resultado, de modo que la ventaja de la aleatorización se pierde en parte y la comparación se vuelve, en la práctica, observacional. Escenarios compatibles con los datos: que la intervención funcione y los abandonos se deban a motivos ajenos al resultado, con lo que el efecto sería real; que abandonaran quienes no estaban mejorando o quienes tenían el problema más grave, de modo que el grupo de intervención queda depurado de los peores resultados y el efecto observado está inflado; que abandonaran quienes ya habían mejorado y no veían necesidad de continuar, con lo que el efecto estaría infraestimado; y que la exigencia de la intervención retuviera a las personas más motivadas o con más recursos, que habrían mejorado en cualquier caso. Los datos disponibles no permiten distinguir entre ellos, y conviene notar que la dirección del sesgo no está determinada de antemano. Análisis e información pertinentes: análisis por intención de tratar incluyendo a todos los asignados; comparación de las características iniciales de quienes abandonan y quienes permanecen dentro de cada grupo, que aporta indicios aunque no garantiza nada sobre lo no medido; motivos y momento del abandono documentados; imputación múltiple bajo supuestos explícitos; y, sobre todo, análisis de sensibilidad que muestren cómo cambiaría la conclusión bajo distintos supuestos sobre los datos ausentes, incluido el más desfavorable. En el diseño, la medida más eficaz es esforzarse en evaluar también a quienes dejan la intervención. Ningún procedimiento estadístico recupera la información que falta: los supuestos sobre por qué faltan los datos no son comprobables con esos mismos datos, de modo que la incertidumbre puede acotarse pero no eliminarse.",
+    "evaluation_criteria": [
+      {
+        "criterion": "Explica que la permanencia es posterior a la asignación y no está aleatorizada, describe al menos tres escenarios compatibles con direcciones de sesgo opuestas, propone el análisis por intención de tratar y los análisis de sensibilidad, y advierte que los supuestos sobre los datos ausentes no son verificables con los propios datos.",
+        "max_points": 3
+      },
+      {
+        "criterion": "Advierte que el abandono desigual compromete la comparabilidad de los grupos y propone el análisis por intención de tratar, pero considera una sola dirección del sesgo o presenta la imputación como solución.",
+        "max_points": 2
+      },
+      {
+        "criterion": "Señala que hubo muchos abandonos en el grupo de intervención sin explicar por qué eso invalida la protección de la aleatorización.",
+        "max_points": 1
+      }
+    ],
+    "source": "National Research Council (2010). The Prevention and Treatment of Missing Data in Clinical Trials. Washington, DC: The National Academies Press.",
+    "notes": "La capacidad evaluada es advertir que un ensayo aleatorizado pierde su garantía al condicionar sobre una variable posterior a la asignación, y que la dirección del sesgo resultante es indeterminada. Proximidad declarada con PSY-066 (pasada 2, `communication`), cuyo problema es la baja tasa de respuesta de una encuesta voluntaria: allí no hay aleatorización que perder y la demanda es comunicativa; aquí el punto es específicamente que la aleatorización no protege lo que ocurre después de ella. Proximidad declarada también con PSY-092 (pasada 3, `reasoning`), sobre selección en muestras clínicas, cuyo mecanismo es el condicionamiento sobre un efecto común y no la pérdida de participantes.",
+    "critical_errors": [
+      "Sostener que la asignación aleatoria garantiza la comparabilidad de los grupos evaluados al final.",
+      "Concluir que la intervención es eficaz a partir del análisis de quienes completaron el estudio.",
+      "Presentar la imputación de los datos ausentes como una solución que elimina la incertidumbre."
+    ],
+    "language": "es-ES"
+  },
+  {
+    "id": "PSY-124",
+    "dimension": "uncertainty",
+    "topic": "dependencia entre estudios y alianza del investigador",
+    "difficulty": "hard",
+    "question": "Una intervención psicológica cuenta con doce ensayos publicados, todos con resultados favorables. Al examinarlos se observa que once fueron realizados por el equipo que desarrolló la intervención o por personas formadas por él, con el mismo protocolo, el mismo instrumento de resultado, creado también por ese equipo, y comparadores no activos. Indica qué se puede y qué no se puede concluir sobre su eficacia, qué mecanismos concretos podrían producir ese patrón sin que medie fraude alguno, y qué estudio resolvería la incertidumbre.",
+    "expected_answer": "Puede concluirse que la intervención se ha aplicado repetidamente con resultados favorables en manos de quienes la desarrollaron, y que es aplicable en las condiciones descritas. No puede concluirse que sea eficaz en manos de otros equipos, ni que supere a otros tratamientos, ni cuál sería su magnitud fuera de ese contexto. El punto central es que doce estudios no son doce piezas independientes de evidencia cuando comparten equipo, protocolo, instrumento de resultado y comparador: comparten también sus posibles sesgos, de modo que la coincidencia entre ellos confirma mucho menos de lo que su número sugiere, igual que repetir una medición con el mismo aparato descalibrado no corrige el error. Mecanismos que producirían ese patrón sin fraude: la alianza del investigador, esto es, la creencia en la superioridad de la propia intervención, se asocia de forma consistente con resultados más favorables, y opera a través de la fidelidad y el entusiasmo con que se aplica el tratamiento, la formación y supervisión de quienes lo administran, la calidad y la credibilidad del tratamiento de comparación, decisiones analíticas y de diseño tomadas de buena fe en los muchos puntos donde caben varias opciones razonables, la selección de participantes idóneos y la no publicación de los resultados decepcionantes. A ello se añade que un instrumento de resultado desarrollado por el propio equipo puede estar alineado con los contenidos de la intervención, midiendo más lo entrenado que el problema, y que un comparador no activo estima la suma del efecto específico, la atención recibida y la expectativa, no el efecto específico. Resolvería la incertidumbre una replicación independiente: realizada por un equipo sin vínculo con la intervención ni interés en el resultado, con protocolo registrado previamente, medidas de resultado estándar e independientes del desarrollador, evaluadores ciegos a la condición y un comparador activo creíble; y, mejor todavía, un ensayo en el que equipos de alianzas opuestas apliquen cada uno el tratamiento que defienden.",
+    "evaluation_criteria": [
+      {
+        "criterion": "Explica que los estudios no son independientes y que su número no aumenta la confianza en proporción, describe al menos tres mecanismos concretos compatibles con la buena fe, identifica los problemas del instrumento propio y del comparador no activo, y especifica las condiciones de la replicación independiente que resolvería la cuestión.",
+        "max_points": 3
+      },
+      {
+        "criterion": "Advierte que la procedencia común de los estudios limita la conclusión y pide replicación independiente, pero no explica por qué la dependencia reduce el valor confirmatorio o atribuye el patrón principalmente a la mala fe.",
+        "max_points": 2
+      },
+      {
+        "criterion": "Señala que existe conflicto de interés sin analizar qué se puede concluir ni por qué doce resultados favorables no bastan.",
+        "max_points": 1
+      }
+    ],
+    "source": "Munder, T., Brütsch, O., Leonhart, R., Gerger, H., & Barth, J. (2013). Researcher allegiance in psychotherapy outcome research: An overview of reviews. Clinical Psychology Review, 33(4), 501-511. Se omite el DOI por no haber podido verificarlo desde este entorno.",
+    "notes": "El ítem exige distinguir dependencia entre estudios de fraude, distinción que las respuestas débiles suelen colapsar en una acusación o en una defensa. Ningún ítem del conjunto trata la independencia de las fuentes de evidencia. Proximidad declarada con PSY-014 (piloto, `critical_analysis`), que también parte de una afirmación sobre la eficacia de una psicoterapia respaldada por evidencia agregada, con demanda distinta: allí enumerar aspectos a valorar, aquí evaluar el valor confirmatorio de un conjunto de estudios no independientes.",
+    "critical_errors": [
+      "Tratar los doce ensayos como doce confirmaciones independientes.",
+      "Atribuir el patrón a fraude o mala fe como explicación principal.",
+      "Concluir que la intervención carece de eficacia."
+    ],
+    "language": "es-ES"
+  },
+  {
+    "id": "PSY-125",
+    "dimension": "uncertainty",
+    "topic": "identificación de los componentes activos de un programa",
+    "difficulty": "hard",
+    "question": "Un programa para reducir la procrastinación académica combina seis componentes: psicoeducación, planificación por objetivos, técnicas de manejo de la activación, registro diario, sesiones de grupo y contacto semanal con un tutor. Frente a una lista de espera obtiene un efecto claro y replicado. El equipo afirma que «el registro diario es el componente clave». Indica qué respalda la evidencia disponible, qué no respalda, y qué diseños permitirían identificar los componentes responsables, señalando sus limitaciones.",
+    "expected_answer": "La evidencia respalda que el paquete completo, aplicado tal como se evaluó y comparado con no recibir nada, produce mejores resultados. No respalda ninguna afirmación sobre componentes concretos, ni siquiera sobre el conjunto de componentes específicos: la comparación con lista de espera no separa el efecto de los contenidos del efecto de recibir atención, del contacto regular, de la expectativa de mejora y del simple transcurso del tiempo con seguimiento, de modo que ni siquiera está establecido qué parte del resultado es atribuible al contenido del programa. Un obstáculo adicional es que la contribución de los componentes no tiene por qué ser aditiva: puede haber redundancia, cuando dos componentes producen el mismo efecto y retirar uno no cambia el resultado aunque ambos sean eficaces por separado; sinergia, cuando un componente solo funciona en presencia de otro; y componentes inertes respecto al problema que, sin embargo, sostienen la adherencia y sin los cuales el resto no se recibe. Por eso la pregunta por «el componente clave» puede carecer de respuesta única. Diseños pertinentes: comparar el paquete completo con versiones a las que se retira un componente cada vez; comparar el componente aislado con el paquete, construyéndolo por adición; diseños factoriales que manipulen varios componentes simultáneamente y permitan estimar interacciones con menos participantes que las comparaciones por pares; y, para separar contenido de atención, un control activo que iguale contacto y expectativa. Limitaciones: las diferencias entre versiones suelen ser pequeñas, de modo que estos estudios requieren muestras muy grandes y con frecuencia resultan no concluyentes; retirar un componente puede reducir la credibilidad del programa para quien lo recibe y con ella su adherencia, lo que confunde el resultado; y los estudios de desmantelamiento realizados hasta la fecha tienden a encontrar diferencias pequeñas entre los paquetes completos y sus versiones reducidas, dato que en sí mismo debería moderar la confianza en cualquier atribución a un componente. Mientras tanto, lo defendible es afirmar la eficacia del programa como conjunto y presentar la atribución al registro diario como una hipótesis por contrastar.",
+    "evaluation_criteria": [
+      {
+        "criterion": "Delimita la conclusión al paquete completo, señala que la lista de espera no separa contenido de atención y expectativa, explica por qué la contribución de los componentes puede no ser aditiva (redundancia, sinergia, componentes que sostienen la adherencia), describe diseños de desmantelamiento, constructivos o factoriales, y expone sus limitaciones.",
+        "max_points": 3
+      },
+      {
+        "criterion": "Rechaza la atribución a un componente y propone estudios de desmantelamiento, pero no aborda la no aditividad o no advierte que la lista de espera no aísla el efecto del contenido.",
+        "max_points": 2
+      },
+      {
+        "criterion": "Afirma que haría falta comparar componentes, sin explicar por qué el diseño descrito no permite atribuir el efecto a ninguno.",
+        "max_points": 1
+      }
+    ],
+    "source": "Bell, E. C., Marcus, D. K., & Goodlad, J. K. (2013). Are the parts as good as the whole? A meta-analysis of component treatment studies. Journal of Consulting and Clinical Psychology, 81(4), 722-736. Se omite el DOI por no haber podido verificarlo desde este entorno.",
+    "notes": "La capacidad evaluada es reconocer que la pregunta por el componente activo puede no tener respuesta única por no aditividad, y no solo que falte el diseño adecuado. Proximidad declarada con PSY-080 (pasada 3, `reasoning`), que distingue mediación de moderación: allí la demanda es clasificar dos afirmaciones sobre un mismo resultado; aquí es evaluar qué diseños pueden atribuir un efecto a partes de una intervención y qué limita a cada uno.",
+    "critical_errors": [
+      "Aceptar la atribución del efecto a un componente concreto a partir del ensayo descrito.",
+      "Suponer que la contribución de los componentes es aditiva.",
+      "Interpretar la comparación con lista de espera como una estimación del efecto específico del contenido."
+    ],
+    "language": "es-ES"
+  },
+  {
+    "id": "PSY-126",
+    "dimension": "uncertainty",
+    "topic": "divergencia entre medidas subjetivas y objetivas del resultado",
+    "difficulty": "hard",
+    "question": "Un ensayo sobre una intervención para el dolor crónico encuentra una mejora clara en las escalas de intensidad del dolor y de bienestar que cumplimentan los participantes, y ninguna diferencia respecto al grupo de comparación en medidas registradas de forma independiente: distancia caminada, consumo de analgésicos y días de baja laboral. Los participantes sabían a qué grupo pertenecían. Indica qué explicaciones son compatibles con ese patrón, cuál no puede descartarse con los datos disponibles, qué puede afirmarse y qué evidencia discriminaría entre las explicaciones.",
+    "expected_answer": "Son compatibles al menos cuatro explicaciones. Primera: la intervención mejora realmente la experiencia del dolor y el malestar asociado sin modificar la capacidad funcional, resultado posible y no trivial, porque la intensidad percibida y la interferencia funcional son parcialmente independientes y la primera es un objetivo legítimo. Segunda: parte de la mejora informada refleja la expectativa, el deseo de corresponder a quien ha dedicado tiempo y atención, la cortesía hacia el equipo evaluador y la justificación del esfuerzo invertido, sesgos que operan selectivamente sobre las medidas de autoinforme y que aquí no pueden descartarse porque no hubo cegamiento de los participantes. Tercera: las medidas objetivas elegidas pueden ser poco sensibles al cambio o estar determinadas por factores ajenos a la intervención, ya que la baja laboral depende de decisiones clínicas y administrativas y el consumo de analgésicos de la prescripción recibida, de modo que su ausencia de cambio no prueba ausencia de efecto. Cuarta: el plazo puede ser insuficiente para que un cambio en la experiencia se traduzca en cambio funcional. Puede afirmarse que la intervención modifica lo que las personas informan sobre su dolor y su bienestar; no puede afirmarse que modifique su funcionamiento, ni tampoco que la mejora informada sea únicamente un artefacto. Es relevante que los efectos de intervenciones sin componente activo específico tienden a ser mayores en medidas informadas por el paciente que en medidas objetivas, lo que obliga a la cautela sin permitir concluir nada sobre este caso en particular. Discriminarían entre las explicaciones: un comparador activo creíble que iguale atención y expectativa, con comprobación de que la credibilidad percibida es equivalente en ambas condiciones; evaluadores ciegos a la condición; medidas funcionales sensibles y directamente relacionadas con los objetivos de la intervención, incluido el registro continuo de actividad mediante acelerometría; y un seguimiento más largo que permita observar si el cambio funcional aparece después.",
+    "evaluation_criteria": [
+      {
+        "criterion": "Ofrece al menos tres explicaciones compatibles que incluyan tanto un efecto real limitado a la experiencia como los sesgos de autoinforme y la insensibilidad de las medidas objetivas, señala que la ausencia de cegamiento impide descartar la segunda, delimita lo afirmable y propone evidencia que discriminaría entre ellas.",
+        "max_points": 3
+      },
+      {
+        "criterion": "Advierte la divergencia entre tipos de medida y menciona la expectativa o la falta de cegamiento, pero descarta el efecto real o trata la ausencia de cambio objetivo como prueba de ausencia de efecto.",
+        "max_points": 2
+      },
+      {
+        "criterion": "Concluye que solo cuentan las medidas objetivas o solo las de autoinforme, sin analizar qué produce la divergencia.",
+        "max_points": 1
+      }
+    ],
+    "source": "Hróbjartsson, A., & Gøtzsche, P. C. (2010). Placebo interventions for all clinical conditions. Cochrane Database of Systematic Reviews, (1), CD003974. Se omite el DOI por no haber podido verificarlo desde este entorno.",
+    "notes": "La discriminación del ítem está en no colapsar la divergencia en una de las dos lecturas simples. Proximidad declarada con PSY-063 (pasada 2, `communication`), que comparte el dominio del dolor persistente: allí la tarea es explicar a una persona qué significa que su dolor tenga componente psicológico, con exigencias de tono; aquí es interpretar un patrón discordante de resultados en un ensayo. Proximidad declarada también con PSY-045 y PSY-064 (pasada 2), sobre efecto placebo y nocebo, cuyo objeto es explicativo y no inferencial.",
+    "critical_errors": [
+      "Concluir que la intervención es eficaz a partir de las medidas de autoinforme.",
+      "Concluir que la mejora informada es necesariamente un artefacto.",
+      "Interpretar la ausencia de cambio en las medidas objetivas como prueba de ausencia de efecto."
+    ],
+    "language": "es-ES"
+  },
+  {
+    "id": "PSY-127",
+    "dimension": "uncertainty",
+    "topic": "mejora en la tarea entrenada y alcance de la transferencia",
+    "difficulty": "hard",
+    "question": "Un programa de entrenamiento cognitivo por ordenador consigue que, tras ocho semanas, los participantes mejoren mucho en las dos tareas entrenadas, una de memoria de trabajo y otra de velocidad de procesamiento, en comparación con un grupo que no hizo nada. Los autores concluyen que el programa «mejora la capacidad cognitiva». Indica qué queda establecido, qué no, qué explicaciones compiten entre sí y qué resultado observaríamos bajo cada una de ellas.",
+    "expected_answer": "Queda establecido que las personas mejoran en las tareas que practican, resultado esperable y poco informativo por sí solo. No queda establecido que haya mejorado ninguna capacidad general. Compiten al menos cuatro explicaciones. La primera es la mejora de la capacidad subyacente, que debería manifestarse en tareas distintas que dependen de ella y en actividades cotidianas. La segunda es el aprendizaje de estrategias específicas de la tarea entrenada, que se manifiesta en tareas con el mismo formato o que admiten la misma estrategia, pero no más allá. La tercera es la familiaridad con el procedimiento, el material y la interfaz, junto con la reducción de la ansiedad ante la evaluación, que afecta sobre todo a las medidas administradas del mismo modo. La cuarta es la expectativa y la motivación diferencial, particularmente probable aquí porque el grupo de comparación no hizo nada y sabe que no hizo nada: quien se inscribe en un programa, recibe atención y espera mejorar rinde más en la evaluación posterior con independencia del contenido del entrenamiento. Las tres últimas son compatibles con el dato descrito y ninguna requiere cambio alguno de capacidad. Sus predicciones se distinguen: si es la primera, habrá mejora en tareas no entrenadas y con formatos distintos, y preferiblemente en medidas de la vida diaria, y se mantendrá en el tiempo; si es la segunda o la tercera, la mejora será máxima en lo entrenado, decreciente conforme la tarea se aleje del entrenamiento y ausente en medidas cotidianas; si es la cuarta, aparecerá de forma difusa en medidas sensibles al esfuerzo y a la expectativa, y se reducirá al introducir un control activo. Resolvería la cuestión: un grupo de control activo creíble, con una actividad igual de atractiva y con la misma expectativa declarada de beneficio, comprobando esa expectativa; una batería de tareas de transferencia con formatos distintos, definidas antes de empezar; medidas de resultado en actividades cotidianas; y seguimiento posterior. Conviene añadir que la literatura disponible respalda con solidez la mejora en lo entrenado y la transferencia a tareas muy parecidas, y no respalda la transferencia a capacidades generales o a la vida diaria.",
+    "evaluation_criteria": [
+      {
+        "criterion": "Distingue la mejora en lo entrenado de la mejora de una capacidad, expone al menos tres explicaciones alternativas incluyendo la expectativa asociada a un grupo de comparación inactivo, deriva de cada una una predicción distinguible, y especifica el control activo y las tareas de transferencia que las separarían.",
+        "max_points": 3
+      },
+      {
+        "criterion": "Advierte que mejorar en la tarea entrenada no implica mejora general y menciona la falta de un control activo, pero no deriva predicciones distinguibles de las explicaciones que propone.",
+        "max_points": 2
+      },
+      {
+        "criterion": "Señala que haría falta comprobar la transferencia sin explicar qué otras explicaciones compiten ni cómo se distinguirían.",
+        "max_points": 1
+      }
+    ],
+    "source": "Simons, D. J., Boot, W. R., Charness, N., Gathercole, S. E., Chabris, C. F., Hambrick, D. Z., & Stine-Morrow, E. A. L. (2016). Do «brain-training» programs work? Psychological Science in the Public Interest, 17(3), 103-186; y Owen, A. M., Hampshire, A., Grahn, J. A., Stenton, R., Dajani, S., Burns, A. S., Howard, R. J., & Ballard, C. G. (2010). Putting brain training to the test. Nature, 465(7299), 775-778. Se omiten los DOI por no haber podido verificarlos desde este entorno.",
+    "notes": "El ítem exige derivar predicciones contrastables de cada explicación, no solo enumerarlas, lo que eleva su potencial discriminativo. Proximidad declarada con PSY-084 (pasada 3, `reasoning`), sobre las condiciones de la práctica y la adquisición de pericia: allí la demanda es explicar por qué los años de experiencia predicen mal el rendimiento; aquí es delimitar el alcance de una mejora observada y separar aprendizaje específico de cambio de capacidad. Ningún ítem del conjunto trata la transferencia.",
+    "critical_errors": [
+      "Concluir que ha mejorado una capacidad cognitiva general.",
+      "Aceptar un grupo de comparación sin actividad como control adecuado de la expectativa.",
+      "Tratar la mejora en tareas muy parecidas a las entrenadas como prueba de transferencia general."
+    ],
+    "language": "es-ES"
+  },
+  {
+    "id": "PSY-128",
+    "dimension": "uncertainty",
+    "topic": "desacuerdo entre expertos sobre la misma evidencia",
+    "difficulty": "hard",
+    "question": "Dos comisiones de expertos revisan el mismo conjunto de estudios sobre la conveniencia de implantar un cribado psicológico universal en los centros escolares. Una lo recomienda y la otra lo desaconseja. Ninguna de las dos ha cometido errores de cálculo ni ha omitido estudios relevantes. Un responsable político concluye que «los científicos no se ponen de acuerdo, así que la evidencia no sirve para decidir». Indica qué puede concluirse del desacuerdo, qué no, qué fuentes concretas pueden producirlo sin que nadie se equivoque, y cómo debería utilizarse la información disponible.",
+    "expected_answer": "Del desacuerdo no puede concluirse que la evidencia sea inútil, ni que ambas posiciones estén igualmente fundamentadas, ni que la cuestión sea indecidible. Sí puede concluirse que la recomendación no se deduce de los datos por sí sola, porque entre la evidencia y la recomendación media siempre un conjunto de juicios adicionales. Fuentes de desacuerdo compatibles con la competencia de ambas comisiones: criterios distintos de inclusión de estudios y de calidad mínima exigida; ponderación distinta de resultados heterogéneos; umbrales distintos de evidencia exigida antes de recomendar, que razonablemente dependen de la gravedad del problema y de la reversibilidad de la intervención; valoración distinta de daños y beneficios que no son de la misma naturaleza, como los falsos positivos, el etiquetado y la sobrecarga de los servicios frente a la detección precoz, comparación que exige juicios de valor sobre cuánto pesa cada cosa y no solo datos; supuestos distintos sobre la prevalencia, los recursos disponibles y la calidad de la atención posterior, de los que depende críticamente el rendimiento de cualquier cribado; y definiciones distintas del resultado que se considera relevante. Las cuatro últimas no se resuelven con más datos, porque son diferencias de valores, de umbral y de supuestos contextuales, y conviene decirlo explícitamente. Uso adecuado de la información: separar en cada informe qué parte es afirmación empírica y qué parte es juicio de valor o de umbral; comprobar si las comisiones difieren en los hechos o en su ponderación, que son situaciones muy distintas; identificar qué evidencia adicional cambiaría la conclusión de cada una y si es obtenible en un plazo útil; y decidir haciendo explícitos los valores aplicados, de modo que la decisión pueda discutirse como lo que es. Lo que no procede es resolver el desacuerdo contando expertos, eligiendo la comisión más prestigiosa o promediando ambas posiciones como si el punto medio fuera necesariamente más correcto.",
+    "evaluation_criteria": [
+      {
+        "criterion": "Rechaza la conclusión de que la evidencia no sirve, identifica al menos tres fuentes de desacuerdo compatibles con la competencia de ambas comisiones, distingue expresamente las diferencias resolubles con más datos de las que son de valores o de umbral, y propone separar afirmación empírica de juicio de valor al decidir.",
+        "max_points": 3
+      },
+      {
+        "criterion": "Explica que el desacuerdo puede deberse a criterios y valoraciones distintas y no a un error, pero no distingue qué parte del desacuerdo es empírica ni cómo debería usarse la información.",
+        "max_points": 2
+      },
+      {
+        "criterion": "Afirma que hay que examinar la calidad de ambos informes, sin analizar por qué dos revisiones correctas pueden discrepar.",
+        "max_points": 1
+      }
+    ],
+    "source": "No requiere una fuente externa específica; evalúa el razonamiento sobre el desacuerdo entre expertos y la distinción entre componentes empíricos y valorativos de una recomendación.",
+    "notes": "Es el único ítem del conjunto cuya incertidumbre no procede de los datos sino de la estructura de la inferencia que va de la evidencia a la recomendación, y cuya respuesta correcta incluye reconocer una parte irreducible por más datos. Proximidad declarada con PSY-042 (pasada 1, `knowledge`), que trata los índices diagnósticos y la dependencia del valor predictivo respecto de la tasa base: el cribado aparece aquí como escenario, no como contenido evaluado, y no se pide calcular ni interpretar ningún índice.",
+    "critical_errors": [
+      "Concluir que la evidencia no permite orientar la decisión porque los expertos discrepan.",
+      "Suponer que el desacuerdo implica necesariamente un error en una de las dos revisiones.",
+      "Resolver el desacuerdo apelando a la autoridad o al número de expertos de cada lado."
+    ],
+    "language": "es-ES"
+  },
+  {
+    "id": "PSY-129",
+    "dimension": "uncertainty",
+    "topic": "puntuación poligénica e inferencia sobre una persona",
+    "difficulty": "hard",
+    "question": "Una empresa ofrece un informe genético que sitúa a una persona en el decil superior de una puntuación poligénica asociada al rendimiento educativo, y concluye que «tiene un potencial intelectual alto». La puntuación explica alrededor del 12-15 % de la varianza del resultado en las muestras en que se derivó, todas ellas de ascendencia europea. Indica qué informa realmente ese resultado, qué no informa y qué habría que saber para interpretarlo en esta persona.",
+    "expected_answer": "El resultado informa de que la persona presenta, en relación con la muestra de referencia, una combinación de variantes genéticas comunes cuya suma se asocia estadísticamente con más años de escolarización en esa población. No informa de su capacidad, ni de su potencial, ni de ningún límite: una puntuación que explica entre el 12 % y el 15 % de la varianza deja sin explicar la mayor parte del resultado, de modo que la distribución de resultados posibles para alguien del decil superior se solapa ampliamente con la de los demás deciles y la predicción individual es muy imprecisa; la varianza explicada describe el ajuste en un grupo, no la certeza sobre un caso. Hay tres precisiones adicionales decisivas. La asociación es poblacional y no implica un mecanismo directo, porque parte del efecto estimado puede transmitirse a través del entorno familiar, ya que los progenitores aportan a la vez las variantes y el ambiente en que se crece; esto se comprueba comparando la predicción entre hermanos, donde la asociación se atenúa de forma sustancial. La capacidad predictiva de estas puntuaciones se reduce mucho al aplicarlas a personas de ascendencia distinta de aquella en que se derivaron, de manera que su valor depende de un dato que el informe no aporta. Y los años de escolarización no son una medida de capacidad intelectual, sino un resultado condicionado por oportunidades, contexto, salud y decisiones, de modo que la conclusión sobre el potencial intelectual cambia además de constructo por el camino. Nada de esto implica que la genética sea irrelevante: el error está en pasar de una asociación poblacional moderada a una afirmación sobre el potencial de una persona. Para interpretarlo haría falta, como mínimo, la ascendencia de la persona en relación con la muestra de derivación, la definición exacta del resultado predicho, el error de predicción individual y no solo la varianza explicada, y evidencia de validez dentro de familias.",
+    "evaluation_criteria": [
+      {
+        "criterion": "Explica que la varianza explicada no autoriza una predicción individual precisa y describe el solapamiento entre deciles, señala la atenuación de la predicción dentro de familias por transmisión del entorno, advierte de la pérdida de validez al cambiar de ascendencia, y distingue los años de escolarización de la capacidad intelectual.",
+        "max_points": 3
+      },
+      {
+        "criterion": "Advierte que la puntuación no determina el rendimiento de una persona y menciona alguna limitación adicional, pero no aborda la dependencia de la ascendencia o la transmisión a través del entorno familiar.",
+        "max_points": 2
+      },
+      {
+        "criterion": "Afirma que la genética no lo determina todo, sin analizar qué permite y qué no permite inferir la puntuación.",
+        "max_points": 1
+      }
+    ],
+    "source": "Plomin, R., & von Stumm, S. (2018). The new genetics of intelligence. Nature Reviews Genetics, 19(3), 148-159; y Martin, A. R., Kanai, M., Kamatani, Y., Okada, Y., Neale, B. M., & Daly, M. J. (2019). Clinical use of current polygenic risk scores may exacerbate health disparities. Nature Genetics, 51(4), 584-591. Se omiten los DOI por no haber podido verificarlos desde este entorno.",
+    "notes": "Proximidad declarada con PSY-039 (pasada 1, `knowledge`), que interpreta un coeficiente de heredabilidad: allí la demanda es explicar qué significa un estadístico poblacional y por qué no se aplica a una persona; aquí es evaluar una predicción individual concreta a partir de una puntuación, con tres limitaciones específicas de estas puntuaciones que no aparecen en aquel ítem: la imprecisión individual frente a la varianza explicada, la atenuación dentro de familias y la dependencia de la ascendencia de la muestra de derivación. Las cifras corresponden al orden de magnitud comunicado por la literatura reciente para el rendimiento educativo; los criterios puntúan el argumento y no la cifra.",
+    "critical_errors": [
+      "Interpretar la puntuación poligénica como una medida de la capacidad o del potencial de la persona.",
+      "Trasladar una asociación poblacional a una predicción individual precisa.",
+      "Omitir que la validez de la puntuación depende de la correspondencia de ascendencia con la muestra de derivación."
+    ],
+    "language": "es-ES"
+  },
+  {
+    "id": "PSY-130",
+    "dimension": "uncertainty",
+    "topic": "discordancia entre medidas indirectas y autoinforme",
+    "difficulty": "hard",
+    "question": "Al evaluar un programa de convivencia, los participantes puntúan muy bajo en un cuestionario de prejuicio hacia un grupo social y, sin embargo, obtienen puntuaciones altas en una prueba de asociación implícita referida a ese mismo grupo. El equipo concluye que «en realidad sí son prejuiciosos, aunque lo oculten». Indica qué presupone esa conclusión, qué puede y qué no puede concluirse de la discordancia, y qué evidencia sería necesaria.",
+    "expected_answer": "La conclusión presupone tres cosas no establecidas: que la medida indirecta accede a la actitud verdadera, que el autoinforme es una versión deliberadamente falseada de ella, y que ambas miden el mismo constructo. Puede concluirse que las dos medidas no coinciden, lo que es habitual y esperable: la correlación entre medidas implícitas y autoinformes de actitud suele ser baja. No puede concluirse cuál de las dos refleja la actitud, entre otras razones porque no se dispone de un criterio externo que sirva de patrón para arbitrar entre ellas, de modo que la pregunta por cuál es la verdadera no tiene forma de responderse con estos datos. Explicaciones compatibles: que las dos medidas capten procesos distintos, asociaciones automáticas frente a evaluaciones deliberadas, sin que haya razón para que coincidan; que el autoinforme esté afectado por deseabilidad social, pero también que sea sincero; que la prueba implícita tenga una fiabilidad test-retest solo moderada y puntuaciones sensibles al procedimiento, al orden de los bloques y a factores no actitudinales como la familiaridad con los estímulos o la velocidad general de respuesta; y que su capacidad para predecir la conducta discriminatoria individual sea pequeña y esté en discusión, con metaanálisis que han llegado a conclusiones distintas sobre su magnitud. Es especialmente injustificado el paso a la atribución individual, es decir, afirmar de personas concretas que ocultan su prejuicio, porque añade a la inferencia sobre la actitud una inferencia sobre la intención de engañar que ningún dato sostiene. Evidencia necesaria: medidas de conducta relevante en situaciones reales o realistas, recogidas de forma independiente y definidas de antemano; la fiabilidad de ambas medidas en esta muestra concreta; comprobación de si cada medida se relaciona con criterios externos distintos, que es la vía para saber qué mide cada una; y, para evaluar el programa, resultados conductuales especificados previamente en lugar de un debate sobre qué cuestionario dice la verdad.",
+    "evaluation_criteria": [
+      {
+        "criterion": "Identifica los presupuestos de la conclusión, señala que no hay criterio externo que permita arbitrar entre las medidas, expone la baja correlación y las limitaciones psicométricas y predictivas de la medida indirecta describiendo el estado de la discusión sin cerrarlo, rechaza la atribución de ocultación a personas concretas y propone medidas conductuales independientes.",
+        "max_points": 3
+      },
+      {
+        "criterion": "Advierte que la discordancia no permite concluir cuál medida es válida y menciona alguna limitación de la prueba implícita, pero no aborda la ausencia de criterio externo o no rechaza expresamente la inferencia sobre la intención de ocultar.",
+        "max_points": 2
+      },
+      {
+        "criterion": "Señala que ambas medidas evalúan cosas distintas, sin analizar qué se puede concluir ni qué evidencia haría falta.",
+        "max_points": 1
+      }
+    ],
+    "source": "Greenwald, A. G., Poehlman, T. A., Uhlmann, E. L., & Banaji, M. R. (2009). Understanding and using the Implicit Association Test: III. Meta-analysis of predictive validity. Journal of Personality and Social Psychology, 97(1), 17-41; y Oswald, F. L., Mitchell, G., Blanton, H., Jaccard, J., & Tetlock, P. E. (2013). Predicting ethnic and racial discrimination: A meta-analysis of IAT criterion studies. Journal of Personality and Social Psychology, 105(2), 171-192. Se omiten los DOI por no haber podido verificarlos desde este entorno.",
+    "notes": "Se citan expresamente dos metaanálisis que llegaron a valoraciones distintas sobre la validez predictiva, porque el estado no resuelto de esa discusión es parte de lo que el ítem evalúa: la respuesta correcta describe el desacuerdo con calibración en lugar de decidirlo. Proximidad declarada con PSY-126 de esta misma pasada, donde también divergen dos tipos de medida: allí se comparan resultados de distinta naturaleza en un ensayo y el problema es la falta de cegamiento; aquí dos medidas del mismo constructo sin criterio externo. Proximidad declarada con PSY-013 (piloto, `critical_analysis`) por compartir el campo de los estereotipos, con marco y demanda distintos.",
+    "critical_errors": [
+      "Concluir que la medida indirecta revela la actitud verdadera.",
+      "Atribuir a personas concretas la ocultación deliberada de su prejuicio.",
+      "Presentar como establecida la capacidad de la medida implícita para predecir la conducta individual."
+    ],
+    "language": "es-ES"
+  },
+  {
+    "id": "PSY-131",
+    "dimension": "uncertainty",
+    "topic": "aumento de casos diagnosticados y cambios en la detección",
+    "difficulty": "hard",
+    "question": "En una comunidad, el número de menores con diagnóstico de un trastorno del neurodesarrollo registrado en el sistema educativo se ha multiplicado por cuatro en quince años. Un artículo concluye que «el trastorno se ha cuadruplicado» y se dedica a buscar causas ambientales recientes. Indica qué mide realmente ese indicador, qué explicaciones son compatibles con el aumento, cómo podrían distinguirse entre sí y qué puede afirmarse mientras tanto.",
+    "expected_answer": "El indicador mide diagnósticos registrados, es decir, el producto de tres cosas: la frecuencia real del problema, la probabilidad de que un caso sea detectado y evaluado, y la probabilidad de que el diagnóstico llegue a registrarse en ese sistema concreto. Un aumento del recuento es por tanto compatible con que la frecuencia real no haya cambiado en absoluto. Explicaciones compatibles: cambios en los criterios diagnósticos y en su amplitud a lo largo del periodo, que incorporan como casos presentaciones antes excluidas; mayor conocimiento entre profesionales y familias y menor estigma, que aumentan la búsqueda de evaluación; cambios administrativos que vinculan el diagnóstico a la obtención de apoyos, lo que incentiva obtenerlo y registrarlo; sustitución diagnóstica, es decir, casos que antes recibían otra etiqueta y ahora reciben esta, de modo que el aumento en una categoría se acompaña de un descenso en otra; desplazamiento de la edad de detección, que concentra en pocos años casos que antes se detectaban más tarde o no se detectaban; cambios en la composición de la población de referencia; y un aumento real de la frecuencia, que sigue siendo posible y no queda excluido. Podrían distinguirse: examinando la evolución conjunta de las categorías relacionadas para detectar sustitución; aplicando retrospectivamente los criterios antiguos a los casos actuales y los actuales a cohortes antiguas; mediante estudios de prevalencia con muestreo poblacional, cribado sistemático y evaluación estandarizada aplicada del mismo modo en momentos distintos, que es el único diseño que estima frecuencia con independencia de la detección; y analizando los datos por edad al diagnóstico y por cohorte de nacimiento. Mientras tanto puede afirmarse que se diagnostica y se registra a más menores, y que buscar causas ambientales recientes de un aumento cuya realidad no está establecida es prematuro; tampoco puede afirmarse lo contrario, que todo el aumento sea artefactual.",
+    "evaluation_criteria": [
+      {
+        "criterion": "Descompone el indicador en frecuencia real, detección y registro, ofrece al menos cuatro explicaciones compatibles incluidas la sustitución diagnóstica y el cambio de criterios, mantiene abierto un aumento real, y propone estudios de prevalencia con evaluación estandarizada como diseño que separaría las explicaciones.",
+        "max_points": 3
+      },
+      {
+        "criterion": "Advierte que el aumento de diagnósticos no equivale a un aumento del trastorno y menciona el cambio de criterios o la mayor detección, pero no propone cómo distinguir las explicaciones o descarta que el aumento pueda ser real.",
+        "max_points": 2
+      },
+      {
+        "criterion": "Señala que se diagnostica más que antes sin analizar las fuentes del aumento ni sus consecuencias para la conclusión del artículo.",
+        "max_points": 1
+      }
+    ],
+    "source": "Hansen, S. N., Schendel, D. E., & Parner, E. T. (2015). Explaining the increase in the prevalence of autism spectrum disorders: The proportion attributable to changes in reporting practices. JAMA Pediatrics, 169(1), 56-62. Se omite el DOI por no haber podido verificarlo desde este entorno.",
+    "notes": "El trastorno se deja sin nombrar deliberadamente: la capacidad evaluada es el razonamiento sobre indicadores dependientes de la detección, no el conocimiento de una literatura concreta, y la fuente se cita como ejemplo documentado del fenómeno. Ningún ítem del conjunto trata la interpretación de series temporales de datos administrativos. Proximidad declarada con PSY-096 (pasada 3, `reasoning`), sobre efectos de cohorte en un diseño transversal: allí el problema es confundir diferencias entre generaciones con cambios por la edad; aquí, confundir cambios en la detección con cambios en la frecuencia. No se pide diagnosticar (G6).",
+    "critical_errors": [
+      "Interpretar el aumento de diagnósticos registrados como un aumento de la frecuencia real del trastorno.",
+      "Concluir que el aumento se debe únicamente a cambios en los criterios o en la detección.",
+      "Buscar causas de un fenómeno cuya existencia no está establecida."
+    ],
+    "language": "es-ES"
+  },
+  {
+    "id": "PSY-132",
+    "dimension": "uncertainty",
+    "topic": "alcance informativo de una categoría diagnóstica",
+    "difficulty": "hard",
+    "question": "En una reunión de coordinación alguien sostiene: «Ya sabemos que cumple criterios del trastorno X; con eso ya sabemos la causa, lo que va a pasar y lo que hay que hacer». Sin referirte a ninguna persona concreta ni emitir juicio clínico alguno, explica qué información aporta la asignación de una categoría diagnóstica de las actualmente en uso, qué información no aporta y por qué, y qué añadiría una formulación individualizada del caso.",
+    "expected_answer": "Aporta un resumen abreviado de un conjunto de manifestaciones que tienden a presentarse juntas, un lenguaje común entre profesionales y servicios, acceso a la literatura acumulada sobre el grupo así definido, incluidos tratamientos con eficacia media demostrada, y en muchos sistemas la vía administrativa para obtener prestaciones y apoyos. Todo ello es relevante y no debe minusvalorarse. No aporta la causa, porque las categorías actuales se definen mediante criterios descriptivos y no etiológicos, y una misma categoría admite trayectorias causales distintas; no aporta el pronóstico de una persona, porque los datos de curso son promedios de grupo con dispersión amplia; y no aporta la indicación de un tratamiento concreto para alguien, porque la eficacia establecida es media y la respuesta individual varía. Hay una limitación adicional que suele pasarse por alto: la heterogeneidad interna. Cuando los criterios son politéticos, es decir, cuando se exige un número mínimo de síntomas de una lista mayor, dos personas con el mismo diagnóstico pueden compartir muy pocos síntomas o incluso ninguno, de modo que la categoría agrupa presentaciones que pueden ser muy distintas entre sí; esto limita a la vez la interpretación de la etiqueta en un caso y la de los promedios obtenidos en muestras así definidas. A ello se añaden dos riesgos: tomar la etiqueta como explicación de las conductas que precisamente la definen, lo que constituye un razonamiento circular sin poder explicativo añadido; y dejar de observar lo que la persona hace en su contexto una vez asignada. Una formulación individualizada añade lo que la categoría no contiene: los factores de inicio y sobre todo de mantenimiento en este caso, los antecedentes y consecuencias de las conductas problema, los recursos y el contexto de la persona, sus objetivos, y una hipótesis explícita y contrastable que oriente la intervención y pueda revisarse con los datos que genere el seguimiento.",
+    "evaluation_criteria": [
+      {
+        "criterion": "Enumera lo que la categoría sí aporta, explica que no aporta causa, pronóstico individual ni indicación de tratamiento y por qué en cada caso, identifica la heterogeneidad de los criterios politéticos, advierte del uso circular de la etiqueta, y describe qué añade una formulación individualizada.",
+        "max_points": 3
+      },
+      {
+        "criterion": "Explica que el diagnóstico es descriptivo y no explicativo y que no determina el pronóstico ni el tratamiento individual, pero no aborda la heterogeneidad interna de la categoría o no describe la alternativa.",
+        "max_points": 2
+      },
+      {
+        "criterion": "Afirma que el diagnóstico no lo dice todo y que hay que valorar a cada persona, sin explicar qué informa y qué no informa la categoría.",
+        "max_points": 1
+      }
+    ],
+    "source": "Olbert, C. M., Gala, G. J., & Tupler, L. A. (2014). Quantifying heterogeneity attributable to polythetic diagnostic criteria: Theoretical framework and empirical application. Journal of Abnormal Psychology, 123(2), 452-462; y Galatzer-Levy, I. R., & Bryant, R. A. (2013). 636,120 ways to have posttraumatic stress disorder. Perspectives on Psychological Science, 8(6), 651-662. Se omiten los DOI por no haber podido verificarlos desde este entorno.",
+    "notes": "El trastorno se designa genéricamente y el enunciado excluye el juicio clínico, de modo que la tarea versa sobre el alcance informativo de las categorías y no sobre ninguna persona (G6). Proximidad declarada con PSY-019 (piloto), donde la incertidumbre procede de la insuficiencia de los datos para diagnosticar: aquí el diagnóstico se da por establecido y la incertidumbre es la que persiste después de tenerlo. Proximidad declarada también con PSY-076 (pasada 3, `reasoning`), sobre explicaciones circulares: allí la circularidad es el objeto del ítem y aquí uno de los riesgos enumerados.",
+    "critical_errors": [
+      "Tratar la categoría diagnóstica como explicación causal de los síntomas que la definen.",
+      "Derivar del diagnóstico un pronóstico individual.",
+      "Presentar la categoría como suficiente para indicar el tratamiento de una persona."
+    ],
+    "language": "es-ES"
+  },
+  {
+    "id": "PSY-133",
+    "dimension": "uncertainty",
+    "topic": "informes retrospectivos como medida del pasado",
+    "difficulty": "hard",
+    "question": "En una investigación sobre factores asociados a un problema que aparece en la adolescencia se pide a los progenitores que recuerden cómo era el temperamento de su hijo a los dos años y qué acontecimientos ocurrieron entonces. Los progenitores de los adolescentes que presentan el problema recuerdan con más frecuencia un temperamento difícil y más acontecimientos adversos. El equipo concluye que el temperamento temprano y la adversidad predicen el problema. Indica qué debilita esa conclusión, qué explicaciones alternativas existen, qué puede afirmarse y qué diseño lo resolvería.",
+    "expected_answer": "La debilita que la supuesta variable predictora se ha medido después del resultado y por informantes que conocen ese resultado, de modo que la relación temporal que la palabra «predicen» presupone no existe en los datos: solo hay dos medidas tomadas hoy. Los estudios que han comparado informes retrospectivos con registros prospectivos de las mismas personas encuentran concordancias modestas, con errores que no son aleatorios sino sistemáticos. Explicaciones alternativas compatibles: la búsqueda de sentido, es decir, que quien afronta un problema actual reconstruya el pasado buscando antecedentes coherentes y recuerde selectivamente lo que encaja con la explicación que maneja; la influencia del estado presente sobre la accesibilidad de los recuerdos, de modo que un estado de ánimo negativo facilita el recuerdo de material negativo; el sesgo de retrospectiva, que hace que lo ocurrido parezca previsible una vez conocido el desenlace; errores de datación que desplazan acontecimientos hacia los periodos que parecen explicativos; diferencias reales en el recuerdo derivadas de la frecuencia con que la familia ha relatado esa historia, mayor cuando hay un problema del que hablar; y, por último, que la asociación sea real, posibilidad que no queda excluida. Aun siendo real, tampoco distinguiría si el temperamento del niño influyó en el problema, si influyó en la conducta de los progenitores hacia él, o si un factor familiar común afectó a ambos. Puede afirmarse que los progenitores de adolescentes con el problema recuerdan hoy un pasado distinto, dato interesante en sí mismo porque informa de la narrativa familiar actual y puede ser relevante para la intervención, pero que no puede leerse como una medida de lo que ocurrió. Lo resolvería un diseño prospectivo que midiera el temperamento y los acontecimientos cuando ocurren y siguiera a la cohorte hasta la adolescencia; en su defecto, registros contemporáneos independientes, como informes escolares o sanitarios de la época, y evaluadores ciegos al estado actual del adolescente.",
+    "evaluation_criteria": [
+      {
+        "criterion": "Identifica que la variable predictora se midió después del resultado y por informantes que lo conocen, ofrece al menos tres mecanismos de sesgo sistemático del recuerdo, mantiene abierta la posibilidad de que la asociación sea real, delimita lo afirmable como narrativa actual y propone el diseño prospectivo o los registros contemporáneos.",
+        "max_points": 3
+      },
+      {
+        "criterion": "Advierte que el recuerdo retrospectivo es poco fiable y puede estar sesgado por el conocimiento del resultado, pero no distingue lo afirmable de lo no afirmable o no propone un diseño alternativo.",
+        "max_points": 2
+      },
+      {
+        "criterion": "Señala que la memoria falla, sin explicar por qué el sesgo es sistemático en esta situación ni qué consecuencia tiene para la conclusión.",
+        "max_points": 1
+      }
+    ],
+    "source": "Henry, B., Moffitt, T. E., Caspi, A., Langley, J., & Silva, P. A. (1994). On the «remembrance of things past»: A longitudinal evaluation of the retrospective method. Psychological Assessment, 6(2), 92-101. Se omite el DOI por no haber podido verificarlo desde este entorno.",
+    "notes": "El punto discriminativo es que el sesgo no es aleatorio sino condicionado por el resultado conocido, lo que lo convierte en una amenaza direccional y no en simple ruido. Proximidad declarada con PSY-021 (piloto), sobre confianza y exactitud del recuerdo autobiográfico: allí el objeto es un recuerdo propio y la disociación entre seguridad y exactitud; aquí, el uso de informes retrospectivos como variable en un diseño de investigación. Proximidad declarada con PSY-001 y PSY-027, del campo de la sugestibilidad y los falsos recuerdos, con demandas distintas.",
+    "critical_errors": [
+      "Tratar el informe retrospectivo como una medida del pasado.",
+      "Concluir que el temperamento temprano predice el problema a partir de este diseño.",
+      "Descartar por completo el valor informativo de los informes retrospectivos."
+    ],
+    "language": "es-ES"
+  },
+  {
+    "id": "PSY-134",
+    "dimension": "uncertainty",
+    "topic": "identidad de la etiqueta e identidad del constructo",
+    "difficulty": "hard",
+    "question": "Dos equipos publican resultados opuestos sobre la relación entre «autocontrol» y rendimiento académico. Al revisar los métodos se comprueba que uno mide el autocontrol con una escala de autoinforme sobre hábitos cotidianos y el otro con una tarea de laboratorio de demora de la gratificación, y que en un tercer estudio ambas medidas correlacionan alrededor de 0,10 entre sí. Indica qué se puede y qué no se puede concluir de esa contradicción aparente, qué error de razonamiento amenaza aquí y qué haría falta para pronunciarse sobre «el autocontrol».",
+    "expected_answer": "No puede concluirse que los dos estudios se contradigan, porque no está establecido que midan lo mismo: una correlación de 0,10 entre dos instrumentos es incompatible con que ambos evalúen un mismo constructo con fiabilidad aceptable. Tampoco puede concluirse cuál de los dos mide el autocontrol verdadero, ni que uno de ellos sea inválido: pueden ser dos constructos distintos, ambos legítimos, a los que se ha dado el mismo nombre por razones históricas. El error que amenaza es tratar la identidad de la etiqueta como identidad del constructo, es decir, suponer que dos instrumentos que comparten nombre miden lo mismo y que por tanto sus resultados son comparables; su consecuencia práctica es que acumular estudios bajo una misma palabra produce literaturas incoherentes y síntesis que promedian cosas distintas, y que las contradicciones aparentes se atribuyen a fallos de replicación cuando son diferencias de medida. Sí puede concluirse que la escala de autoinforme se relaciona con el rendimiento de un modo y la tarea de laboratorio de otro, resultado informativo en sí mismo, y que la etiqueta común es engañosa y debería sustituirse por la descripción de lo que cada instrumento mide. Hay una consideración adicional que impide cerrar el caso demasiado rápido: parte de la baja correlación puede deberse a fiabilidad limitada, sobre todo en tareas conductuales aplicadas una sola vez, cuya fiabilidad suele ser menor de lo que se supone; corregir por atenuación permitiría acotar cuánto de la discrepancia es error de medida y cuánto diferencia real de constructo, aunque esa corrección requiere estimaciones de fiabilidad que también son inciertas. Haría falta: definir el constructo antes de elegir la medida; evidencia de validez convergente y discriminante con varias medidas del mismo y de constructos afines; comprobar si ambas medidas se relacionan con los mismos criterios externos, que es la vía para saber si son intercambiables; y, en las publicaciones, nombrar la medida empleada y no solo la etiqueta.",
+    "evaluation_criteria": [
+      {
+        "criterion": "Niega que los estudios se contradigan porque no está establecido que midan lo mismo, nombra el error de identificar etiqueta con constructo y expone su consecuencia para la acumulación de literatura, considera la fiabilidad como explicación parcial de la baja correlación, y propone evidencia de validez convergente y discriminante y la relación con criterios externos.",
+        "max_points": 3
+      },
+      {
+        "criterion": "Advierte que ambas medidas pueden evaluar cosas distintas y que la contradicción es aparente, pero elige una de ellas como la válida o no indica qué evidencia resolvería la cuestión.",
+        "max_points": 2
+      },
+      {
+        "criterion": "Señala que los estudios usan instrumentos distintos, sin extraer consecuencias sobre la interpretación de la contradicción.",
+        "max_points": 1
+      }
+    ],
+    "source": "Duckworth, A. L., & Kern, M. L. (2011). A meta-analysis of the convergent validity of self-control measures. Journal of Research in Personality, 45(3), 259-268; y Cronbach, L. J., & Meehl, P. E. (1955). Construct validity in psychological tests. Psychological Bulletin, 52(4), 281-302. Se omiten los DOI por no haber podido verificarlos desde este entorno.",
+    "notes": "La cifra de correlación es un supuesto del escenario, coherente con la baja convergencia entre medidas de autoinforme y tareas conductuales que documenta la fuente citada; los criterios puntúan el argumento y no la cifra. Proximidad declarada con PSY-094 (pasada 3, `reasoning`), sobre atenuación de la correlación por error de medida: allí la atenuación es el objeto del ítem y aquí una consideración subordinada que impide una conclusión precipitada. Proximidad declarada con PSY-038 (pasada 1, `knowledge`), sobre consistencia interna y unidimensionalidad, cuyo problema psicométrico es distinto.",
+    "critical_errors": [
+      "Tratar la discrepancia como una contradicción empírica entre los estudios.",
+      "Elegir una de las dos medidas como el autocontrol verdadero sin evidencia de validez.",
+      "Suponer que dos instrumentos que comparten nombre miden el mismo constructo."
+    ],
+    "language": "es-ES"
+  },
+  {
+    "id": "PSY-135",
+    "dimension": "uncertainty",
+    "topic": "confianza declarada y calibración del juicio",
+    "difficulty": "hard",
+    "question": "Un profesional afirma, al emitir una valoración técnica sobre un caso: «Estoy un 90 % seguro de mi conclusión». Indica qué información aporta esa afirmación, qué no permite concluir, por qué la calidad de un juicio único no puede evaluarse a partir de la confianza declarada, y qué haría falta para saber si la confianza de esa persona está bien calibrada.",
+    "expected_answer": "La afirmación aporta información sobre el estado subjetivo de quien la emite y sobre su disposición a comprometerse con la conclusión, lo que no es irrelevante en un contexto profesional. No permite concluir que la conclusión sea correcta, ni asignarle una probabilidad de acierto del 90 %: la relación entre confianza y exactitud es una propiedad empírica que varía entre personas, tareas y condiciones, y no puede darse por supuesta. Un juicio único no es evaluable en términos de calibración, y esta es la razón central: la calibración es una propiedad de un conjunto de juicios, no de uno solo. Decir «90 %» y acertar no demuestra buena calibración, ni fallar demuestra lo contrario; solo reuniendo muchos juicios emitidos con ese mismo nivel de confianza puede comprobarse si aproximadamente el 90 % de ellos resultan correctos. Hay dos regularidades pertinentes: la confianza tiende a exceder la exactitud, sobre todo en tareas difíciles; y la confianza aumenta con la cantidad de información disponible más deprisa que la exactitud, de modo que disponer de más datos puede elevar la seguridad sin mejorar el acierto, e incluso mientras este se estanca. Además, la calibración mejora en dominios que ofrecen retroalimentación frecuente, rápida y no ambigua sobre los resultados, y tiende a ser pobre allí donde esa retroalimentación falta o llega tarde, filtrada y solo para algunos casos, condición frecuente en el juicio profesional sobre personas; por eso los años de ejercicio no garantizan por sí solos una confianza bien calibrada. Haría falta, para saberlo: registrar sistemáticamente los juicios de esa persona junto con el nivel de confianza declarado antes de conocer el resultado, disponer de un criterio de acierto definido con independencia de quien juzga, acumular un número suficiente de casos, y comparar en cada nivel de confianza la proporción de aciertos observada con la declarada, lo que produce una curva de calibración y permite separar el sesgo de sobreconfianza de la capacidad de discriminar entre casos.",
+    "evaluation_criteria": [
+      {
+        "criterion": "Explica que la calibración es una propiedad de un conjunto de juicios y no de uno solo, niega que la confianza declarada permita estimar la probabilidad de acierto, aporta al menos una regularidad empírica pertinente (sobreconfianza en tareas difíciles, o crecimiento de la confianza con la información sin aumento del acierto), vincula la calibración a las condiciones de retroalimentación, y describe el procedimiento que permitiría evaluarla.",
+        "max_points": 3
+      },
+      {
+        "criterion": "Advierte que la confianza no garantiza la exactitud y que haría falta comprobarlo con más juicios, pero no explica por qué un juicio único no es evaluable o no describe el procedimiento.",
+        "max_points": 2
+      },
+      {
+        "criterion": "Afirma que las personas pueden equivocarse aunque estén seguras, sin analizar la relación entre confianza y exactitud ni cómo evaluarla.",
+        "max_points": 1
+      }
+    ],
+    "source": "Lichtenstein, S., Fischhoff, B., & Phillips, L. D. (1982). Calibration of probabilities: The state of the art to 1980. En D. Kahneman, P. Slovic & A. Tversky (Eds.), Judgment under Uncertainty: Heuristics and Biases (pp. 306-334). Cambridge University Press; y Kahneman, D., & Klein, G. (2009). Conditions for intuitive expertise: A failure to disagree. American Psychologist, 64(6), 515-526. Se omite el DOI del segundo por no haber podido verificarlo desde este entorno.",
+    "notes": "El punto discriminativo es de nivel lógico: la calibración no es una propiedad de un juicio aislado, de modo que la pregunta por la fiabilidad de esta valoración concreta no puede responderse en esos términos. Proximidad declarada con PSY-021 (piloto), sobre confianza y exactitud de un recuerdo: allí el objeto es un recuerdo autobiográfico y aquí un juicio probabilístico profesional evaluado como parte de un conjunto. Proximidad declarada con PSY-084 (pasada 3, `reasoning`), que también invoca las condiciones de retroalimentación para explicar la pericia: aquí ese punto es subordinado y no el eje del ítem. No se pide juicio clínico ni se identifica el caso (G6).",
+    "critical_errors": [
+      "Tratar la confianza declarada como una estimación de la probabilidad de acierto.",
+      "Evaluar la calibración a partir de un único juicio y de su resultado.",
+      "Suponer que más información mejora la exactitud en la misma medida en que aumenta la confianza."
+    ],
+    "language": "es-ES"
+  },
+  {
+    "id": "PSY-136",
+    "dimension": "uncertainty",
+    "topic": "transportabilidad de la evidencia a una población no estudiada",
+    "difficulty": "hard",
+    "question": "Un tratamiento psicológico cuenta con ensayos sólidos y replicados en adultos de 25 a 55 años sin otras condiciones asociadas, reclutados en unidades universitarias. Un servicio quiere aplicarlo a personas mayores de 75 años con varias enfermedades crónicas y limitaciones sensoriales. Un responsable sostiene que «es un tratamiento basado en la evidencia, luego está justificado»; otro sostiene que «no hay evidencia en esa población, luego no debe aplicarse». Indica qué tiene de correcto y de incorrecto cada postura, de qué depende que los resultados se transfieran y cómo debería procederse.",
+    "expected_answer": "La primera postura acierta en que la eficacia está bien establecida en la población estudiada y en que no es nula la plausibilidad de que el mecanismo opere también en otras poblaciones. Se equivoca al tratar «basado en la evidencia» como una propiedad del tratamiento en abstracto, cuando es siempre una afirmación relativa a una población, una forma de aplicación, un comparador y un resultado: al cambiar la población, la afirmación deja de estar respaldada y pasa a ser una extrapolación. La segunda acierta en señalar la ausencia de evidencia directa. Se equivoca al convertirla sin más en una prohibición, por dos razones: la alternativa, sea otro tratamiento o ninguno, tampoco cuenta con evidencia en esa población, de modo que la exigencia se estaría aplicando con doble rasero solo a la opción examinada; y una regla así privaría sistemáticamente de tratamientos a las poblaciones que los ensayos excluyen, que suelen ser precisamente las más vulnerables. La transferencia depende de si los factores que modifican el efecto difieren entre ambas poblaciones: aquí, funcionamiento cognitivo y sensorial, comorbilidad y medicación, movilidad y accesibilidad, apoyo disponible, expectativas y significado atribuido al problema, y viabilidad del formato y la duración de las sesiones. Depende también de si el mecanismo propuesto exige capacidades que puedan estar afectadas, de si las medidas de resultado son válidas y relevantes en esa población, y de si la exclusión en los ensayos originales obedeció a razones logísticas o a razones sustantivas relacionadas con la respuesta al tratamiento, distinción que a menudo puede averiguarse leyendo los criterios de exclusión. Debería procederse explicitando qué se extrapola y bajo qué supuestos; adaptando el formato sin alterar los componentes considerados activos y documentando cada cambio; informando a las personas de que la evidencia procede de otra población; midiendo resultados con criterios definidos de antemano y revisando la decisión con esos datos; y, si el volumen de casos lo permite, generando evidencia mediante implantación escalonada. Lo que no procede es anunciar el programa como avalado para esta población.",
+    "evaluation_criteria": [
+      {
+        "criterion": "Evalúa las dos posturas señalando en cada una lo correcto y lo incorrecto, explica que el aval es relativo a población, aplicación y comparador, advierte del doble rasero de exigir evidencia solo a una de las opciones, identifica factores concretos que podrían modificar el efecto en esta población, y propone un procedimiento que incluye adaptación documentada, información honesta y generación de evidencia.",
+        "max_points": 3
+      },
+      {
+        "criterion": "Reconoce que la evidencia no se transfiere automáticamente y propone adaptar y evaluar, pero avala una de las dos posturas sin examinar la otra o no identifica de qué depende la transferencia.",
+        "max_points": 2
+      },
+      {
+        "criterion": "Afirma que habría que adaptar el tratamiento a las características de las personas mayores, sin analizar el estatus de la evidencia disponible.",
+        "max_points": 1
+      }
+    ],
+    "source": "Rothwell, P. M. (2005). External validity of randomised controlled trials: «to whom do the results of this trial apply?». The Lancet, 365(9453), 82-93. Se omite el DOI por no haber podido verificarlo desde este entorno.",
+    "notes": "El ítem exige evaluar dos posturas opuestas y erróneas por motivos distintos, en lugar de refutar una sola, lo que impide resolverlo con la respuesta genérica de que hace falta más evidencia. Proximidad declarada con PSY-022 (piloto), sobre generalización desde una muestra pequeña: allí lo que limita la conclusión es la debilidad del estudio, mientras que aquí los estudios son sólidos y lo que cambia es la población destinataria. Se distingue expresamente de PSY-116 de esta misma pasada, donde lo que cambia son los parámetros de la intervención y no la población. No se recomienda tratamiento a ninguna persona concreta (G6).",
+    "critical_errors": [
+      "Presentar el aval del tratamiento como válido para una población en la que no se ha evaluado.",
+      "Concluir que la ausencia de evidencia directa prohíbe la aplicación, sin aplicar el mismo criterio a las alternativas.",
+      "Omitir que la extrapolación depende de qué factores modifican el efecto."
+    ],
+    "language": "es-ES"
+  },
+  {
+    "id": "PSY-137",
+    "dimension": "uncertainty",
+    "topic": "incertidumbre reducible con más datos e incertidumbre no reducible",
+    "difficulty": "hard",
+    "question": "Un equipo analiza los registros de un servicio y encuentra que las personas que acudieron voluntariamente a un taller de gestión del estrés presentan, seis meses después, mejores indicadores que quienes no acudieron. El intervalo de confianza de la diferencia es amplio. El equipo propone repetir el análisis dentro de un año, cuando el registro contenga cinco veces más casos, «para confirmar el efecto». Indica qué incertidumbres reduciría ese aumento de datos, cuáles no reduciría en absoluto, por qué, y qué haría falta en su lugar.",
+    "expected_answer": "El aumento de casos reduce la incertidumbre debida al error de muestreo: estrechará el intervalo de confianza y estimará con más precisión la diferencia observada entre quienes acudieron y quienes no. No reduce en absoluto la incertidumbre sobre qué representa esa diferencia. Quienes acuden voluntariamente a un taller difieren de quienes no acuden en motivación, gravedad percibida del problema, disponibilidad de tiempo, apoyo social, salud previa y otras variables asociadas al resultado; esa diferencia sistemática entre grupos es un sesgo, no un error aleatorio, y no depende del número de casos: multiplicar por cinco la muestra estima con más precisión una cantidad que sigue sin ser el efecto del taller. El resultado, de hecho, es peor que el actual: el intervalo estrecho aumentará la confianza en una estimación sesgada y la significación estadística llegará con práctica seguridad, de modo que el análisis parecerá más concluyente sin serlo. Con muestras muy grandes, el error sistemático domina por completo al aleatorio y el margen de error declarado deja de describir la distancia real respecto a la cantidad que se quiere estimar. Tampoco se reducen con más datos del mismo tipo: la ambigüedad sobre la dirección causal, ya que acudir al taller puede ser consecuencia de estar mejor o de haber decidido cuidarse; la validez de los indicadores que contiene el registro; y la posibilidad de que asistir sea un marcador de otra cosa, como haber pedido ayuda o disponer de un horario flexible. Haría falta, en su lugar, información de otro tipo: asignación aleatoria cuando sea viable, por ejemplo mediante sorteo de plazas cuando la demanda supere la oferta, que es lo único que rompe la asociación entre asistir y las características de quien asiste; y, si no lo es, medir las variables que diferencian a los grupos y ajustar de forma explícita reconociendo que el ajuste solo cubre lo medido, comparar con personas que se inscribieron y no pudieron asistir por causas ajenas a ellas, aprovechar variaciones en la disponibilidad del taller entre centros o periodos, y disponer de medidas previas al taller en ambos grupos para comprobar si ya diferían antes. En resumen: hacen falta datos de otro tipo, no más datos del mismo tipo.",
+    "evaluation_criteria": [
+      {
+        "criterion": "Distingue el error aleatorio, que el aumento de casos reduce, del sesgo de selección, que no reduce, explica por qué el sesgo no depende del tamaño muestral, advierte que el resultado será más engañoso al parecer más preciso y significativo, y propone alternativas que aportan información de otra naturaleza en lugar de más casos.",
+        "max_points": 3
+      },
+      {
+        "criterion": "Advierte que más datos no resolverán el problema de comparabilidad entre quienes asisten y quienes no, pero no explica por qué el sesgo es independiente del tamaño muestral o no propone alternativas concretas.",
+        "max_points": 2
+      },
+      {
+        "criterion": "Señala que la comparación no es aleatorizada, sin analizar qué incertidumbre reduce y cuál no reduce el aumento de casos.",
+        "max_points": 1
+      }
+    ],
+    "source": "Meng, X.-L. (2018). Statistical paradises and paradoxes in big data (I): Law of large populations, big data paradox, and the 2016 US presidential election. The Annals of Applied Statistics, 12(2), 685-726. Se omite el DOI por no haber podido verificarlo desde este entorno.",
+    "notes": "Es el ítem que cierra la dimensión con la distinción que la organiza: qué parte de la incertidumbre es reducible acumulando datos del mismo tipo y qué parte solo lo es cambiando el tipo de dato. El punto contraintuitivo, que más datos empeoran la situación al revestir de precisión una estimación sesgada, es el que sostiene su potencial discriminativo. Proximidad declarada con PSY-092 (pasada 3, `reasoning`), sobre sesgo de selección: allí el mecanismo es el condicionamiento sobre un efecto común en una muestra clínica y la demanda es explicar la aparición de una asociación inexistente; aquí el objeto es qué operación reduce cada tipo de incertidumbre. Proximidad declarada con PSY-113 de esta misma pasada, sobre la anchura del intervalo, que aquí aparece como punto de partida y no como objeto.",
+    "critical_errors": [
+      "Sostener que aumentar el número de casos permitirá confirmar el efecto del taller.",
+      "Tratar la diferencia entre asistentes y no asistentes como el efecto del taller.",
+      "Confundir la reducción del error aleatorio con la reducción del sesgo de selección."
+    ],
+    "language": "es-ES"
   }
 ]
