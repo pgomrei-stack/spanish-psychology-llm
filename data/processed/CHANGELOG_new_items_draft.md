@@ -820,3 +820,315 @@ Dos candidatos quedan disponibles para pasadas futuras: **el sesgo de retrospect
 de un incidente**, anotado ya como pendiente en las pasadas 2 y 3 y adecuado para
 `critical_analysis`, y **la incoherencia entre sistemas de respuesta emocional**, descartado aquí
 solo por densidad de familia. `critical_analysis` es la única dimensión que sigue sin escalar.
+
+---
+
+## Pasada 5 — dimensión `critical_analysis`, 35 ítems (PSY-138 a PSY-172)
+
+Quinta pasada sobre este archivo y última dimensión pendiente de escalar. Acumulado tras esta
+pasada: **142 ítems** (107 de las pasadas 1 a 4 + 35 nuevos). No se ha modificado ningún ítem de
+pasadas anteriores ni ningún archivo del piloto: el diff sobre `new_items_draft.json` es de 1.053
+líneas añadidas y 0 eliminadas, y `git status` no registra cambios en
+`pilot_questions_curated.json` ni en `question_schema.json`.
+
+**Validación:** `python3 scripts/validate_dataset.py --data data/processed/new_items_draft.json`
+→ `RESULTADO: OK`, exit code 0, 142 ítems, 0 IDs duplicados, sin colisión con los IDs del piloto ni
+con los de pasadas anteriores (máximo previo `PSY-137`).
+
+Validado también el conjunto combinado piloto + draft (170 ítems): sin errores bloqueantes.
+`critical_analysis` pasa de 5 a 40 ítems en el conjunto combinado, y el único aviso de equilibrio
+que subsiste es el de `knowledge` (20 ítems frente a una media de 34), la dimensión menos escalada
+del conjunto; no es bloqueante y queda anotado como candidato natural para una pasada futura.
+
+### Distribución
+
+| Dificultad | N | IDs |
+|---|---|---|
+| `easy` | 3 | PSY-138, PSY-139, PSY-140 |
+| `medium` | 10 | PSY-141 a PSY-150 |
+| `hard` | 22 | PSY-151 a PSY-172 |
+
+El 63 % del lote es `hard`, conforme al encargo y a la naturaleza de la dimensión. Los tres ítems
+`easy` miden errores conceptuales extendidos y no recuerdo: tomar la publicación con revisión por
+pares como garantía de la conclusión (138), aplicar el principio de que la correlación no implica
+causalidad a un experimento aleatorizado (139) y aceptar la antigüedad y la popularidad de una
+práctica como evidencia de eficacia (140). Los tres exigen sostener a la vez la crítica y su
+límite, que es donde falla la respuesta débil.
+
+### Estructura de los ítems (sección 7.3 de la rúbrica)
+
+La sección 7.3 pide que un ítem de esta dimensión presente una afirmación, argumento, estudio,
+resultado o interpretación evaluable. **Los 35 lo hacen y en los 35 la afirmación se atribuye
+expresamente a un tercero** —un artículo, un titular, una consultora, un asistente a un seminario,
+una comisión—, nunca a la voz del ítem, requisito de G5. Las dimensiones analíticas de la sección
+7.3 quedan cubiertas sin que ninguna domine:
+
+| Dimensión analítica | Ítems |
+|---|---|
+| Sobregeneralización y extrapolación fuera de las condiciones | 141, 143, 149, 156 |
+| Interpretación estadística | 148, 159, 164, 172 |
+| Limitaciones metodológicas y decisiones del analista | 145, 147, 152, 153, 166, 171 |
+| Problemas de medida y de constructo | 142, 150, 157, 163, 165 |
+| Explicaciones alternativas | 140, 151, 158, 162 |
+| Supuestos no justificados y estructura del argumento | 138, 144, 161, 169 |
+| Validez externa y de constructo del paradigma | 149, 155, 160 |
+| Replicabilidad y estatus de la evidencia | 138, 170 |
+| Unidad de análisis y sesgo de selección | 146, 162 |
+| Validez predictiva e incremental | 154 |
+
+### La familia de crítica invertida
+
+Cinco ítems del lote —**PSY-139, PSY-160, PSY-167, PSY-168 y PSY-170**— están construidos de modo
+que la respuesta correcta exige **defender en parte lo criticado**, porque el modo de fallo
+característico de un modelo entrenado a enumerar limitaciones es la crítica refleja. La familia se
+declara aquí y en las `notes` de cada ítem, y cada miembro tiene un objeto distinto:
+
+| Ítem | Qué hay que reconocer como improcedente |
+|---|---|
+| PSY-139 | Aplicar un principio válido (correlación y causalidad) al tipo de diseño en que no rige. |
+| PSY-160 | Atribuir a la validez interna objeciones que corresponden a la medida o a la generalización. |
+| PSY-167 | Descartar un efecto por su magnitud sin considerar alcance, coste ni alternativas. |
+| PSY-168 | Aplicar objeciones de muestra a una conclusión a la que no amenazan. |
+| PSY-170 | Concluir la inexistencia de un efecto a partir de una única replicación fallida. |
+
+El contraste entre **PSY-156 y PSY-168** es deliberado: la misma objeción sobre la composición de
+la muestra es decisiva en el primero, donde la afirmación evaluada es de universalidad, e
+improcedente en el segundo, donde la afirmación es sobre un mecanismo perceptivo básico. El par
+**PSY-148 / PSY-167** cumple la misma función con la magnitud del efecto: en uno se presenta como
+demostrada la relevancia de una diferencia pequeña por ser significativa y en el otro se descarta
+un efecto pequeño por serlo, de modo que un modelo que aplique una regla fija a los tamaños del
+efecto falla necesariamente en uno de los dos.
+
+### Cobertura temática y control de redundancia (Q7)
+
+**Ningún marco teórico de los cinco ítems `critical_analysis` del piloto se reutiliza.** Amenaza
+del estereotipo (013), superioridad de la terapia cognitivo-conductual frente a lista de espera
+(014), interpretación del valor p aislado (015), estabilidad de la personalidad (016) y
+absolutismo de la teoría de la autodeterminación (017) quedan fuera del lote. En particular **no se
+reutiliza la teoría de la autodeterminación**, señalada por el revisor del piloto como
+sobrerrepresentada.
+
+Ningún escenario, caso ni dato numérico del piloto o de pasadas anteriores reaparece. Los tres
+escenarios que podrían parecer repetidos no lo son: la lista de espera aparece en PSY-139 como una
+objeción secundaria dentro de una enumeración y no como objeto (PSY-014); la selección de personal
+aparece en PSY-154 con el marco de la validez incremental, distinto del de PSY-060 y PSY-093; y la
+prevención escolar aparece en PSY-167 como escenario de una decisión de recursos, no de diseño
+(PSY-052, PSY-095).
+
+Campos nuevos en el conjunto: estatus epistémico de la publicación (138), condiciones de obtención
+de un dato divulgado (141), validación de una tipología (142), niveles de explicación (144),
+finalidad de un estudio piloto (145), unidad de análisis (146), dicotomización (147), relevancia
+clínica anclada empíricamente (148), inferencia traslacional desde modelos animales (149),
+formulación de ítems de encuesta (150), sesgo retrospectivo y de resultado (151), discrepancia entre
+protocolo registrado y publicación (152), circularidad analítica (153), validez incremental (154),
+cadena artículo-nota de prensa-noticia (155), base muestral de una afirmación de universalidad
+(156), reificación de un factor (157), adaptacionismo post hoc (158), espacio de especificaciones
+(159), separación de tipos de validez (160), inmunización de hipótesis (161), denominador ausente
+(162), construcción de una categoría y derivación de su prevalencia (163), comparación de veredictos
+de significación (164), solapamiento de contenido entre escalas (165), ajuste por variable posterior
+al tratamiento (166), pertinencia de una crítica (168), salto de la descripción a la prescripción
+(169), alcance de una replicación fallida (170), codificación no ciega (171) y traducción de la
+varianza explicada (172).
+
+### Marcos reincidentes y coincidencias declaradas (Q7)
+
+Todas figuran en el campo `notes` del ítem correspondiente:
+
+| Ítem | Coincide con | Qué lo distingue |
+|---|---|---|
+| PSY-139 | PSY-009, PSY-011, PSY-026 (piloto) | Allí, detectar el salto causal; aquí, reconocer que el principio se aplica fuera de su ámbito. |
+| PSY-140 | PSY-108 (pasada 4) | Allí, el límite inferencial de un testimonio individual; aquí, la estructura de un argumento de tradición y los mecanismos de transmisión de una práctica. |
+| PSY-141 | PSY-032 (pasada 1) | Allí, un neuromito sin base; aquí, un dato real cuyas condiciones de obtención hay que reconstruir. |
+| PSY-142 | PSY-005 (piloto), PSY-154 (esta pasada) | Allí, estructura de rasgos y aportación sobre predictores existentes; aquí, que el dato aportado no es de validez. |
+| PSY-143 | PSY-039 (pasada 1) | Allí, qué es la heredabilidad; aquí, una inferencia de política educativa que la usa como premisa. |
+| PSY-144 | PSY-059 (pasada 2) | Allí, comunicar a un paciente; aquí, desmontar una inferencia entre niveles de explicación. |
+| PSY-145 | PSY-022 (piloto) | Allí, qué concluir de una muestra pequeña; aquí, la finalidad declarada del diseño y el uso posterior de su estimación. |
+| PSY-146 | PSY-091 (pasada 3), PSY-119 (pasada 4) | Allí, inversión de una asociación al agregar y equivalencia de medida; aquí, la unidad de análisis. |
+| PSY-147 | PSY-094 (pasada 3), PSY-058 (pasada 2) | Allí, atenuación por el instrumento y lectura de resultados nulos; aquí, la atenuación creada por una decisión evitable. |
+| PSY-148 | PSY-028 (piloto), PSY-167 (esta pasada) | Allí, comunicar la distinción; aquí, evaluarla y especificar qué evidencia decide la relevancia. |
+| PSY-149 | PSY-155 (esta pasada) | Allí, la distancia entre titular y artículo; aquí, la validez de constructo de un modelo animal. |
+| PSY-150 | PSY-066 (pasada 2), PSY-109 (pasada 4) | Allí, quién responde y una premisa falsa que hay que rechazar; aquí, el efecto de la formulación sobre la distribución de respuestas. |
+| PSY-151 | PSY-042 (pasada 1), PSY-062 (pasada 2) | Allí, valor predictivo y comunicación responsable; aquí, la epistemología de una revisión de casos. |
+| PSY-152 | PSY-095 (pasada 3), PSY-015 (piloto) | Allí, multiplicidad informada; aquí, selección oculta entre lo planificado y lo publicado. |
+| PSY-153 | PSY-094, PSY-095 (pasada 3), PSY-012 (piloto) | Allí, atenuación, multiplicidad e inferencia inversa; aquí, circularidad entre selección y estimación. |
+| PSY-154 | PSY-060 (pasada 2), PSY-093 (pasada 3) | Allí, comunicación y restricción del rango; aquí, la aportación sobre los predictores ya en uso. |
+| PSY-155 | PSY-058 (pasada 2), PSY-126 (pasada 4) | Allí, resultados nulos y divergencia entre medidas; aquí, la comparación de dos textos y la redacción de la conclusión ajustada. |
+| PSY-156 | PSY-136, PSY-119 (pasada 4) | Allí, decidir si aplicar evidencia a otra población; aquí, evaluar una afirmación de universalidad. |
+| PSY-157 | PSY-036 (pasada 1) | Allí, baremos e interpretación de puntuaciones; aquí, un resumen estadístico frente a una hipótesis sustantiva sobre su causa. |
+| PSY-158 | PSY-088 (pasada 3), PSY-161 (esta pasada) | Allí, diseñar una prueba falsadora e inmunización clínica; aquí, la narración adaptativa construida a posteriori. |
+| PSY-159 | PSY-152, PSY-153 (esta pasada), PSY-072 (pasada 2) | Allí, registro y circularidad; aquí, el espacio de especificaciones defendibles. |
+| PSY-160 | PSY-139 (esta pasada) | Allí, defender la aleatorización; aquí, clasificar cada objeción según la inferencia que amenaza. |
+| PSY-161 | PSY-076 (pasada 3), PSY-158 (esta pasada) | Allí, circularidad definicional; aquí, uso asimétrico de un supuesto auxiliar legítimo. |
+| PSY-162 | PSY-092, PSY-084 (pasada 3) | Allí, efecto común y condiciones de la práctica; aquí, la inversión entre dos proporciones condicionales. |
+| PSY-163 | PSY-042 (pasada 1), PSY-132, PSY-134 (pasada 4) | Allí, categorías ya establecidas; aquí, el procedimiento de construcción de una y la derivación de su prevalencia. |
+| PSY-164 | PSY-095 (pasada 3), PSY-058 (pasada 2) | Allí, la tasa de error de doce contrastes; aquí, dos veredictos de significación y la potencia de la interacción. |
+| PSY-165 | PSY-038 (pasada 1), PSY-094 (pasada 3), PSY-134 (pasada 4) | Allí, propiedades métricas e identidad de etiqueta; aquí, el solapamiento material de ítems entre dos escalas. |
+| PSY-166 | PSY-080, PSY-092 (pasada 3) | Allí, distinguir mediación de moderación; aquí, evaluar una decisión de ajuste y su efecto sobre la conclusión. |
+| PSY-167 | PSY-148 (esta pasada), PSY-072 (pasada 2) | Allí, la relevancia dada por supuesta y la comunicación de magnitudes; aquí, el descarte por magnitud. |
+| PSY-168 | PSY-105 (pasada 3), PSY-156 (esta pasada) | Allí, sensibilidad y criterio, y una afirmación que sí depende de la muestra; aquí, la pertinencia de la objeción. |
+| PSY-169 | PSY-085 (pasada 3) | Allí, predecir la conducta bajo un indicador; aquí, la premisa normativa no declarada. |
+| PSY-170 | PSY-070 (pasada 2), PSY-122 (pasada 4), PSY-161 (esta pasada) | Allí, comunicación pública, sesgo de una literatura e inmunización; aquí, dos afirmaciones opuestas sobre un mismo resultado. |
+| PSY-171 | PSY-087 (pasada 3), PSY-038 (pasada 1) | Allí, la expectativa modifica la conducta evaluada; aquí, modifica el registro de una conducta que no cambia. |
+| PSY-172 | PSY-061 (pasada 2), PSY-039 (pasada 1), PSY-093 (pasada 3) | Allí, comunicar variabilidad y describir constructos; aquí, traducir un estadístico de varianza a decisiones sobre personas. |
+
+La familia más densa del lote es la de **libertad del analista** (PSY-152, PSY-153 y PSY-159), con
+tres objetos distintos: la discrepancia entre el análisis registrado y el publicado, la circularidad
+entre selección y estimación dentro de un mismo análisis, y el espacio de especificaciones
+igualmente defendibles. La proximidad se reconoce con `Q7 = 1` en PSY-152 y PSY-159 y se declara en
+las `notes` de los tres.
+
+### Datos numéricos y comprobaciones verificables
+
+Diez ítems contienen cifras elegidas para que la conclusión puntuada sea comprobable y no dependa
+del criterio del evaluador: la diferencia de 1,4 puntos en un rango de 0 a 63 con d = 0,17 (148);
+r = -0,04 con 300.000 casos y un rango de especificaciones de -0,15 a +0,02 (159); r = 0,78 por
+encima del techo que imponen las fiabilidades (153); d = 0,31 con p = 0,03 frente a d = 0,24 con
+p = 0,11, estimaciones deliberadamente próximas (164); r = 0,72 entre escalas con ítems solapados
+(165); el 91 % de práctica temprana entre 250 casos seleccionados por el resultado (162); el corte
+en el decil superior que produce el 10 % de prevalencia (163); el 35 % de varianza explicada, que
+corresponde a una correlación múltiple de ≈ 0,59 (172); el 89 % de reconocimiento subjetivo (142);
+y d = 0,25 en la tarea de laboratorio (160). En ninguno se exige el cálculo formal: se puntúa la
+conclusión que la cifra hace verificable.
+
+---
+
+## Autoevaluación de la pasada 5 (QQR v1.0)
+
+### Gates obligatorios
+
+Los 35 ítems pasan los ocho gates. Puntos que requerían comprobación específica:
+
+| Gate | Ítems implicados | Resultado |
+|---|---|---|
+| G3 (desalineación constructo-pregunta) | PSY-147, PSY-153, PSY-166, PSY-171 | Pasan. Los cuatro podrían leerse como `reasoning` por su contenido metodológico, pero en los cuatro la tarea es evaluar una decisión ajena ya tomada y la conclusión que se extrajo de ella, no resolver un problema. La sección 7.3 incluye expresamente «limitaciones metodológicas», «problemas de medida» e «interpretación estadística» dentro de la dimensión. |
+| G3 (frontera con `uncertainty`) | PSY-159, PSY-167, PSY-170 | Pasan. Los tres exigen delimitar lo que no queda establecido, pero el objeto puntuado es la evaluación de una afirmación concreta y de sus fallos, no el reparto de conclusiones ante información insuficiente. Se ha aplicado el criterio fijado en la pasada 4. |
+| G5 (inferencia injustificada incrustada) | Todos | Pasan. En los 35 ítems la afirmación evaluada se atribuye a un tercero identificado y nunca se enuncia en la voz del ítem. Los datos que el enunciado da por ocurridos son resultados de estudios descritos, no conclusiones. |
+| G6 (tarea clínica inapropiada) | PSY-144, PSY-151, PSY-161, PSY-163, PSY-171 | Pasan. Ninguno pide diagnosticar, evaluar ni tratar a una persona: se evalúan un argumento sobre niveles de explicación, el procedimiento de una comisión, la estructura de un razonamiento, la construcción de un instrumento y un procedimiento de codificación. En PSY-151 el desenlace se deja sin especificar y los errores críticos incluyen expresamente emitir un juicio sobre la responsabilidad del equipo. |
+| G7 (dependencia cultural) | PSY-150, PSY-169 | Pasan. Los dos escenarios con contenido institucional —una encuesta sobre recursos públicos y una recomendación sobre deberes escolares— están redactados de forma genérica y no requieren conocimiento del sistema sanitario, político o educativo de ningún país. |
+| G2 (ambigüedad sustantiva) | PSY-144, PSY-149, PSY-157, PSY-159, PSY-160 | Pasan. Los cinco tocan literaturas en discusión (hipótesis serotoninérgica, interpretación del nado forzado, naturaleza de *g*, efectos de las pantallas, videojuegos y agresión). En los cinco, el enunciado pide analizar la estructura de la inferencia y los criterios puntúan el argumento, de modo que la tarea está determinada aunque la literatura no lo esté. |
+
+### Criterios de calidad
+
+Umbral de aceptación: 16/18 (88,9 %). Ningún ítem puntúa 0 en Q1, Q2, Q3 o Q4.
+
+| ID | Q1 | Q2 | Q3 | Q4 | Q5 | Q6 | Q7 | Q8 | Q9 | Total | Decisión |
+|---|---|---|---|---|---|---|---|---|---|---|---|
+| PSY-138 | 2 | 2 | 1 | 2 | 2 | 2 | 2 | 2 | 2 | **17** | ACCEPT |
+| PSY-139 | 2 | 2 | 2 | 2 | 2 | 2 | 2 | 2 | 2 | **18** | ACCEPT |
+| PSY-140 | 2 | 2 | 1 | 2 | 2 | 2 | 2 | 2 | 2 | **17** | ACCEPT |
+| PSY-141 | 2 | 2 | 2 | 2 | 2 | 2 | 2 | 2 | 2 | **18** | ACCEPT |
+| PSY-142 | 2 | 2 | 2 | 2 | 2 | 2 | 2 | 2 | 2 | **18** | ACCEPT |
+| PSY-143 | 2 | 2 | 2 | 2 | 2 | 2 | 1 | 2 | 2 | **17** | ACCEPT |
+| PSY-144 | 2 | 2 | 2 | 2 | 2 | 2 | 2 | 2 | 2 | **18** | ACCEPT |
+| PSY-145 | 2 | 2 | 2 | 2 | 2 | 2 | 2 | 2 | 2 | **18** | ACCEPT |
+| PSY-146 | 2 | 2 | 2 | 2 | 2 | 2 | 1 | 2 | 2 | **17** | ACCEPT |
+| PSY-147 | 2 | 2 | 2 | 2 | 2 | 2 | 2 | 2 | 2 | **18** | ACCEPT |
+| PSY-148 | 2 | 2 | 2 | 2 | 2 | 2 | 1 | 2 | 2 | **17** | ACCEPT |
+| PSY-149 | 2 | 2 | 2 | 2 | 2 | 2 | 2 | 2 | 2 | **18** | ACCEPT |
+| PSY-150 | 2 | 2 | 2 | 2 | 2 | 2 | 2 | 2 | 2 | **18** | ACCEPT |
+| PSY-151 | 2 | 2 | 2 | 2 | 2 | 2 | 2 | 2 | 2 | **18** | ACCEPT |
+| PSY-152 | 2 | 2 | 2 | 2 | 2 | 2 | 1 | 2 | 2 | **17** | ACCEPT |
+| PSY-153 | 2 | 2 | 2 | 2 | 2 | 2 | 2 | 2 | 2 | **18** | ACCEPT |
+| PSY-154 | 2 | 2 | 2 | 2 | 2 | 2 | 1 | 2 | 2 | **17** | ACCEPT |
+| PSY-155 | 2 | 2 | 2 | 2 | 2 | 2 | 2 | 2 | 2 | **18** | ACCEPT |
+| PSY-156 | 2 | 2 | 2 | 2 | 2 | 2 | 1 | 2 | 2 | **17** | ACCEPT |
+| PSY-157 | 2 | 2 | 2 | 2 | 2 | 2 | 2 | 2 | 2 | **18** | ACCEPT |
+| PSY-158 | 2 | 2 | 2 | 2 | 2 | 2 | 2 | 2 | 2 | **18** | ACCEPT |
+| PSY-159 | 2 | 2 | 2 | 2 | 2 | 2 | 1 | 2 | 2 | **17** | ACCEPT |
+| PSY-160 | 2 | 2 | 2 | 2 | 2 | 2 | 2 | 2 | 2 | **18** | ACCEPT |
+| PSY-161 | 2 | 2 | 2 | 2 | 2 | 2 | 1 | 2 | 2 | **17** | ACCEPT |
+| PSY-162 | 2 | 2 | 2 | 2 | 2 | 2 | 2 | 2 | 2 | **18** | ACCEPT |
+| PSY-163 | 2 | 2 | 2 | 2 | 2 | 2 | 1 | 2 | 2 | **17** | ACCEPT |
+| PSY-164 | 2 | 2 | 2 | 2 | 2 | 2 | 1 | 2 | 2 | **17** | ACCEPT |
+| PSY-165 | 2 | 2 | 2 | 2 | 2 | 2 | 2 | 2 | 2 | **18** | ACCEPT |
+| PSY-166 | 2 | 2 | 2 | 2 | 2 | 2 | 2 | 2 | 2 | **18** | ACCEPT |
+| PSY-167 | 2 | 2 | 2 | 2 | 2 | 2 | 1 | 2 | 2 | **17** | ACCEPT |
+| PSY-168 | 2 | 2 | 2 | 2 | 2 | 2 | 2 | 2 | 2 | **18** | ACCEPT |
+| PSY-169 | 2 | 2 | 2 | 2 | 2 | 2 | 2 | N/A | 2 | **16 (sobre 16)** | ACCEPT |
+| PSY-170 | 2 | 2 | 2 | 2 | 2 | 2 | 1 | 2 | 2 | **17** | ACCEPT |
+| PSY-171 | 2 | 2 | 2 | 2 | 2 | 2 | 2 | 2 | 2 | **18** | ACCEPT |
+| PSY-172 | 2 | 2 | 2 | 2 | 2 | 2 | 1 | 2 | 2 | **17** | ACCEPT |
+
+Media de los 34 ítems puntuados sobre 18: **17,56 / 18**. Mínimo: 17. Ningún ítem por debajo del
+umbral. PSY-169 se puntúa sobre 16 porque `Q8 = N/A` (sección 5) y alcanza **16/16**, equivalente
+al 100 % y por tanto también ACCEPT.
+
+### Matices honestos sobre las puntuaciones
+
+Se declaran las lecturas alternativas más estrictas que un revisor conservador podría aplicar, con
+su efecto sobre la decisión.
+
+1. **Q3 = 1 en PSY-138 y PSY-140.** Puntuación deliberadamente conservadora. Los dos evalúan
+   argumentos con estructura reconocible y una parte sustancial de la respuesta es recuperable por
+   un modelo competente. Lo que sí discrimina en ambos es la exigencia de sostener el límite de la
+   crítica —que la revisión por pares sí filtra algo, que la antigüedad tampoco es evidencia en
+   contra—, pero no se les atribuye `Q3 = 2`. Con 17/18 la decisión es ACCEPT y se cumple el
+   mínimo `Q3 ≥ 1` de la sección 6.
+2. **Q7 = 1 en trece ítems.** Corresponde a las proximidades declaradas en la tabla anterior, que se
+   reflejan en la puntuación en lugar de negarse: PSY-143 con PSY-039, PSY-146 con PSY-091, PSY-148
+   con PSY-028, PSY-152 y PSY-159 con PSY-095 y entre sí, PSY-154 con PSY-060 y PSY-093, PSY-156 con
+   PSY-136, PSY-161 con PSY-158, PSY-163 con PSY-132 y PSY-134, PSY-164 con PSY-095, PSY-167 con
+   PSY-148, PSY-170 con PSY-070 y PSY-122, y PSY-172 con PSY-061. En todos ellos la capacidad
+   evaluada es distinta y así se declara en las `notes`; con 17/18 la decisión no cambia.
+3. **Lecturas conservadoras que no se han aplicado.** Un revisor estricto podría puntuar `Q7 = 1`
+   también en PSY-153 por compartir con PSY-152 y PSY-159 el terreno de la flexibilidad analítica,
+   en PSY-165 por la densidad de la familia de problemas de medida (038, 094, 134), en PSY-158 por
+   compartir con PSY-161 el criterio de falsabilidad, y en PSY-168 por compartir con PSY-139 la
+   estructura de la crítica invertida. En los cuatro casos el resultado sería 17/18 y la decisión
+   seguiría siendo ACCEPT.
+4. **Q6 en la frontera medium/hard.** PSY-145 y PSY-142 podrían defenderse como `hard` por el
+   número de elementos que la respuesta completa debe integrar —el sesgo al alza de la estimación
+   del piloto, la exigencia de distribución bimodal—, y PSY-146 y PSY-148 se sitúan también cerca
+   del límite. A la inversa, PSY-164 podría leerse como `medium` una vez identificado el contraste
+   pertinente. Se ha asignado la dificultad por el número de elementos independientes que la
+   respuesta debe articular, criterio de la sección 6; en esos cinco casos un revisor podría
+   desplazarla un nivel, lo que corresponde a `Q6 = 1` y no altera la decisión.
+5. **Q2 y literaturas en discusión.** Cinco ítems tocan cuestiones no cerradas: PSY-144 (hipótesis
+   serotoninérgica de la depresión), PSY-149 (interpretación de la prueba de nado forzado), PSY-157
+   (naturaleza del factor general), PSY-159 (efectos del uso de pantallas) y PSY-160 (videojuegos
+   violentos y agresión). En los cinco, el `expected_answer` y los criterios están redactados para
+   **puntuar la estructura de la inferencia y no la toma de partido**, y en los cinco el enunciado
+   pide analizar un argumento concreto y no resolver la controversia. PSY-144 lo declara
+   explícitamente en su campo `source`.
+6. **Q8 y verificación de fuentes.** Se puntúa `Q8 = 2` cuando la fuente citada sostiene
+   directamente la afirmación del ítem. En **30 ítems** se han **omitido deliberadamente los DOI**
+   por no haber podido confirmarlos en una fuente autorizada desde este entorno de ejecución, con
+   la omisión anotada en el propio campo `source`; es el mismo criterio de prudencia de las pasadas
+   1 a 4 y de la curación del piloto. Seis ítems citan además monografías o publicaciones sin DOI
+   asignado (PSY-139, PSY-140, PSY-150, PSY-158, PSY-161 y PSY-165), lo que se hace constar en el
+   propio campo. Un ítem, **PSY-169**, no cita fuente por evaluar un principio inferencial general,
+   uso de `Q8 = N/A` que la sección 5 admite expresamente. **El paso de verificación de fuentes
+   (sección 12 de la rúbrica) debe cerrar este punto antes de la inclusión en el dataset final**, y
+   con particular atención a PSY-154, cuyas dos referencias se citan precisamente porque la segunda
+   revisa a la baja las estimaciones de la primera.
+7. **Separación entre generación y validación.** Se mantiene lo dicho en las pasadas anteriores:
+   esta autoevaluación es el filtro previo exigido por el encargo, no un sustituto de la revisión
+   humana. La advertencia es especialmente pertinente en esta dimensión, donde el generador evalúa
+   la calidad de argumentos que él mismo ha construido para que fallen.
+
+---
+
+## Ítems descartados durante la generación (pasada 5)
+
+| Candidato | Motivo del descarte |
+|---|---|
+| Testimonios seleccionados en la publicidad de un programa de bienestar | Redundancia cognitiva con PSY-108 (pasada 4), que ya cubre los límites inferenciales del testimonio y sus mecanismos. Sustituido, como tercer ítem `easy`, por el argumento de tradición y popularidad (PSY-140), cuyo objeto es colectivo y no individual. |
+| La experiencia clínica acumulada como evidencia de eficacia | Mismo motivo: los mecanismos que habría que enumerar coinciden con los de PSY-108 y PSY-140. |
+| Expansión conceptual de un término clínico | Solapa con PSY-131 (pasada 4), sobre el aumento de casos diagnosticados y los cambios en la detección, y con PSY-163 de esta pasada, que cubre la sobreinclusión de criterios desde el instrumento. |
+| Análisis por protocolo frente a análisis por intención de tratar | Solapa con PSY-123 (pasada 4), cuyo objeto es la pérdida de comparabilidad por abandono diferencial. |
+| Regresión a la media en un programa aplicado a quienes puntúan en el extremo | Solapa con PSY-065 (pasada 2); la regresión aparece además como componente en PSY-140 y PSY-145. |
+| Inferencia inversa a partir de un resultado de neuroimagen | Descartado por tercera vez, por solapamiento con PSY-012 (piloto). El terreno de la neuroimagen se cubre en PSY-153 desde un problema estrictamente estadístico, trasladable a cualquier conjunto de medidas numerosas. |
+| Equivalencia entre psicoterapias interpretada como igualdad de eficacia | Proximidad excesiva con PSY-014 (piloto), cuya demanda es exactamente la inferencia desde un comparador concreto a una afirmación general. |
+| «Se necesitan 21 días para crear un hábito» | Redundancia **estructural** con PSY-141: idéntico patrón de cifra popular con origen empírico acotado. Un solo miembro de ese patrón por lote. |
+| Conflicto de interés y fuente de financiación de un estudio | Solapa con PSY-124 (pasada 4), sobre alianza del investigador y dependencia entre estudios. |
+| Muestreo no probabilístico presentado como representativo | Solapa con PSY-066 (pasada 2). El terreno de la encuesta se cubre en PSY-150 desde la formulación del ítem, que es una amenaza distinta. |
+| Efecto de expectativa en un programa sin comparador activo | Solapa con PSY-125 (pasada 4), sobre identificación de los componentes activos, y con PSY-014 (piloto). |
+| Truncamiento del eje en el gráfico de resultados | La demanda es de presentación visual y corresponde antes a `communication` (PSY-057). Potencial discriminativo bajo. |
+| Resultado nulo con potencia insuficiente | Ya descartado en la pasada 4 por solapamiento con PSY-058 (pasada 2). Reaparece aquí como componente secundario de PSY-147 y PSY-164, no como ítem. |
+
+Con esta pasada quedan escaladas las cinco dimensiones. El candidato pendiente anotado en pasadas
+anteriores —**el sesgo retrospectivo en el análisis de un incidente**— se ha incorporado en
+PSY-151. Sigue disponible para pasadas futuras **la incoherencia entre sistemas de respuesta
+emocional**, descartado en la pasada 4 solo por densidad de familia. La dimensión menos escalada
+del conjunto pasa a ser `knowledge`, con 20 ítems en el conjunto combinado frente a una media de
+34, y es la candidata natural para la siguiente pasada.
