@@ -8,3 +8,4 @@ jupyter
 tqdm
 datasets
 jsonschema
+openpyxl
