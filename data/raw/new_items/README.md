@@ -1,10 +1,12 @@
 # Ítems nuevos (PSY-031 a PSY-172)
 
-**Estado:** pendientes de revisión con la QQR v1.0. No forman parte todavía del benchmark.
+**Estado:** primera revisión con la QQR v1.0 hecha (asistida por modelo: 135 ACCEPT, 7 REVISE, 0 REJECT);
+pendiente de la decisión final humana. No forman parte todavía del benchmark. Resumen y correcciones
+propuestas en `docs/new-items-evaluation/REVISION_nuevos_items.md`.
 
 - **Fuente:** `docs/new-items-evaluation/spanish_psychology_llm_new_items_evaluation.xlsx`
-  (plantilla de evaluación con el contenido de los ítems; las columnas de revisión
-  G1-G8, Q1-Q9 y las decisiones están vacías).
+  (plantilla de evaluación con el contenido de los ítems; G1-G8, Q1-Q9 y Notas ya están
+  rellenadas por la revisión asistida, y `Decisión final`, `Reviewer` y `Fecha` quedan para el revisor humano).
 - **Archivo generado:** `new_items_questions.json` (142 ítems), producido con:
 
   ```bash
